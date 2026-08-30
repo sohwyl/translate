@@ -18,7 +18,7 @@ interface PhraseDao {
     @Query("SELECT * FROM phrases WHERE isFavorite = 1 ORDER BY id ASC")
     fun getFavoritePhrases(): Flow<List<PhraseEntity>>
 
-    @Query("SELECT * FROM phrases WHERE arabic LIKE '%' || :query || '%' OR arabic_readable LIKE '%' || :query || '%' OR persian LIKE '%' || :query || '%' OR finglish LIKE '%' || :query || '%'")
+    @Query("SELECT * FROM phrases WHERE arabic LIKE '%' || :query || '%' OR arabic_readable LIKE '%' || :query || '%' OR persian LIKE '%' || :query || '%'")
     fun searchPhrases(query: String): Flow<List<PhraseEntity>>
 
     @Query("DELETE FROM phrases")

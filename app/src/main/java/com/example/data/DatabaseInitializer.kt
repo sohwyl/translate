@@ -11,7 +11,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "السلام عليكم",
             iraqiPronunciation = "اَلسَّلام عَلِیکُم",
-            finglish = "اَلسَّلام عَلِیکُم",
             persianTranslation = "سلام",
             forRole = "BOTH",
             isVip = false
@@ -23,7 +22,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "شلونك؟",
             iraqiPronunciation = "شِلونَک؟",
-            finglish = "شِلونَک؟",
             persianTranslation = "سلام، حالت چطوره؟",
             forRole = "BOTH",
             isVip = false
@@ -35,7 +33,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "شلونكم؟",
             iraqiPronunciation = "شِلونکُم؟",
-            finglish = "شِلونکُم؟",
             persianTranslation = "حالت چطوره؟ (جمع)",
             forRole = "BOTH",
             isVip = false
@@ -47,7 +44,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "آني زين، الحمد لله.",
             iraqiPronunciation = "آنی زِین، الحمدلله.",
-            finglish = "آنی زِین، الحمدلله.",
             persianTranslation = "خوبم، ممنون.",
             forRole = "BOTH",
             isVip = false
@@ -59,7 +55,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "إنت زين؟",
             iraqiPronunciation = "إنت زِین؟",
-            finglish = "إنت زِین؟",
             persianTranslation = "شما خوبید؟",
             forRole = "BOTH",
             isVip = false
@@ -71,7 +66,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله ينطيك العافية.",
             iraqiPronunciation = "الله یِنطیک العافیه.",
-            finglish = "الله یِنطیک العافیه.",
             persianTranslation = "خدا قوت.",
             forRole = "BOTH",
             isVip = false
@@ -83,7 +77,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله يتقبل.",
             iraqiPronunciation = "الله یِتقبّل.",
-            finglish = "الله یِتقبّل.",
             persianTranslation = "خدا قبول کند.",
             forRole = "BOTH",
             isVip = false
@@ -95,7 +88,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله يجزيك خير.",
             iraqiPronunciation = "الله یِجزیک خیر.",
-            finglish = "الله یِجزیک خیر.",
             persianTranslation = "خدا خیرت بده.",
             forRole = "BOTH",
             isVip = false
@@ -107,7 +99,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله يحفظك.",
             iraqiPronunciation = "الله یِحفَظَک.",
-            finglish = "الله یِحفَظَک.",
             persianTranslation = "خدا حفظت کند.",
             forRole = "BOTH",
             isVip = false
@@ -119,7 +110,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله وياك.",
             iraqiPronunciation = "الله ویاک.",
-            finglish = "الله ویاک.",
             persianTranslation = "خدا نگهدارت باشد.",
             forRole = "BOTH",
             isVip = false
@@ -131,7 +121,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "هلا بيك",
             iraqiPronunciation = "هَلا بِیک",
-            finglish = "هَلا بِیک",
             persianTranslation = "خوش آمدید.",
             forRole = "BOTH",
             isVip = false
@@ -143,7 +132,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "ألف هلا بيك.",
             iraqiPronunciation = "اَلف هَلا بِیک.",
-            finglish = "اَلف هَلا بِیک.",
             persianTranslation = "خیلی خوش آمدید.",
             forRole = "BOTH",
             isVip = false
@@ -155,7 +143,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "تشرفنا.",
             iraqiPronunciation = "تِشَرَّفنا.",
-            finglish = "تِشَرَّفنا.",
             persianTranslation = "خوشوقتم.",
             forRole = "BOTH",
             isVip = false
@@ -167,7 +154,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "صباح الخير.",
             iraqiPronunciation = "صَباح الخِیر.",
-            finglish = "صَباح الخِیر.",
             persianTranslation = "صبح بخیر.",
             forRole = "BOTH",
             isVip = false
@@ -179,7 +165,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "مساء الخير.",
             iraqiPronunciation = "مَساء الخِیر.",
-            finglish = "مَساء الخِیر.",
             persianTranslation = "عصر بخیر.",
             forRole = "BOTH",
             isVip = false
@@ -191,7 +176,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "تصبح على خير.",
             iraqiPronunciation = "تِصبَح عَله خیر.",
-            finglish = "تِصبَح عَله خیر.",
             persianTranslation = "شب بخیر.",
             forRole = "BOTH",
             isVip = false
@@ -203,7 +187,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "نهارك سعيد.",
             iraqiPronunciation = "نَهارَک سَعید.",
-            finglish = "نَهارَک سَعید.",
             persianTranslation = "روز بخیر.",
             forRole = "BOTH",
             isVip = false
@@ -215,7 +198,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامه.",
-            finglish = "مَعَ السَّلامه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = false
@@ -227,7 +209,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "أشوفك بعدين.",
             iraqiPronunciation = "اَشوفَک بَعدِین.",
-            finglish = "اَشوفَک بَعدِین.",
             persianTranslation = "فعلاً.",
             forRole = "BOTH",
             isVip = false
@@ -239,7 +220,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "إن شاء الله نشوفك.",
             iraqiPronunciation = "اِن‌شاءالله نِشوفَک.",
-            finglish = "اِن‌شاءالله نِشوفَک.",
             persianTranslation = "به امید دیدار.",
             forRole = "BOTH",
             isVip = false
@@ -251,7 +231,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "شكراً جزيلاً.",
             iraqiPronunciation = "شُکراً جَزیلاً.",
-            finglish = "شُکراً جَزیلاً.",
             persianTranslation = "خیلی ممنون.",
             forRole = "BOTH",
             isVip = false
@@ -263,7 +242,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "ممنون.",
             iraqiPronunciation = "مَمنون.",
-            finglish = "مَمنون.",
             persianTranslation = "ممنون.",
             forRole = "BOTH",
             isVip = false
@@ -275,7 +253,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "العفو.",
             iraqiPronunciation = "العَفو.",
-            finglish = "العَفو.",
             persianTranslation = "خواهش می‌کنم.",
             forRole = "BOTH",
             isVip = false
@@ -287,7 +264,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "ماكو داعي.",
             iraqiPronunciation = "ماکو داعی.",
-            finglish = "ماکو داعی.",
             persianTranslation = "قابل ندارد.",
             forRole = "BOTH",
             isVip = false
@@ -299,7 +275,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "عفواً.",
             iraqiPronunciation = "عَفواً.",
-            finglish = "عَفواً.",
             persianTranslation = "ببخشید.",
             forRole = "BOTH",
             isVip = false
@@ -311,7 +286,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "آسف.",
             iraqiPronunciation = "آسِف.",
-            finglish = "آسِف.",
             persianTranslation = "معذرت می‌خواهم.",
             forRole = "BOTH",
             isVip = false
@@ -323,7 +297,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "ماكو مشكلة.",
             iraqiPronunciation = "ماکو مُشکله.",
-            finglish = "ماکو مُشکله.",
             persianTranslation = "اشکالی ندارد.",
             forRole = "BOTH",
             isVip = false
@@ -335,7 +308,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا به شما خیر بدهد.",
             forRole = "BOTH",
             isVip = false
@@ -347,7 +319,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "الله يطول عمرك.",
             iraqiPronunciation = "الله یطَوِّل عُمرَک.",
-            finglish = "الله یطَوِّل عُمرَک.",
             persianTranslation = "خدا عمرت بدهد.",
             forRole = "BOTH",
             isVip = false
@@ -359,7 +330,6 @@ object DatabaseInitializer {
             category_id = "greeting",
             arabicText = "سفرة موفقة إن شاء الله.",
             iraqiPronunciation = "سَفره مُوَفَّقه اِن‌شاءالله.",
-            finglish = "سَفره مُوَفَّقه اِن‌شاءالله.",
             persianTranslation = "سفر خوبی داشته باشید.",
             forRole = "BOTH",
             isVip = false
@@ -371,7 +341,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين حرم الإمام الحسين؟",
             iraqiPronunciation = "وِین حَرَم الإمام الحُسین؟",
-            finglish = "وِین حَرَم الإمام الحُسین؟",
             persianTranslation = "حرم امام حسین (ع) کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -383,7 +352,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين حرم أبو الفضل العباس؟",
             iraqiPronunciation = "وِین حَرَم أبو الفَضل العَبّاس؟",
-            finglish = "وِین حَرَم أبو الفَضل العَبّاس؟",
             persianTranslation = "حرم حضرت عباس (ع) کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -395,7 +363,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "أريد أروح للحرم.",
             iraqiPronunciation = "أرید أروح لِلحَرَم.",
-            finglish = "أرید أروح لِلحَرَم.",
             persianTranslation = "می‌خواهم به حرم بروم.",
             forRole = "BOTH",
             isVip = false
@@ -407,7 +374,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "هذا الطريق يودي للحرم؟",
             iraqiPronunciation = "هذا الطَریق یودّی لِلحَرَم؟",
-            finglish = "هذا الطَریق یودّی لِلحَرَم؟",
             persianTranslation = "این مسیر به حرم می‌رود؟",
             forRole = "BOTH",
             isVip = false
@@ -419,7 +385,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين باب الحرم؟",
             iraqiPronunciation = "وِین باب الحَرَم؟",
-            finglish = "وِین باب الحَرَم؟",
             persianTranslation = "ورودی حرم کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -431,7 +396,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين محل الأحذية؟",
             iraqiPronunciation = "وِین مَحَلّ الأحذیه؟",
-            finglish = "وِین مَحَلّ الأحذیه؟",
             persianTranslation = "کفشداری کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -443,7 +407,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين أسلّم جوتيي؟",
             iraqiPronunciation = "وِین أسلِّم جوتیّی؟",
-            finglish = "وِین أسلِّم جوتیّی؟",
             persianTranslation = "کفش‌هایم را کجا تحویل بدهم؟",
             forRole = "BOTH",
             isVip = false
@@ -455,7 +418,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "شكد رقم الأمانات؟",
             iraqiPronunciation = "شگِد رَقَم الأمانات؟",
-            finglish = "شگِد رَقَم الأمانات؟",
             persianTranslation = "شماره امانات چند است؟",
             forRole = "BOTH",
             isVip = false
@@ -467,7 +429,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين محل الوضوء؟",
             iraqiPronunciation = "وِین مَحَل الوُضوء؟",
-            finglish = "وِین مَحَل الوُضوء؟",
             persianTranslation = "وضوخانه کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -479,7 +440,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين الحمّام؟",
             iraqiPronunciation = "وِین الحَمّام؟",
-            finglish = "وِین الحَمّام؟",
             persianTranslation = "سرویس بهداشتی کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -491,7 +451,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين مصلى النساء؟",
             iraqiPronunciation = "وِین مُصلّى النِساء؟",
-            finglish = "وِین مُصلّى النِساء؟",
             persianTranslation = "محل نماز بانوان کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -503,7 +462,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين مصلى الرجال؟",
             iraqiPronunciation = "وِین مُصلّى الرِجال؟",
-            finglish = "وِین مُصلّى الرِجال؟",
             persianTranslation = "محل نماز آقایان کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -515,7 +473,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "يجوز أدخل؟",
             iraqiPronunciation = "یَجوز أَدخُل؟",
-            finglish = "یَجوز أَدخُل؟",
             persianTranslation = "اجازه ورود هست؟",
             forRole = "BOTH",
             isVip = false
@@ -527,7 +484,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "يجوز أصور؟",
             iraqiPronunciation = "یَجوز أَصَوّر؟",
-            finglish = "یَجوز أَصَوّر؟",
             persianTranslation = "اجازه عکاسی هست؟",
             forRole = "BOTH",
             isVip = false
@@ -539,7 +495,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "الزحمة كلش هواية.",
             iraqiPronunciation = "الزَحمة کُلِش هَوایِه.",
-            finglish = "الزَحمة کُلِش هَوایِه.",
             persianTranslation = "ازدحام خیلی زیاد است.",
             forRole = "BOTH",
             isVip = false
@@ -551,7 +506,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "لو سمحت امشوا بهدوء.",
             iraqiPronunciation = "لو سَمَحت اِمشوا بِهُدوء.",
-            finglish = "لو سَمَحت اِمشوا بِهُدوء.",
             persianTranslation = "لطفاً آرام‌تر حرکت کنید.",
             forRole = "BOTH",
             isVip = false
@@ -563,7 +517,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "آني ضايع.",
             iraqiPronunciation = "آنی ضایِع.",
-            finglish = "آنی ضایِع.",
             persianTranslation = "من گم شده‌ام.",
             forRole = "BOTH",
             isVip = false
@@ -575,7 +528,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "ضيّعت صاحبي.",
             iraqiPronunciation = "ضَیَّعت صاحبی.",
-            finglish = "ضَیَّعت صاحبی.",
             persianTranslation = "همراهم را گم کرده‌ام.",
             forRole = "BOTH",
             isVip = false
@@ -587,7 +539,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "ساعدني لو سمحت.",
             iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            finglish = "ساعِدنی لو سَمَحت.",
             persianTranslation = "لطفاً کمکم کنید.",
             forRole = "BOTH",
             isVip = false
@@ -599,7 +550,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "هاي كربلاء؟",
             iraqiPronunciation = "های کَربَلا؟",
-            finglish = "های کَربَلا؟",
             persianTranslation = "اینجا کربلاست؟",
             forRole = "BOTH",
             isVip = false
@@ -611,7 +561,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "هاي النجف؟",
             iraqiPronunciation = "های النَجَف؟",
-            finglish = "های النَجَف؟",
             persianTranslation = "اینجا نجف است؟",
             forRole = "BOTH",
             isVip = false
@@ -623,7 +572,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين بين الحرمين؟",
             iraqiPronunciation = "وِین بَین الحَرَمَین؟",
-            finglish = "وِین بَین الحَرَمَین؟",
             persianTranslation = "بین‌الحرمین کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -635,7 +583,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "وين باب القبلة؟",
             iraqiPronunciation = "وِین باب القِبله؟",
-            finglish = "وِین باب القِبله؟",
             persianTranslation = "باب القبله کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -647,7 +594,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "أريد أقرأ الزيارة.",
             iraqiPronunciation = "أرید أَقرا الزِیاره.",
-            finglish = "أرید أَقرا الزِیاره.",
             persianTranslation = "می‌خواهم زیارت بخوانم.",
             forRole = "BOTH",
             isVip = false
@@ -659,7 +605,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "ادعِلي.",
             iraqiPronunciation = "اِدعِلی.",
-            finglish = "اِدعِلی.",
             persianTranslation = "لطفاً برایم دعا کنید.",
             forRole = "BOTH",
             isVip = false
@@ -671,7 +616,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "الله يتقبل زيارتكم.",
             iraqiPronunciation = "الله یِتقبّل زیارتکُم.",
-            finglish = "الله یِتقبّل زیارتکُم.",
             persianTranslation = "ان‌شاءالله زیارتتان قبول باشد.",
             forRole = "BOTH",
             isVip = false
@@ -683,7 +627,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "الله يتقبل منكم.",
             iraqiPronunciation = "الله یِتقبّل مِنکُم.",
-            finglish = "الله یِتقبّل مِنکُم.",
             persianTranslation = "خدا زیارتتان را قبول کند.",
             forRole = "BOTH",
             isVip = false
@@ -695,7 +638,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "شكراً على خدمتكم.",
             iraqiPronunciation = "شُکراً عَله خِدمتکُم.",
-            finglish = "شُکراً عَله خِدمتکُم.",
             persianTranslation = "خیلی ممنون از خدمتتان.",
             forRole = "BOTH",
             isVip = false
@@ -707,7 +649,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = false
@@ -719,7 +660,6 @@ object DatabaseInitializer {
             category_id = "pilgrimage",
             arabicText = "الله يحفظكم.",
             iraqiPronunciation = "الله یِحفَظکُم.",
-            finglish = "الله یِحفَظکُم.",
             persianTranslation = "خدا شما را حفظ کند.",
             forRole = "BOTH",
             isVip = false
@@ -731,7 +671,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "هاي موكب؟",
             iraqiPronunciation = "های موکِب؟",
-            finglish = "های موکِب؟",
             persianTranslation = "اینجا موکب است؟",
             forRole = "BOTH",
             isVip = false
@@ -743,7 +682,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "يجوز أدخل؟",
             iraqiPronunciation = "یَجوز أَدخُل؟",
-            finglish = "یَجوز أَدخُل؟",
             persianTranslation = "می‌توانم داخل بیایم؟",
             forRole = "BOTH",
             isVip = false
@@ -755,7 +693,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "تفضل.",
             iraqiPronunciation = "تِفَضَّل.",
-            finglish = "تِفَضَّل.",
             persianTranslation = "خوش آمدید (بفرمایید).",
             forRole = "BOTH",
             isVip = false
@@ -767,7 +704,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "تفضلوا للداخل.",
             iraqiPronunciation = "تِفَضَّلوا لِلداخل.",
-            finglish = "تِفَضَّلوا لِلداخل.",
             persianTranslation = "بفرمایید داخل.",
             forRole = "BOTH",
             isVip = false
@@ -779,7 +715,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "يجوز أقعد هنانة؟",
             iraqiPronunciation = "یَجوز أَقعُد هِنانه؟",
-            finglish = "یَجوز أَقعُد هِنانه؟",
             persianTranslation = "می‌توانم اینجا بنشینم؟",
             forRole = "BOTH",
             isVip = false
@@ -791,7 +726,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم مكان فارغ؟",
             iraqiPronunciation = "عَدکُم مَکان فارِغ؟",
-            finglish = "عَدکُم مَکان فارِغ؟",
             persianTranslation = "جای خالی دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -803,7 +737,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "أگدر أرتاح شوي؟",
             iraqiPronunciation = "أگدَر أرتاح شِوَی؟",
-            finglish = "أگدَر أرتاح شِوَی؟",
             persianTranslation = "می‌توانم استراحت کنم؟",
             forRole = "BOTH",
             isVip = false
@@ -815,7 +748,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "آني تعبان كلش.",
             iraqiPronunciation = "آنی تَعبان کُلِش.",
-            finglish = "آنی تَعبان کُلِش.",
             persianTranslation = "خیلی خسته‌ام.",
             forRole = "BOTH",
             isVip = false
@@ -827,7 +759,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم ماي؟",
             iraqiPronunciation = "عَدکُم مای؟",
-            finglish = "عَدکُم مای؟",
             persianTranslation = "آب دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -839,7 +770,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "لو سمحت، قنينة ماي.",
             iraqiPronunciation = "لو سَمَحت، قِنّینة مای.",
-            finglish = "لو سَمَحت، قِنّینة مای.",
             persianTranslation = "لطفاً یک بطری آب.",
             forRole = "BOTH",
             isVip = false
@@ -851,7 +781,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم ماي بارد؟",
             iraqiPronunciation = "عَدکُم مای بارِد؟",
-            finglish = "عَدکُم مای بارِد؟",
             persianTranslation = "آب سرد دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -863,7 +792,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "الأكل جاهز؟",
             iraqiPronunciation = "الأکِل جاهِز؟",
-            finglish = "الأکِل جاهِز؟",
             persianTranslation = "غذا آماده است؟",
             forRole = "BOTH",
             isVip = false
@@ -875,7 +803,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "أگدر آخذ أكل؟",
             iraqiPronunciation = "أگدَر آخذ أکِل؟",
-            finglish = "أگدَر آخذ أکِل؟",
             persianTranslation = "می‌توانم غذا بگیرم؟",
             forRole = "BOTH",
             isVip = false
@@ -887,7 +814,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "شكراً على الضيافة.",
             iraqiPronunciation = "شُکراً عَله الضِیافه.",
-            finglish = "شُکراً عَله الضِیافه.",
             persianTranslation = "خیلی ممنون از پذیرایی.",
             forRole = "BOTH",
             isVip = false
@@ -899,7 +825,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = false
@@ -911,7 +836,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "الله ينطيكم العافية.",
             iraqiPronunciation = "الله یِنطیکُم العافیه.",
-            finglish = "الله یِنطیکُم العافیه.",
             persianTranslation = "خدا به شما سلامتی بدهد.",
             forRole = "BOTH",
             isVip = false
@@ -923,7 +847,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "أگدر آخذ جاي؟",
             iraqiPronunciation = "أگدَر آخذ چای؟",
-            finglish = "أگدَر آخذ چای؟",
             persianTranslation = "می‌توانم چای بگیرم؟",
             forRole = "BOTH",
             isVip = false
@@ -935,7 +858,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "جاي بدون سكر لو سمحت.",
             iraqiPronunciation = "جای بِدون سُکَّر.",
-            finglish = "جای بِدون سُکَّر.",
             persianTranslation = "لطفاً چای بدون شکر.",
             forRole = "BOTH",
             isVip = false
@@ -947,7 +869,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم قهوة؟",
             iraqiPronunciation = "عَدکُم قَهوه؟",
-            finglish = "عَدکُم قَهوه؟",
             persianTranslation = "قهوه دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -959,7 +880,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم أكل نباتي؟",
             iraqiPronunciation = "عَدکُم أکِل نَباتی؟",
-            finglish = "عَدکُم أکِل نَباتی؟",
             persianTranslation = "غذای گیاهی دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -971,7 +891,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم مكان للنوم؟",
             iraqiPronunciation = "عَدکُم مَکان لِلنوم؟",
-            finglish = "عَدکُم مَکان لِلنوم؟",
             persianTranslation = "جای خواب دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -983,7 +902,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم بطانية؟",
             iraqiPronunciation = "عَدکُم بَطّانیه؟",
-            finglish = "عَدکُم بَطّانیه؟",
             persianTranslation = "پتو دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -995,7 +913,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم مخدة؟",
             iraqiPronunciation = "عَدکُم مُخَدّه؟",
-            finglish = "عَدکُم مُخَدّه؟",
             persianTranslation = "بالش دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1007,7 +924,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم شاحن موبايل؟",
             iraqiPronunciation = "عَدکُم شاحِن موبايل؟",
-            finglish = "عَدکُم شاحِن موبايل؟",
             persianTranslation = "شارژر موبایل دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1019,7 +935,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "وين مكان شحن الموبايل؟",
             iraqiPronunciation = "وِین مَکان شَحن الموبايل؟",
-            finglish = "وِین مَکان شَحن الموبايل؟",
             persianTranslation = "جای شارژ موبایل کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -1031,7 +946,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم واي فاي؟",
             iraqiPronunciation = "عَدکُم وای فای؟",
-            finglish = "عَدکُم وای فای؟",
             persianTranslation = "وای‌فای دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1043,7 +957,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "شنو رمز الواي فاي؟",
             iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            finglish = "شِنو رَمز الوای فای؟",
             persianTranslation = "رمز وای‌فای چیست؟",
             forRole = "BOTH",
             isVip = false
@@ -1055,7 +968,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "عدكم حمام؟",
             iraqiPronunciation = "عَدکُم حَمّام؟",
-            finglish = "عَدکُم حَمّام؟",
             persianTranslation = "حمام دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1067,7 +979,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "وين مكان غسل الملابس؟",
             iraqiPronunciation = "وِین مَکان غَسل المَلابِس؟",
-            finglish = "وِین مَکان غَسل المَلابِس؟",
             persianTranslation = "محل شستن لباس کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -1079,7 +990,6 @@ object DatabaseInitializer {
             category_id = "mawkib",
             arabicText = "الله يتقبل منكم.",
             iraqiPronunciation = "الله یِتقبّل مِنکُم.",
-            finglish = "الله یِتقبّل مِنکُم.",
             persianTranslation = "خداوند قبول کند.",
             forRole = "BOTH",
             isVip = false
@@ -1091,7 +1001,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين هذا؟",
             iraqiPronunciation = "وِین هذا؟",
-            finglish = "وِین هذا؟",
             persianTranslation = "کدوم طرفه؟",
             forRole = "BOTH",
             isVip = false
@@ -1103,7 +1012,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين الحرم؟",
             iraqiPronunciation = "وِین الحَرَم؟",
-            finglish = "وِین الحَرَم؟",
             persianTranslation = "حرم کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -1115,7 +1023,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين الموكب؟",
             iraqiPronunciation = "وِین الموکِب؟",
-            finglish = "وِین الموکِب؟",
             persianTranslation = "موکب کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -1127,7 +1034,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين بين الحرمين؟",
             iraqiPronunciation = "وِین بَین الحَرَمَین؟",
-            finglish = "وِین بَین الحَرَمَین؟",
             persianTranslation = "بین‌الحرمین کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -1139,7 +1045,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين طريق النجف؟",
             iraqiPronunciation = "وِین طَریق النَجَف؟",
-            finglish = "وِین طَریق النَجَف؟",
             persianTranslation = "نجف کدوم طرفه؟",
             forRole = "BOTH",
             isVip = false
@@ -1151,7 +1056,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين طريق كربلاء؟",
             iraqiPronunciation = "وِین طَریق کَربَلا؟",
-            finglish = "وِین طَریق کَربَلا؟",
             persianTranslation = "کربلا کدوم طرفه؟",
             forRole = "BOTH",
             isVip = false
@@ -1163,7 +1067,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "شكد بقى للحرم؟",
             iraqiPronunciation = "شگِد بَقی لِلحَرَم؟",
-            finglish = "شگِد بَقی لِلحَرَم؟",
             persianTranslation = "تا حرم چقدر مونده؟",
             forRole = "BOTH",
             isVip = false
@@ -1175,7 +1078,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "قريب؟",
             iraqiPronunciation = "قَریب؟",
-            finglish = "قَریب؟",
             persianTranslation = "نزدیکه؟",
             forRole = "BOTH",
             isVip = false
@@ -1187,7 +1089,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "بعيد؟",
             iraqiPronunciation = "بَعید؟",
-            finglish = "بَعید؟",
             persianTranslation = "دوره؟",
             forRole = "BOTH",
             isVip = false
@@ -1199,7 +1100,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "أگدر أروح مشي؟",
             iraqiPronunciation = "أگدَر أرتاح مَشی؟",
-            finglish = "أگدَر أرتاح مَشی؟",
             persianTranslation = "پیاده میشه رفت؟",
             forRole = "BOTH",
             isVip = false
@@ -1211,7 +1111,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "روح دغري.",
             iraqiPronunciation = "روح دِغری.",
-            finglish = "روح دِغری.",
             persianTranslation = "مستقیم برو.",
             forRole = "BOTH",
             isVip = false
@@ -1223,7 +1122,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "لف يمين.",
             iraqiPronunciation = "لِف یَمین.",
-            finglish = "لِف یَمین.",
             persianTranslation = "راست بپیچ.",
             forRole = "BOTH",
             isVip = false
@@ -1235,7 +1133,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "لف يسار.",
             iraqiPronunciation = "لِف یَسار.",
-            finglish = "لِف یَسار.",
             persianTranslation = "چپ بپیچ.",
             forRole = "BOTH",
             isVip = false
@@ -1247,7 +1144,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "كدام.",
             iraqiPronunciation = "گِدّام.",
-            finglish = "گِدّام.",
             persianTranslation = "همین جلو.",
             forRole = "BOTH",
             isVip = false
@@ -1259,7 +1155,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "آخر الشارع.",
             iraqiPronunciation = "آخِر الشارِع.",
-            finglish = "آخِر الشارِع.",
             persianTranslation = "آخر خیابون.",
             forRole = "BOTH",
             isVip = false
@@ -1271,7 +1166,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "ورا البناية.",
             iraqiPronunciation = "وَرا البِنایه.",
-            finglish = "وَرا البِنایه.",
             persianTranslation = "پشت اون ساختمان.",
             forRole = "BOTH",
             isVip = false
@@ -1283,7 +1177,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "گدامك.",
             iraqiPronunciation = "گِدّامَک.",
-            finglish = "گِدّامَک.",
             persianTranslation = "روبه‌رو.",
             forRole = "BOTH",
             isVip = false
@@ -1295,7 +1188,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "يم الحرم.",
             iraqiPronunciation = "یَم الحَرَم.",
-            finglish = "یَم الحَرَم.",
             persianTranslation = "کنار حرم.",
             forRole = "BOTH",
             isVip = false
@@ -1307,7 +1199,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "هناك.",
             iraqiPronunciation = "هِناک.",
-            finglish = "هِناک.",
             persianTranslation = "اونجا.",
             forRole = "BOTH",
             isVip = false
@@ -1319,7 +1210,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "هنانة.",
             iraqiPronunciation = "هِنانه.",
-            finglish = "هِنانه.",
             persianTranslation = "اینجا.",
             forRole = "BOTH",
             isVip = false
@@ -1331,7 +1221,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "آني ضايع.",
             iraqiPronunciation = "آنی ضایِع.",
-            finglish = "آنی ضایِع.",
             persianTranslation = "گم شدم.",
             forRole = "BOTH",
             isVip = false
@@ -1343,7 +1232,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "دلّيني لو سمحت.",
             iraqiPronunciation = "دِلّینی لو سَمَحت.",
-            finglish = "دِلّینی لو سَمَحت.",
             persianTranslation = "لطفاً راهنماییم کن.",
             forRole = "BOTH",
             isVip = false
@@ -1355,7 +1243,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "عدك خريطة؟",
             iraqiPronunciation = "عَدَک خَریطه؟",
-            finglish = "عَدَک خَریطه؟",
             persianTranslation = "نقشه داری؟",
             forRole = "BOTH",
             isVip = false
@@ -1367,7 +1254,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين أقرب موكب؟",
             iraqiPronunciation = "وِین اَقرَب موکِب؟",
-            finglish = "وِین اَقرَب موکِب؟",
             persianTranslation = "نزدیک‌ترین موکب کجاست؟",
             forRole = "BOTH",
             isVip = false
@@ -1379,7 +1265,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين أقرب حمام؟",
             iraqiPronunciation = "وِین اَقرَب حَمّام؟",
-            finglish = "وِین اَقرَب حَمّام؟",
             persianTranslation = "نزدیک‌ترین سرویس بهداشتی؟",
             forRole = "BOTH",
             isVip = false
@@ -1391,7 +1276,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين أقرب صيدلية؟",
             iraqiPronunciation = "وِین اَقرَب صَیدَلِیّه؟",
-            finglish = "وِین اَقرَب صَیدَلِیّه؟",
             persianTranslation = "نزدیک‌ترین داروخانه؟",
             forRole = "BOTH",
             isVip = false
@@ -1403,7 +1287,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين أقرب مستوصف؟",
             iraqiPronunciation = "وِین اَقرَب مُستَوصَف؟",
-            finglish = "وِین اَقرَب مُستَوصَف؟",
             persianTranslation = "نزدیک‌ترین درمانگاه؟",
             forRole = "BOTH",
             isVip = false
@@ -1415,7 +1298,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين موقف الباص؟",
             iraqiPronunciation = "وِین مَوقِف الباص؟",
-            finglish = "وِین مَوقِف الباص؟",
             persianTranslation = "نزدیک‌ترین ایستگاه اتوبوس؟",
             forRole = "BOTH",
             isVip = false
@@ -1427,7 +1309,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "وين التكسي؟",
             iraqiPronunciation = "وِین التِکسی؟",
-            finglish = "وِین التِکسی؟",
             persianTranslation = "نزدیک‌ترین تاکسی؟",
             forRole = "BOTH",
             isVip = false
@@ -1439,7 +1320,6 @@ object DatabaseInitializer {
             category_id = "direction",
             arabicText = "شكراً على المساعدة.",
             iraqiPronunciation = "شُکراً عَله المُساعَده.",
-            finglish = "شُکراً عَله المُساعَده.",
             persianTranslation = "ممنون از راهنمایی.",
             forRole = "BOTH",
             isVip = false
@@ -1451,7 +1331,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "آني جوعان.",
             iraqiPronunciation = "آنی جَوعان.",
-            finglish = "آنی جَوعان.",
             persianTranslation = "گرسنه‌ام.",
             forRole = "BOTH",
             isVip = false
@@ -1463,7 +1342,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "آني عطشان.",
             iraqiPronunciation = "آنی عَطشان.",
-            finglish = "آنی عَطشان.",
             persianTranslation = "تشنه‌ام.",
             forRole = "BOTH",
             isVip = false
@@ -1475,7 +1353,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم أكل؟",
             iraqiPronunciation = "عَدکُم أکِل؟",
-            finglish = "عَدکُم أکِل؟",
             persianTranslation = "غذا دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1487,7 +1364,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم ماي؟",
             iraqiPronunciation = "عَدکُم مای؟",
-            finglish = "عَدکُم مای؟",
             persianTranslation = "آب دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1499,7 +1375,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم ماي بارد؟",
             iraqiPronunciation = "عَدکُم مای بارِد؟",
-            finglish = "عَدکُم مای بارِد؟",
             persianTranslation = "آب سرد دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1511,7 +1386,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "أريد قنينة ماي.",
             iraqiPronunciation = "أرید قِنّینة مای.",
-            finglish = "أرید قِنّینة مای.",
             persianTranslation = "لطفاً یک بطری آب.",
             forRole = "BOTH",
             isVip = false
@@ -1523,7 +1397,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "أريد جاي.",
             iraqiPronunciation = "أرید چای.",
-            finglish = "أرید چای.",
             persianTranslation = "چای لطفاً.",
             forRole = "BOTH",
             isVip = false
@@ -1535,7 +1408,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "أريد قهوة.",
             iraqiPronunciation = "أرید قَهوه.",
-            finglish = "أرید قَهوه.",
             persianTranslation = "قهوه لطفاً.",
             forRole = "BOTH",
             isVip = false
@@ -1547,7 +1419,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم فطور؟",
             iraqiPronunciation = "عَدکُم فَطور؟",
-            finglish = "عَدکُم فَطور؟",
             persianTranslation = "صبحانه دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1559,7 +1430,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم غده؟",
             iraqiPronunciation = "عَدکُم غَده؟",
-            finglish = "عَدکُم غَده؟",
             persianTranslation = "ناهار دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1571,7 +1441,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم عشة؟",
             iraqiPronunciation = "عَدکُم عَشه؟",
-            finglish = "عَدکُم عَشه؟",
             persianTranslation = "شام دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1583,7 +1452,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "أريد تمن.",
             iraqiPronunciation = "أرید تَمَّن.",
-            finglish = "أرید تَمَّن.",
             persianTranslation = "برنج می‌خواهم.",
             forRole = "BOTH",
             isVip = false
@@ -1595,7 +1463,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "أريد خبز.",
             iraqiPronunciation = "أرید خُبُز.",
-            finglish = "أرید خُبُز.",
             persianTranslation = "نان می‌خواهم.",
             forRole = "BOTH",
             isVip = false
@@ -1607,7 +1474,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم شوربة؟",
             iraqiPronunciation = "عَدکُم شورَبه؟",
-            finglish = "عَدکُم شورَبه؟",
             persianTranslation = "سوپ دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1619,7 +1485,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "ما آكل لحم.",
             iraqiPronunciation = "ما آکُل لَحِم.",
-            finglish = "ما آکُل لَحِم.",
             persianTranslation = "گوشت نمی‌خورم.",
             forRole = "BOTH",
             isVip = false
@@ -1631,7 +1496,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم دجاج؟",
             iraqiPronunciation = "عَدکُم دَجاج؟",
-            finglish = "عَدکُم دَجاج؟",
             persianTranslation = "مرغ دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1643,7 +1507,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "الأكل حار؟",
             iraqiPronunciation = "الأکِل حار؟",
-            finglish = "الأکِل حار؟",
             persianTranslation = "غذای تند است؟",
             forRole = "BOTH",
             isVip = false
@@ -1655,7 +1518,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "شويّة بهارات.",
             iraqiPronunciation = "شِوَیّه بَهارات.",
-            finglish = "شِوَیّه بَهارات.",
             persianTranslation = "لطفاً کم‌ادویه.",
             forRole = "BOTH",
             isVip = false
@@ -1667,7 +1529,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "بس، شكراً.",
             iraqiPronunciation = "بَس، شُکراً.",
-            finglish = "بَس، شُکراً.",
             persianTranslation = "کافی است، ممنون.",
             forRole = "BOTH",
             isVip = false
@@ -1679,7 +1540,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "كلش طيب.",
             iraqiPronunciation = "کُلِش طَیِّب.",
-            finglish = "کُلِش طَیِّب.",
             persianTranslation = "خیلی خوشمزه است.",
             forRole = "BOTH",
             isVip = false
@@ -1691,7 +1551,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "تسلم إيدك.",
             iraqiPronunciation = "تِسلَم إیدَک.",
-            finglish = "تِسلَم إیدَک.",
             persianTranslation = "دستت درد نکند.",
             forRole = "BOTH",
             isVip = false
@@ -1703,7 +1562,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = false
@@ -1715,7 +1573,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "أگدر آخذ بعد؟",
             iraqiPronunciation = "أگدَر آخذ بَعد؟",
-            finglish = "أگدَر آخذ بَعد؟",
             persianTranslation = "می‌توانم بیشتر بردارم؟",
             forRole = "BOTH",
             isVip = false
@@ -1727,7 +1584,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم ملعقة؟",
             iraqiPronunciation = "عَدکُم مِلعَقه؟",
-            finglish = "عَدکُم مِلعَقه؟",
             persianTranslation = "قاشق دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1739,7 +1595,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم جطل.",
             iraqiPronunciation = "عَدکُم چَطَل.",
-            finglish = "عَدکُم چَطَل.",
             persianTranslation = "چنگال دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1751,7 +1606,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم كلاص.",
             iraqiPronunciation = "عَدکُم گِلاص.",
-            finglish = "عَدکُم گِلاص.",
             persianTranslation = "لیوان دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1763,7 +1617,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم كلينكس.",
             iraqiPronunciation = "عَدکُم کلینِکس.",
-            finglish = "عَدکُم کلینِکس.",
             persianTranslation = "دستمال دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1775,7 +1628,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "عدكم ببسي.",
             iraqiPronunciation = "عَدکُم بَبسی.",
-            finglish = "عَدکُم بَبسی.",
             persianTranslation = "نوشابه دارید؟",
             forRole = "BOTH",
             isVip = false
@@ -1787,7 +1639,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "شبعت.",
             iraqiPronunciation = "شِبِعت.",
-            finglish = "شِبِعت.",
             persianTranslation = "خیلی سیر شدم.",
             forRole = "BOTH",
             isVip = false
@@ -1799,7 +1650,6 @@ object DatabaseInitializer {
             category_id = "food",
             arabicText = "الله يتقبل.",
             iraqiPronunciation = "الله یِتقبّل.",
-            finglish = "الله یِتقبّل.",
             persianTranslation = "خدا قبول کند.",
             forRole = "BOTH",
             isVip = false
@@ -1811,7 +1661,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "وين السوق؟",
             iraqiPronunciation = "وِین السُوق؟",
-            finglish = "وِین السُوق؟",
             persianTranslation = "بازار کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -1823,7 +1672,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "بجم هذا؟",
             iraqiPronunciation = "بِجَم هذا؟",
-            finglish = "بِجَم هذا؟",
             persianTranslation = "این چند است؟",
             forRole = "BOTH",
             isVip = true
@@ -1835,7 +1683,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "كلش غالي.",
             iraqiPronunciation = "کُلِش غالی.",
-            finglish = "کُلِش غالی.",
             persianTranslation = "خیلی گرونه.",
             forRole = "BOTH",
             isVip = true
@@ -1847,7 +1694,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "ماكو أرخص؟",
             iraqiPronunciation = "ماکو اَرخَص؟",
-            finglish = "ماکو اَرخَص؟",
             persianTranslation = "ارزون‌تر ندارید؟",
             forRole = "BOTH",
             isVip = true
@@ -1859,7 +1705,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "تنزل بالسعر؟",
             iraqiPronunciation = "تِنزِل بِالسِعر؟",
-            finglish = "تِنزِل بِالسِعر؟",
             persianTranslation = "تخفیف میدی؟",
             forRole = "BOTH",
             isVip = true
@@ -1871,7 +1716,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "آخر سعر شكد؟",
             iraqiPronunciation = "آخِر سِعر شگِد؟",
-            finglish = "آخِر سِعر شگِد؟",
             persianTranslation = "آخرین قیمت چنده؟",
             forRole = "BOTH",
             isVip = true
@@ -1883,7 +1727,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "زين، آخذه.",
             iraqiPronunciation = "زِین، آخِذُه.",
-            finglish = "زِین، آخِذُه.",
             persianTranslation = "باشه، می‌خرم.",
             forRole = "BOTH",
             isVip = true
@@ -1895,7 +1738,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "لا، شكراً.",
             iraqiPronunciation = "لا، شُکراً.",
-            finglish = "لا، شُکراً.",
             persianTranslation = "نمی‌خوام، ممنون.",
             forRole = "BOTH",
             isVip = true
@@ -1907,7 +1749,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "دا أتفرج بس.",
             iraqiPronunciation = "دا اَتَفَرَّج بَس.",
-            finglish = "دا اَتَفَرَّج بَس.",
             persianTranslation = "فقط نگاه می‌کنم.",
             forRole = "BOTH",
             isVip = true
@@ -1919,7 +1760,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "تقبل كاش؟",
             iraqiPronunciation = "تِقبَل کاش؟",
-            finglish = "تِقبَل کاش؟",
             persianTranslation = "پول نقد قبول می‌کنید؟",
             forRole = "BOTH",
             isVip = true
@@ -1931,7 +1771,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "تقبل كارت؟",
             iraqiPronunciation = "تِقبَل کارت؟",
-            finglish = "تِقبَل کارت؟",
             persianTranslation = "کارت قبول می‌کنید؟",
             forRole = "BOTH",
             isVip = true
@@ -1943,7 +1782,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "وين الصيرفة؟",
             iraqiPronunciation = "وِین الصَیرَفَه؟",
-            finglish = "وِین الصَیرَفَه؟",
             persianTranslation = "صرافی کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -1955,7 +1793,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدك فراطة؟",
             iraqiPronunciation = "عَدَک فَراطَه؟",
-            finglish = "عَدَک فَراطَه؟",
             persianTranslation = "پول خرد داری؟",
             forRole = "BOTH",
             isVip = true
@@ -1967,7 +1804,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "كيس لو سمحت.",
             iraqiPronunciation = "کِیس لو سَمَحت.",
-            finglish = "کِیس لو سَمَحت.",
             persianTranslation = "کیسه لطفاً.",
             forRole = "BOTH",
             isVip = true
@@ -1979,7 +1815,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "أريد هذا اللون.",
             iraqiPronunciation = "أرید هذا اللَون.",
-            finglish = "أرید هذا اللَون.",
             persianTranslation = "این رنگ رو می‌خوام.",
             forRole = "BOTH",
             isVip = true
@@ -1991,7 +1826,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدكم قياس أكبر؟",
             iraqiPronunciation = "عَدکُم قِیاس اَکبَر؟",
-            finglish = "عَدکُم قِیاس اَکبَر؟",
             persianTranslation = "سایز بزرگ‌تر دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2003,7 +1837,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدكم قياس أصغر؟",
             iraqiPronunciation = "عَدکُم قِیاس اَصغَر؟",
-            finglish = "عَدکُم قِیاس اَصغَر؟",
             persianTranslation = "سایز کوچک‌تر دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2015,7 +1848,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "أگدر أجربه؟",
             iraqiPronunciation = "اَگدَر اَجَرِّبُه؟",
-            finglish = "اَگدَر اَجَرِّبُه؟",
             persianTranslation = "می‌تونم امتحانش کنم؟",
             forRole = "BOTH",
             isVip = true
@@ -2027,7 +1859,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "أصلي؟",
             iraqiPronunciation = "اَصلی؟",
-            finglish = "اَصلی؟",
             persianTranslation = "اصل هست؟",
             forRole = "BOTH",
             isVip = true
@@ -2039,7 +1870,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "جديد؟",
             iraqiPronunciation = "جَدید؟",
-            finglish = "جَدید؟",
             persianTranslation = "نو هست؟",
             forRole = "BOTH",
             isVip = true
@@ -2051,7 +1881,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدكم شاحن موبايل؟",
             iraqiPronunciation = "عَدکُم شاحِن موبایِل؟",
-            finglish = "عَدکُم شاحِن موبایِل؟",
             persianTranslation = "شارژر موبایل دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2063,7 +1892,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدكم باور بانك؟",
             iraqiPronunciation = "عَدکُم باوَر بانک؟",
-            finglish = "عَدکُم باوَر بانک؟",
             persianTranslation = "پاوربانک دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2075,7 +1903,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدكم سيم كارت؟",
             iraqiPronunciation = "عَدکُم سِیم کارت؟",
-            finglish = "عَدکُم سِیم کارت؟",
             persianTranslation = "سیم‌کارت دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2087,7 +1914,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "هذا زين؟",
             iraqiPronunciation = "هذا زِین؟",
-            finglish = "هذا زِین؟",
             persianTranslation = "این خوبه؟",
             forRole = "BOTH",
             isVip = true
@@ -2099,7 +1925,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عدكم أحسن من هذا؟",
             iraqiPronunciation = "عَدکُم اَحسَن مِن هذا؟",
-            finglish = "عَدکُم اَحسَن مِن هذا؟",
             persianTranslation = "بهتر از این دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2111,7 +1936,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "عطني فاتورة.",
             iraqiPronunciation = "عَطنی فاتُورَه.",
-            finglish = "عَطنی فاتُورَه.",
             persianTranslation = "لطفاً فاکتور بده.",
             forRole = "BOTH",
             isVip = true
@@ -2123,7 +1947,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "والباقي؟",
             iraqiPronunciation = "وَالباقی؟",
-            finglish = "وَالباقی؟",
             persianTranslation = "بقیه پولم؟",
             forRole = "BOTH",
             isVip = true
@@ -2135,7 +1958,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "تسلم.",
             iraqiPronunciation = "تِسلَم.",
-            finglish = "تِسلَم.",
             persianTranslation = "ممنون از لطفت.",
             forRole = "BOTH",
             isVip = true
@@ -2147,7 +1969,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "الله يبارك برزقك.",
             iraqiPronunciation = "الله یِبارِک بِرِزقَک.",
-            finglish = "الله یِبارِک بِرِزقَک.",
             persianTranslation = "خدا به کسبت برکت بده.",
             forRole = "BOTH",
             isVip = true
@@ -2159,7 +1980,6 @@ object DatabaseInitializer {
             category_id = "market",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -2171,7 +1991,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "وين التكسي؟",
             iraqiPronunciation = "وِین التِکسی؟",
-            finglish = "وِین التِکسی؟",
             persianTranslation = "تاکسی کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2183,7 +2002,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "عدك تكسي فاضي؟",
             iraqiPronunciation = "عَدَک تِکسی فاضی؟",
-            finglish = "عَدَک تِکسی فاضی؟",
             persianTranslation = "ماشین خالی داری؟",
             forRole = "BOTH",
             isVip = true
@@ -2195,7 +2013,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "توديني للحرم؟",
             iraqiPronunciation = "تُوَدّینی لِلحَرَم؟",
-            finglish = "تُوَدّینی لِلحَرَم؟",
             persianTranslation = "منو تا حرم می‌بری؟",
             forRole = "BOTH",
             isVip = true
@@ -2207,7 +2024,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "بجم للنجف؟",
             iraqiPronunciation = "بِجَم لِلنَجَف؟",
-            finglish = "بِجَم لِلنَجَف؟",
             persianTranslation = "تا نجف چند می‌گیری؟",
             forRole = "BOTH",
             isVip = true
@@ -2219,7 +2035,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "بجم لكربلاء؟",
             iraqiPronunciation = "بِجَم لِکَربَلاء؟",
-            finglish = "بِجَم لِکَربَلاء؟",
             persianTranslation = "تا کربلا چند می‌گیری؟",
             forRole = "BOTH",
             isVip = true
@@ -2231,7 +2046,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "كلش غالي.",
             iraqiPronunciation = "کُلِش غالی.",
-            finglish = "کُلِش غالی.",
             persianTranslation = "گرونه.",
             forRole = "BOTH",
             isVip = true
@@ -2243,7 +2057,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "نزل السعر شوي.",
             iraqiPronunciation = "نَزِّل السِعر شِوَی.",
-            finglish = "نَزِّل السِعر شِوَی.",
             persianTranslation = "کمتر حساب کن.",
             forRole = "BOTH",
             isVip = true
@@ -2255,7 +2068,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "زين هيچ.",
             iraqiPronunciation = "زِین هیچ.",
-            finglish = "زِین هیچ.",
             persianTranslation = "همین خوبه.",
             forRole = "BOTH",
             isVip = true
@@ -2267,7 +2079,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "يلا نمشي.",
             iraqiPronunciation = "یَلّا نِمشی.",
-            finglish = "یَلّا نِمشی.",
             persianTranslation = "حرکت کنیم.",
             forRole = "BOTH",
             isVip = true
@@ -2279,7 +2090,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "وقف هنانة.",
             iraqiPronunciation = "وَقِّف هِنانَه.",
-            finglish = "وَقِّف هِنانَه.",
             persianTranslation = "نگه دار اینجا.",
             forRole = "BOTH",
             isVip = true
@@ -2291,7 +2101,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "أنزل هنانة.",
             iraqiPronunciation = "اَنزِل هِنانَه.",
-            finglish = "اَنزِل هِنانَه.",
             persianTranslation = "همین‌جا پیاده می‌شوم.",
             forRole = "BOTH",
             isVip = true
@@ -2303,7 +2112,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "استعجل لو سمحت.",
             iraqiPronunciation = "اِستَعجِل لو سَمَحت.",
-            finglish = "اِستَعجِل لو سَمَحت.",
             persianTranslation = "لطفاً عجله کن.",
             forRole = "BOTH",
             isVip = true
@@ -2315,7 +2123,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "امشِ شوي شوي.",
             iraqiPronunciation = "اِمشِ شِوَی شِوَی.",
-            finglish = "اِمشِ شِوَی شِوَی.",
             persianTranslation = "آروم‌تر برو.",
             forRole = "BOTH",
             isVip = true
@@ -2327,7 +2134,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "عدكم حزام؟",
             iraqiPronunciation = "عَدکُم حِزام؟",
-            finglish = "عَدکُم حِزام؟",
             persianTranslation = "کمربند ایمنی دارم؟",
             forRole = "BOTH",
             isVip = true
@@ -2339,7 +2145,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "شغل التبريد.",
             iraqiPronunciation = "شَغِّل التَبرِید.",
-            finglish = "شَغِّل التَبرِید.",
             persianTranslation = "کولر روشنه؟",
             forRole = "BOTH",
             isVip = true
@@ -2351,7 +2156,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "شغل المكيف.",
             iraqiPronunciation = "شَغِّل المُکَیِّف.",
-            finglish = "شَغِّل المُکَیِّف.",
             persianTranslation = "کولر رو روشن کن.",
             forRole = "BOTH",
             isVip = true
@@ -2363,7 +2167,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "طفي المكيف.",
             iraqiPronunciation = "طَفّی المُکَیِّف.",
-            finglish = "طَفّی المُکَیِّف.",
             persianTranslation = "کولر رو خاموش کن.",
             forRole = "BOTH",
             isVip = true
@@ -2375,7 +2178,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "افتح الجام.",
             iraqiPronunciation = "اِفتَح الجام.",
-            finglish = "اِفتَح الجام.",
             persianTranslation = "شیشه را باز کن.",
             forRole = "BOTH",
             isVip = true
@@ -2387,7 +2189,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "سد الجام.",
             iraqiPronunciation = "سِدّ الجام.",
-            finglish = "سِدّ الجام.",
             persianTranslation = "شیشه را ببند.",
             forRole = "BOTH",
             isVip = true
@@ -2399,7 +2200,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "هذا الطريق أقرب؟",
             iraqiPronunciation = "هذا الطَریق اَقرَب؟",
-            finglish = "هذا الطَریق اَقرَب؟",
             persianTranslation = "این مسیر نزدیک‌تره؟",
             forRole = "BOTH",
             isVip = true
@@ -2411,7 +2211,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "أكو زحمة؟",
             iraqiPronunciation = "اَکو زَحمَه؟",
-            finglish = "اَکو زَحمَه؟",
             persianTranslation = "ترافیکه؟",
             forRole = "BOTH",
             isVip = true
@@ -2423,7 +2222,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "شكد ياخذ وقت؟",
             iraqiPronunciation = "شگِد یاخِذ وَقت؟",
-            finglish = "شگِد یاخِذ وَقت؟",
             persianTranslation = "چقدر طول می‌کشه؟",
             forRole = "BOTH",
             isVip = true
@@ -2435,7 +2233,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "وصلنا؟",
             iraqiPronunciation = "وَصَلنا؟",
-            finglish = "وَصَلنا؟",
             persianTranslation = "رسیدیم؟",
             forRole = "BOTH",
             isVip = true
@@ -2447,7 +2244,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "شكراً، هنانة زين.",
             iraqiPronunciation = "شُکراً، هِنانَه زِین.",
-            finglish = "شُکراً، هِنانَه زِین.",
             persianTranslation = "ممنون، همین‌جا خوبه.",
             forRole = "BOTH",
             isVip = true
@@ -2459,7 +2255,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "عندي كاش.",
             iraqiPronunciation = "عِندی کاش.",
-            finglish = "عِندی کاش.",
             persianTranslation = "پول نقد دارم.",
             forRole = "BOTH",
             isVip = true
@@ -2471,7 +2266,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "والباقي؟",
             iraqiPronunciation = "وَالباقی؟",
-            finglish = "وَالباقی؟",
             persianTranslation = "بقیه پولم؟",
             forRole = "BOTH",
             isVip = true
@@ -2483,7 +2277,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "تقبل كارت؟",
             iraqiPronunciation = "تِقبَل کارت؟",
-            finglish = "تِقبَل کارت؟",
             persianTranslation = "کارت قبول می‌کنی؟",
             forRole = "BOTH",
             isVip = true
@@ -2495,7 +2288,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرت بده.",
             forRole = "BOTH",
             isVip = true
@@ -2507,7 +2299,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "الله ينطيكم العافية.",
             iraqiPronunciation = "الله یِنطیکُم العافِیَه.",
-            finglish = "الله یِنطیکُم العافِیَه.",
             persianTranslation = "خسته نباشی.",
             forRole = "BOTH",
             isVip = true
@@ -2519,7 +2310,6 @@ object DatabaseInitializer {
             category_id = "taxi",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -2531,7 +2321,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "وين الفندق؟",
             iraqiPronunciation = "وِین الفُندُق؟",
-            finglish = "وِین الفُندُق؟",
             persianTranslation = "هتل کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2543,7 +2332,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "عدكم غرفة فارغة؟",
             iraqiPronunciation = "عَدکُم غُرفَه فارِغَه؟",
-            finglish = "عَدکُم غُرفَه فارِغَه؟",
             persianTranslation = "اتاق خالی دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2555,7 +2343,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أريد غرفة.",
             iraqiPronunciation = "اَرید غُرفَه.",
-            finglish = "اَرید غُرفَه.",
             persianTranslation = "یک اتاق می‌خواهم.",
             forRole = "BOTH",
             isVip = true
@@ -2567,7 +2354,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أبقى ليلة وحدة.",
             iraqiPronunciation = "اَبقى لَیلَه وَحدَه.",
-            finglish = "اَبقى لَیلَه وَحدَه.",
             persianTranslation = "یک شب می‌مانم.",
             forRole = "BOTH",
             isVip = true
@@ -2579,7 +2365,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أبقى ليلتين.",
             iraqiPronunciation = "اَبقى لَیلَتَین.",
-            finglish = "اَبقى لَیلَتَین.",
             persianTranslation = "دو شب می‌مانم.",
             forRole = "BOTH",
             isVip = true
@@ -2591,7 +2376,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "بجم الغرفة؟",
             iraqiPronunciation = "بِجَم الغُرفَه؟",
-            finglish = "بِجَم الغُرفَه؟",
             persianTranslation = "قیمت اتاق چقدره؟",
             forRole = "BOTH",
             isVip = true
@@ -2603,7 +2387,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "كلش غالي.",
             iraqiPronunciation = "کُلِش غالی.",
-            finglish = "کُلِش غالی.",
             persianTranslation = "گرونه.",
             forRole = "BOTH",
             isVip = true
@@ -2615,7 +2398,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "ماكو أرخص؟",
             iraqiPronunciation = "ماکو اَرخَص؟",
-            finglish = "ماکو اَرخَص؟",
             persianTranslation = "ارزون‌تر ندارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2627,7 +2409,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "الغرفة نظيفة؟",
             iraqiPronunciation = "الغُرفَه نَظیفَه؟",
-            finglish = "الغُرفَه نَظیفَه؟",
             persianTranslation = "اتاق تمیزه؟",
             forRole = "BOTH",
             isVip = true
@@ -2639,7 +2420,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "بيها حمام؟",
             iraqiPronunciation = "بیها حَمّام؟",
-            finglish = "بیها حَمّام؟",
             persianTranslation = "حمام داره؟",
             forRole = "BOTH",
             isVip = true
@@ -2651,7 +2431,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "بيها حمام عربي؟",
             iraqiPronunciation = "بیها حَمّام عَرَبی؟",
-            finglish = "بیها حَمّام عَرَبی؟",
             persianTranslation = "سرویس ایرانی داره؟",
             forRole = "BOTH",
             isVip = true
@@ -2663,7 +2442,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "بيها مكيف؟",
             iraqiPronunciation = "بیها مُکَیِّف؟",
-            finglish = "بیها مُکَیِّف؟",
             persianTranslation = "کولر داره؟",
             forRole = "BOTH",
             isVip = true
@@ -2675,7 +2453,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "عدكم بطانية؟",
             iraqiPronunciation = "عَدکُم بَطّانِیَّه؟",
-            finglish = "عَدکُم بَطّانِیَّه؟",
             persianTranslation = "پتو دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2687,7 +2464,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "عدكم مخدة؟",
             iraqiPronunciation = "عَدکُم مُخَدَّه؟",
-            finglish = "عَدکُم مُخَدَّه؟",
             persianTranslation = "بالش دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2699,7 +2475,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "عدكم فوطة؟",
             iraqiPronunciation = "عَدکُم فوطَه؟",
-            finglish = "عَدکُم فوطَه؟",
             persianTranslation = "حوله دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2711,7 +2486,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أكو ماي حار؟",
             iraqiPronunciation = "اَکو مای حار؟",
-            finglish = "اَکو مای حار؟",
             persianTranslation = "آب گرم داره؟",
             forRole = "BOTH",
             isVip = true
@@ -2723,7 +2497,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "عدكم واي فاي؟",
             iraqiPronunciation = "عَدکُم وای فای؟",
-            finglish = "عَدکُم وای فای؟",
             persianTranslation = "وای‌فای دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -2735,7 +2508,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "شنو رمز الواي فاي؟",
             iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            finglish = "شِنو رَمز الوای فای؟",
             persianTranslation = "رمز وای‌فای چیه؟",
             forRole = "BOTH",
             isVip = true
@@ -2747,7 +2519,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "ماكو كهرباء.",
             iraqiPronunciation = "ماکو کَهرَباء.",
-            finglish = "ماکو کَهرَباء.",
             persianTranslation = "برق نیست.",
             forRole = "BOTH",
             isVip = true
@@ -2759,7 +2530,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أريد شاحن.",
             iraqiPronunciation = "اَرید شاحِن.",
-            finglish = "اَرید شاحِن.",
             persianTranslation = "شارژر می‌خوام.",
             forRole = "BOTH",
             isVip = true
@@ -2771,7 +2541,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "وين غرفتي؟",
             iraqiPronunciation = "وِین غُرفَتی؟",
-            finglish = "وِین غُرفَتی؟",
             persianTranslation = "اتاقت کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2783,7 +2552,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "مفتاح الغرفة لو سمحت.",
             iraqiPronunciation = "مِفتاح الغُرفَه لو سَمَحت.",
-            finglish = "مِفتاح الغُرفَه لو سَمَحت.",
             persianTranslation = "کلید اتاق لطفاً.",
             forRole = "BOTH",
             isVip = true
@@ -2795,7 +2563,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أريد أحاسب.",
             iraqiPronunciation = "اَرید اُحاسِب.",
-            finglish = "اَرید اُحاسِب.",
             persianTranslation = "می‌خوام تسویه کنم.",
             forRole = "BOTH",
             isVip = true
@@ -2807,7 +2574,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "أريد أسلّم الغرفة.",
             iraqiPronunciation = "اَرید اَسلِّم الغُرفَه.",
-            finglish = "اَرید اَسلِّم الغُرفَه.",
             persianTranslation = "می‌خوام اتاق رو تحویل بدم.",
             forRole = "BOTH",
             isVip = true
@@ -2819,7 +2585,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "وصل لو سمحت.",
             iraqiPronunciation = "وَصل لو سَمَحت.",
-            finglish = "وَصل لو سَمَحت.",
             persianTranslation = "رسید لطفاً.",
             forRole = "BOTH",
             isVip = true
@@ -2831,7 +2596,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "شكراً على الضيافة.",
             iraqiPronunciation = "شُکراً عَله الضِیافَه.",
-            finglish = "شُکراً عَله الضِیافَه.",
             persianTranslation = "ممنون از مهمان‌نوازیتون.",
             forRole = "BOTH",
             isVip = true
@@ -2843,7 +2607,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "كلشي كان زين.",
             iraqiPronunciation = "کُلشی کان زِین.",
-            finglish = "کُلشی کان زِین.",
             persianTranslation = "همه‌چیز عالی بود.",
             forRole = "BOTH",
             isVip = true
@@ -2855,7 +2618,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -2867,7 +2629,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "الله ينطيكم العافية.",
             iraqiPronunciation = "الله یِنطیکُم العافِیَه.",
-            finglish = "الله یِنطیکُم العافِیَه.",
             persianTranslation = "خدا قوت.",
             forRole = "BOTH",
             isVip = true
@@ -2879,7 +2640,6 @@ object DatabaseInitializer {
             category_id = "accommodation",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -2891,7 +2651,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "وين الصيدلية؟",
             iraqiPronunciation = "وِین الصَیدَلِیَّه؟",
-            finglish = "وِین الصَیدَلِیَّه؟",
             persianTranslation = "داروخانه کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2903,7 +2662,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "وين الدكتور؟",
             iraqiPronunciation = "وِین الدُکتُور؟",
-            finglish = "وِین الدُکتُور؟",
             persianTranslation = "دکتر کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2915,7 +2673,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "وين المستوصف؟",
             iraqiPronunciation = "وِین المُستَوصَف؟",
-            finglish = "وِین المُستَوصَف؟",
             persianTranslation = "درمانگاه کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2927,7 +2684,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "وين المستشفى؟",
             iraqiPronunciation = "وِین المُستَشفى؟",
-            finglish = "وِین المُستَشفى؟",
             persianTranslation = "بیمارستان کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -2939,7 +2695,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "آني تعبان.",
             iraqiPronunciation = "آنی تَعبان.",
-            finglish = "آنی تَعبان.",
             persianTranslation = "حالم خوب نیست.",
             forRole = "BOTH",
             isVip = true
@@ -2951,7 +2706,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عندي حرارة.",
             iraqiPronunciation = "عِندی حَرارَه.",
-            finglish = "عِندی حَرارَه.",
             persianTranslation = "تب دارم.",
             forRole = "BOTH",
             isVip = true
@@ -2963,7 +2717,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "راسي يعورني.",
             iraqiPronunciation = "راسی یِعوِّرنی.",
-            finglish = "راسی یِعوِّرنی.",
             persianTranslation = "سردرد دارم.",
             forRole = "BOTH",
             isVip = true
@@ -2975,7 +2728,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "سني يعورني.",
             iraqiPronunciation = "سِنّی یِعوِّرنی.",
-            finglish = "سِنّی یِعوِّرنی.",
             persianTranslation = "دندانم درد می‌کند.",
             forRole = "BOTH",
             isVip = true
@@ -2987,7 +2739,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "حلگي يعورني.",
             iraqiPronunciation = "حَلگی یِعوِّرنی.",
-            finglish = "حَلگی یِعوِّرنی.",
             persianTranslation = "گلویم درد می‌کند.",
             forRole = "BOTH",
             isVip = true
@@ -2999,7 +2750,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "بطني يعورني.",
             iraqiPronunciation = "بَطنی یِعوِّرنی.",
-            finglish = "بَطنی یِعوِّرنی.",
             persianTranslation = "شکمم درد می‌کند.",
             forRole = "BOTH",
             isVip = true
@@ -3011,7 +2761,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "رجلي تعورني.",
             iraqiPronunciation = "رِجلی تِعوِّرنی.",
-            finglish = "رِجلی تِعوِّرنی.",
             persianTranslation = "پایم درد می‌کند.",
             forRole = "BOTH",
             isVip = true
@@ -3023,7 +2772,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "إيدي تعورني.",
             iraqiPronunciation = "إیدی تِعوِّرنی.",
-            finglish = "إیدی تِعوِّرنی.",
             persianTranslation = "دستم درد می‌کند.",
             forRole = "BOTH",
             isVip = true
@@ -3035,7 +2783,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عندي دوخة.",
             iraqiPronunciation = "عِندی دَوخَه.",
-            finglish = "عِندی دَوخَه.",
             persianTranslation = "سرگیجه دارم.",
             forRole = "BOTH",
             isVip = true
@@ -3047,7 +2794,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عندي غثيان.",
             iraqiPronunciation = "عِندی غَثَیان.",
-            finglish = "عِندی غَثَیان.",
             persianTranslation = "حالت تهوع دارم.",
             forRole = "BOTH",
             isVip = true
@@ -3059,7 +2805,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عندي إسهال.",
             iraqiPronunciation = "عِندی إسهال.",
-            finglish = "عِندی إسهال.",
             persianTranslation = "اسهال دارم.",
             forRole = "BOTH",
             isVip = true
@@ -3071,7 +2816,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عندي حساسية.",
             iraqiPronunciation = "عِندی حَسّاسِیَّه.",
-            finglish = "عِندی حَسّاسِیَّه.",
             persianTranslation = "حساسیت دارم.",
             forRole = "BOTH",
             isVip = true
@@ -3083,7 +2827,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عدكم مسكن؟",
             iraqiPronunciation = "عَدکُم مُسَکِّن؟",
-            finglish = "عَدکُم مُسَکِّن؟",
             persianTranslation = "داروی مسکن دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3095,7 +2838,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "أريد حبوب.",
             iraqiPronunciation = "اَرید حُبُوب.",
-            finglish = "اَرید حُبُوب.",
             persianTranslation = "قرص می‌خواهم.",
             forRole = "BOTH",
             isVip = true
@@ -3107,7 +2849,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "أحتاج إبرة.",
             iraqiPronunciation = "اَحتاج إبرَه.",
-            finglish = "اَحتاج إبرَه.",
             persianTranslation = "آمپول لازم دارم.",
             forRole = "BOTH",
             isVip = true
@@ -3119,7 +2860,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "صار عندي جرح.",
             iraqiPronunciation = "صار عِندی جَرح.",
-            finglish = "صار عِندی جَرح.",
             persianTranslation = "زخم شده.",
             forRole = "BOTH",
             isVip = true
@@ -3131,7 +2871,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عدكم شاش؟",
             iraqiPronunciation = "عَدکُم شاش؟",
-            finglish = "عَدکُم شاش؟",
             persianTranslation = "پانسمان دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3143,7 +2882,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "عدكم معقم؟",
             iraqiPronunciation = "عَدکُم مُعَقِّم؟",
-            finglish = "عَدکُم مُعَقِّم؟",
             persianTranslation = "ضدعفونی‌کننده دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3155,7 +2893,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "أكو ماي صالح للشرب؟",
             iraqiPronunciation = "اَکو مای صالِح لِلشُرب؟",
-            finglish = "اَکو مای صالِح لِلشُرب؟",
             persianTranslation = "آب سالم برای خوردن هست؟",
             forRole = "BOTH",
             isVip = true
@@ -3167,7 +2904,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "ساعدني لو سمحت.",
             iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            finglish = "ساعِدنی لو سَمَحت.",
             persianTranslation = "لطفاً کمکم کنید.",
             forRole = "BOTH",
             isVip = true
@@ -3179,7 +2915,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "اتصل بالإسعاف.",
             iraqiPronunciation = "اِتَّصِل بِالإسعاف.",
-            finglish = "اِتَّصِل بِالإسعاف.",
             persianTranslation = "اورژانس را خبر کنید.",
             forRole = "BOTH",
             isVip = true
@@ -3191,7 +2926,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "جيب إسعاف.",
             iraqiPronunciation = "جِیب إِسعاف.",
-            finglish = "جِیب إِسعاف.",
             persianTranslation = "آمبولانس خبر کنید.",
             forRole = "BOTH",
             isVip = true
@@ -3203,7 +2937,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "هسه أحسن.",
             iraqiPronunciation = "هَسَّه اَحسَن.",
-            finglish = "هَسَّه اَحسَن.",
             persianTranslation = "حالم بهتر شده.",
             forRole = "BOTH",
             isVip = true
@@ -3215,7 +2948,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "شكراً على مساعدتكم.",
             iraqiPronunciation = "شُکراً عَله مُساعَدَتکُم.",
-            finglish = "شُکراً عَله مُساعَدَتکُم.",
             persianTranslation = "ممنون از کمکتان.",
             forRole = "BOTH",
             isVip = true
@@ -3227,7 +2959,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -3239,7 +2970,6 @@ object DatabaseInitializer {
             category_id = "medical",
             arabicText = "الله يحفظكم.",
             iraqiPronunciation = "الله یِحفَظکُم.",
-            finglish = "الله یِحفَظکُم.",
             persianTranslation = "خدا حفظتان کند.",
             forRole = "BOTH",
             isVip = true
@@ -3251,7 +2981,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "وين الصيرفة؟",
             iraqiPronunciation = "وِین الصَیرَفَه؟",
-            finglish = "وِین الصَیرَفَه؟",
             persianTranslation = "صرافی کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -3263,7 +2992,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "أريد أصرف فلوس.",
             iraqiPronunciation = "اَرید اَصرِف فُلُوس.",
-            finglish = "اَرید اَصرِف فُلُوس.",
             persianTranslation = "می‌خواهم پول تبدیل کنم.",
             forRole = "BOTH",
             isVip = true
@@ -3275,7 +3003,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "بجم الدولار اليوم؟",
             iraqiPronunciation = "بِجَم الدُولار الیَوم؟",
-            finglish = "بِجَم الدُولار الیَوم؟",
             persianTranslation = "نرخ دلار چنده؟",
             forRole = "BOTH",
             isVip = true
@@ -3287,7 +3014,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "بجم التومان؟",
             iraqiPronunciation = "بِجَم التُومان؟",
-            finglish = "بِجَم التُومان؟",
             persianTranslation = "نرخ تومان چنده؟",
             forRole = "BOTH",
             isVip = true
@@ -3299,7 +3025,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "أريد دنانير.",
             iraqiPronunciation = "اَرید دَنانِیر.",
-            finglish = "اَرید دَنانِیر.",
             persianTranslation = "دینار می‌خواهم.",
             forRole = "BOTH",
             isVip = true
@@ -3311,7 +3036,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "عدكم فراطة؟",
             iraqiPronunciation = "عَدکُم فَراطَه؟",
-            finglish = "عَدکُم فَراطَه؟",
             persianTranslation = "پول خرد دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3323,7 +3047,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "تبدل هاي الورقة؟",
             iraqiPronunciation = "تِبَدِّل های الوَرَقَه؟",
-            finglish = "تِبَدِّل های الوَرَقَه؟",
             persianTranslation = "این اسکناس را خرد می‌کنید؟",
             forRole = "BOTH",
             isVip = true
@@ -3335,7 +3058,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "تقبل كارت؟",
             iraqiPronunciation = "تِقبَل کارت؟",
-            finglish = "تِقبَل کارت؟",
             persianTranslation = "کارت قبول می‌کنید؟",
             forRole = "BOTH",
             isVip = true
@@ -3347,7 +3069,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "عندي كاش بس.",
             iraqiPronunciation = "عِندی کاش بَس.",
-            finglish = "عِندی کاش بَس.",
             persianTranslation = "فقط نقد دارم.",
             forRole = "BOTH",
             isVip = true
@@ -3359,7 +3080,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "وين الـATM؟",
             iraqiPronunciation = "وِین ای تی ام؟",
-            finglish = "وِین ای تی ام؟",
             persianTranslation = "دستگاه خودپرداز کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -3371,7 +3091,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "وين البنك؟",
             iraqiPronunciation = "وِین البَنک؟",
-            finglish = "وِین البَنک؟",
             persianTranslation = "بانک کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -3383,7 +3102,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "ما عندي فلوس كافية.",
             iraqiPronunciation = "ما عِندی فُلُوس کافِیَه.",
-            finglish = "ما عِندی فُلُوس کافِیَه.",
             persianTranslation = "موجودی کافی ندارم.",
             forRole = "BOTH",
             isVip = true
@@ -3395,7 +3113,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "ضيعت محفظتي.",
             iraqiPronunciation = "ضَیَّعت مَحفَظَتی.",
-            finglish = "ضَیَّعت مَحفَظَتی.",
             persianTranslation = "کیف پولم گم شده.",
             forRole = "BOTH",
             isVip = true
@@ -3407,7 +3124,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "انسرقت فلوسي.",
             iraqiPronunciation = "اِنسَرَقَت فُلُوسی.",
-            finglish = "اِنسَرَقَت فُلُوسی.",
             persianTranslation = "پولم را دزدیده‌اند.",
             forRole = "BOTH",
             isVip = true
@@ -3419,7 +3135,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "ساعدني لو سمحت.",
             iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            finglish = "ساعِدنی لو سَمَحت.",
             persianTranslation = "لطفاً کمکم کنید.",
             forRole = "BOTH",
             isVip = true
@@ -3431,7 +3146,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "وصل لو سمحت.",
             iraqiPronunciation = "وَصل لو سَمَحت.",
-            finglish = "وَصل لو سَمَحت.",
             persianTranslation = "رسید لطفاً.",
             forRole = "BOTH",
             isVip = true
@@ -3443,7 +3157,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "هذا آخر سعر؟",
             iraqiPronunciation = "هذا آخِر سِعر؟",
-            finglish = "هذا آخِر سِعر؟",
             persianTranslation = "این قیمت نهایی است؟",
             forRole = "BOTH",
             isVip = true
@@ -3455,7 +3168,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "كلش غالي.",
             iraqiPronunciation = "کُلِش غالی.",
-            finglish = "کُلِش غالی.",
             persianTranslation = "خیلی گرونه.",
             forRole = "BOTH",
             isVip = true
@@ -3467,7 +3179,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "تنزل بالسعر؟",
             iraqiPronunciation = "تِنزِل بِالسِعر؟",
-            finglish = "تِنزِل بِالسِعر؟",
             persianTranslation = "تخفیف میدی؟",
             forRole = "BOTH",
             isVip = true
@@ -3479,7 +3190,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "زين، موافق.",
             iraqiPronunciation = "زِین، مُوافِق.",
-            finglish = "زِین، مُوافِق.",
             persianTranslation = "باشه، قبوله.",
             forRole = "BOTH",
             isVip = true
@@ -3491,7 +3201,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "عدها لو سمحت.",
             iraqiPronunciation = "عُدَّها لو سَمَحت.",
-            finglish = "عُدَّها لو سَمَحت.",
             persianTranslation = "لطفاً بشمار.",
             forRole = "BOTH",
             isVip = true
@@ -3503,7 +3212,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "الفلوس ناقصة.",
             iraqiPronunciation = "الفُلُوس ناقِصَه.",
-            finglish = "الفُلُوس ناقِصَه.",
             persianTranslation = "پول کم است.",
             forRole = "BOTH",
             isVip = true
@@ -3515,7 +3223,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "عطيتني زيادة.",
             iraqiPronunciation = "عَطَیتَنی زِیادَه.",
-            finglish = "عَطَیتَنی زِیادَه.",
             persianTranslation = "پول زیاد دادی.",
             forRole = "BOTH",
             isVip = true
@@ -3527,7 +3234,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "صحيح.",
             iraqiPronunciation = "صَحِیح.",
-            finglish = "صَحِیح.",
             persianTranslation = "درست است.",
             forRole = "BOTH",
             isVip = true
@@ -3539,7 +3245,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "صار غلط.",
             iraqiPronunciation = "صار غَلَط.",
-            finglish = "صار غَلَط.",
             persianTranslation = "اشتباه شده.",
             forRole = "BOTH",
             isVip = true
@@ -3551,7 +3256,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "شكراً على أمانتك.",
             iraqiPronunciation = "شُکراً عَله أمانَتَک.",
-            finglish = "شُکراً عَله أمانَتَک.",
             persianTranslation = "ممنون از امانتداری‌ات.",
             forRole = "BOTH",
             isVip = true
@@ -3563,7 +3267,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "الله يبارك برزقك.",
             iraqiPronunciation = "الله یِبارِک بِرِزقَک.",
-            finglish = "الله یِبارِک بِرِزقَک.",
             persianTranslation = "خدا به رزقت برکت بده.",
             forRole = "BOTH",
             isVip = true
@@ -3575,7 +3278,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "الله يجزيك خير.",
             iraqiPronunciation = "الله یِجزیک خیر.",
-            finglish = "الله یِجزیک خیر.",
             persianTranslation = "خدا خیرت بده.",
             forRole = "BOTH",
             isVip = true
@@ -3587,7 +3289,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -3599,7 +3300,6 @@ object DatabaseInitializer {
             category_id = "money",
             arabicText = "إن شاء الله أشوفك مرة ثانية.",
             iraqiPronunciation = "اِن‌شاءالله اَشوفَک مَرَّه ثانِیَه.",
-            finglish = "اِن‌شاءالله اَشوفَک مَرَّه ثانِیَه.",
             persianTranslation = "ان‌شاءالله دوباره می‌بینمت.",
             forRole = "BOTH",
             isVip = true
@@ -3611,7 +3311,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم سيم كارت؟",
             iraqiPronunciation = "عَدکُم سِیم کارت؟",
-            finglish = "عَدکُم سِیم کارت؟",
             persianTranslation = "سیم‌کارت دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3623,7 +3322,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "أريد سيم كارت عراقية.",
             iraqiPronunciation = "اَرید سِیم کارت عِراقیَّه.",
-            finglish = "اَرید سِیم کارت عِراقیَّه.",
             persianTranslation = "سیم‌کارت عراق می‌خواهم.",
             forRole = "BOTH",
             isVip = true
@@ -3635,7 +3333,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "إيرانسل يشتغل هنانة؟",
             iraqiPronunciation = "ایرانسِل یِشتِغِل هِنانه؟",
-            finglish = "ایرانسِل یِشتِغِل هِنانه؟",
             persianTranslation = "ایرانسل اینجا آنتن می‌دهد؟",
             forRole = "BOTH",
             isVip = true
@@ -3647,7 +3344,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "همراه أول يشتغل؟",
             iraqiPronunciation = "همراه اَوَّل یِشتِغِل؟",
-            finglish = "همراه اَوَّل یِشتِغِل؟",
             persianTranslation = "همراه اول آنتن می‌دهد؟",
             forRole = "BOTH",
             isVip = true
@@ -3659,7 +3355,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم إنترنت؟",
             iraqiPronunciation = "عَدکُم اِنتِرنِت؟",
-            finglish = "عَدکُم اِنتِرنِت؟",
             persianTranslation = "اینترنت دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3671,7 +3366,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم واي فاي؟",
             iraqiPronunciation = "عَدکُم وای فای؟",
-            finglish = "عَدکُم وای فای؟",
             persianTranslation = "وای‌فای دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3683,7 +3377,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "شنو رمز الواي فاي؟",
             iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            finglish = "شِنو رَمز الوای فای؟",
             persianTranslation = "رمز وای‌فای چیه؟",
             forRole = "BOTH",
             isVip = true
@@ -3695,7 +3388,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "الإنترنت ما يشتغل.",
             iraqiPronunciation = "الاِنتِرنِت ما یِشتِغِل.",
-            finglish = "الاِنتِرنِت ما یِشتِغِل.",
             persianTranslation = "اینترنت وصل نمی‌شود.",
             forRole = "BOTH",
             isVip = true
@@ -3707,7 +3399,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "ما عندي شبكة.",
             iraqiPronunciation = "ما عِندی شَبَکَه.",
-            finglish = "ما عِندی شَبَکَه.",
             persianTranslation = "آنتن ندارم.",
             forRole = "BOTH",
             isVip = true
@@ -3719,7 +3410,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم شاحن موبايل؟",
             iraqiPronunciation = "عَدکُم شاحِن موبایِل؟",
-            finglish = "عَدکُم شاحِن موبایِل؟",
             persianTranslation = "شارژر موبایل دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3731,7 +3421,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم شاحن آيفون؟",
             iraqiPronunciation = "عَدکُم شاحِن آیفون؟",
-            finglish = "عَدکُم شاحِن آیفون؟",
             persianTranslation = "شارژر آیفون دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3743,7 +3432,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم شاحن تايب سي؟",
             iraqiPronunciation = "عَدکُم شاحِن تایب سی؟",
-            finglish = "عَدکُم شاحِن تایب سی؟",
             persianTranslation = "شارژر اندروید دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3755,7 +3443,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم كيبل شحن؟",
             iraqiPronunciation = "عَدکُم کِیبِل شَحن؟",
-            finglish = "عَدکُم کِیبِل شَحن؟",
             persianTranslation = "کابل شارژ دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3767,7 +3454,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "عدكم باور بانك؟",
             iraqiPronunciation = "عَدکُم پاور بانک؟",
-            finglish = "عَدکُم پاور بانک؟",
             persianTranslation = "پاوربانک دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -3779,7 +3465,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "وين الكهرباء؟",
             iraqiPronunciation = "وِین الکَهرَباء؟",
-            finglish = "وِین الکَهرَباء؟",
             persianTranslation = "برق کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -3791,7 +3476,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "وين الفيش؟",
             iraqiPronunciation = "وِین الفِیش؟",
-            finglish = "وِین الفِیش؟",
             persianTranslation = "پریز برق کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -3803,7 +3487,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "أگدر أشحن موبايلي؟",
             iraqiPronunciation = "أگدَر أِشحَن موبایِلی؟",
-            finglish = "أگدَر أِشحَن موبایِلی؟",
             persianTranslation = "می‌توانم گوشی‌ام را شارژ کنم؟",
             forRole = "BOTH",
             isVip = true
@@ -3815,7 +3498,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "خلص شحنه.",
             iraqiPronunciation = "خَلَص شَحنَه.",
-            finglish = "خَلَص شَحنَه.",
             persianTranslation = "شارژش تمام شده.",
             forRole = "BOTH",
             isVip = true
@@ -3827,7 +3509,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "البطارية ضعيفة.",
             iraqiPronunciation = "البَطّارِیَّه ضَعیفَه.",
-            finglish = "البَطّارِیَّه ضَعیفَه.",
             persianTranslation = "باتری ضعیف است.",
             forRole = "BOTH",
             isVip = true
@@ -3839,7 +3520,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "ما يتصل.",
             iraqiPronunciation = "ما یِتَّصِل.",
-            finglish = "ما یِتَّصِل.",
             persianTranslation = "تماس نمی‌گیرد.",
             forRole = "BOTH",
             isVip = true
@@ -3851,7 +3531,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "صوتك ما يوصل.",
             iraqiPronunciation = "صَوتَک ما یِوصَل.",
-            finglish = "صَوتَک ما یِوصَل.",
             persianTranslation = "صدایت نمی‌آید.",
             forRole = "BOTH",
             isVip = true
@@ -3863,7 +3542,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "احچي أعلى شوي.",
             iraqiPronunciation = "اِحچی اَعلی شِوَی.",
-            finglish = "اِحچی اَعلی شِوَی.",
             persianTranslation = "بلندتر صحبت کن.",
             forRole = "BOTH",
             isVip = true
@@ -3875,7 +3553,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "اتصل مرة ثانية.",
             iraqiPronunciation = "اِتَّصِل مَرَّه ثانِیَه.",
-            finglish = "اِتَّصِل مَرَّه ثانِیَه.",
             persianTranslation = "دوباره زنگ بزن.",
             forRole = "BOTH",
             isVip = true
@@ -3887,7 +3564,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "ابعث رسالة.",
             iraqiPronunciation = "اِبعَث رِسالَه.",
-            finglish = "اِبعَث رِسالَه.",
             persianTranslation = "پیام بفرست.",
             forRole = "BOTH",
             isVip = true
@@ -3899,7 +3575,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "ابعث الموقع.",
             iraqiPronunciation = "اِبعَث المَوقِع.",
-            finglish = "اِبعَث المَوقِع.",
             persianTranslation = "لوکیشن بفرست.",
             forRole = "BOTH",
             isVip = true
@@ -3911,7 +3586,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "الإنترنت بطيء.",
             iraqiPronunciation = "الاِنتِرنِت بَطیء.",
-            finglish = "الاِنتِرنِت بَطیء.",
             persianTranslation = "اینترنت کند است.",
             forRole = "BOTH",
             isVip = true
@@ -3923,7 +3597,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "شكراً على مساعدتك.",
             iraqiPronunciation = "شُکراً عَله مُساعَدَتَک.",
-            finglish = "شُکراً عَله مُساعَدَتَک.",
             persianTranslation = "ممنون از کمکت.",
             forRole = "BOTH",
             isVip = true
@@ -3935,7 +3608,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "الله يجزيك خير.",
             iraqiPronunciation = "الله یِجزیک خیر.",
-            finglish = "الله یِجزیک خیر.",
             persianTranslation = "خدا خیرت بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -3947,7 +3619,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "الله يحفظك.",
             iraqiPronunciation = "الله یِحفَظَک.",
-            finglish = "الله یِحفَظَک.",
             persianTranslation = "خدا حفظت کند.",
             forRole = "BOTH",
             isVip = true
@@ -3959,7 +3630,6 @@ object DatabaseInitializer {
             category_id = "mobile",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -3971,7 +3641,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ساعدوني!",
             iraqiPronunciation = "ساعِدونی!",
-            finglish = "ساعِدونی!",
             persianTranslation = "کمک!",
             forRole = "BOTH",
             isVip = true
@@ -3983,7 +3652,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ساعدني لو سمحت.",
             iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            finglish = "ساعِدنی لو سَمَحت.",
             persianTranslation = "لطفاً کمکم کنید.",
             forRole = "BOTH",
             isVip = true
@@ -3995,7 +3663,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "وين الشرطة؟",
             iraqiPronunciation = "وِین الشُّرتَه؟",
-            finglish = "وِین الشُّرتَه؟",
             persianTranslation = "پلیس کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -4007,7 +3674,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "جيب إسعاف.",
             iraqiPronunciation = "جِیب اِسعاف.",
-            finglish = "جِیب اِسعاف.",
             persianTranslation = "آمبولانس خبر کنید.",
             forRole = "BOTH",
             isVip = true
@@ -4019,7 +3685,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "اتصل بالإطفائية.",
             iraqiPronunciation = "اِتَّصِل بِالإطفائیَّه.",
-            finglish = "اِتَّصِل بِالإطفائیَّه.",
             persianTranslation = "آتش‌نشانی را خبر کنید.",
             forRole = "BOTH",
             isVip = true
@@ -4031,7 +3696,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "آني ضايع.",
             iraqiPronunciation = "آنی ضایِع.",
-            finglish = "آنی ضایِع.",
             persianTranslation = "گم شده‌ام.",
             forRole = "BOTH",
             isVip = true
@@ -4043,7 +3707,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ضيعت الطريق.",
             iraqiPronunciation = "ضَیَّعت الطَّریق.",
-            finglish = "ضَیَّعت الطَّریق.",
             persianTranslation = "راهم را گم کرده‌ام.",
             forRole = "BOTH",
             isVip = true
@@ -4055,7 +3718,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ضاع صاحبي.",
             iraqiPronunciation = "ضاع صاحِبی.",
-            finglish = "ضاع صاحِبی.",
             persianTranslation = "همراهم گم شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4067,7 +3729,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ضاع طفلي.",
             iraqiPronunciation = "ضاع طِفلی.",
-            finglish = "ضاع طِفلی.",
             persianTranslation = "بچه‌ام گم شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4079,7 +3740,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ضاعت محفظتي.",
             iraqiPronunciation = "ضاعَت مَحفَظَتی.",
-            finglish = "ضاعَت مَحفَظَتی.",
             persianTranslation = "کیفم گم شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4091,7 +3751,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ضاع موبايلي.",
             iraqiPronunciation = "ضاع موبایِلی.",
-            finglish = "ضاع موبایِلی.",
             persianTranslation = "گوشی‌ام گم شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4103,7 +3762,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ضاع جواز سفري.",
             iraqiPronunciation = "ضاع جَواز سَفَری.",
-            finglish = "ضاع جَواز سَفَری.",
             persianTranslation = "پاسپورتم گم شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4115,7 +3773,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "انسرقت محفظتي.",
             iraqiPronunciation = "اِنسَرَقَت مَحفَظَتی.",
-            finglish = "اِنسَرَقَت مَحفَظَتی.",
             persianTranslation = "کیفم را دزدیده‌اند.",
             forRole = "BOTH",
             isVip = true
@@ -4127,7 +3784,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "انسرقت فلوسي.",
             iraqiPronunciation = "اِنسَرَقَت فُلوسی.",
-            finglish = "اِنسَرَقَت فُلوسی.",
             persianTranslation = "پولم را دزدیده‌اند.",
             forRole = "BOTH",
             isVip = true
@@ -4139,7 +3795,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "حالتي تعبت.",
             iraqiPronunciation = "حالتِی تِعَبَت.",
-            finglish = "حالتِی تِعَبَت.",
             persianTranslation = "حالم بد شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4151,7 +3806,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "ما أگدر أمشي.",
             iraqiPronunciation = "ما أگدَر اَمشی.",
-            finglish = "ما أگدَر اَمشی.",
             persianTranslation = "نمی‌توانم راه بروم.",
             forRole = "BOTH",
             isVip = true
@@ -4163,7 +3817,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "عندي دوخة.",
             iraqiPronunciation = "عِندی دَوخَه.",
-            finglish = "عِندی دَوخَه.",
             persianTranslation = "سرم گیج می‌رود.",
             forRole = "BOTH",
             isVip = true
@@ -4175,7 +3828,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "أغمي عليه.",
             iraqiPronunciation = "اُغمِیَ عَلَیه.",
-            finglish = "اُغمِیَ عَلَیه.",
             persianTranslation = "بیهوش شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4187,7 +3839,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "صار حادث.",
             iraqiPronunciation = "صار حادِث.",
-            finglish = "صار حادِث.",
             persianTranslation = "تصادف شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4199,7 +3850,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "أكو حريق.",
             iraqiPronunciation = "اَکو حَریق.",
-            finglish = "اَکو حَریق.",
             persianTranslation = "آتش گرفته است.",
             forRole = "BOTH",
             isVip = true
@@ -4211,7 +3861,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "استعجلوا لو سمحت.",
             iraqiPronunciation = "اِستَعجِلوا لو سَمَحت.",
-            finglish = "اِستَعجِلوا لو سَمَحت.",
             persianTranslation = "لطفاً عجله کنید.",
             forRole = "BOTH",
             isVip = true
@@ -4223,7 +3872,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "أهلي هناك.",
             iraqiPronunciation = "اَهلی هِناک.",
-            finglish = "اَهلی هِناک.",
             persianTranslation = "خانواده‌ام آنجا هستند.",
             forRole = "BOTH",
             isVip = true
@@ -4235,7 +3883,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "آني إيراني.",
             iraqiPronunciation = "آنی ایرانی.",
-            finglish = "آنی ایرانی.",
             persianTranslation = "من ایرانی هستم.",
             forRole = "BOTH",
             isVip = true
@@ -4247,7 +3894,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "تعرف فارسي؟",
             iraqiPronunciation = "تَعرِف فارسی؟",
-            finglish = "تَعرِف فارسی؟",
             persianTranslation = "فارسی بلدی؟",
             forRole = "BOTH",
             isVip = true
@@ -4259,7 +3905,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "تعرف إنكليزي؟",
             iraqiPronunciation = "تَعرِف اِنکلیزی؟",
-            finglish = "تَعرِف اِنکلیزی؟",
             persianTranslation = "انگلیسی بلدی؟",
             forRole = "BOTH",
             isVip = true
@@ -4271,7 +3916,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "لا تخاف.",
             iraqiPronunciation = "لا تَخاف.",
-            finglish = "لا تَخاف.",
             persianTranslation = "آرام باشید (نترسید).",
             forRole = "BOTH",
             isVip = true
@@ -4283,7 +3927,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "الحمد لله، صار زين.",
             iraqiPronunciation = "الحمدلله، صار زِین.",
-            finglish = "الحمدلله، صار زِین.",
             persianTranslation = "همه‌چیز خوب شد.",
             forRole = "BOTH",
             isVip = true
@@ -4295,7 +3938,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "شكراً جزيلاً.",
             iraqiPronunciation = "شُکراً جَزیلاً.",
-            finglish = "شُکراً جَزیلاً.",
             persianTranslation = "خیلی ممنون.",
             forRole = "BOTH",
             isVip = true
@@ -4307,7 +3949,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "الله يجزيك خير.",
             iraqiPronunciation = "الله یِجزیک خیر.",
-            finglish = "الله یِجزیک خیر.",
             persianTranslation = "خدا خیرت بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -4319,7 +3960,6 @@ object DatabaseInitializer {
             category_id = "emergency",
             arabicText = "الله يحفظك.",
             iraqiPronunciation = "الله یِحفَظَک.",
-            finglish = "الله یِحفَظَک.",
             persianTranslation = "خدا حفظت کند.",
             forRole = "BOTH",
             isVip = true
@@ -4331,7 +3971,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "هاي زوجتي.",
             iraqiPronunciation = "های زَوجَتی.",
-            finglish = "های زَوجَتی.",
             persianTranslation = "این همسر من است.",
             forRole = "BOTH",
             isVip = true
@@ -4343,7 +3982,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "هذا زوجي.",
             iraqiPronunciation = "هذا زَوجی.",
-            finglish = "هذا زَوجی.",
             persianTranslation = "این شوهر من است.",
             forRole = "BOTH",
             isVip = true
@@ -4355,7 +3993,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "هذا ابني.",
             iraqiPronunciation = "هذا اِبنی.",
-            finglish = "هذا اِبنی.",
             persianTranslation = "این پسرم است.",
             forRole = "BOTH",
             isVip = true
@@ -4367,7 +4004,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "هاي بنتي.",
             iraqiPronunciation = "های بِنتی.",
-            finglish = "های بِنتی.",
             persianTranslation = "این دخترم است.",
             forRole = "BOTH",
             isVip = true
@@ -4379,7 +4015,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "طفلي تعبان.",
             iraqiPronunciation = "طِفلی تَعبان.",
-            finglish = "طِفلی تَعبان.",
             persianTranslation = "بچه‌ام خسته شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4391,7 +4026,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "طفلي جوعان.",
             iraqiPronunciation = "طِفلی جَوعان.",
-            finglish = "طِفلی جَوعان.",
             persianTranslation = "بچه‌ام گرسنه است.",
             forRole = "BOTH",
             isVip = true
@@ -4403,7 +4037,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "طفلي عطشان.",
             iraqiPronunciation = "طِفلی عَطشان.",
-            finglish = "طِفلی عَطشان.",
             persianTranslation = "بچه‌ام تشنه است.",
             forRole = "BOTH",
             isVip = true
@@ -4415,7 +4048,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "طفلي نعسان.",
             iraqiPronunciation = "طِفلی نَعسان.",
-            finglish = "طِفلی نَعسان.",
             persianTranslation = "بچه‌ام خوابش می‌آید.",
             forRole = "BOTH",
             isVip = true
@@ -4427,7 +4059,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "ضاع طفلي.",
             iraqiPronunciation = "ضاع طِفلی.",
-            finglish = "ضاع طِفلی.",
             persianTranslation = "بچه‌ام گم شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4439,7 +4070,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "شفتوا طفلي؟",
             iraqiPronunciation = "شِفتوا طِفلی؟",
-            finglish = "شِفتوا طِفلی؟",
             persianTranslation = "بچه‌ام را دیده‌اید؟",
             forRole = "BOTH",
             isVip = true
@@ -4451,7 +4081,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "عدكم عربانة أطفال؟",
             iraqiPronunciation = "عَدکُم عَرَبانة اَطفال؟",
-            finglish = "عَدکُم عَرَبانة اَطفال؟",
             persianTranslation = "کالسکه دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4463,7 +4092,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "عدكم حليب أطفال؟",
             iraqiPronunciation = "عَدکُم حَلیب اَطفال؟",
-            finglish = "عَدکُم حَلیب اَطفال؟",
             persianTranslation = "شیر خشک دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4475,7 +4103,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "عدكم حفاض؟",
             iraqiPronunciation = "عَدکُم حِفاض؟",
-            finglish = "عَدکُم حِفاض؟",
             persianTranslation = "پوشک دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4487,7 +4114,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "عدكم ماي حار؟",
             iraqiPronunciation = "عَدکُم مای حار؟",
-            finglish = "عَدکُم مای حار؟",
             persianTranslation = "آب گرم دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4499,7 +4125,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "أگدر أبدل الحفاض هنانة؟",
             iraqiPronunciation = "أگدَر أَبَدِّل الحِفاض هِنانه؟",
-            finglish = "أگدَر أَبَدِّل الحِفاض هِنانه؟",
             persianTranslation = "می‌توانم اینجا بچه را عوض کنم؟",
             forRole = "BOTH",
             isVip = true
@@ -4511,7 +4136,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "أهلي هناك.",
             iraqiPronunciation = "اَهلی هِناک.",
-            finglish = "اَهلی هِناک.",
             persianTranslation = "خانواده‌ام آن طرف هستند.",
             forRole = "BOTH",
             isVip = true
@@ -4523,7 +4147,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "دا أنتظر أهلي.",
             iraqiPronunciation = "دا اَنتَظِر اَهلی.",
-            finglish = "دا اَنتَظِر اَهلی.",
             persianTranslation = "منتظر خانواده‌ام هستم.",
             forRole = "BOTH",
             isVip = true
@@ -4535,7 +4158,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "أمي هنانة.",
             iraqiPronunciation = "اُمّی هِنانه.",
-            finglish = "اُمّی هِنانه.",
             persianTranslation = "مادرم اینجاست.",
             forRole = "BOTH",
             isVip = true
@@ -4547,7 +4169,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "أبويه هنانة.",
             iraqiPronunciation = "اَبویَه هِنانه.",
-            finglish = "اَبویَه هِنانه.",
             persianTranslation = "پدرم اینجاست.",
             forRole = "BOTH",
             isVip = true
@@ -4559,7 +4180,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "أخويه هنانة.",
             iraqiPronunciation = "اَخویَه هِنانه.",
-            finglish = "اَخویَه هِنانه.",
             persianTranslation = "برادرم اینجاست.",
             forRole = "BOTH",
             isVip = true
@@ -4571,7 +4191,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "أختي هنانة.",
             iraqiPronunciation = "اُختی هِنانه.",
-            finglish = "اُختی هِنانه.",
             persianTranslation = "خواهرم اینجاست.",
             forRole = "BOTH",
             isVip = true
@@ -4583,7 +4202,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "انتبه على الطفل لو سمحت.",
             iraqiPronunciation = "اِنتَبِه عَله الطِّفل لو سَمَحت.",
-            finglish = "اِنتَبِه عَله الطِّفل لو سَمَحت.",
             persianTranslation = "لطفاً مواظب بچه باشید.",
             forRole = "BOTH",
             isVip = true
@@ -4595,7 +4213,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "الطفل عنده حرارة.",
             iraqiPronunciation = "الطِّفل عِندَه حَرارَه.",
-            finglish = "الطِّفل عِندَه حَرارَه.",
             persianTranslation = "بچه تب دارد.",
             forRole = "BOTH",
             isVip = true
@@ -4607,7 +4224,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "الطفل دا يبچي.",
             iraqiPronunciation = "الطِّفل دا یِبچی.",
-            finglish = "الطِّفل دا یِبچی.",
             persianTranslation = "بچه گریه می‌کند.",
             forRole = "BOTH",
             isVip = true
@@ -4619,7 +4235,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "الطفل خاف.",
             iraqiPronunciation = "الطِّفل خاف.",
-            finglish = "الطِّفل خاف.",
             persianTranslation = "بچه ترسیده است.",
             forRole = "BOTH",
             isVip = true
@@ -4631,7 +4246,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "خلّوا الطفل يمر أول.",
             iraqiPronunciation = "خَلّوا الطِّفل یِمُرّ اَوَّل.",
-            finglish = "خَلّوا الطِّفل یِمُرّ اَوَّل.",
             persianTranslation = "می‌شود اول بچه را رد کنید؟",
             forRole = "BOTH",
             isVip = true
@@ -4643,7 +4257,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "شكراً جزيلاً.",
             iraqiPronunciation = "شُکراً جَزیلاً.",
-            finglish = "شُکراً جَزیلاً.",
             persianTranslation = "خیلی ممنون.",
             forRole = "BOTH",
             isVip = true
@@ -4655,7 +4268,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -4667,7 +4279,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "الله يحفظكم.",
             iraqiPronunciation = "الله یِحفَظکُم.",
-            finglish = "الله یِحفَظکُم.",
             persianTranslation = "خدا حفظتان کند.",
             forRole = "BOTH",
             isVip = true
@@ -4679,7 +4290,6 @@ object DatabaseInitializer {
             category_id = "family",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -4691,7 +4301,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "شكد بقى لكربلاء؟",
             iraqiPronunciation = "شگِد بَقى لِکَربَلاء؟",
-            finglish = "شگِد بَقى لِکَربَلاء؟",
             persianTranslation = "تا کربلا چقدر مانده؟",
             forRole = "BOTH",
             isVip = true
@@ -4703,7 +4312,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "شكد بقى للنجف؟",
             iraqiPronunciation = "شگِد بَقى لِلنَّجَف؟",
-            finglish = "شگِد بَقى لِلنَّجَف؟",
             persianTranslation = "تا نجف چقدر مانده؟",
             forRole = "BOTH",
             isVip = true
@@ -4715,7 +4323,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "شكد رقم العمود؟",
             iraqiPronunciation = "شگِد رَقَم العَمود؟",
-            finglish = "شگِد رَقَم العَمود؟",
             persianTranslation = "شماره عمود چند است؟",
             forRole = "BOTH",
             isVip = true
@@ -4727,7 +4334,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "وين العمود الجاي؟",
             iraqiPronunciation = "وِین العَمود الجای؟",
-            finglish = "وِین العَمود الجای؟",
             persianTranslation = "عمود بعدی کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -4739,7 +4345,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "هذا الطريق يودي لكربلاء؟",
             iraqiPronunciation = "هذا الطَّریق یودّی لِکَربَلاء؟",
-            finglish = "هذا الطَّریق یودّی لِکَربَلاء؟",
             persianTranslation = "این مسیر به کربلا می‌رود؟",
             forRole = "BOTH",
             isVip = true
@@ -4751,7 +4356,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "هذا الطريق يودي للنجف؟",
             iraqiPronunciation = "هذا الطَّریق یودّی لِلنَّجَف؟",
-            finglish = "هذا الطَّریق یودّی لِلنَّجَف؟",
             persianTranslation = "این مسیر به نجف می‌رود؟",
             forRole = "BOTH",
             isVip = true
@@ -4763,7 +4367,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "هذا الموكب إيراني؟",
             iraqiPronunciation = "هذا المَوکِب ایرانی؟",
-            finglish = "هذا المَوکِب ایرانی؟",
             persianTranslation = "موکب ایرانی است؟",
             forRole = "BOTH",
             isVip = true
@@ -4775,7 +4378,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم مكان للراحة؟",
             iraqiPronunciation = "عَدکُم مَکان لِلرّاحَه؟",
-            finglish = "عَدکُم مَکان لِلرّاحَه؟",
             persianTranslation = "جای استراحت دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4787,7 +4389,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم مكان للنوم؟",
             iraqiPronunciation = "عَدکُم مَکان لِلنَّوم؟",
-            finglish = "عَدکُم مَکان لِلنَّوم؟",
             persianTranslation = "جای خواب دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4799,7 +4400,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم كرسي متحرك؟",
             iraqiPronunciation = "عَدکُم کُرسی مُتَحَرِّک؟",
-            finglish = "عَدکُم کُرسی مُتَحَرِّک؟",
             persianTranslation = "ویلچر دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4811,7 +4411,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم عصا؟",
             iraqiPronunciation = "عَدکُم عَصا؟",
-            finglish = "عَدکُم عَصا؟",
             persianTranslation = "عصا دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4823,7 +4422,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "جوتيي انقطع.",
             iraqiPronunciation = "جوتیّی اِنقَطَع.",
-            finglish = "جوتیّی اِنقَطَع.",
             persianTranslation = "کفشم پاره شده است.",
             forRole = "BOTH",
             isVip = true
@@ -4835,7 +4433,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم جرابات؟",
             iraqiPronunciation = "عَدکُم جَرابات؟",
-            finglish = "عَدکُم جَرابات؟",
             persianTranslation = "جوراب دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4847,7 +4444,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "رجلي بيها نفطة.",
             iraqiPronunciation = "رِجلی بیها نَفطَه.",
-            finglish = "رِجلی بیها نَفطَه.",
             persianTranslation = "پایم تاول زده است.",
             forRole = "BOTH",
             isVip = true
@@ -4859,7 +4455,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم مرهم؟",
             iraqiPronunciation = "عَدکُم مَرهَم؟",
-            finglish = "عَدکُم مَرهَم؟",
             persianTranslation = "پماد دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4871,7 +4466,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم لزگ جروح؟",
             iraqiPronunciation = "عَدکُم لَزگ جُروح؟",
-            finglish = "عَدکُم لَزگ جُروح؟",
             persianTranslation = "چسب زخم دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4883,7 +4477,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "عدكم مساج للرجل؟",
             iraqiPronunciation = "عَدکُم مَساژ لِلرِّجِل؟",
-            finglish = "عَدکُم مَساژ لِلرِّجِل؟",
             persianTranslation = "ماساژ پا دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -4895,7 +4488,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "أريد ماي بارد.",
             iraqiPronunciation = "اَرید مای بارِد.",
-            finglish = "اَرید مای بارِد.",
             persianTranslation = "آب سرد می‌خواهم.",
             forRole = "BOTH",
             isVip = true
@@ -4907,7 +4499,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "تعبت كلش.",
             iraqiPronunciation = "تِعَبت کُلِش.",
-            finglish = "تِعَبت کُلِش.",
             persianTranslation = "خیلی خسته شدم.",
             forRole = "BOTH",
             isVip = true
@@ -4919,7 +4510,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "أريد أرتاح شوي.",
             iraqiPronunciation = "اَرید اَرتاح شِوَی.",
-            finglish = "اَرید اَرتاح شِوَی.",
             persianTranslation = "می‌خواهم کمی استراحت کنم.",
             forRole = "BOTH",
             isVip = true
@@ -4931,7 +4521,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "وين المصلى؟",
             iraqiPronunciation = "وِین المُصَلّى؟",
-            finglish = "وِین المُصَلّى؟",
             persianTranslation = "نمازخانه کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -4943,7 +4532,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "وين محل الوضوء؟",
             iraqiPronunciation = "وِین مَحَل الوُضوء؟",
-            finglish = "وِین مَحَل الوُضوء؟",
             persianTranslation = "وضوخانه کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -4955,7 +4543,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "وين الحمام؟",
             iraqiPronunciation = "وِین الحَمّام؟",
-            finglish = "وِین الحَمّام؟",
             persianTranslation = "سرویس بهداشتی کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -4967,7 +4554,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "دلّوني لو سمحت.",
             iraqiPronunciation = "دِلّونی لو سَمَحت.",
-            finglish = "دِلّونی لو سَمَحت.",
             persianTranslation = "لطفاً راهنماییم کنید.",
             forRole = "BOTH",
             isVip = true
@@ -4979,7 +4565,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "الله ينطيكم العافية.",
             iraqiPronunciation = "الله یِنطیکُم العافِیَه.",
-            finglish = "الله یِنطیکُم العافِیَه.",
             persianTranslation = "خدا قوت.",
             forRole = "BOTH",
             isVip = true
@@ -4991,7 +4576,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "الله يتقبل منكم.",
             iraqiPronunciation = "الله یِتقَبَّل مِنکُم.",
-            finglish = "الله یِتقَبَّل مِنکُم.",
             persianTranslation = "خدا قبول کند.",
             forRole = "BOTH",
             isVip = true
@@ -5003,7 +4587,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "الله يجزيكم خير.",
             iraqiPronunciation = "الله یِجزیکُم خیر.",
-            finglish = "الله یِجزیکُم خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -5015,7 +4598,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "الله يتقبل زيارتكم.",
             iraqiPronunciation = "الله یِتقَبَّل زِیارَتکُم.",
-            finglish = "الله یِتقَبَّل زِیارَتکُم.",
             persianTranslation = "ان‌شاءالله زیارتتان قبول باشد.",
             forRole = "BOTH",
             isVip = true
@@ -5027,7 +4609,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "أدعيلكم.",
             iraqiPronunciation = "اَدعیلکُم.",
-            finglish = "اَدعیلکُم.",
             persianTranslation = "دعاگوی شما هستم.",
             forRole = "BOTH",
             isVip = true
@@ -5039,7 +4620,6 @@ object DatabaseInitializer {
             category_id = "arbaeen_walk",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -5051,7 +4631,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "السلام عليكم يا أبا عبد الله.",
             iraqiPronunciation = "اَلسَّلام عَلَیکُم یا اَبا عَبداِلله.",
-            finglish = "اَلسَّلام عَلَیکُم یا اَبا عَبداِلله.",
             persianTranslation = "سلام بر امام حسین (ع)",
             forRole = "BOTH",
             isVip = true
@@ -5063,7 +4642,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "السلام عليك يا عباس.",
             iraqiPronunciation = "اَلسَّلام عَلَیکَ یا عَبّاس.",
-            finglish = "اَلسَّلام عَلَیکَ یا عَبّاس.",
             persianTranslation = "سلام بر حضرت عباس (ع)",
             forRole = "BOTH",
             isVip = true
@@ -5075,7 +4653,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "أريد أزور الإمام.",
             iraqiPronunciation = "اَرید اَزور الإمام.",
-            finglish = "اَرید اَزور الإمام.",
             persianTranslation = "می‌خواهم زیارت کنم.",
             forRole = "BOTH",
             isVip = true
@@ -5087,7 +4664,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "أريد أقرأ الزيارة.",
             iraqiPronunciation = "اَرید اَقرا الزِّیارَه.",
-            finglish = "اَرید اَقرا الزِّیارَه.",
             persianTranslation = "می‌خواهم زیارت‌نامه بخوانم.",
             forRole = "BOTH",
             isVip = true
@@ -5099,7 +4675,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "ادعيلي.",
             iraqiPronunciation = "اِدعِلی.",
-            finglish = "اِدعِلی.",
             persianTranslation = "برایم دعا کن.",
             forRole = "BOTH",
             isVip = true
@@ -5111,7 +4686,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "لا تنساني من الدعاء.",
             iraqiPronunciation = "لا تِنسانی مِن الدُّعاء.",
-            finglish = "لا تِنسانی مِن الدُّعاء.",
             persianTranslation = "من را از دعایت فراموش نکن.",
             forRole = "BOTH",
             isVip = true
@@ -5123,7 +4697,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "الله يتقبل زيارتكم.",
             iraqiPronunciation = "الله یِتقَبَّل زِیارَتکُم.",
-            finglish = "الله یِتقَبَّل زِیارَتکُم.",
             persianTranslation = "خدا زیارتتان را قبول کند.",
             forRole = "BOTH",
             isVip = true
@@ -5135,7 +4708,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "زيارة مقبولة.",
             iraqiPronunciation = "زِیارَه مَقبولَه.",
-            finglish = "زِیارَه مَقبولَه.",
             persianTranslation = "زیارت قبول.",
             forRole = "BOTH",
             isVip = true
@@ -5147,7 +4719,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "الله يرزقكم الزيارة.",
             iraqiPronunciation = "الله یِرزُقکُم الزِّیارَه.",
-            finglish = "الله یِرزُقکُم الزِّیارَه.",
             persianTranslation = "خدا قسمتتان کند.",
             forRole = "BOTH",
             isVip = true
@@ -5159,7 +4730,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "إن شاء الله نزور مرة ثانية.",
             iraqiPronunciation = "اِن‌شاءالله نَزور مَرَّه ثانِیَه.",
-            finglish = "اِن‌شاءالله نَزور مَرَّه ثانِیَه.",
             persianTranslation = "ان‌شاءالله دوباره زیارت کنیم.",
             forRole = "BOTH",
             isVip = true
@@ -5171,7 +4741,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "أين الضريح؟",
             iraqiPronunciation = "اَینَ الضَّریح؟",
-            finglish = "اَینَ الضَّریح؟",
             persianTranslation = "ضریح کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -5183,7 +4752,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "أين الشباك؟",
             iraqiPronunciation = "اَینَ الشُّبّاک؟",
-            finglish = "اَینَ الشُّبّاک؟",
             persianTranslation = "ضریح (شباک) کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -5195,7 +4763,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "أريد ألمس الضريح.",
             iraqiPronunciation = "اَرید اَلمَس الضَّریح.",
-            finglish = "اَرید اَلمَس الضَّریح.",
             persianTranslation = "می‌خواهم ضریح را لمس کنم.",
             forRole = "BOTH",
             isVip = true
@@ -5207,7 +4774,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "الزحمة كلش هواية.",
             iraqiPronunciation = "الزَّحمَه کُلِش هَوایِه.",
-            finglish = "الزَّحمَه کُلِش هَوایِه.",
             persianTranslation = "خیلی شلوغ است.",
             forRole = "BOTH",
             isVip = true
@@ -5219,7 +4785,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "شوي شوي.",
             iraqiPronunciation = "شِوَی شِوَی.",
-            finglish = "شِوَی شِوَی.",
             persianTranslation = "آرام‌آرام.",
             forRole = "BOTH",
             isVip = true
@@ -5231,7 +4796,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "انتبه.",
             iraqiPronunciation = "اِنتَبِه.",
-            finglish = "اِنتَبِه.",
             persianTranslation = "مواظب باش.",
             forRole = "BOTH",
             isVip = true
@@ -5243,7 +4807,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "افسح الطريق لو سمحت.",
             iraqiPronunciation = "اِفسَح الطَّریق لو سَمَحت.",
-            finglish = "اِفسَح الطَّریق لو سَمَحت.",
             persianTranslation = "لطفاً راه را باز کنید.",
             forRole = "BOTH",
             isVip = true
@@ -5255,7 +4818,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "أريد أصلي.",
             iraqiPronunciation = "اَرید اَصَلّی.",
-            finglish = "اَرید اَصَلّی.",
             persianTranslation = "می‌خواهم نماز بخوانم.",
             forRole = "BOTH",
             isVip = true
@@ -5267,7 +4829,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "وين القبلة؟",
             iraqiPronunciation = "وِین القِبلَه؟",
-            finglish = "وِین القِبلَه؟",
             persianTranslation = "قبله کدام طرف است؟",
             forRole = "BOTH",
             isVip = true
@@ -5279,7 +4840,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "وين مكان الوضوء؟",
             iraqiPronunciation = "وِین مَکان الوُضوء؟",
-            finglish = "وِین مَکان الوُضوء؟",
             persianTranslation = "وضوخانه کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -5291,7 +4851,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "تاج راسي",
             iraqiPronunciation = "تاج راسی",
-            finglish = "تاج راسی",
             persianTranslation = "تاج سرم هستی (برای احترام)",
             forRole = "BOTH",
             isVip = true
@@ -5303,7 +4862,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "تدلل",
             iraqiPronunciation = "تِدَلَّل",
-            finglish = "تِدَلَّل",
             persianTranslation = "شما امر بفرما / در خدمتم",
             forRole = "BOTH",
             isVip = true
@@ -5315,7 +4873,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "رحم الله والديك",
             iraqiPronunciation = "رَحِمَ الله والِدَیک",
-            finglish = "رَحِمَ الله والِدَیک",
             persianTranslation = "خدا پدر و مادرت را بیامرزد",
             forRole = "BOTH",
             isVip = true
@@ -5327,7 +4884,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "من عيوني",
             iraqiPronunciation = "مِن عُیونی",
-            finglish = "مِن عُیونی",
             persianTranslation = "روی چشمم / با کمال میل",
             forRole = "BOTH",
             isVip = true
@@ -5339,7 +4895,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "جزاكم الله خير.",
             iraqiPronunciation = "جَزاکُم الله خیر.",
-            finglish = "جَزاکُم الله خیر.",
             persianTranslation = "خدا خیرتان بدهد.",
             forRole = "BOTH",
             isVip = true
@@ -5351,7 +4906,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "في أمان الله.",
             iraqiPronunciation = "فی اَمان الله.",
-            finglish = "فی اَمان الله.",
             persianTranslation = "به خدا می‌سپارمت.",
             forRole = "BOTH",
             isVip = true
@@ -5363,7 +4917,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "الله يحفظكم.",
             iraqiPronunciation = "الله یِحفَظکُم.",
-            finglish = "الله یِحفَظکُم.",
             persianTranslation = "خدا حفظتان کند.",
             forRole = "BOTH",
             isVip = true
@@ -5375,7 +4928,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "مع السلامة.",
             iraqiPronunciation = "مَعَ السَّلامَه.",
-            finglish = "مَعَ السَّلامَه.",
             persianTranslation = "خداحافظ.",
             forRole = "BOTH",
             isVip = true
@@ -5387,7 +4939,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "نلتقي إن شاء الله.",
             iraqiPronunciation = "نَلتَقی اِن‌شاءالله.",
-            finglish = "نَلتَقی اِن‌شاءالله.",
             persianTranslation = "ان‌شاءالله دوباره ببینمت.",
             forRole = "BOTH",
             isVip = true
@@ -5399,7 +4950,6 @@ object DatabaseInitializer {
             category_id = "religious",
             arabicText = "تقبل الله أعمالكم.",
             iraqiPronunciation = "تَقَبَّلَ الله اَعمالَکُم.",
-            finglish = "تَقَبَّلَ الله اَعمالَکُم.",
             persianTranslation = "خدا اعمالتان را قبول کند.",
             forRole = "BOTH",
             isVip = true
@@ -5411,7 +4961,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "تفضل",
             iraqiPronunciation = "تَفَضَّل",
-            finglish = "تَفَضَّل",
             persianTranslation = "بفرما",
             forRole = "BOTH",
             isVip = true
@@ -5423,7 +4972,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "يلا",
             iraqiPronunciation = "یَلّا",
-            finglish = "یَلّا",
             persianTranslation = "بزن بریم",
             forRole = "BOTH",
             isVip = true
@@ -5435,7 +4983,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "إي",
             iraqiPronunciation = "ای",
-            finglish = "ای",
             persianTranslation = "باشه",
             forRole = "BOTH",
             isVip = true
@@ -5447,7 +4994,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "لا",
             iraqiPronunciation = "لا",
-            finglish = "لا",
             persianTranslation = "نه",
             forRole = "BOTH",
             isVip = true
@@ -5459,7 +5005,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "ماكو مشكلة",
             iraqiPronunciation = "ماکو مُشکِلَه",
-            finglish = "ماکو مُشکِلَه",
             persianTranslation = "اشکالی نداره",
             forRole = "BOTH",
             isVip = true
@@ -5471,7 +5016,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "عادي",
             iraqiPronunciation = "عادی",
-            finglish = "عادی",
             persianTranslation = "هیچ مشکلی نیست",
             forRole = "BOTH",
             isVip = true
@@ -5483,7 +5027,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "شبيك؟",
             iraqiPronunciation = "شَبیک؟",
-            finglish = "شَبیک؟",
             persianTranslation = "چی شده؟",
             forRole = "BOTH",
             isVip = true
@@ -5495,7 +5038,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "شگلت؟",
             iraqiPronunciation = "شِگِلِت؟",
-            finglish = "شِگِلِت؟",
             persianTranslation = "چی گفتی؟",
             forRole = "BOTH",
             isVip = true
@@ -5507,7 +5049,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "شنو يعني؟",
             iraqiPronunciation = "شِنو یَعنی؟",
-            finglish = "شِنو یَعنی؟",
             persianTranslation = "یعنی چی؟",
             forRole = "BOTH",
             isVip = true
@@ -5519,7 +5060,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "ما فهمت",
             iraqiPronunciation = "ما فِهَمت",
-            finglish = "ما فِهَمت",
             persianTranslation = "نفهمیدم",
             forRole = "BOTH",
             isVip = true
@@ -5531,7 +5071,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "عيدها مرة ثانية",
             iraqiPronunciation = "عیدها مَرَّه ثانِیَه",
-            finglish = "عیدها مَرَّه ثانِیَه",
             persianTranslation = "دوباره بگو",
             forRole = "BOTH",
             isVip = true
@@ -5543,7 +5082,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "احچي شوي شوي",
             iraqiPronunciation = "اِحچی شِوَی شِوَی",
-            finglish = "اِحچی شِوَی شِوَی",
             persianTranslation = "آروم‌تر صحبت کن",
             forRole = "BOTH",
             isVip = true
@@ -5555,7 +5093,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "احچي بصوت أعلى",
             iraqiPronunciation = "اِحچی بِصَوت اَعلی",
-            finglish = "اِحچی بِصَوت اَعلی",
             persianTranslation = "بلندتر صحبت کن",
             forRole = "BOTH",
             isVip = true
@@ -5567,7 +5104,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "مستعجل",
             iraqiPronunciation = "مُستَعجِل",
-            finglish = "مُستَعجِل",
             persianTranslation = "عجله دارم",
             forRole = "BOTH",
             isVip = true
@@ -5579,7 +5115,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "اصبر",
             iraqiPronunciation = "اِصبِر",
-            finglish = "اِصبِر",
             persianTranslation = "صبر کن",
             forRole = "BOTH",
             isVip = true
@@ -5591,7 +5126,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "دقيقة",
             iraqiPronunciation = "دَقیقَه",
-            finglish = "دَقیقَه",
             persianTranslation = "یک دقیقه",
             forRole = "BOTH",
             isVip = true
@@ -5603,7 +5137,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "هسه أجي",
             iraqiPronunciation = "هَسَّه اَجی",
-            finglish = "هَسَّه اَجی",
             persianTranslation = "الان میام",
             forRole = "BOTH",
             isVip = true
@@ -5615,7 +5148,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "وين رايح؟",
             iraqiPronunciation = "وِین رایِح؟",
-            finglish = "وِین رایِح؟",
             persianTranslation = "کجا میری؟",
             forRole = "BOTH",
             isVip = true
@@ -5627,7 +5159,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "منين إجيت؟",
             iraqiPronunciation = "مِنِین اِجَیت؟",
-            finglish = "مِنِین اِجَیت؟",
             persianTranslation = "از کجا اومدی؟",
             forRole = "BOTH",
             isVip = true
@@ -5639,7 +5170,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "منين إنت؟",
             iraqiPronunciation = "مِنِین اِنتَ؟",
-            finglish = "مِنِین اِنتَ؟",
             persianTranslation = "اهل کجایی؟",
             forRole = "BOTH",
             isVip = true
@@ -5651,7 +5181,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "آني إيراني",
             iraqiPronunciation = "آنی ایرانی",
-            finglish = "آنی ایرانی",
             persianTranslation = "من ایرانی هستم",
             forRole = "BOTH",
             isVip = true
@@ -5663,7 +5192,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "كلش زين",
             iraqiPronunciation = "کُلِش زِین",
-            finglish = "کُلِش زِین",
             persianTranslation = "خیلی خوبه",
             forRole = "BOTH",
             isVip = true
@@ -5675,7 +5203,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "ممتاز",
             iraqiPronunciation = "مُمتاز",
-            finglish = "مُمتاز",
             persianTranslation = "عالیه",
             forRole = "BOTH",
             isVip = true
@@ -5687,7 +5214,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "ماكو",
             iraqiPronunciation = "ماکو",
-            finglish = "ماکو",
             persianTranslation = "مشکلی نیست",
             forRole = "BOTH",
             isVip = true
@@ -5699,7 +5225,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "صحيح",
             iraqiPronunciation = "صَحیح",
-            finglish = "صَحیح",
             persianTranslation = "درسته",
             forRole = "BOTH",
             isVip = true
@@ -5711,7 +5236,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "غلط",
             iraqiPronunciation = "غَلَط",
-            finglish = "غَلَط",
             persianTranslation = "اشتباهه",
             forRole = "BOTH",
             isVip = true
@@ -5723,7 +5247,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "الله وياك",
             iraqiPronunciation = "الله وِیّاک",
-            finglish = "الله وِیّاک",
             persianTranslation = "خدا نگهدارت",
             forRole = "BOTH",
             isVip = true
@@ -5735,7 +5258,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "الله يجزيك خير",
             iraqiPronunciation = "الله یِجزیک خیر",
-            finglish = "الله یِجزیک خیر",
             persianTranslation = "خدا خیرت بده",
             forRole = "BOTH",
             isVip = true
@@ -5747,7 +5269,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "الله يوفقك",
             iraqiPronunciation = "الله یِوَفِّقَک",
-            finglish = "الله یِوَفِّقَک",
             persianTranslation = "موفق باشی",
             forRole = "BOTH",
             isVip = true
@@ -5759,7 +5280,6 @@ object DatabaseInitializer {
             category_id = "daily_terms",
             arabicText = "مع السلامة",
             iraqiPronunciation = "مَعَ السَّلامَه",
-            finglish = "مَعَ السَّلامَه",
             persianTranslation = "خداحافظ",
             forRole = "BOTH",
             isVip = true
@@ -5771,7 +5291,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "السلام عليكم",
             iraqiPronunciation = "اَلسَّلام عَلَیکُم",
-            finglish = "اَلسَّلام عَلَیکُم",
             persianTranslation = "السلام علیکم",
             forRole = "BOTH",
             isVip = true
@@ -5783,7 +5302,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "الله ينطيكم العافية",
             iraqiPronunciation = "الله یِنطیکُم العافِیَه",
-            finglish = "الله یِنطیکُم العافِیَه",
             persianTranslation = "خدا قوت",
             forRole = "BOTH",
             isVip = true
@@ -5795,7 +5313,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "الله يقويكم",
             iraqiPronunciation = "الله یِقَوّیکُم",
-            finglish = "الله یِقَوّیکُم",
             persianTranslation = "خسته نباشید",
             forRole = "BOTH",
             isVip = true
@@ -5807,7 +5324,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "أگدر أدخل؟",
             iraqiPronunciation = "أگدَر أَدخُل؟",
-            finglish = "أگدَر أَدخُل؟",
             persianTranslation = "می‌توانم داخل بیایم؟",
             forRole = "BOTH",
             isVip = true
@@ -5819,7 +5335,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "عدكم مكان للراحة؟",
             iraqiPronunciation = "عَدکُم مَکان لِلرّاحَه؟",
-            finglish = "عَدکُم مَکان لِلرّاحَه؟",
             persianTranslation = "جای استراحت دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -5831,7 +5346,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "عدكم مكان للنوم؟",
             iraqiPronunciation = "عَدکُم مَکان لِلنَّوم؟",
-            finglish = "عَدکُم مَکان لِلنَّوم؟",
             persianTranslation = "جای خواب دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -5843,7 +5357,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "أگدر أقعد هنانة؟",
             iraqiPronunciation = "أگدَر أَقعُد هِنانه؟",
-            finglish = "أگدَر أَقعُد هِنانه؟",
             persianTranslation = "می‌توانم اینجا بنشینم؟",
             forRole = "BOTH",
             isVip = true
@@ -5855,7 +5368,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "أريد ماي لو سمحت",
             iraqiPronunciation = "اَرید مای لو سَمَحت",
-            finglish = "اَرید مای لو سَمَحت",
             persianTranslation = "آب لطفاً",
             forRole = "BOTH",
             isVip = true
@@ -5867,7 +5379,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "أريد جاي",
             iraqiPronunciation = "اَرید جای",
-            finglish = "اَرید جای",
             persianTranslation = "چای لطفاً",
             forRole = "BOTH",
             isVip = true
@@ -5879,7 +5390,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "عدكم أكل؟",
             iraqiPronunciation = "عَدکُم اَکِل؟",
-            finglish = "عَدکُم اَکِل؟",
             persianTranslation = "غذا دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -5891,7 +5401,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "شكراً جزيلاً",
             iraqiPronunciation = "شُکراً جَزیلاً",
-            finglish = "شُکراً جَزیلاً",
             persianTranslation = "خیلی ممنون",
             forRole = "BOTH",
             isVip = true
@@ -5903,7 +5412,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "الله يجزيكم خير",
             iraqiPronunciation = "الله یِجزیکُم خیر",
-            finglish = "الله یِجزیکُم خیر",
             persianTranslation = "خدا خیرتان بدهد",
             forRole = "BOTH",
             isVip = true
@@ -5915,7 +5423,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "الله يتقبل منكم",
             iraqiPronunciation = "الله یِتقَبَّل مِنکُم",
-            finglish = "الله یِتقَبَّل مِنکُم",
             persianTranslation = "خدا قبول کند",
             forRole = "BOTH",
             isVip = true
@@ -5927,7 +5434,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "وين الوضوء؟",
             iraqiPronunciation = "وِین الوُضوء؟",
-            finglish = "وِین الوُضوء؟",
             persianTranslation = "وضوخانه کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -5939,7 +5445,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "وين الحمام؟",
             iraqiPronunciation = "وِین الحَمّام؟",
-            finglish = "وِین الحَمّام؟",
             persianTranslation = "سرویس بهداشتی کجاست؟",
             forRole = "BOTH",
             isVip = true
@@ -5951,7 +5456,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "عدكم شاحن موبايل",
             iraqiPronunciation = "عَدکُم شاحِن موبایِل",
-            finglish = "عَدکُم شاحِن موبایِل",
             persianTranslation = "شارژر موبایل دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -5963,7 +5467,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "عدكم واي فاي",
             iraqiPronunciation = "عَدکُم وای فای",
-            finglish = "عَدکُم وای فای",
             persianTranslation = "وای‌فای دارید؟",
             forRole = "BOTH",
             isVip = true
@@ -5975,7 +5478,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "شنو رمز الواي فاي؟",
             iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            finglish = "شِنو رَمز الوای فای؟",
             persianTranslation = "رمز وای‌فای چیست؟",
             forRole = "BOTH",
             isVip = true
@@ -5987,7 +5489,6 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "أگدر أشحن موبايلي؟",
             iraqiPronunciation = "أگدَر أِشحَن موبایِلی؟",
-            finglish = "أگدَر أِشحَن موبایِلی؟",
             persianTranslation = "می‌توانم موبایلم را شارژ کنم؟",
             forRole = "BOTH",
             isVip = true
@@ -5999,111 +5500,110 @@ object DatabaseInitializer {
             category_id = "mowkeb_servants",
             arabicText = "الموكب مفتوح لحد شكد؟",
             iraqiPronunciation = "المَوکِب مَفتوح لِحَد شگِد؟",
-            finglish = "المَوکِب مَفتوح لِحَد شگِد؟",
             persianTranslation = "موکب تا چه ساعتی باز است؟",
             forRole = "BOTH",
             isVip = true
         ))
-                list.add(PhraseEntity(id = 501, numeric_id = 501, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هلا بيكم زوار ابو السجاد", iraqiPronunciation = "هَلا بِیکُم زُوّار أَبُو السَّجّاد", finglish = "هَلا بِیکُم زُوّار أَبُو السَّجّاد", persianTranslation = "خوش آمدید زائران اباعبدالله/امام سجاد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 502, numeric_id = 502, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا للموكب، اهلا وسهلا", iraqiPronunciation = "تَفَضَّلُوا لِلْمَوْکِبِ، أَهْلاً وَ سَهْلاً", finglish = "تَفَضَّلُوا لِلْمَوْکِبِ، أَهْلاً وَ سَهْلاً", persianTranslation = "بفرمایید داخل موکب، خیلی خوش آمدید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 503, numeric_id = 503, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بكم في موكب خدام الحسين", iraqiPronunciation = "أَهْلاً بِکُمْ فِی مَوْکِبِ خُدّامِ الحُسَیْن", finglish = "أَهْلاً بِکُمْ فِی مَوْکِبِ خُدّامِ الحُسَیْن", persianTranslation = "خوش آمدید به موکب خادمان حسین", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 504, numeric_id = 504, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شرفتونا يا زوار، اهلا ومرحباً", iraqiPronunciation = "شَرَّفْتُونَا یَا زُوّارُ، أَهْلاً وَ مَرْحَباً", finglish = "شَرَّفْتُونَا یَا زُوّارُ، أَهْلاً وَ مَرْحَباً", persianTranslation = "ما را سرافراز کردید ای زائران", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 505, numeric_id = 505, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "نورتوا الموكب بلقائكم", iraqiPronunciation = "نَوَّرْتُوا الْمَوْکِبَ بِلِقائِکُمْ", finglish = "نَوَّرْتُوا الْمَوْکِبَ بِلِقائِکُمْ", persianTranslation = "با آمدنتان موکب را نورانی کردید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 506, numeric_id = 506, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يحفظكم و يتقبل زيارتكم", iraqiPronunciation = "الله یِحْفَظْکُم و یِتَقَبَّلْ زِیارَتْکُم", finglish = "الله یِحْفَظْکُم و یِتَقَبَّلْ زِیارَتْکُم", persianTranslation = "خدا نگهدارتان باشد و زیارتتان مقبول", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 507, numeric_id = 507, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شلون الصحة؟ عساكم بخير وعافية", iraqiPronunciation = "شْلُونِ الصِّحَّة؟ عَسَاکُم بِخَیْر وَ عَافِیَة", finglish = "شْلُونِ الصِّحَّة؟ عَسَاکُم بِخَیْر وَ عَافِیَة", persianTranslation = "حالتان چطوره؟ ان‌شاءالله سلامت هستید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 508, numeric_id = 508, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تعبانين من المشي؟ تفضلوا ارتاحوا", iraqiPronunciation = "تَعَبانِین مِنَ المَشِی؟ تَفَضَّلُوا ارْتَاحُوا", finglish = "تَعَبانِین مِنَ المَشِی؟ تَفَضَّلُوا ارْتَاحُوا", persianTranslation = "از پیاده‌روی خسته‌اید؟ بفرمایید استراحت کنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 509, numeric_id = 509, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اي خدمة تحتاجون، إحنا بالخدمة", iraqiPronunciation = "أَیَّ خِدْمَة تَحْتاجُونَ، إِحْنٰا بِالْخِدْمَة", finglish = "أَیَّ خِدْمَة تَحْتاجُونَ، إِحْنٰا بِالْخِدْمَة", persianTranslation = "هر خدمتی نیاز دارید، ما در خدمتیم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 510, numeric_id = 510, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "قدمكم على رأسنا يا زوار", iraqiPronunciation = "قَدَمُکُمْ عَلَى رَأْسِنَا یَا زُوّارُ", finglish = "قَدَمُکُمْ عَلَى رَأْسِنَا یَا زُوّارُ", persianTranslation = "قدمتان روی چشم ماست ای زائران", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 511, numeric_id = 511, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "يا هلا بلي إجانا مشي", iraqiPronunciation = "یَا هَلا بِلِّی إِجَانَا مِشَی", finglish = "یَا هَلا بِلِّی إِجَانَا مِشَی", persianTranslation = "خوش آمد به کسی که پیاده پیش ما آمد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 512, numeric_id = 512, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الموكب موكبكم، تفضلوا", iraqiPronunciation = "اَلْمَوْکِب مَوْکِبْکُم، تَفَضَّلُوا", finglish = "اَلْمَوْکِب مَوْکِبْکُم، تَفَضَّلُوا", persianTranslation = "موکب متعلق به خودتان است، بفرمایید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 513, numeric_id = 513, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ساعة المبروكة اللي شفناكم", iraqiPronunciation = "سَاعَة المَبْرُوکَة اَلِّی شِفْنَاکُم", finglish = "سَاعَة المَبْرُوکَة اَلِّی شِفْنَاکُم", persianTranslation = "ساعت مبارکی بود که شما را دیدیم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 514, numeric_id = 514, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يقويكم و يعطيكم العافية", iraqiPronunciation = "الله یِقَوِّیکُم و یِعْطِیکُمُ العَافِیَة", finglish = "الله یِقَوِّیکُم و یِعْطِیکُمُ العَافِیَة", persianTranslation = "خدا به شما توان و سلامتی بدهد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 515, numeric_id = 515, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا ادخلوا، المكان واسع", iraqiPronunciation = "تَفَضَّلُوا ادْخُلُوا، المَکَان وَاسِع", finglish = "تَفَضَّلُوا ادْخُلُوا، المَکَان وَاسِع", persianTranslation = "بفرمایید داخل، جا زیاد است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 516, numeric_id = 516, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بزوار اربعينية الحسين", iraqiPronunciation = "أَهْلاً بِزُوّارِ أَرْبَعِینِیَّةِ الحُسَیْن", finglish = "أَهْلاً بِزُوّارِ أَرْبَعِینِیَّةِ الحُسَیْن", persianTranslation = "خوش آمدید ای زائران اربعین حسینی", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 517, numeric_id = 517, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا استريحوا هنا", iraqiPronunciation = "تَفَضَّلُوا اسْتَرِیحُوا هِنَا", finglish = "تَفَضَّلُوا اسْتَرِیحُوا هِنَا", persianTranslation = "بفرمایید اینجا استراحت کنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 518, numeric_id = 518, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مرحبا بكم يا ضيوف الحسين", iraqiPronunciation = "مَرْحَبَا بِکُم یَا ضُیُوفَ الحُسَیْن", finglish = "مَرْحَبَا بِکُم یَا ضُیُوفَ الحُسَیْن", persianTranslation = "خوش آمدید ای مهمانان امام حسین", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 519, numeric_id = 519, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "فرحنا بجيتكم كثير", iraqiPronunciation = "فَرِحْنَا بِجَیَّتْکُم کَثِیر", finglish = "فَرِحْنَا بِجَیَّتْکُم کَثِیر", persianTranslation = "از آمدنتان خیلی خوشحال شدیم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 520, numeric_id = 520, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يحميكم بهذا الطريق", iraqiPronunciation = "الله یِحْمِیکُم بِهَذَا الطَّرِیق", finglish = "الله یِحْمِیکُم بِهَذَا الطَّرِیق", persianTranslation = "خداوند در این مسیر پناهتان باشد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 521, numeric_id = 521, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الماي البارد جاهز خويه، تفضل", iraqiPronunciation = "اَلْمَای البَارِد جَاهِز خُویَه، تَفَضَّل", finglish = "اَلْمَای البَارِد جَاهِز خُویَه، تَفَضَّل", persianTranslation = "آب خنک آماده است برادر، بفرما", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 522, numeric_id = 522, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضل شاي ابو علي", iraqiPronunciation = "تَفَضَّل شَای أَبُو عَلِی (شَای حارّ)", finglish = "تَفَضَّل شَای أَبُو عَلِی (شَای حارّ)", persianTranslation = "بفرما چای عراقی داغ", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 523, numeric_id = 523, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "قهوة عربية مجانية، تفضلوا", iraqiPronunciation = "قَهْوَة عَرَبِیَّة مَجّانِیَّة، تَفَضَّلُوا", finglish = "قَهْوَة عَرَبِیَّة مَجّانِیَّة، تَفَضَّلُوا", persianTranslation = "قهوه عربی رایگان، بفرمایید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 524, numeric_id = 524, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد شاي شكر زايد لو خفيف؟", iraqiPronunciation = "تِرِید شَای شِکَر زَایِد لَوْ خَفِیف؟", finglish = "تِرِید شَای شِکَر زَایِد لَوْ خَفِیف؟", persianTranslation = "چای پرشیرینی می‌خواهی یا کم‌شیرین؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 525, numeric_id = 525, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عصير بارد و شربت موجود", iraqiPronunciation = "عَصِیر بَارِد وَ شَرْبَت مَوجود", finglish = "عَصِیر بَارِد وَ شَرْبَت مَوجود", persianTranslation = "آبمیوه خنک و شربت موجود است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 526, numeric_id = 526, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "لبن و ماي بارد في الثلاجة", iraqiPronunciation = "لَبَن وَ مَای بَارِد فِی الثَّلاّجَة", finglish = "لَبَن وَ مَای بَارِد فِی الثَّلاّجَة", persianTranslation = "دوغ و آب خنک در یخچال است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 527, numeric_id = 527, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضل شربت ليمون بارد", iraqiPronunciation = "تَفَضَّل شَرْبَت لَیْمُون بَارِد", finglish = "تَفَضَّل شَرْبَت لَیْمُون بَارِد", persianTranslation = "بفرما شربت آبلیمو خنک", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 528, numeric_id = 528, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد ماي ثلج لو ماي عادي؟", iraqiPronunciation = "تِرِید مَای ثَلْج لَوْ مَای عادِی؟", finglish = "تِرِید مَای ثَلْج لَوْ مَای عادِی؟", persianTranslation = "آب تگری می‌خواهی یا آب معمولی؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 529, numeric_id = 529, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هذا الماي مفلتر و نظيف", iraqiPronunciation = "هَذَا المَای مُفَلْتَر وَ نَظِیف", finglish = "هَذَا المَای مُفَلْتَر وَ نَظِیف", persianTranslation = "این آب تصفیه شده و تمیز است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 530, numeric_id = 530, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا كأس ماي بارد", iraqiPronunciation = "تَفَضَّلُوا کَأْس مَای بَارِد", finglish = "تَفَضَّلُوا کَأْس مَای بَارِد", persianTranslation = "بفرمایید یک لیوان آب خنک", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 531, numeric_id = 531, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "قهوة هيل جاهزة للمواكب", iraqiPronunciation = "قَهْوَة هَیْل جَاهِزَة لِلْمُوَاکِب", finglish = "قَهْوَة هَیْل جَاهِزَة لِلْمُوَاکِب", persianTranslation = "قهوه با هل برای موکب آماده است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 532, numeric_id = 532, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شاي هيل و دارصين حار", iraqiPronunciation = "شَای هَیْل وَ دارَصِین حارّ", finglish = "شَای هَیْل وَ دارَصِین حارّ", persianTranslation = "چای هل و دارچین داغ", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 533, numeric_id = 533, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا نوشوا ماي بارد", iraqiPronunciation = "تَفَضَّلُوا نُوشُوا مَای بَارِد", finglish = "تَفَضَّلُوا نُوشُوا مَای بَارِد", persianTranslation = "بفرمایید آب خنک بردارید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 534, numeric_id = 534, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا شاي إيراني و عربي", iraqiPronunciation = "عِنْدِنَا شَای إِیرَانِی وَ عَرَبِی", finglish = "عِنْدِنَا شَای إِیرَانِی وَ عَرَبِی", persianTranslation = "چای ایرانی و عربی داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 535, numeric_id = 535, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد حليب حار بالصباح؟", iraqiPronunciation = "تِرِید حَلِیب حارّ بِالصَّبَاح؟", finglish = "تِرِید حَلِیب حارّ بِالصَّبَاح؟", persianTranslation = "شیر داغ برای صبح می‌خواهی؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 536, numeric_id = 536, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الغداء جاهز، تفضلوا للطعام", iraqiPronunciation = "اَلْغَدَاء جَاهِز، تَفَضَّلُوا لِلطَّعام", finglish = "اَلْغَدَاء جَاهِز، تَفَضَّلُوا لِلطَّعام", persianTranslation = "ناهار آماده است، بفرمایید غذا", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 537, numeric_id = 537, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "العشاء جاهز، تعالوا اكلوا", iraqiPronunciation = "اَلْعَشَاء جَاهِز، تَعَالُوا أُکْلُوا", finglish = "اَلْعَشَاء جَاهِز، تَعَالُوا أُکْلُوا", persianTranslation = "شام آماده است، بفرمایید میل کنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 538, numeric_id = 538, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الريوق جاهز يا زوار", iraqiPronunciation = "اَلرِّیُوق (اَلْفُطُور) جَاهِز یَا زُوّار", finglish = "اَلرِّیُوق (اَلْفُطُور) جَاهِز یَا زُوّار", persianTranslation = "صبحانه آماده است ای زائران", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 539, numeric_id = 539, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا كباب و قيمر و خبز حار", iraqiPronunciation = "عِنْدِنَا کَبَاب وَ قَیْمَر وَ خُبْز حارّ", finglish = "عِنْدِنَا کَبَاب وَ قَیْمَر وَ خُبْز حارّ", persianTranslation = "کباب، سرشیر و نان داغ داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 540, numeric_id = 540, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريدون اكل سفري لو هنا؟", iraqiPronunciation = "تِرِیدُون أُکْل سَفَرِی لَوْ هِنَا؟", finglish = "تِرِیدُون أُکْل سَفَرِی لَوْ هِنَا؟", persianTranslation = "غذا بیرون‌بر می‌خواهید یا همین‌جا می‌خورید؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 541, numeric_id = 541, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "فواكه و فطور جاهز للجميع", iraqiPronunciation = "فَواکِه و فِطُور جَاهِز لِلْجَمِیع", finglish = "فَواکِه و فِطُور جَاهِز لِلْجَمِیع", persianTranslation = "میوه و صبحانه برای همه آماده است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 542, numeric_id = 542, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا صينية الطعام", iraqiPronunciation = "تَفَضَّلُوا صِینِیَّة الطَّعام", finglish = "تَفَضَّلُوا صِینِیَّة الطَّعام", persianTranslation = "بفرمایید سینی غذا", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 543, numeric_id = 543, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الأكل حلال و نظيف جداً", iraqiPronunciation = "اَلأُکْل حَلاَل وَ نَظِیف جِدّاً", finglish = "اَلأُکْل حَلاَل وَ نَظِیف جِدّاً", persianTranslation = "غذا کاملاً حلال و بسیار بهداشتی است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 544, numeric_id = 544, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا رز و مرق", iraqiPronunciation = "عِنْدِنَا رُزّ وَ مَرَق (قِمَة وَ قُوزِی)", finglish = "عِنْدِنَا رُزّ وَ مَرَق (قِمَة وَ قُوزِی)", persianTranslation = "برنج و خورشت (قیمه نجفی/قوزی) داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 545, numeric_id = 545, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد خبز عربي حار؟", iraqiPronunciation = "تِرِید خُبْز عَرَبِی حارّ؟", finglish = "تِرِید خُبْز عَرَبِی حارّ؟", persianTranslation = "نان داغ عربی می‌خواهی؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 546, numeric_id = 546, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "أكل ابو علي بركة، اكلوا", iraqiPronunciation = "أَکْل أَبُو عَلِی بَرَکَة، أُکْلُوا", finglish = "أَکْل أَبُو عَلِی بَرَکَة، أُکْلُوا", persianTranslation = "غذای امام حسین برکت است، میل کنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 547, numeric_id = 547, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا سفرة أهل البيت", iraqiPronunciation = "تَفَضَّلُوا سُفْرَة أَهْلِ البَیْت", finglish = "تَفَضَّلُوا سُفْرَة أَهْلِ البَیْت", persianTranslation = "بفرمایید سر سفره اهل بیت", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 548, numeric_id = 548, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "إذا نقصكم شيء قولوا لي", iraqiPronunciation = "إِذَا نَقَصْکُم شَیْء قُولُوا لِی", finglish = "إِذَا نَقَصْکُم شَیْء قُولُوا لِی", persianTranslation = "اگر چیزی کم دارید به من بگویید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 549, numeric_id = 549, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا فاكهة", iraqiPronunciation = "تَفَضَّلُوا فاکِهَة (مَوْز وَ تُفّاح)", finglish = "تَفَضَّلُوا فاکِهَة (مَوْز وَ تُفّاح)", persianTranslation = "بفرمایید میوه (موز و سیب)", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 550, numeric_id = 550, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا شوربة حارة للبرد", iraqiPronunciation = "عِنْدِنَا شُورْبَة حارَّة لِلْبَرْد", finglish = "عِنْدِنَا شُورْبَة حارَّة لِلْبَرْد", persianTranslation = "سوپ/آش داغ برای سرما داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 551, numeric_id = 551, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مكان للنوم مجاني موجود", iraqiPronunciation = "مَکَان لِلنَّوْم مَجّانِی مَوجُود", finglish = "مَکَان لِلنَّوْم مَجّانِی مَوجُود", persianTranslation = "محل استراحت و خواب رایگان موجود است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 552, numeric_id = 552, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "غرفة للعائلة موجودة", iraqiPronunciation = "غُرْفَة لِلْعَائِلَة (لِلنِّسَاء) مَوْجُودَة", finglish = "غُرْفَة لِلْعَائِلَة (لِلنِّسَاء) مَوْجُودَة", persianTranslation = "اتاق مخصوص خانواده/بانوان موجود است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 553, numeric_id = 553, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "فراش و بطانية نظيفة عندنا", iraqiPronunciation = "فِرَاش وَ بَطّانِیَّة نَظِیفَة عِنْدِنَا", finglish = "فِرَاش وَ بَطّانِیَّة نَظِیفَة عِنْدِنَا", persianTranslation = "تشک و پتوی تمیز داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 554, numeric_id = 554, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "المبردة و المروحة شغالة", iraqiPronunciation = "اَلْمُبَرِّدَة وَ الْمَرْوَحَة شَغّالَة", finglish = "اَلْمُبَرِّدَة وَ الْمَرْوَحَة شَغّالَة", persianTranslation = "کولر و پنکه روشن است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 555, numeric_id = 555, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تقدرون تتمددون و ترتاحون", iraqiPronunciation = "تِقْدَرُون تِتْمَدَّدُون وَ تِرْتَاحُون", finglish = "تِقْدَرُون تِتْمَدَّدُون وَ تِرْتَاحُون", persianTranslation = "می‌توانید دراز بکشید و استراحت کنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 556, numeric_id = 556, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الحمام و التواليت بالخلف", iraqiPronunciation = "اَلْحَمَّام وَ التَّوالِیت بِالْخَلْف", finglish = "اَلْحَمَّام وَ التَّوالِیت بِالْخَلْف", persianTranslation = "حمام و سرویس بهداشتی در پشت موکب است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 557, numeric_id = 557, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريدون ناموسية للنوم؟", iraqiPronunciation = "تِرِیدُون نَامُوسِیَّة لِلنَّوْم؟", finglish = "تِرِیدُون نَامُوسِیَّة لِلنَّوْم؟", persianTranslation = "پشه‌بند برای خواب می‌خواهید؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 558, numeric_id = 558, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "المكان آمن و مكيف", iraqiPronunciation = "اَلْمَکَان آَمِن وَ مُکَیَّف", finglish = "اَلْمَکَان آَمِن وَ مُکَیَّف", persianTranslation = "مکان امن و دارای تهویه مطبوع است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 559, numeric_id = 559, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ساعة كم تريدون أقعدكم؟", iraqiPronunciation = "سَاعَة کَم تِرِیدُون أَقْعُدْکُم؟", finglish = "سَاعَة کَم تِرِیدُون أَقْعُدْکُم؟", persianTranslation = "چه ساعتی می‌خواهید بیدارتان کنم؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 560, numeric_id = 560, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تقدرون تنامون هنا للصباح", iraqiPronunciation = "تِقْدَرُون تِنَامُون هِنَا لِلصَّبَاح", finglish = "تِقْدَرُون تِنَامُون هِنَا لِلصَّبَاح", persianTranslation = "می‌توانید تا صبح اینجا بخوابید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 561, numeric_id = 561, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الخيمة مخصوصة للرجال", iraqiPronunciation = "اَلْخَیْمَة مَخْصُوصَة لِلرِّجَال", finglish = "اَلْخَیْمَة مَخْصُوصَة لِلرِّجَال", persianTranslation = "چادر مخصوص آقایان است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 562, numeric_id = 562, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الخيمة الثانية للنساء والأطفال", iraqiPronunciation = "اَلْخَیْمَة الثّانِیَة لِلنِّسَاء وَ الأَطْفَال", finglish = "اَلْخَیْمَة الثّانِیَة لِلنِّسَاء وَ الأَطْفَال", persianTranslation = "چادر دوم برای بانوان و کودکان است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 563, numeric_id = 563, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هنا مكان هادئ للنوم", iraqiPronunciation = "هِنَا مَکَان هَادِئ لِلنَّوْم", finglish = "هِنَا مَکَان هَادِئ لِلنَّوْم", persianTranslation = "اینجا مکانی آرام برای خواب است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 564, numeric_id = 564, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا مخدة نظيفة", iraqiPronunciation = "تَفَضَّلُوا مَخَدَّة نَظِیفَة", finglish = "تَفَضَّلُوا مَخَدَّة نَظِیفَة", persianTranslation = "بفرمایید بالش تمیز", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 565, numeric_id = 565, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "إذا بردانين عندنا بطانية ثقيلة", iraqiPronunciation = "إِذَا بَرْدانِین عِنْدِنَا بَطّانِیّة ثَقِیلَة", finglish = "إِذَا بَرْدانِین عِنْدِنَا بَطّانِیّة ثَقِیلَة", persianTranslation = "اگر سردتان است پتوی ضخیم داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 566, numeric_id = 566, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "محطة شحن الموبايل هنا", iraqiPronunciation = "مَحَطَّة شَحْنِ المۆبَایِل هِنَا", finglish = "مَحَطَّة شَحْنِ المۆبَایِل هِنَا", persianTranslation = "ایستگاه شارژ موبایل اینجاست", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 567, numeric_id = 567, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "غسيل الملابس و المغسلة جاهزة", iraqiPronunciation = "غَسِیل المَلابِس وَ المَغْسَلَة جَاهِزَة", finglish = "غَسِیل المَلابِس وَ المَغْسَلَة جَاهِزَة", persianTranslation = "شستشوی لباس و رختشویخانه آماده است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 568, numeric_id = 568, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تدليك و مساج للأقدام موجود", iraqiPronunciation = "تَدْلِیک وَ مَسَّاج لِلأَقْدَام مَوجُود", finglish = "تَدْلِیک وَ مَسَّاج لِلأَقْدَام مَوجُود", persianTranslation = "پاشویه و ماساژ پا موجود است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 569, numeric_id = 569, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "طبيب و اصلاح الملابس بالخدمة", iraqiPronunciation = "طَبِیب وَ إِصْلَاح المَلابِس بِالْخِدْمَة", finglish = "طَبِیب وَ إِصْلَاح المَلابِس بِالْخِدْمَة", persianTranslation = "پزشک و خیاطی در خدمت است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 570, numeric_id = 570, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الوايفاي و الإنترنت مجاني", iraqiPronunciation = "اَلْوایْفَای وَ الإِنْتَرْنِت مَجّانِی", finglish = "اَلْوایْفَای وَ الإِنْتَرْنِت مَجّانِی", persianTranslation = "وای‌فای و اینترنت رایگان است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 571, numeric_id = 571, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد شاحنة أيفون لو اندرويد؟", iraqiPronunciation = "تِرِید شَاحِنَة آَیْفُون لَوْ انْدُرُویْد؟", finglish = "تِرِید شَاحِنَة آَیْفُون لَوْ انْدُرُویْد؟", persianTranslation = "شارژر آیفون می‌خواهی یا اندروید؟", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 572, numeric_id = 572, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اترك موبايلك هنا للشحن", iraqiPronunciation = "اَتْرُک مۆبَایْلَک هِنَا لِلشَّحْن", finglish = "اَتْرُک مۆبَایْلَک هِنَا لِلشَّحْن", persianTranslation = "گوشیت را برای شارژ اینجا بگذار", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 573, numeric_id = 573, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مكان خياطة و ترميم الحقائب", iraqiPronunciation = "مَکَان خَیَاطَة وَ تَرْمِیمِ الحَقَائِب", finglish = "مَکَان خَیَاطَة وَ تَرْمِیمِ الحَقَائِب", persianTranslation = "محل خیاطی و تعمیر کیف و کوله", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 574, numeric_id = 574, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا دواء للصداع و المعدة", iraqiPronunciation = "عِنْدِنَا دَوَاء لِلصُّدَاع وَ المَعِدَة", finglish = "عِنْدِنَا دَوَاء لِلصُّدَاع وَ المَعِدَة", persianTranslation = "دارو برای سردرد و معده‌درد داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 575, numeric_id = 575, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضل مرهم لالتهاب الأقدام", iraqiPronunciation = "تَفَضَّل مَرْهَم لِلْتِهابِ الأَقْدَام", finglish = "تَفَضَّل مَرْهَم لِلْتِهابِ الأَقْدَام", persianTranslation = "بفرما پماد برای تاول و عرق‌سوزی پا", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 576, numeric_id = 576, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هنا مكان غسيل الوجه و الوضوء", iraqiPronunciation = "هِنَا مَکَان غَسِیلِ الوَجْه وَ الوُضُوء", finglish = "هِنَا مَکَان غَسِیلِ الوَجْه وَ الوُضُوء", persianTranslation = "اینجا محل دست‌ورِو شستن و وضو است", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 577, numeric_id = 577, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا صابون و محارم", iraqiPronunciation = "عِنْدِنَا صَابُون وَ مَحَارِم (کِلِینِکْس)", finglish = "عِنْدِنَا صَابُون وَ مَحَارِم (کِلِینِکْس)", persianTranslation = "صابون و دستمال کاغذی داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 578, numeric_id = 578, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تقدرون تغسلون ملابسكم هنا", iraqiPronunciation = "تِقْدَرُون تِغْسِلُون مَلابِسْکُم هِنَا", finglish = "تِقْدَرُون تِغْسِلُون مَلابِسْکُم هِنَا", persianTranslation = "می‌توانید لباس‌هایتان را اینجا بشویید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 579, numeric_id = 579, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا مجفف ملابس سريع", iraqiPronunciation = "عِنْدِنَا مِجَفِّف مَلابِس سَرِیع", finglish = "عِنْدِنَا مِجَفِّف مَلابِس سَرِیع", persianTranslation = "خشک‌کن سریع لباس داریم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 580, numeric_id = 580, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "خدمة تصليح العربات والعجلات", iraqiPronunciation = "خِدْمَة تَصْلِیحِ العَرَبَات وَ العَجَلاَت", finglish = "خِدْمَة تَصْلِیحِ العَرَبَات وَ العَجَلاَت", persianTranslation = "خدمات تعمیر کالسکه و چرخ کوله", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 581, numeric_id = 581, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "في امان الله، زيارة مقبولة", iraqiPronunciation = "فِی أَمَانِ الله، زِیَارَة مَقْبُولَة", finglish = "فِی أَمَانِ الله، زِیَارَة مَقْبُولَة", persianTranslation = "در پناه خدا، زیارتتان مقبول", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 582, numeric_id = 582, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "رحم الله والديكُم على الزيارة", iraqiPronunciation = "رَحِمَ الله وَالِدِیکُمْ عَلَى الزِّیَارَة", finglish = "رَحِمَ الله وَالِدِیکُمْ عَلَى الزِّیَارَة", persianTranslation = "خدا رفتگانتان را بیامرزد بابت زیارت", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 583, numeric_id = 583, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "لا تنسونا من صالح الدعاء", iraqiPronunciation = "لا تَنْسَوْنَا مِنْ صَالِحِ الدُّعَاءِ", finglish = "لا تَنْسَوْنَا مِنْ صَالِحِ الدُّعَاءِ", persianTranslation = "ما را از دعای خیر فراموش نکنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 584, numeric_id = 584, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مع السلامة، رافقتكم السلامة", iraqiPronunciation = "مَعَ السَّلاَمَة، رَافَقَتْکُمُ السَّلاَمَة", finglish = "مَعَ السَّلاَمَة، رَافَقَتْکُمُ السَّلاَمَة", persianTranslation = "به سلامت، خدا به همراهتان", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 585, numeric_id = 585, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "توصلون بالسلامة إن شاء الله", iraqiPronunciation = "تُوصَلُون بِالسَّلاَمَة إنْ شَاءَ الله", finglish = "تُوصَلُون بِالسَّلاَمَة إنْ شَاءَ الله", persianTranslation = "ان‌شاءالله به سلامت برسید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 586, numeric_id = 586, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله ييسر طريقكم للكربلاء", iraqiPronunciation = "الله یِیَسِّر طَرِیقْکُم لِلْکَرْبَلاء", finglish = "الله یِیَسِّر طَرِیقْکُم لِلْکَرْبَلاء", persianTranslation = "خدا راهتان را به کربلا هموار کند", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 587, numeric_id = 587, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "إلى اللقاء يا زوار الحسين", iraqiPronunciation = "إلَى اللِّقَاء یَا زُوّارَ الحُسَیْن", finglish = "إلَى اللِّقَاء یَا زُوّارَ الحُسَیْن", persianTranslation = "به امید دیدار ای زائران حسین", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 588, numeric_id = 588, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يتقبل طاعتكم و مشيكم", iraqiPronunciation = "الله یِتَقَبَّل طَاعَتْکُم وَ مَشْیْکُم", finglish = "الله یِتَقَبَّل طَاعَتْکُم وَ مَشْیْکُم", persianTranslation = "خدا طاعت و پیاده‌روی‌تان را بپذیرد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 589, numeric_id = 589, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ادعوا لنا عند قبر الحسين", iraqiPronunciation = "اُدْعُوا لِنَا عِنْدَ قَبْرِ الحُسَیْن", finglish = "اُدْعُوا لِنَا عِنْدَ قَبْرِ الحُسَیْن", persianTranslation = "کنار ضریح امام حسین ما را دعا کنید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 590, numeric_id = 590, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ربي يرجعكم لأهلكم سالمين", iraqiPronunciation = "رَبِّی یِرْجِعْکُم لِأَهْلِکُم سَالِمِین", finglish = "رَبِّی یِرْجِعْکُم لِأَهْلِکُم سَالِمِین", persianTranslation = "پروردگار شما را سالم به خانواده برگرداند", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 591, numeric_id = 591, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شاركونا في ثواب الموكب", iraqiPronunciation = "شَارِکُونَا فِی ثَوَابِ المَوْکِب", finglish = "شَارِکُونَا فِی ثَوَابِ المَوْکِب", persianTranslation = "در ثواب موکب با ما شریک شوید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 592, numeric_id = 592, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "كل عام و أنتم بخير و سلامة", iraqiPronunciation = "کُلَّ عَام وَ أَنْتُم بِخَیْر وَ سَلاَمَة", finglish = "کُلَّ عَام وَ أَنْتُم بِخَیْر وَ سَلاَمَة", persianTranslation = "هر سال به خوشی و سلامتی باشید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 593, numeric_id = 593, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بكم في كل وقت", iraqiPronunciation = "أَهْلاً بِکُم فِی کُلِّ وَقْت", finglish = "أَهْلاً بِکُم فِی کُلِّ وَقْت", persianTranslation = "در هر زمانی خوش آمدید", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 594, numeric_id = 594, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "سلامي لأهلكم و عائلتكم", iraqiPronunciation = "سَلاَمِی لِأَهْلِکُم وَ عائِلَتْکُم", finglish = "سَلاَمِی لِأَهْلِکُم وَ عائِلَتْکُم", persianTranslation = "سلام من به خانواده و فامیلتان", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 595, numeric_id = 595, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يكتبكم من الزوار كل سنة", iraqiPronunciation = "الله یِکْتِبْکُم مِنَ الزُوّار کُلَّ سَنَة", finglish = "الله یِکْتِبْکُم مِنَ الزُوّار کُلَّ سَنَة", persianTranslation = "خدا هر سال شما را از زائران بنویسد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 596, numeric_id = 596, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شكراً لزيارتكم و حضوركم", iraqiPronunciation = "شُکْراً لِزِیَارَتِکُم وَ حُضُورِکُم", finglish = "شُکْراً لِزِیَارَتِکُم وَ حُضُورِکُم", persianTranslation = "ممنون از زیارت و حضورتان", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 597, numeric_id = 597, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "في عين الله و رعايته", iraqiPronunciation = "فِی عَیْنِ الله وَ رِعَایَتِهِ", finglish = "فِی عَیْنِ الله وَ رِعَایَتِهِ", persianTranslation = "در پناه و توجه خداوند", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 598, numeric_id = 598, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تسلمون و الله يعزكم", iraqiPronunciation = "تَسْلَمُون وَ الله یِعَزّکُم", finglish = "تَسْلَمُون وَ الله یِعَزّکُم", persianTranslation = "سلامت باشید و خدا عزيزتان بدارد", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 599, numeric_id = 599, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "أسألكم الدعاء لفرج المهدي", iraqiPronunciation = "أَسْأَلُکُمُ الدُّعَاء لِفَرَجِ المَهْدِی", finglish = "أَسْأَلُکُمُ الدُّعَاء لِفَرَجِ المَهْدِی", persianTranslation = "از شما التماس دعا برای فرج مهدی دارم", forRole = "MOKEB_OWNER", isVip = false))
-        list.add(PhraseEntity(id = 600, numeric_id = 600, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "حاجتكم مقضية ببركة الحسين", iraqiPronunciation = "حَاجَتْکُم مَقْضِیَّة بِبَرَکَةِ الحُسَیْن", finglish = "حَاجَتْکُم مَقْضِیَّة بِبَرَکَةِ الحُسَیْن", persianTranslation = "حاجتتان برآورده به برکت امام حسین", forRole = "MOKEB_OWNER", isVip = false))
+                list.add(PhraseEntity(id = 501, numeric_id = 501, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هلا بيكم زوار ابو السجاد", iraqiPronunciation = "هَلا بِیکُم زُوّار أَبُو السَّجّاد", persianTranslation = "خوش آمدید زائران اباعبدالله/امام سجاد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 502, numeric_id = 502, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا للموكب، اهلا وسهلا", iraqiPronunciation = "تَفَضَّلُوا لِلْمَوْکِبِ، أَهْلاً وَ سَهْلاً", persianTranslation = "بفرمایید داخل موکب، خیلی خوش آمدید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 503, numeric_id = 503, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بكم في موكب خدام الحسين", iraqiPronunciation = "أَهْلاً بِکُمْ فِی مَوْکِبِ خُدّامِ الحُسَیْن", persianTranslation = "خوش آمدید به موکب خادمان حسین", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 504, numeric_id = 504, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شرفتونا يا زوار، اهلا ومرحباً", iraqiPronunciation = "شَرَّفْتُونَا یَا زُوّارُ، أَهْلاً وَ مَرْحَباً", persianTranslation = "ما را سرافراز کردید ای زائران", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 505, numeric_id = 505, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "نورتوا الموكب بلقائكم", iraqiPronunciation = "نَوَّرْتُوا الْمَوْکِبَ بِلِقائِکُمْ", persianTranslation = "با آمدنتان موکب را نورانی کردید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 506, numeric_id = 506, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يحفظكم و يتقبل زيارتكم", iraqiPronunciation = "الله یِحْفَظْکُم و یِتَقَبَّلْ زِیارَتْکُم", persianTranslation = "خدا نگهدارتان باشد و زیارتتان مقبول", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 507, numeric_id = 507, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شلون الصحة؟ عساكم بخير وعافية", iraqiPronunciation = "شْلُونِ الصِّحَّة؟ عَسَاکُم بِخَیْر وَ عَافِیَة", persianTranslation = "حالتان چطوره؟ ان‌شاءالله سلامت هستید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 508, numeric_id = 508, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تعبانين من المشي؟ تفضلوا ارتاحوا", iraqiPronunciation = "تَعَبانِین مِنَ المَشِی؟ تَفَضَّلُوا ارْتَاحُوا", persianTranslation = "از پیاده‌روی خسته‌اید؟ بفرمایید استراحت کنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 509, numeric_id = 509, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اي خدمة تحتاجون، إحنا بالخدمة", iraqiPronunciation = "أَیَّ خِدْمَة تَحْتاجُونَ، إِحْنٰا بِالْخِدْمَة", persianTranslation = "هر خدمتی نیاز دارید، ما در خدمتیم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 510, numeric_id = 510, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "قدمكم على رأسنا يا زوار", iraqiPronunciation = "قَدَمُکُمْ عَلَى رَأْسِنَا یَا زُوّارُ", persianTranslation = "قدمتان روی چشم ماست ای زائران", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 511, numeric_id = 511, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "يا هلا بلي إجانا مشي", iraqiPronunciation = "یَا هَلا بِلِّی إِجَانَا مِشَی", persianTranslation = "خوش آمد به کسی که پیاده پیش ما آمد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 512, numeric_id = 512, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الموكب موكبكم، تفضلوا", iraqiPronunciation = "اَلْمَوْکِب مَوْکِبْکُم، تَفَضَّلُوا", persianTranslation = "موکب متعلق به خودتان است، بفرمایید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 513, numeric_id = 513, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ساعة المبروكة اللي شفناكم", iraqiPronunciation = "سَاعَة المَبْرُوکَة اَلِّی شِفْنَاکُم", persianTranslation = "ساعت مبارکی بود که شما را دیدیم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 514, numeric_id = 514, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يقويكم و يعطيكم العافية", iraqiPronunciation = "الله یِقَوِّیکُم و یِعْطِیکُمُ العَافِیَة", persianTranslation = "خدا به شما توان و سلامتی بدهد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 515, numeric_id = 515, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا ادخلوا، المكان واسع", iraqiPronunciation = "تَفَضَّلُوا ادْخُلُوا، المَکَان وَاسِع", persianTranslation = "بفرمایید داخل، جا زیاد است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 516, numeric_id = 516, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بزوار اربعينية الحسين", iraqiPronunciation = "أَهْلاً بِزُوّارِ أَرْبَعِینِیَّةِ الحُسَیْن", persianTranslation = "خوش آمدید ای زائران اربعین حسینی", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 517, numeric_id = 517, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا استريحوا هنا", iraqiPronunciation = "تَفَضَّلُوا اسْتَرِیحُوا هِنَا", persianTranslation = "بفرمایید اینجا استراحت کنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 518, numeric_id = 518, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مرحبا بكم يا ضيوف الحسين", iraqiPronunciation = "مَرْحَبَا بِکُم یَا ضُیُوفَ الحُسَیْن", persianTranslation = "خوش آمدید ای مهمانان امام حسین", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 519, numeric_id = 519, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "فرحنا بجيتكم كثير", iraqiPronunciation = "فَرِحْنَا بِجَیَّتْکُم کَثِیر", persianTranslation = "از آمدنتان خیلی خوشحال شدیم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 520, numeric_id = 520, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يحميكم بهذا الطريق", iraqiPronunciation = "الله یِحْمِیکُم بِهَذَا الطَّرِیق", persianTranslation = "خداوند در این مسیر پناهتان باشد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 521, numeric_id = 521, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الماي البارد جاهز خويه، تفضل", iraqiPronunciation = "اَلْمَای البَارِد جَاهِز خُویَه، تَفَضَّل", persianTranslation = "آب خنک آماده است برادر، بفرما", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 522, numeric_id = 522, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضل شاي ابو علي", iraqiPronunciation = "تَفَضَّل شَای أَبُو عَلِی (شَای حارّ)", persianTranslation = "بفرما چای عراقی داغ", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 523, numeric_id = 523, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "قهوة عربية مجانية، تفضلوا", iraqiPronunciation = "قَهْوَة عَرَبِیَّة مَجّانِیَّة، تَفَضَّلُوا", persianTranslation = "قهوه عربی رایگان، بفرمایید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 524, numeric_id = 524, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد شاي شكر زايد لو خفيف؟", iraqiPronunciation = "تِرِید شَای شِکَر زَایِد لَوْ خَفِیف؟", persianTranslation = "چای پرشیرینی می‌خواهی یا کم‌شیرین؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 525, numeric_id = 525, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عصير بارد و شربت موجود", iraqiPronunciation = "عَصِیر بَارِد وَ شَرْبَت مَوجود", persianTranslation = "آبمیوه خنک و شربت موجود است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 526, numeric_id = 526, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "لبن و ماي بارد في الثلاجة", iraqiPronunciation = "لَبَن وَ مَای بَارِد فِی الثَّلاّجَة", persianTranslation = "دوغ و آب خنک در یخچال است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 527, numeric_id = 527, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضل شربت ليمون بارد", iraqiPronunciation = "تَفَضَّل شَرْبَت لَیْمُون بَارِد", persianTranslation = "بفرما شربت آبلیمو خنک", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 528, numeric_id = 528, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد ماي ثلج لو ماي عادي؟", iraqiPronunciation = "تِرِید مَای ثَلْج لَوْ مَای عادِی؟", persianTranslation = "آب تگری می‌خواهی یا آب معمولی؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 529, numeric_id = 529, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هذا الماي مفلتر و نظيف", iraqiPronunciation = "هَذَا المَای مُفَلْتَر وَ نَظِیف", persianTranslation = "این آب تصفیه شده و تمیز است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 530, numeric_id = 530, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا كأس ماي بارد", iraqiPronunciation = "تَفَضَّلُوا کَأْس مَای بَارِد", persianTranslation = "بفرمایید یک لیوان آب خنک", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 531, numeric_id = 531, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "قهوة هيل جاهزة للمواكب", iraqiPronunciation = "قَهْوَة هَیْل جَاهِزَة لِلْمُوَاکِب", persianTranslation = "قهوه با هل برای موکب آماده است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 532, numeric_id = 532, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شاي هيل و دارصين حار", iraqiPronunciation = "شَای هَیْل وَ دارَصِین حارّ", persianTranslation = "چای هل و دارچین داغ", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 533, numeric_id = 533, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا نوشوا ماي بارد", iraqiPronunciation = "تَفَضَّلُوا نُوشُوا مَای بَارِد", persianTranslation = "بفرمایید آب خنک بردارید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 534, numeric_id = 534, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا شاي إيراني و عربي", iraqiPronunciation = "عِنْدِنَا شَای إِیرَانِی وَ عَرَبِی", persianTranslation = "چای ایرانی و عربی داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 535, numeric_id = 535, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد حليب حار بالصباح؟", iraqiPronunciation = "تِرِید حَلِیب حارّ بِالصَّبَاح؟", persianTranslation = "شیر داغ برای صبح می‌خواهی؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 536, numeric_id = 536, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الغداء جاهز، تفضلوا للطعام", iraqiPronunciation = "اَلْغَدَاء جَاهِز، تَفَضَّلُوا لِلطَّعام", persianTranslation = "ناهار آماده است، بفرمایید غذا", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 537, numeric_id = 537, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "العشاء جاهز، تعالوا اكلوا", iraqiPronunciation = "اَلْعَشَاء جَاهِز، تَعَالُوا أُکْلُوا", persianTranslation = "شام آماده است، بفرمایید میل کنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 538, numeric_id = 538, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الريوق جاهز يا زوار", iraqiPronunciation = "اَلرِّیُوق (اَلْفُطُور) جَاهِز یَا زُوّار", persianTranslation = "صبحانه آماده است ای زائران", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 539, numeric_id = 539, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا كباب و قيمر و خبز حار", iraqiPronunciation = "عِنْدِنَا کَبَاب وَ قَیْمَر وَ خُبْز حارّ", persianTranslation = "کباب، سرشیر و نان داغ داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 540, numeric_id = 540, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريدون اكل سفري لو هنا؟", iraqiPronunciation = "تِرِیدُون أُکْل سَفَرِی لَوْ هِنَا؟", persianTranslation = "غذا بیرون‌بر می‌خواهید یا همین‌جا می‌خورید؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 541, numeric_id = 541, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "فواكه و فطور جاهز للجميع", iraqiPronunciation = "فَواکِه و فِطُور جَاهِز لِلْجَمِیع", persianTranslation = "میوه و صبحانه برای همه آماده است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 542, numeric_id = 542, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا صينية الطعام", iraqiPronunciation = "تَفَضَّلُوا صِینِیَّة الطَّعام", persianTranslation = "بفرمایید سینی غذا", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 543, numeric_id = 543, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الأكل حلال و نظيف جداً", iraqiPronunciation = "اَلأُکْل حَلاَل وَ نَظِیف جِدّاً", persianTranslation = "غذا کاملاً حلال و بسیار بهداشتی است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 544, numeric_id = 544, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا رز و مرق", iraqiPronunciation = "عِنْدِنَا رُزّ وَ مَرَق (قِمَة وَ قُوزِی)", persianTranslation = "برنج و خورشت (قیمه نجفی/قوزی) داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 545, numeric_id = 545, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد خبز عربي حار؟", iraqiPronunciation = "تِرِید خُبْز عَرَبِی حارّ؟", persianTranslation = "نان داغ عربی می‌خواهی؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 546, numeric_id = 546, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "أكل ابو علي بركة، اكلوا", iraqiPronunciation = "أَکْل أَبُو عَلِی بَرَکَة، أُکْلُوا", persianTranslation = "غذای امام حسین برکت است، میل کنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 547, numeric_id = 547, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا سفرة أهل البيت", iraqiPronunciation = "تَفَضَّلُوا سُفْرَة أَهْلِ البَیْت", persianTranslation = "بفرمایید سر سفره اهل بیت", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 548, numeric_id = 548, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "إذا نقصكم شيء قولوا لي", iraqiPronunciation = "إِذَا نَقَصْکُم شَیْء قُولُوا لِی", persianTranslation = "اگر چیزی کم دارید به من بگویید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 549, numeric_id = 549, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا فاكهة", iraqiPronunciation = "تَفَضَّلُوا فاکِهَة (مَوْز وَ تُفّاح)", persianTranslation = "بفرمایید میوه (موز و سیب)", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 550, numeric_id = 550, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا شوربة حارة للبرد", iraqiPronunciation = "عِنْدِنَا شُورْبَة حارَّة لِلْبَرْد", persianTranslation = "سوپ/آش داغ برای سرما داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 551, numeric_id = 551, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مكان للنوم مجاني موجود", iraqiPronunciation = "مَکَان لِلنَّوْم مَجّانِی مَوجُود", persianTranslation = "محل استراحت و خواب رایگان موجود است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 552, numeric_id = 552, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "غرفة للعائلة موجودة", iraqiPronunciation = "غُرْفَة لِلْعَائِلَة (لِلنِّسَاء) مَوْجُودَة", persianTranslation = "اتاق مخصوص خانواده/بانوان موجود است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 553, numeric_id = 553, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "فراش و بطانية نظيفة عندنا", iraqiPronunciation = "فِرَاش وَ بَطّانِیَّة نَظِیفَة عِنْدِنَا", persianTranslation = "تشک و پتوی تمیز داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 554, numeric_id = 554, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "المبردة و المروحة شغالة", iraqiPronunciation = "اَلْمُبَرِّدَة وَ الْمَرْوَحَة شَغّالَة", persianTranslation = "کولر و پنکه روشن است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 555, numeric_id = 555, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تقدرون تتمددون و ترتاحون", iraqiPronunciation = "تِقْدَرُون تِتْمَدَّدُون وَ تِرْتَاحُون", persianTranslation = "می‌توانید دراز بکشید و استراحت کنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 556, numeric_id = 556, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الحمام و التواليت بالخلف", iraqiPronunciation = "اَلْحَمَّام وَ التَّوالِیت بِالْخَلْف", persianTranslation = "حمام و سرویس بهداشتی در پشت موکب است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 557, numeric_id = 557, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريدون ناموسية للنوم؟", iraqiPronunciation = "تِرِیدُون نَامُوسِیَّة لِلنَّوْم؟", persianTranslation = "پشه‌بند برای خواب می‌خواهید؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 558, numeric_id = 558, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "المكان آمن و مكيف", iraqiPronunciation = "اَلْمَکَان آَمِن وَ مُکَیَّف", persianTranslation = "مکان امن و دارای تهویه مطبوع است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 559, numeric_id = 559, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ساعة كم تريدون أقعدكم؟", iraqiPronunciation = "سَاعَة کَم تِرِیدُون أَقْعُدْکُم؟", persianTranslation = "چه ساعتی می‌خواهید بیدارتان کنم؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 560, numeric_id = 560, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تقدرون تنامون هنا للصباح", iraqiPronunciation = "تِقْدَرُون تِنَامُون هِنَا لِلصَّبَاح", persianTranslation = "می‌توانید تا صبح اینجا بخوابید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 561, numeric_id = 561, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الخيمة مخصوصة للرجال", iraqiPronunciation = "اَلْخَیْمَة مَخْصُوصَة لِلرِّجَال", persianTranslation = "چادر مخصوص آقایان است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 562, numeric_id = 562, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الخيمة الثانية للنساء والأطفال", iraqiPronunciation = "اَلْخَیْمَة الثّانِیَة لِلنِّسَاء وَ الأَطْفَال", persianTranslation = "چادر دوم برای بانوان و کودکان است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 563, numeric_id = 563, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هنا مكان هادئ للنوم", iraqiPronunciation = "هِنَا مَکَان هَادِئ لِلنَّوْم", persianTranslation = "اینجا مکانی آرام برای خواب است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 564, numeric_id = 564, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا مخدة نظيفة", iraqiPronunciation = "تَفَضَّلُوا مَخَدَّة نَظِیفَة", persianTranslation = "بفرمایید بالش تمیز", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 565, numeric_id = 565, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "إذا بردانين عندنا بطانية ثقيلة", iraqiPronunciation = "إِذَا بَرْدانِین عِنْدِنَا بَطّانِیّة ثَقِیلَة", persianTranslation = "اگر سردتان است پتوی ضخیم داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 566, numeric_id = 566, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "محطة شحن الموبايل هنا", iraqiPronunciation = "مَحَطَّة شَحْنِ المۆبَایِل هِنَا", persianTranslation = "ایستگاه شارژ موبایل اینجاست", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 567, numeric_id = 567, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "غسيل الملابس و المغسلة جاهزة", iraqiPronunciation = "غَسِیل المَلابِس وَ المَغْسَلَة جَاهِزَة", persianTranslation = "شستشوی لباس و رختشویخانه آماده است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 568, numeric_id = 568, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تدليك و مساج للأقدام موجود", iraqiPronunciation = "تَدْلِیک وَ مَسَّاج لِلأَقْدَام مَوجُود", persianTranslation = "پاشویه و ماساژ پا موجود است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 569, numeric_id = 569, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "طبيب و اصلاح الملابس بالخدمة", iraqiPronunciation = "طَبِیب وَ إِصْلَاح المَلابِس بِالْخِدْمَة", persianTranslation = "پزشک و خیاطی در خدمت است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 570, numeric_id = 570, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الوايفاي و الإنترنت مجاني", iraqiPronunciation = "اَلْوایْفَای وَ الإِنْتَرْنِت مَجّانِی", persianTranslation = "وای‌فای و اینترنت رایگان است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 571, numeric_id = 571, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تريد شاحنة أيفون لو اندرويد؟", iraqiPronunciation = "تِرِید شَاحِنَة آَیْفُون لَوْ انْدُرُویْد؟", persianTranslation = "شارژر آیفون می‌خواهی یا اندروید؟", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 572, numeric_id = 572, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اترك موبايلك هنا للشحن", iraqiPronunciation = "اَتْرُک مۆبَایْلَک هِنَا لِلشَّحْن", persianTranslation = "گوشیت را برای شارژ اینجا بگذار", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 573, numeric_id = 573, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مكان خياطة و ترميم الحقائب", iraqiPronunciation = "مَکَان خَیَاطَة وَ تَرْمِیمِ الحَقَائِب", persianTranslation = "محل خیاطی و تعمیر کیف و کوله", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 574, numeric_id = 574, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا دواء للصداع و المعدة", iraqiPronunciation = "عِنْدِنَا دَوَاء لِلصُّدَاع وَ المَعِدَة", persianTranslation = "دارو برای سردرد و معده‌درد داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 575, numeric_id = 575, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضل مرهم لالتهاب الأقدام", iraqiPronunciation = "تَفَضَّل مَرْهَم لِلْتِهابِ الأَقْدَام", persianTranslation = "بفرما پماد برای تاول و عرق‌سوزی پا", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 576, numeric_id = 576, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هنا مكان غسيل الوجه و الوضوء", iraqiPronunciation = "هِنَا مَکَان غَسِیلِ الوَجْه وَ الوُضُوء", persianTranslation = "اینجا محل دست‌ورِو شستن و وضو است", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 577, numeric_id = 577, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا صابون و محارم", iraqiPronunciation = "عِنْدِنَا صَابُون وَ مَحَارِم (کِلِینِکْس)", persianTranslation = "صابون و دستمال کاغذی داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 578, numeric_id = 578, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تقدرون تغسلون ملابسكم هنا", iraqiPronunciation = "تِقْدَرُون تِغْسِلُون مَلابِسْکُم هِنَا", persianTranslation = "می‌توانید لباس‌هایتان را اینجا بشویید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 579, numeric_id = 579, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "عندنا مجفف ملابس سريع", iraqiPronunciation = "عِنْدِنَا مِجَفِّف مَلابِس سَرِیع", persianTranslation = "خشک‌کن سریع لباس داریم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 580, numeric_id = 580, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "خدمة تصليح العربات والعجلات", iraqiPronunciation = "خِدْمَة تَصْلِیحِ العَرَبَات وَ العَجَلاَت", persianTranslation = "خدمات تعمیر کالسکه و چرخ کوله", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 581, numeric_id = 581, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "في امان الله، زيارة مقبولة", iraqiPronunciation = "فِی أَمَانِ الله، زِیَارَة مَقْبُولَة", persianTranslation = "در پناه خدا، زیارتتان مقبول", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 582, numeric_id = 582, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "رحم الله والديكُم على الزيارة", iraqiPronunciation = "رَحِمَ الله وَالِدِیکُمْ عَلَى الزِّیَارَة", persianTranslation = "خدا رفتگانتان را بیامرزد بابت زیارت", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 583, numeric_id = 583, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "لا تنسونا من صالح الدعاء", iraqiPronunciation = "لا تَنْسَوْنَا مِنْ صَالِحِ الدُّعَاءِ", persianTranslation = "ما را از دعای خیر فراموش نکنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 584, numeric_id = 584, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "مع السلامة، رافقتكم السلامة", iraqiPronunciation = "مَعَ السَّلاَمَة، رَافَقَتْکُمُ السَّلاَمَة", persianTranslation = "به سلامت، خدا به همراهتان", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 585, numeric_id = 585, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "توصلون بالسلامة إن شاء الله", iraqiPronunciation = "تُوصَلُون بِالسَّلاَمَة إنْ شَاءَ الله", persianTranslation = "ان‌شاءالله به سلامت برسید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 586, numeric_id = 586, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله ييسر طريقكم للكربلاء", iraqiPronunciation = "الله یِیَسِّر طَرِیقْکُم لِلْکَرْبَلاء", persianTranslation = "خدا راهتان را به کربلا هموار کند", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 587, numeric_id = 587, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "إلى اللقاء يا زوار الحسين", iraqiPronunciation = "إلَى اللِّقَاء یَا زُوّارَ الحُسَیْن", persianTranslation = "به امید دیدار ای زائران حسین", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 588, numeric_id = 588, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يتقبل طاعتكم و مشيكم", iraqiPronunciation = "الله یِتَقَبَّل طَاعَتْکُم وَ مَشْیْکُم", persianTranslation = "خدا طاعت و پیاده‌روی‌تان را بپذیرد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 589, numeric_id = 589, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ادعوا لنا عند قبر الحسين", iraqiPronunciation = "اُدْعُوا لِنَا عِنْدَ قَبْرِ الحُسَیْن", persianTranslation = "کنار ضریح امام حسین ما را دعا کنید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 590, numeric_id = 590, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "ربي يرجعكم لأهلكم سالمين", iraqiPronunciation = "رَبِّی یِرْجِعْکُم لِأَهْلِکُم سَالِمِین", persianTranslation = "پروردگار شما را سالم به خانواده برگرداند", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 591, numeric_id = 591, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شاركونا في ثواب الموكب", iraqiPronunciation = "شَارِکُونَا فِی ثَوَابِ المَوْکِب", persianTranslation = "در ثواب موکب با ما شریک شوید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 592, numeric_id = 592, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "كل عام و أنتم بخير و سلامة", iraqiPronunciation = "کُلَّ عَام وَ أَنْتُم بِخَیْر وَ سَلاَمَة", persianTranslation = "هر سال به خوشی و سلامتی باشید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 593, numeric_id = 593, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بكم في كل وقت", iraqiPronunciation = "أَهْلاً بِکُم فِی کُلِّ وَقْت", persianTranslation = "در هر زمانی خوش آمدید", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 594, numeric_id = 594, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "سلامي لأهلكم و عائلتكم", iraqiPronunciation = "سَلاَمِی لِأَهْلِکُم وَ عائِلَتْکُم", persianTranslation = "سلام من به خانواده و فامیلتان", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 595, numeric_id = 595, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "الله يكتبكم من الزوار كل سنة", iraqiPronunciation = "الله یِکْتِبْکُم مِنَ الزُوّار کُلَّ سَنَة", persianTranslation = "خدا هر سال شما را از زائران بنویسد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 596, numeric_id = 596, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شكراً لزيارتكم و حضوركم", iraqiPronunciation = "شُکْراً لِزِیَارَتِکُم وَ حُضُورِکُم", persianTranslation = "ممنون از زیارت و حضورتان", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 597, numeric_id = 597, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "في عين الله و رعايته", iraqiPronunciation = "فِی عَیْنِ الله وَ رِعَایَتِهِ", persianTranslation = "در پناه و توجه خداوند", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 598, numeric_id = 598, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تسلمون و الله يعزكم", iraqiPronunciation = "تَسْلَمُون وَ الله یِعَزّکُم", persianTranslation = "سلامت باشید و خدا عزيزتان بدارد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 599, numeric_id = 599, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "أسألكم الدعاء لفرج المهدي", iraqiPronunciation = "أَسْأَلُکُمُ الدُّعَاء لِفَرَجِ المَهْدِی", persianTranslation = "از شما التماس دعا برای فرج مهدی دارم", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 600, numeric_id = 600, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "حاجتكم مقضية ببركة الحسين", iraqiPronunciation = "حَاجَتْکُم مَقْضِیَّة بِبَرَکَةِ الحُسَیْن", persianTranslation = "حاجتتان برآورده به برکت امام حسین", forRole = "MOKEB_OWNER", isVip = false))
 
         return list
     }

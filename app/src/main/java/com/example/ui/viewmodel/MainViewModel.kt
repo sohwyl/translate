@@ -168,8 +168,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             } else {
                 ArabicNormalizer.normalize(phrase.arabicText).contains(normalizedQuery) ||
                 ArabicNormalizer.normalize(phrase.iraqiPronunciation).contains(normalizedQuery) ||
-                ArabicNormalizer.normalize(phrase.persianTranslation).contains(normalizedQuery) ||
-                ArabicNormalizer.normalize(phrase.finglish).contains(normalizedQuery)
+                ArabicNormalizer.normalize(phrase.persianTranslation).contains(normalizedQuery)
             }
 
             matchesCategory && matchesQuery
