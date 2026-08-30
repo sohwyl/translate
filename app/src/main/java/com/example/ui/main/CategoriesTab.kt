@@ -55,6 +55,7 @@ fun CategoriesTab(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically
         ) {
+            val totalCategoryCount = categories.count { it.name != "همه" }
             Column {
                 Text(
                     text = "دسته‌بندی موضوعی عبارت‌ها",
@@ -63,7 +64,7 @@ fun CategoriesTab(
                     color = headerTextColor
                 )
                 Text(
-                    text = "۱۸ دسته تخصصی مکالمات و نیازمندی‌های زائرین و موکب‌داران",
+                    text = "$totalCategoryCount دسته تخصصی مکالمات و نیازمندی‌های زائرین و موکب‌داران",
                     fontSize = 12.sp,
                     color = if (isDarkTheme) TextSecondaryDark else Color(0xFF6B7280)
                 )

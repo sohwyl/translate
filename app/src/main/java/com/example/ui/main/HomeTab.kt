@@ -10,7 +10,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -370,8 +370,9 @@ fun HomeTab(
                             onClick = onOpenMultiSelectModal,
                             contentPadding = PaddingValues(horizontal = 8.dp, vertical = 0.dp)
                         ) {
+                            val totalCategoryCount = categories.count { it.name != "همه" }
                             Text(
-                                text = "مشاهده همه ۱۸ دسته",
+                                text = "مشاهده همه $totalCategoryCount دسته",
                                 fontSize = 12.sp,
                                 fontWeight = FontWeight.Bold,
                                 color = GoldenAmber
@@ -579,8 +580,7 @@ fun HomeTab(
         }
 
         // Phrase Cards List
-        items(displayList, key = { it.id }) { phrase ->
-            val phraseIndex = displayList.indexOf(phrase)
+        itemsIndexed(displayList, key = { _, phrase -> phrase.id }) { phraseIndex, phrase ->
             StaggeredEntrance(key = phrase.id, index = (phraseIndex + 5)) {
                 PhraseCard(
                     phrase = phrase,
