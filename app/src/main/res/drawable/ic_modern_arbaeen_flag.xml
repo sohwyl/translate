@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Flag Pole -->
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M14,8H16V38H14Z"/>
+    <!-- Pole Spear Tip -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M15,5L17,8H13Z"/>
+    <!-- Waving Arbaeen Flag -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M16,8C22,8 24,14 30,12C34,10.7 36,13 36,13L34,25C34,25 32,22.7 28,24C22,26 20,20 16,20V8Z"/>
+    <!-- Ya Hussein Calligraphy Stroke Emblem -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M22,14C23.5,14 24,15 25,17C26,15 27,15 28,16L27,18C25.5,17.5 24.5,18 23.5,19L22,17Z"/>
+</vector>

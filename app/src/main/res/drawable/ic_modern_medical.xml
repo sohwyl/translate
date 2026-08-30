@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Medical Shield -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,10L14,14V23C14,29.5 18.3,35.5 24,37C29.7,35.5 34,29.5 34,23V14L24,10Z"/>
+    <!-- Medical Red / Emerald Cross -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M22,17H26V21H30V25H26V29H22V25H18V21H22Z"/>
+</vector>

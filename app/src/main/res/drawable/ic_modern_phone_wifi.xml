@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Phone Body -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M16,14C16,12.3 17.3,11 19,11H29C30.7,11 32,12.3 32,14V34C32,35.7 30.7,37 29,37H19C17.3,37 16,35.7 16,34V14Z"/>
+    <!-- Screen -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M18,15H30V31H18Z"/>
+    <!-- Home Bar / Button -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M22,33H26V35H22Z"/>
+    <!-- Wi-Fi signal arcs glowing above -->
+    <path
+        android:strokeColor="#FFE699"
+        android:strokeWidth="1.8"
+        android:pathData="M21,7C22.8,5.7 25.2,5.7 27,7"/>
+    <path
+        android:strokeColor="#FFE699"
+        android:strokeWidth="1.8"
+        android:pathData="M23,9C23.6,8.4 24.4,8.4 25,9"/>
+</vector>

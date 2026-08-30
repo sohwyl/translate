@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Back Coin -->
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M29,20m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0"/>
+    <!-- Front Coin -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M20,27m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"/>
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M20,27m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0"/>
+    <!-- Currency Symbol -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M18,24H22V26H18V28H22V30H18V31H17V23H22V24H18Z"/>
+</vector>

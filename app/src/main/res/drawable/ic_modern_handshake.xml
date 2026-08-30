@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Glow -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Hands Clasped in Welcome / Salaam -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M31.8,20.2L27.6,16C26.8,15.2 25.6,15.2 24.8,16L20.4,20.4L18.4,18.4C17.6,17.6 16.4,17.6 15.6,18.4L10,24L15.6,29.6C16.4,30.4 17.6,30.4 18.4,29.6L23.2,24.8L27.4,29C28.2,29.8 29.4,29.8 30.2,29L38,21.2L31.8,20.2Z"/>
+    <!-- Heart / Blessing Motif on top -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M24,12C25.5,10 28,10.5 29,12C30,13.5 29,15 24,18C19,15 18,13.5 19,12C20,10.5 22.5,10 24,12Z"/>
+</vector>

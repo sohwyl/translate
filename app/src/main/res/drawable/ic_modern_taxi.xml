@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Taxi Roof Light -->
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M21,12H27V14H21Z"/>
+    <!-- Car Body -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M34,18L31.5,14.5C31.2,14.2 30.7,14 30.2,14H17.8C17.3,14 16.8,14.2 16.5,14.5L14,18C12.9,18.4 12,19.5 12,21V31C12,32.1 12.9,33 14,33H15C16.1,33 17,32.1 17,31V30H31V31C31,32.1 31.9,33 33,33H34C35.1,33 36,32.1 36,31V21C36,19.5 35.1,18.4 34,18Z"/>
+    <!-- Windshield -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M17.4,16H30.6L32.6,20H15.4Z"/>
+    <!-- Headlights -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M15,24m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M33,24m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+</vector>

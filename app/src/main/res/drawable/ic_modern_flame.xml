@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Fire Flame Body -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,9C24,9 29,15 29,21C29,23 28.5,25 27.5,26.5C31.5,26 35,29.5 35,34C35,39.5 30,42 24,42C18,42 13,39.5 13,34C13,27 18.5,22.5 19,16C21,17 22,19 22,21C22,17 24,9 24,9Z"/>
+    <!-- Inner Flame Core -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M24,25C24,25 27,29 27,33C27,35 25.5,37 24,37C22.5,37 21,35 21,33C21,29 24,25 24,25Z"/>
+</vector>

@@ -1,0 +1,2 @@
+# Only dependency needed to run generate_voice_over.py
+edge-tts>=6.1.0

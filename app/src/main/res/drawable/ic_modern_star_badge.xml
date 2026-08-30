@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Star Shape with Golden Ring -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+    <path
+        android:strokeColor="#F6C543"
+        android:strokeWidth="1.5"
+        android:pathData="M24,24m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0"/>
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,14L26.8,20.2L33.5,20.9L28.4,25.4L29.9,32L24,28.5L18.1,32L19.6,25.4L14.5,20.9L21.2,20.2Z"/>
+</vector>

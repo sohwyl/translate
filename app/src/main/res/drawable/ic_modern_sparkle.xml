@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Main 4-point Sparkle Star -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,10L26.5,20.5L37,23L26.5,25.5L24,36L21.5,25.5L11,23L21.5,20.5Z"/>
+    <!-- Secondary Sparkle Star -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M34,11L35.2,15.8L40,17L35.2,18.2L34,23L32.8,18.2L28,17L32.8,15.8Z"/>
+</vector>

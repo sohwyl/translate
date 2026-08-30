@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Glow / Background disc -->
+    <path
+        android:fillColor="#1A2D68C4"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Mosque Dome -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,10C19.5,15.5 16,19 16,25C16,29.4 19.6,33 24,33C28.4,33 32,29.4 32,25C32,19 28.5,15.5 24,10Z"/>
+    <!-- Dome Base & Arch Door -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M21,33L21,26C21,24.3 22.3,23 24,23C25.7,23 27,24.3 27,26L27,33Z"/>
+    <!-- Left Minaret -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M11,17L13,17L13,33L11,33Z"/>
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M10,17L14,17L12,13Z"/>
+    <!-- Right Minaret -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M35,17L37,17L37,33L35,33Z"/>
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M34,17L38,17L36,13Z"/>
+    <!-- Crescent on Dome -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M24,7C23.2,7 22.5,7.2 21.9,7.5C23.2,8.2 24,9.5 24,11C24,12.5 23.2,13.8 21.9,14.5C22.5,14.8 23.2,15 24,15C26.2,15 28,13.2 28,11C28,8.8 26.2,7 24,7Z"/>
+    <!-- Bottom Foundation Line -->
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M9,33H39V36H9Z"/>
+</vector>

@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Compass Ring -->
+    <path
+        android:strokeColor="#F6C543"
+        android:strokeWidth="2.5"
+        android:pathData="M24,24m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"/>
+    <!-- Cardinal Points -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,6L25.5,9H22.5Z"/>
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M24,42L25.5,39H22.5Z"/>
+    <!-- Needle North (Gold) -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,24L21,24L24,11L27,24Z"/>
+    <!-- Needle South (Emerald Accent) -->
+    <path
+        android:fillColor="#D8A228"
+        android:pathData="M24,24L21,24L24,37L27,24Z"/>
+    <!-- Center Pivot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,24m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"/>
+</vector>

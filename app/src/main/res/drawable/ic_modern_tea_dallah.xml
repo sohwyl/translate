@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Outer Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M24,24m-22,0a22,22 0,1 1,44 0a22,22 0,1 1,-44 0"/>
+    <!-- Traditional Arabic Coffee/Tea Pot (Dallah) -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M24,8L22,12H26Z"/>
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M21,12H27L29,20H19Z"/>
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M18,20H30L32,34C32,36.2 30.2,38 28,38H20C17.8,38 16,36.2 16,34L18,20Z"/>
+    <!-- Curved Handle -->
+    <path
+        android:strokeColor="#D8A228"
+        android:strokeWidth="2.5"
+        android:pathData="M18,16C13,16 12,24 16,30"/>
+    <!-- Elegant Spout -->
+    <path
+        android:strokeColor="#F6C543"
+        android:strokeWidth="2.5"
+        android:pathData="M28,18C34,18 36,12 36,10"/>
+    <!-- Warm Tea Steam Wisps -->
+    <path
+        android:strokeColor="#FFE699"
+        android:strokeWidth="1.8"
+        android:pathData="M34,8C35,6 33,4 34,2"/>
+</vector>

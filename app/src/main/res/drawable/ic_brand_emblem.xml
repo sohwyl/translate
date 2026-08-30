@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+    <!-- Outer Glow Disc -->
+    <path
+        android:fillColor="#15F6C543"
+        android:pathData="M80,80m-76,0a76,76 0,1 1,152 0a76,76 0,1 1,-152 0"/>
+    
+    <!-- Outer Geometric Mandala Ring -->
+    <path
+        android:strokeColor="#F6C543"
+        android:strokeWidth="1.5"
+        android:pathData="M80,80m-68,0a68,68 0,1 1,136 0a68,68 0,1 1,-136 0"/>
+
+    <!-- Concentric Dash Ring -->
+    <path
+        android:strokeColor="#D8A228"
+        android:strokeWidth="1.2"
+        android:pathData="M80,80m-58,0a58,58 0,1 1,116 0a58,58 0,1 1,-116 0"/>
+
+    <!-- Sacred 8-Point Geometric Star Mandala Background -->
+    <path
+        android:strokeColor="#FFE699"
+        android:strokeWidth="1.5"
+        android:pathData="M80,24 L96,44 L120,40 L124,64 L144,80 L124,96 L120,120 L96,116 L80,136 L64,116 L40,120 L36,96 L16,80 L36,64 L40,40 L64,44 Z"/>
+
+    <!-- Inner Golden Sacred Ring -->
+    <path
+        android:fillColor="#220D2E22"
+        android:strokeColor="#F6C543"
+        android:strokeWidth="2.5"
+        android:pathData="M80,80m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0"/>
+
+    <!-- Arbaeen Holy Golden Dome Center Silhouette -->
+    <path
+        android:fillColor="#F6C543"
+        android:pathData="M80,48 C72,60 62,68 62,84 C62,88 64,92 68,94 L92,94 C96,92 98,88 98,84 C98,68 88,60 80,48 Z"/>
+
+    <!-- Minaret Spear / Flag Emblem on Dome -->
+    <path
+        android:strokeColor="#FFE699"
+        android:strokeWidth="2"
+        android:pathData="M80,42 V48"/>
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M80,40 L84,43 L76,43 Z"/>
+
+    <!-- Dialogue / Translation Speech Bubble Arc (Connecting Hearts and Tongues) -->
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M56,86 C54,86 52,88 52,90 C52,94 56,98 62,100 L60,105 L66,101 C70,101 74,99 76,97 C74,95 72,94 70,94 C65,94 60,90 56,86 Z"/>
+
+    <path
+        android:fillColor="#FFE699"
+        android:pathData="M104,86 C106,86 108,88 108,90 C108,94 104,98 98,100 L100,105 L94,101 C90,101 86,99 84,97 C86,95 88,94 90,94 C95,94 100,90 104,86 Z"/>
+
+    <!-- Sacred Ya Hussein / Arbaeen Palm (Panjtan Hand / Golden Rays) in Dome -->
+    <path
+        android:fillColor="#0D2E22"
+        android:pathData="M80,62 C77,62 75,64 75,67 C75,70 77,72 80,72 C83,72 85,70 85,67 C85,64 83,62 80,62 Z"/>
+    
+    <!-- Base Platform with Calligraphic Crescent Line -->
+    <path
+        android:strokeColor="#FFE699"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M56,108 C68,114 92,114 104,108"/>
+
+    <!-- Radiating Golden Star Pearls (8 Dots) -->
+    <path android:fillColor="#FFE699" android:pathData="M80,18m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M142,80m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M80,142m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M18,80m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M124,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M124,124m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M36,124m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path android:fillColor="#FFE699" android:pathData="M36,36m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+</vector>
