@@ -22,7 +22,7 @@ import java.util.concurrent.Executors
 
 /**
  * Singleton Audio Service & Player Helper utilizing Android Media3 (ExoPlayer)
- * for managing 1200 Phrase Audio Assets (600 phrases x Male & Female voices).
+ * for managing per-phrase audio assets (each phrase x Male & Female voices).
  *
  * Key Architecture & Resiliency Features:
  * 1. Singleton ExoPlayer Instance: Single reusable ExoPlayer managed on the Main Looper Thread.

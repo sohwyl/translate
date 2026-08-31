@@ -2,6 +2,7 @@ package com.example.ui.components
 
 import android.content.Context
 import android.util.Log
+import com.example.data.DatabaseInitializer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
@@ -17,20 +18,22 @@ data class AudioVerificationReport(
 object AudioBatchVerifier {
 
     private const val TAG = "AudioBatchVerifier"
-    private const val TOTAL_EXPECTED_PHRASES = 600
 
     /**
-     * Batch verifies all 1200 audio asset files (600 male + 600 female) asynchronously on Dispatchers.IO.
-     * Checks file existence, accessibility via AssetManager, and non-zero byte size.
+     * Batch verifies audio asset files (one male + one female per phrase) asynchronously
+     * on Dispatchers.IO. Checks file existence, accessibility via AssetManager, and non-zero
+     * byte size. The expected phrase count is read from the live phrase database rather than
+     * hardcoded, so this stays correct as the phrase set grows.
      */
     suspend fun verifyAll900AudioFiles(context: Context): AudioVerificationReport = withContext(Dispatchers.IO) {
         val assetManager = context.assets
+        val TOTAL_EXPECTED_PHRASES = DatabaseInitializer.getInitialPhrases().size
         var maleVerifiedCount = 0
         var femaleVerifiedCount = 0
         val missingList = mutableListOf<String>()
 
         Log.i(TAG, "═══════════════════════════════════════════════════════════")
-        Log.i(TAG, "  STARTING BATCH VERIFICATION OF ALL 600 AUDIO ASSETS")
+        Log.i(TAG, "  STARTING BATCH VERIFICATION OF ALL $TOTAL_EXPECTED_PHRASES AUDIO ASSETS")
         Log.i(TAG, "═══════════════════════════════════════════════════════════")
 
         for (phraseId in 1..TOTAL_EXPECTED_PHRASES) {

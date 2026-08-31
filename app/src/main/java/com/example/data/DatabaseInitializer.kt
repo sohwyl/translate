@@ -2,5509 +2,509 @@ package com.example.data
 
 object DatabaseInitializer {
     fun getInitialPhrases(): List<PhraseEntity> {
-        val list = ArrayList<PhraseEntity>(600)
+        val list = ArrayList<PhraseEntity>(740)
 
-        list.add(PhraseEntity(
-            id = 1,
-            numeric_id = 1,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "السلام عليكم",
-            iraqiPronunciation = "اَلسَّلام عَلِیکُم",
-            persianTranslation = "سلام",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 2,
-            numeric_id = 2,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "شلونك؟",
-            iraqiPronunciation = "شِلونَک؟",
-            persianTranslation = "سلام، حالت چطوره؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 3,
-            numeric_id = 3,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "شلونكم؟",
-            iraqiPronunciation = "شِلونکُم؟",
-            persianTranslation = "حالت چطوره؟ (جمع)",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 4,
-            numeric_id = 4,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "آني زين، الحمد لله.",
-            iraqiPronunciation = "آنی زِین، الحمدلله.",
-            persianTranslation = "خوبم، ممنون.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 5,
-            numeric_id = 5,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "إنت زين؟",
-            iraqiPronunciation = "إنت زِین؟",
-            persianTranslation = "شما خوبید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 6,
-            numeric_id = 6,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله ينطيك العافية.",
-            iraqiPronunciation = "الله یِنطیک العافیه.",
-            persianTranslation = "خدا قوت.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 7,
-            numeric_id = 7,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله يتقبل.",
-            iraqiPronunciation = "الله یِتقبّل.",
-            persianTranslation = "خدا قبول کند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 8,
-            numeric_id = 8,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله يجزيك خير.",
-            iraqiPronunciation = "الله یِجزیک خیر.",
-            persianTranslation = "خدا خیرت بده.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 9,
-            numeric_id = 9,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله يحفظك.",
-            iraqiPronunciation = "الله یِحفَظَک.",
-            persianTranslation = "خدا حفظت کند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 10,
-            numeric_id = 10,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله وياك.",
-            iraqiPronunciation = "الله ویاک.",
-            persianTranslation = "خدا نگهدارت باشد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 11,
-            numeric_id = 11,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "هلا بيك",
-            iraqiPronunciation = "هَلا بِیک",
-            persianTranslation = "خوش آمدید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 12,
-            numeric_id = 12,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "ألف هلا بيك.",
-            iraqiPronunciation = "اَلف هَلا بِیک.",
-            persianTranslation = "خیلی خوش آمدید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 13,
-            numeric_id = 13,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "تشرفنا.",
-            iraqiPronunciation = "تِشَرَّفنا.",
-            persianTranslation = "خوشوقتم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 14,
-            numeric_id = 14,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "صباح الخير.",
-            iraqiPronunciation = "صَباح الخِیر.",
-            persianTranslation = "صبح بخیر.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 15,
-            numeric_id = 15,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "مساء الخير.",
-            iraqiPronunciation = "مَساء الخِیر.",
-            persianTranslation = "عصر بخیر.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 16,
-            numeric_id = 16,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "تصبح على خير.",
-            iraqiPronunciation = "تِصبَح عَله خیر.",
-            persianTranslation = "شب بخیر.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 17,
-            numeric_id = 17,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "نهارك سعيد.",
-            iraqiPronunciation = "نَهارَک سَعید.",
-            persianTranslation = "روز بخیر.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 18,
-            numeric_id = 18,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 19,
-            numeric_id = 19,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "أشوفك بعدين.",
-            iraqiPronunciation = "اَشوفَک بَعدِین.",
-            persianTranslation = "فعلاً.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 20,
-            numeric_id = 20,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "إن شاء الله نشوفك.",
-            iraqiPronunciation = "اِن‌شاءالله نِشوفَک.",
-            persianTranslation = "به امید دیدار.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 21,
-            numeric_id = 21,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "شكراً جزيلاً.",
-            iraqiPronunciation = "شُکراً جَزیلاً.",
-            persianTranslation = "خیلی ممنون.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 22,
-            numeric_id = 22,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "ممنون.",
-            iraqiPronunciation = "مَمنون.",
-            persianTranslation = "ممنون.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 23,
-            numeric_id = 23,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "العفو.",
-            iraqiPronunciation = "العَفو.",
-            persianTranslation = "خواهش می‌کنم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 24,
-            numeric_id = 24,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "ماكو داعي.",
-            iraqiPronunciation = "ماکو داعی.",
-            persianTranslation = "قابل ندارد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 25,
-            numeric_id = 25,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "عفواً.",
-            iraqiPronunciation = "عَفواً.",
-            persianTranslation = "ببخشید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 26,
-            numeric_id = 26,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "آسف.",
-            iraqiPronunciation = "آسِف.",
-            persianTranslation = "معذرت می‌خواهم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 27,
-            numeric_id = 27,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "ماكو مشكلة.",
-            iraqiPronunciation = "ماکو مُشکله.",
-            persianTranslation = "اشکالی ندارد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 28,
-            numeric_id = 28,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا به شما خیر بدهد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 29,
-            numeric_id = 29,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "الله يطول عمرك.",
-            iraqiPronunciation = "الله یطَوِّل عُمرَک.",
-            persianTranslation = "خدا عمرت بدهد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 30,
-            numeric_id = 30,
-            category = "احوالپرسی و احترام",
-            category_id = "greeting",
-            arabicText = "سفرة موفقة إن شاء الله.",
-            iraqiPronunciation = "سَفره مُوَفَّقه اِن‌شاءالله.",
-            persianTranslation = "سفر خوبی داشته باشید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 31,
-            numeric_id = 31,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين حرم الإمام الحسين؟",
-            iraqiPronunciation = "وِین حَرَم الإمام الحُسین؟",
-            persianTranslation = "حرم امام حسین (ع) کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 32,
-            numeric_id = 32,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين حرم أبو الفضل العباس؟",
-            iraqiPronunciation = "وِین حَرَم أبو الفَضل العَبّاس؟",
-            persianTranslation = "حرم حضرت عباس (ع) کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 33,
-            numeric_id = 33,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "أريد أروح للحرم.",
-            iraqiPronunciation = "أرید أروح لِلحَرَم.",
-            persianTranslation = "می‌خواهم به حرم بروم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 34,
-            numeric_id = 34,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "هذا الطريق يودي للحرم؟",
-            iraqiPronunciation = "هذا الطَریق یودّی لِلحَرَم؟",
-            persianTranslation = "این مسیر به حرم می‌رود؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 35,
-            numeric_id = 35,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين باب الحرم؟",
-            iraqiPronunciation = "وِین باب الحَرَم؟",
-            persianTranslation = "ورودی حرم کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 36,
-            numeric_id = 36,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين محل الأحذية؟",
-            iraqiPronunciation = "وِین مَحَلّ الأحذیه؟",
-            persianTranslation = "کفشداری کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 37,
-            numeric_id = 37,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين أسلّم جوتيي؟",
-            iraqiPronunciation = "وِین أسلِّم جوتیّی؟",
-            persianTranslation = "کفش‌هایم را کجا تحویل بدهم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 38,
-            numeric_id = 38,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "شكد رقم الأمانات؟",
-            iraqiPronunciation = "شگِد رَقَم الأمانات؟",
-            persianTranslation = "شماره امانات چند است؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 39,
-            numeric_id = 39,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين محل الوضوء؟",
-            iraqiPronunciation = "وِین مَحَل الوُضوء؟",
-            persianTranslation = "وضوخانه کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 40,
-            numeric_id = 40,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين الحمّام؟",
-            iraqiPronunciation = "وِین الحَمّام؟",
-            persianTranslation = "سرویس بهداشتی کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 41,
-            numeric_id = 41,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين مصلى النساء؟",
-            iraqiPronunciation = "وِین مُصلّى النِساء؟",
-            persianTranslation = "محل نماز بانوان کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 42,
-            numeric_id = 42,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين مصلى الرجال؟",
-            iraqiPronunciation = "وِین مُصلّى الرِجال؟",
-            persianTranslation = "محل نماز آقایان کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 43,
-            numeric_id = 43,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "يجوز أدخل؟",
-            iraqiPronunciation = "یَجوز أَدخُل؟",
-            persianTranslation = "اجازه ورود هست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 44,
-            numeric_id = 44,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "يجوز أصور؟",
-            iraqiPronunciation = "یَجوز أَصَوّر؟",
-            persianTranslation = "اجازه عکاسی هست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 45,
-            numeric_id = 45,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "الزحمة كلش هواية.",
-            iraqiPronunciation = "الزَحمة کُلِش هَوایِه.",
-            persianTranslation = "ازدحام خیلی زیاد است.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 46,
-            numeric_id = 46,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "لو سمحت امشوا بهدوء.",
-            iraqiPronunciation = "لو سَمَحت اِمشوا بِهُدوء.",
-            persianTranslation = "لطفاً آرام‌تر حرکت کنید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 47,
-            numeric_id = 47,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "آني ضايع.",
-            iraqiPronunciation = "آنی ضایِع.",
-            persianTranslation = "من گم شده‌ام.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 48,
-            numeric_id = 48,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "ضيّعت صاحبي.",
-            iraqiPronunciation = "ضَیَّعت صاحبی.",
-            persianTranslation = "همراهم را گم کرده‌ام.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 49,
-            numeric_id = 49,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "ساعدني لو سمحت.",
-            iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            persianTranslation = "لطفاً کمکم کنید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 50,
-            numeric_id = 50,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "هاي كربلاء؟",
-            iraqiPronunciation = "های کَربَلا؟",
-            persianTranslation = "اینجا کربلاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 51,
-            numeric_id = 51,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "هاي النجف؟",
-            iraqiPronunciation = "های النَجَف؟",
-            persianTranslation = "اینجا نجف است؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 52,
-            numeric_id = 52,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين بين الحرمين؟",
-            iraqiPronunciation = "وِین بَین الحَرَمَین؟",
-            persianTranslation = "بین‌الحرمین کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 53,
-            numeric_id = 53,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "وين باب القبلة؟",
-            iraqiPronunciation = "وِین باب القِبله؟",
-            persianTranslation = "باب القبله کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 54,
-            numeric_id = 54,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "أريد أقرأ الزيارة.",
-            iraqiPronunciation = "أرید أَقرا الزِیاره.",
-            persianTranslation = "می‌خواهم زیارت بخوانم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 55,
-            numeric_id = 55,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "ادعِلي.",
-            iraqiPronunciation = "اِدعِلی.",
-            persianTranslation = "لطفاً برایم دعا کنید.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 56,
-            numeric_id = 56,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "الله يتقبل زيارتكم.",
-            iraqiPronunciation = "الله یِتقبّل زیارتکُم.",
-            persianTranslation = "ان‌شاءالله زیارتتان قبول باشد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 57,
-            numeric_id = 57,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "الله يتقبل منكم.",
-            iraqiPronunciation = "الله یِتقبّل مِنکُم.",
-            persianTranslation = "خدا زیارتتان را قبول کند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 58,
-            numeric_id = 58,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "شكراً على خدمتكم.",
-            iraqiPronunciation = "شُکراً عَله خِدمتکُم.",
-            persianTranslation = "خیلی ممنون از خدمتتان.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 59,
-            numeric_id = 59,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 60,
-            numeric_id = 60,
-            category = "زیارت و حرم",
-            category_id = "pilgrimage",
-            arabicText = "الله يحفظكم.",
-            iraqiPronunciation = "الله یِحفَظکُم.",
-            persianTranslation = "خدا شما را حفظ کند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 61,
-            numeric_id = 61,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "هاي موكب؟",
-            iraqiPronunciation = "های موکِب؟",
-            persianTranslation = "اینجا موکب است؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 62,
-            numeric_id = 62,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "يجوز أدخل؟",
-            iraqiPronunciation = "یَجوز أَدخُل؟",
-            persianTranslation = "می‌توانم داخل بیایم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 63,
-            numeric_id = 63,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "تفضل.",
-            iraqiPronunciation = "تِفَضَّل.",
-            persianTranslation = "خوش آمدید (بفرمایید).",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 64,
-            numeric_id = 64,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "تفضلوا للداخل.",
-            iraqiPronunciation = "تِفَضَّلوا لِلداخل.",
-            persianTranslation = "بفرمایید داخل.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 65,
-            numeric_id = 65,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "يجوز أقعد هنانة؟",
-            iraqiPronunciation = "یَجوز أَقعُد هِنانه؟",
-            persianTranslation = "می‌توانم اینجا بنشینم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 66,
-            numeric_id = 66,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم مكان فارغ؟",
-            iraqiPronunciation = "عَدکُم مَکان فارِغ؟",
-            persianTranslation = "جای خالی دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 67,
-            numeric_id = 67,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "أگدر أرتاح شوي؟",
-            iraqiPronunciation = "أگدَر أرتاح شِوَی؟",
-            persianTranslation = "می‌توانم استراحت کنم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 68,
-            numeric_id = 68,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "آني تعبان كلش.",
-            iraqiPronunciation = "آنی تَعبان کُلِش.",
-            persianTranslation = "خیلی خسته‌ام.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 69,
-            numeric_id = 69,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم ماي؟",
-            iraqiPronunciation = "عَدکُم مای؟",
-            persianTranslation = "آب دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 70,
-            numeric_id = 70,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "لو سمحت، قنينة ماي.",
-            iraqiPronunciation = "لو سَمَحت، قِنّینة مای.",
-            persianTranslation = "لطفاً یک بطری آب.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 71,
-            numeric_id = 71,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم ماي بارد؟",
-            iraqiPronunciation = "عَدکُم مای بارِد؟",
-            persianTranslation = "آب سرد دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 72,
-            numeric_id = 72,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "الأكل جاهز؟",
-            iraqiPronunciation = "الأکِل جاهِز؟",
-            persianTranslation = "غذا آماده است؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 73,
-            numeric_id = 73,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "أگدر آخذ أكل؟",
-            iraqiPronunciation = "أگدَر آخذ أکِل؟",
-            persianTranslation = "می‌توانم غذا بگیرم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 74,
-            numeric_id = 74,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "شكراً على الضيافة.",
-            iraqiPronunciation = "شُکراً عَله الضِیافه.",
-            persianTranslation = "خیلی ممنون از پذیرایی.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 75,
-            numeric_id = 75,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 76,
-            numeric_id = 76,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "الله ينطيكم العافية.",
-            iraqiPronunciation = "الله یِنطیکُم العافیه.",
-            persianTranslation = "خدا به شما سلامتی بدهد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 77,
-            numeric_id = 77,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "أگدر آخذ جاي؟",
-            iraqiPronunciation = "أگدَر آخذ چای؟",
-            persianTranslation = "می‌توانم چای بگیرم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 78,
-            numeric_id = 78,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "جاي بدون سكر لو سمحت.",
-            iraqiPronunciation = "جای بِدون سُکَّر.",
-            persianTranslation = "لطفاً چای بدون شکر.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 79,
-            numeric_id = 79,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم قهوة؟",
-            iraqiPronunciation = "عَدکُم قَهوه؟",
-            persianTranslation = "قهوه دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 80,
-            numeric_id = 80,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم أكل نباتي؟",
-            iraqiPronunciation = "عَدکُم أکِل نَباتی؟",
-            persianTranslation = "غذای گیاهی دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 81,
-            numeric_id = 81,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم مكان للنوم؟",
-            iraqiPronunciation = "عَدکُم مَکان لِلنوم؟",
-            persianTranslation = "جای خواب دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 82,
-            numeric_id = 82,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم بطانية؟",
-            iraqiPronunciation = "عَدکُم بَطّانیه؟",
-            persianTranslation = "پتو دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 83,
-            numeric_id = 83,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم مخدة؟",
-            iraqiPronunciation = "عَدکُم مُخَدّه؟",
-            persianTranslation = "بالش دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 84,
-            numeric_id = 84,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم شاحن موبايل؟",
-            iraqiPronunciation = "عَدکُم شاحِن موبايل؟",
-            persianTranslation = "شارژر موبایل دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 85,
-            numeric_id = 85,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "وين مكان شحن الموبايل؟",
-            iraqiPronunciation = "وِین مَکان شَحن الموبايل؟",
-            persianTranslation = "جای شارژ موبایل کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 86,
-            numeric_id = 86,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم واي فاي؟",
-            iraqiPronunciation = "عَدکُم وای فای؟",
-            persianTranslation = "وای‌فای دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 87,
-            numeric_id = 87,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "شنو رمز الواي فاي؟",
-            iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            persianTranslation = "رمز وای‌فای چیست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 88,
-            numeric_id = 88,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "عدكم حمام؟",
-            iraqiPronunciation = "عَدکُم حَمّام؟",
-            persianTranslation = "حمام دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 89,
-            numeric_id = 89,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "وين مكان غسل الملابس؟",
-            iraqiPronunciation = "وِین مَکان غَسل المَلابِس؟",
-            persianTranslation = "محل شستن لباس کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 90,
-            numeric_id = 90,
-            category = "موکب و خدمات",
-            category_id = "mawkib",
-            arabicText = "الله يتقبل منكم.",
-            iraqiPronunciation = "الله یِتقبّل مِنکُم.",
-            persianTranslation = "خداوند قبول کند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 91,
-            numeric_id = 91,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين هذا؟",
-            iraqiPronunciation = "وِین هذا؟",
-            persianTranslation = "کدوم طرفه؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 92,
-            numeric_id = 92,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين الحرم؟",
-            iraqiPronunciation = "وِین الحَرَم؟",
-            persianTranslation = "حرم کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 93,
-            numeric_id = 93,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين الموكب؟",
-            iraqiPronunciation = "وِین الموکِب؟",
-            persianTranslation = "موکب کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 94,
-            numeric_id = 94,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين بين الحرمين؟",
-            iraqiPronunciation = "وِین بَین الحَرَمَین؟",
-            persianTranslation = "بین‌الحرمین کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 95,
-            numeric_id = 95,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين طريق النجف؟",
-            iraqiPronunciation = "وِین طَریق النَجَف؟",
-            persianTranslation = "نجف کدوم طرفه؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 96,
-            numeric_id = 96,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين طريق كربلاء؟",
-            iraqiPronunciation = "وِین طَریق کَربَلا؟",
-            persianTranslation = "کربلا کدوم طرفه؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 97,
-            numeric_id = 97,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "شكد بقى للحرم؟",
-            iraqiPronunciation = "شگِد بَقی لِلحَرَم؟",
-            persianTranslation = "تا حرم چقدر مونده؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 98,
-            numeric_id = 98,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "قريب؟",
-            iraqiPronunciation = "قَریب؟",
-            persianTranslation = "نزدیکه؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 99,
-            numeric_id = 99,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "بعيد؟",
-            iraqiPronunciation = "بَعید؟",
-            persianTranslation = "دوره؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 100,
-            numeric_id = 100,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "أگدر أروح مشي؟",
-            iraqiPronunciation = "أگدَر أرتاح مَشی؟",
-            persianTranslation = "پیاده میشه رفت؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 101,
-            numeric_id = 101,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "روح دغري.",
-            iraqiPronunciation = "روح دِغری.",
-            persianTranslation = "مستقیم برو.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 102,
-            numeric_id = 102,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "لف يمين.",
-            iraqiPronunciation = "لِف یَمین.",
-            persianTranslation = "راست بپیچ.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 103,
-            numeric_id = 103,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "لف يسار.",
-            iraqiPronunciation = "لِف یَسار.",
-            persianTranslation = "چپ بپیچ.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 104,
-            numeric_id = 104,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "كدام.",
-            iraqiPronunciation = "گِدّام.",
-            persianTranslation = "همین جلو.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 105,
-            numeric_id = 105,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "آخر الشارع.",
-            iraqiPronunciation = "آخِر الشارِع.",
-            persianTranslation = "آخر خیابون.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 106,
-            numeric_id = 106,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "ورا البناية.",
-            iraqiPronunciation = "وَرا البِنایه.",
-            persianTranslation = "پشت اون ساختمان.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 107,
-            numeric_id = 107,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "گدامك.",
-            iraqiPronunciation = "گِدّامَک.",
-            persianTranslation = "روبه‌رو.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 108,
-            numeric_id = 108,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "يم الحرم.",
-            iraqiPronunciation = "یَم الحَرَم.",
-            persianTranslation = "کنار حرم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 109,
-            numeric_id = 109,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "هناك.",
-            iraqiPronunciation = "هِناک.",
-            persianTranslation = "اونجا.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 110,
-            numeric_id = 110,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "هنانة.",
-            iraqiPronunciation = "هِنانه.",
-            persianTranslation = "اینجا.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 111,
-            numeric_id = 111,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "آني ضايع.",
-            iraqiPronunciation = "آنی ضایِع.",
-            persianTranslation = "گم شدم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 112,
-            numeric_id = 112,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "دلّيني لو سمحت.",
-            iraqiPronunciation = "دِلّینی لو سَمَحت.",
-            persianTranslation = "لطفاً راهنماییم کن.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 113,
-            numeric_id = 113,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "عدك خريطة؟",
-            iraqiPronunciation = "عَدَک خَریطه؟",
-            persianTranslation = "نقشه داری؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 114,
-            numeric_id = 114,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين أقرب موكب؟",
-            iraqiPronunciation = "وِین اَقرَب موکِب؟",
-            persianTranslation = "نزدیک‌ترین موکب کجاست؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 115,
-            numeric_id = 115,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين أقرب حمام؟",
-            iraqiPronunciation = "وِین اَقرَب حَمّام؟",
-            persianTranslation = "نزدیک‌ترین سرویس بهداشتی؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 116,
-            numeric_id = 116,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين أقرب صيدلية؟",
-            iraqiPronunciation = "وِین اَقرَب صَیدَلِیّه؟",
-            persianTranslation = "نزدیک‌ترین داروخانه؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 117,
-            numeric_id = 117,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين أقرب مستوصف؟",
-            iraqiPronunciation = "وِین اَقرَب مُستَوصَف؟",
-            persianTranslation = "نزدیک‌ترین درمانگاه؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 118,
-            numeric_id = 118,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين موقف الباص؟",
-            iraqiPronunciation = "وِین مَوقِف الباص؟",
-            persianTranslation = "نزدیک‌ترین ایستگاه اتوبوس؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 119,
-            numeric_id = 119,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "وين التكسي؟",
-            iraqiPronunciation = "وِین التِکسی؟",
-            persianTranslation = "نزدیک‌ترین تاکسی؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 120,
-            numeric_id = 120,
-            category = "مسیر و آدرس",
-            category_id = "direction",
-            arabicText = "شكراً على المساعدة.",
-            iraqiPronunciation = "شُکراً عَله المُساعَده.",
-            persianTranslation = "ممنون از راهنمایی.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 121,
-            numeric_id = 121,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "آني جوعان.",
-            iraqiPronunciation = "آنی جَوعان.",
-            persianTranslation = "گرسنه‌ام.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 122,
-            numeric_id = 122,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "آني عطشان.",
-            iraqiPronunciation = "آنی عَطشان.",
-            persianTranslation = "تشنه‌ام.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 123,
-            numeric_id = 123,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم أكل؟",
-            iraqiPronunciation = "عَدکُم أکِل؟",
-            persianTranslation = "غذا دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 124,
-            numeric_id = 124,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم ماي؟",
-            iraqiPronunciation = "عَدکُم مای؟",
-            persianTranslation = "آب دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 125,
-            numeric_id = 125,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم ماي بارد؟",
-            iraqiPronunciation = "عَدکُم مای بارِد؟",
-            persianTranslation = "آب سرد دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 126,
-            numeric_id = 126,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "أريد قنينة ماي.",
-            iraqiPronunciation = "أرید قِنّینة مای.",
-            persianTranslation = "لطفاً یک بطری آب.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 127,
-            numeric_id = 127,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "أريد جاي.",
-            iraqiPronunciation = "أرید چای.",
-            persianTranslation = "چای لطفاً.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 128,
-            numeric_id = 128,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "أريد قهوة.",
-            iraqiPronunciation = "أرید قَهوه.",
-            persianTranslation = "قهوه لطفاً.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 129,
-            numeric_id = 129,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم فطور؟",
-            iraqiPronunciation = "عَدکُم فَطور؟",
-            persianTranslation = "صبحانه دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 130,
-            numeric_id = 130,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم غده؟",
-            iraqiPronunciation = "عَدکُم غَده؟",
-            persianTranslation = "ناهار دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 131,
-            numeric_id = 131,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم عشة؟",
-            iraqiPronunciation = "عَدکُم عَشه؟",
-            persianTranslation = "شام دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 132,
-            numeric_id = 132,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "أريد تمن.",
-            iraqiPronunciation = "أرید تَمَّن.",
-            persianTranslation = "برنج می‌خواهم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 133,
-            numeric_id = 133,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "أريد خبز.",
-            iraqiPronunciation = "أرید خُبُز.",
-            persianTranslation = "نان می‌خواهم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 134,
-            numeric_id = 134,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم شوربة؟",
-            iraqiPronunciation = "عَدکُم شورَبه؟",
-            persianTranslation = "سوپ دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 135,
-            numeric_id = 135,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "ما آكل لحم.",
-            iraqiPronunciation = "ما آکُل لَحِم.",
-            persianTranslation = "گوشت نمی‌خورم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 136,
-            numeric_id = 136,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم دجاج؟",
-            iraqiPronunciation = "عَدکُم دَجاج؟",
-            persianTranslation = "مرغ دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 137,
-            numeric_id = 137,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "الأكل حار؟",
-            iraqiPronunciation = "الأکِل حار؟",
-            persianTranslation = "غذای تند است؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 138,
-            numeric_id = 138,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "شويّة بهارات.",
-            iraqiPronunciation = "شِوَیّه بَهارات.",
-            persianTranslation = "لطفاً کم‌ادویه.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 139,
-            numeric_id = 139,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "بس، شكراً.",
-            iraqiPronunciation = "بَس، شُکراً.",
-            persianTranslation = "کافی است، ممنون.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 140,
-            numeric_id = 140,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "كلش طيب.",
-            iraqiPronunciation = "کُلِش طَیِّب.",
-            persianTranslation = "خیلی خوشمزه است.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 141,
-            numeric_id = 141,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "تسلم إيدك.",
-            iraqiPronunciation = "تِسلَم إیدَک.",
-            persianTranslation = "دستت درد نکند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 142,
-            numeric_id = 142,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 143,
-            numeric_id = 143,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "أگدر آخذ بعد؟",
-            iraqiPronunciation = "أگدَر آخذ بَعد؟",
-            persianTranslation = "می‌توانم بیشتر بردارم؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 144,
-            numeric_id = 144,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم ملعقة؟",
-            iraqiPronunciation = "عَدکُم مِلعَقه؟",
-            persianTranslation = "قاشق دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 145,
-            numeric_id = 145,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم جطل.",
-            iraqiPronunciation = "عَدکُم چَطَل.",
-            persianTranslation = "چنگال دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 146,
-            numeric_id = 146,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم كلاص.",
-            iraqiPronunciation = "عَدکُم گِلاص.",
-            persianTranslation = "لیوان دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 147,
-            numeric_id = 147,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم كلينكس.",
-            iraqiPronunciation = "عَدکُم کلینِکس.",
-            persianTranslation = "دستمال دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 148,
-            numeric_id = 148,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "عدكم ببسي.",
-            iraqiPronunciation = "عَدکُم بَبسی.",
-            persianTranslation = "نوشابه دارید؟",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 149,
-            numeric_id = 149,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "شبعت.",
-            iraqiPronunciation = "شِبِعت.",
-            persianTranslation = "خیلی سیر شدم.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 150,
-            numeric_id = 150,
-            category = "غذا و نوشیدنی",
-            category_id = "food",
-            arabicText = "الله يتقبل.",
-            iraqiPronunciation = "الله یِتقبّل.",
-            persianTranslation = "خدا قبول کند.",
-            forRole = "BOTH",
-            isVip = false
-        ))
-        list.add(PhraseEntity(
-            id = 151,
-            numeric_id = 151,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "وين السوق؟",
-            iraqiPronunciation = "وِین السُوق؟",
-            persianTranslation = "بازار کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 152,
-            numeric_id = 152,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "بجم هذا؟",
-            iraqiPronunciation = "بِجَم هذا؟",
-            persianTranslation = "این چند است؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 153,
-            numeric_id = 153,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "كلش غالي.",
-            iraqiPronunciation = "کُلِش غالی.",
-            persianTranslation = "خیلی گرونه.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 154,
-            numeric_id = 154,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "ماكو أرخص؟",
-            iraqiPronunciation = "ماکو اَرخَص؟",
-            persianTranslation = "ارزون‌تر ندارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 155,
-            numeric_id = 155,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "تنزل بالسعر؟",
-            iraqiPronunciation = "تِنزِل بِالسِعر؟",
-            persianTranslation = "تخفیف میدی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 156,
-            numeric_id = 156,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "آخر سعر شكد؟",
-            iraqiPronunciation = "آخِر سِعر شگِد؟",
-            persianTranslation = "آخرین قیمت چنده؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 157,
-            numeric_id = 157,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "زين، آخذه.",
-            iraqiPronunciation = "زِین، آخِذُه.",
-            persianTranslation = "باشه، می‌خرم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 158,
-            numeric_id = 158,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "لا، شكراً.",
-            iraqiPronunciation = "لا، شُکراً.",
-            persianTranslation = "نمی‌خوام، ممنون.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 159,
-            numeric_id = 159,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "دا أتفرج بس.",
-            iraqiPronunciation = "دا اَتَفَرَّج بَس.",
-            persianTranslation = "فقط نگاه می‌کنم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 160,
-            numeric_id = 160,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "تقبل كاش؟",
-            iraqiPronunciation = "تِقبَل کاش؟",
-            persianTranslation = "پول نقد قبول می‌کنید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 161,
-            numeric_id = 161,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "تقبل كارت؟",
-            iraqiPronunciation = "تِقبَل کارت؟",
-            persianTranslation = "کارت قبول می‌کنید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 162,
-            numeric_id = 162,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "وين الصيرفة؟",
-            iraqiPronunciation = "وِین الصَیرَفَه؟",
-            persianTranslation = "صرافی کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 163,
-            numeric_id = 163,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدك فراطة؟",
-            iraqiPronunciation = "عَدَک فَراطَه؟",
-            persianTranslation = "پول خرد داری؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 164,
-            numeric_id = 164,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "كيس لو سمحت.",
-            iraqiPronunciation = "کِیس لو سَمَحت.",
-            persianTranslation = "کیسه لطفاً.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 165,
-            numeric_id = 165,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "أريد هذا اللون.",
-            iraqiPronunciation = "أرید هذا اللَون.",
-            persianTranslation = "این رنگ رو می‌خوام.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 166,
-            numeric_id = 166,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدكم قياس أكبر؟",
-            iraqiPronunciation = "عَدکُم قِیاس اَکبَر؟",
-            persianTranslation = "سایز بزرگ‌تر دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 167,
-            numeric_id = 167,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدكم قياس أصغر؟",
-            iraqiPronunciation = "عَدکُم قِیاس اَصغَر؟",
-            persianTranslation = "سایز کوچک‌تر دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 168,
-            numeric_id = 168,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "أگدر أجربه؟",
-            iraqiPronunciation = "اَگدَر اَجَرِّبُه؟",
-            persianTranslation = "می‌تونم امتحانش کنم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 169,
-            numeric_id = 169,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "أصلي؟",
-            iraqiPronunciation = "اَصلی؟",
-            persianTranslation = "اصل هست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 170,
-            numeric_id = 170,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "جديد؟",
-            iraqiPronunciation = "جَدید؟",
-            persianTranslation = "نو هست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 171,
-            numeric_id = 171,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدكم شاحن موبايل؟",
-            iraqiPronunciation = "عَدکُم شاحِن موبایِل؟",
-            persianTranslation = "شارژر موبایل دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 172,
-            numeric_id = 172,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدكم باور بانك؟",
-            iraqiPronunciation = "عَدکُم باوَر بانک؟",
-            persianTranslation = "پاوربانک دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 173,
-            numeric_id = 173,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدكم سيم كارت؟",
-            iraqiPronunciation = "عَدکُم سِیم کارت؟",
-            persianTranslation = "سیم‌کارت دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 174,
-            numeric_id = 174,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "هذا زين؟",
-            iraqiPronunciation = "هذا زِین؟",
-            persianTranslation = "این خوبه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 175,
-            numeric_id = 175,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عدكم أحسن من هذا؟",
-            iraqiPronunciation = "عَدکُم اَحسَن مِن هذا؟",
-            persianTranslation = "بهتر از این دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 176,
-            numeric_id = 176,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "عطني فاتورة.",
-            iraqiPronunciation = "عَطنی فاتُورَه.",
-            persianTranslation = "لطفاً فاکتور بده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 177,
-            numeric_id = 177,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "والباقي؟",
-            iraqiPronunciation = "وَالباقی؟",
-            persianTranslation = "بقیه پولم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 178,
-            numeric_id = 178,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "تسلم.",
-            iraqiPronunciation = "تِسلَم.",
-            persianTranslation = "ممنون از لطفت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 179,
-            numeric_id = 179,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "الله يبارك برزقك.",
-            iraqiPronunciation = "الله یِبارِک بِرِزقَک.",
-            persianTranslation = "خدا به کسبت برکت بده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 180,
-            numeric_id = 180,
-            category = "خرید و بازار",
-            category_id = "market",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 181,
-            numeric_id = 181,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "وين التكسي؟",
-            iraqiPronunciation = "وِین التِکسی؟",
-            persianTranslation = "تاکسی کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 182,
-            numeric_id = 182,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "عدك تكسي فاضي؟",
-            iraqiPronunciation = "عَدَک تِکسی فاضی؟",
-            persianTranslation = "ماشین خالی داری؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 183,
-            numeric_id = 183,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "توديني للحرم؟",
-            iraqiPronunciation = "تُوَدّینی لِلحَرَم؟",
-            persianTranslation = "منو تا حرم می‌بری؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 184,
-            numeric_id = 184,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "بجم للنجف؟",
-            iraqiPronunciation = "بِجَم لِلنَجَف؟",
-            persianTranslation = "تا نجف چند می‌گیری؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 185,
-            numeric_id = 185,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "بجم لكربلاء؟",
-            iraqiPronunciation = "بِجَم لِکَربَلاء؟",
-            persianTranslation = "تا کربلا چند می‌گیری؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 186,
-            numeric_id = 186,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "كلش غالي.",
-            iraqiPronunciation = "کُلِش غالی.",
-            persianTranslation = "گرونه.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 187,
-            numeric_id = 187,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "نزل السعر شوي.",
-            iraqiPronunciation = "نَزِّل السِعر شِوَی.",
-            persianTranslation = "کمتر حساب کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 188,
-            numeric_id = 188,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "زين هيچ.",
-            iraqiPronunciation = "زِین هیچ.",
-            persianTranslation = "همین خوبه.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 189,
-            numeric_id = 189,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "يلا نمشي.",
-            iraqiPronunciation = "یَلّا نِمشی.",
-            persianTranslation = "حرکت کنیم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 190,
-            numeric_id = 190,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "وقف هنانة.",
-            iraqiPronunciation = "وَقِّف هِنانَه.",
-            persianTranslation = "نگه دار اینجا.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 191,
-            numeric_id = 191,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "أنزل هنانة.",
-            iraqiPronunciation = "اَنزِل هِنانَه.",
-            persianTranslation = "همین‌جا پیاده می‌شوم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 192,
-            numeric_id = 192,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "استعجل لو سمحت.",
-            iraqiPronunciation = "اِستَعجِل لو سَمَحت.",
-            persianTranslation = "لطفاً عجله کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 193,
-            numeric_id = 193,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "امشِ شوي شوي.",
-            iraqiPronunciation = "اِمشِ شِوَی شِوَی.",
-            persianTranslation = "آروم‌تر برو.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 194,
-            numeric_id = 194,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "عدكم حزام؟",
-            iraqiPronunciation = "عَدکُم حِزام؟",
-            persianTranslation = "کمربند ایمنی دارم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 195,
-            numeric_id = 195,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "شغل التبريد.",
-            iraqiPronunciation = "شَغِّل التَبرِید.",
-            persianTranslation = "کولر روشنه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 196,
-            numeric_id = 196,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "شغل المكيف.",
-            iraqiPronunciation = "شَغِّل المُکَیِّف.",
-            persianTranslation = "کولر رو روشن کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 197,
-            numeric_id = 197,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "طفي المكيف.",
-            iraqiPronunciation = "طَفّی المُکَیِّف.",
-            persianTranslation = "کولر رو خاموش کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 198,
-            numeric_id = 198,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "افتح الجام.",
-            iraqiPronunciation = "اِفتَح الجام.",
-            persianTranslation = "شیشه را باز کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 199,
-            numeric_id = 199,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "سد الجام.",
-            iraqiPronunciation = "سِدّ الجام.",
-            persianTranslation = "شیشه را ببند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 200,
-            numeric_id = 200,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "هذا الطريق أقرب؟",
-            iraqiPronunciation = "هذا الطَریق اَقرَب؟",
-            persianTranslation = "این مسیر نزدیک‌تره؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 201,
-            numeric_id = 201,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "أكو زحمة؟",
-            iraqiPronunciation = "اَکو زَحمَه؟",
-            persianTranslation = "ترافیکه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 202,
-            numeric_id = 202,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "شكد ياخذ وقت؟",
-            iraqiPronunciation = "شگِد یاخِذ وَقت؟",
-            persianTranslation = "چقدر طول می‌کشه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 203,
-            numeric_id = 203,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "وصلنا؟",
-            iraqiPronunciation = "وَصَلنا؟",
-            persianTranslation = "رسیدیم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 204,
-            numeric_id = 204,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "شكراً، هنانة زين.",
-            iraqiPronunciation = "شُکراً، هِنانَه زِین.",
-            persianTranslation = "ممنون، همین‌جا خوبه.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 205,
-            numeric_id = 205,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "عندي كاش.",
-            iraqiPronunciation = "عِندی کاش.",
-            persianTranslation = "پول نقد دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 206,
-            numeric_id = 206,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "والباقي؟",
-            iraqiPronunciation = "وَالباقی؟",
-            persianTranslation = "بقیه پولم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 207,
-            numeric_id = 207,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "تقبل كارت؟",
-            iraqiPronunciation = "تِقبَل کارت؟",
-            persianTranslation = "کارت قبول می‌کنی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 208,
-            numeric_id = 208,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرت بده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 209,
-            numeric_id = 209,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "الله ينطيكم العافية.",
-            iraqiPronunciation = "الله یِنطیکُم العافِیَه.",
-            persianTranslation = "خسته نباشی.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 210,
-            numeric_id = 210,
-            category = "تاکسی و حمل‌ونقل",
-            category_id = "taxi",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 211,
-            numeric_id = 211,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "وين الفندق؟",
-            iraqiPronunciation = "وِین الفُندُق؟",
-            persianTranslation = "هتل کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 212,
-            numeric_id = 212,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "عدكم غرفة فارغة؟",
-            iraqiPronunciation = "عَدکُم غُرفَه فارِغَه؟",
-            persianTranslation = "اتاق خالی دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 213,
-            numeric_id = 213,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أريد غرفة.",
-            iraqiPronunciation = "اَرید غُرفَه.",
-            persianTranslation = "یک اتاق می‌خواهم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 214,
-            numeric_id = 214,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أبقى ليلة وحدة.",
-            iraqiPronunciation = "اَبقى لَیلَه وَحدَه.",
-            persianTranslation = "یک شب می‌مانم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 215,
-            numeric_id = 215,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أبقى ليلتين.",
-            iraqiPronunciation = "اَبقى لَیلَتَین.",
-            persianTranslation = "دو شب می‌مانم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 216,
-            numeric_id = 216,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "بجم الغرفة؟",
-            iraqiPronunciation = "بِجَم الغُرفَه؟",
-            persianTranslation = "قیمت اتاق چقدره؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 217,
-            numeric_id = 217,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "كلش غالي.",
-            iraqiPronunciation = "کُلِش غالی.",
-            persianTranslation = "گرونه.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 218,
-            numeric_id = 218,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "ماكو أرخص؟",
-            iraqiPronunciation = "ماکو اَرخَص؟",
-            persianTranslation = "ارزون‌تر ندارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 219,
-            numeric_id = 219,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "الغرفة نظيفة؟",
-            iraqiPronunciation = "الغُرفَه نَظیفَه؟",
-            persianTranslation = "اتاق تمیزه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 220,
-            numeric_id = 220,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "بيها حمام؟",
-            iraqiPronunciation = "بیها حَمّام؟",
-            persianTranslation = "حمام داره؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 221,
-            numeric_id = 221,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "بيها حمام عربي؟",
-            iraqiPronunciation = "بیها حَمّام عَرَبی؟",
-            persianTranslation = "سرویس ایرانی داره؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 222,
-            numeric_id = 222,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "بيها مكيف؟",
-            iraqiPronunciation = "بیها مُکَیِّف؟",
-            persianTranslation = "کولر داره؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 223,
-            numeric_id = 223,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "عدكم بطانية؟",
-            iraqiPronunciation = "عَدکُم بَطّانِیَّه؟",
-            persianTranslation = "پتو دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 224,
-            numeric_id = 224,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "عدكم مخدة؟",
-            iraqiPronunciation = "عَدکُم مُخَدَّه؟",
-            persianTranslation = "بالش دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 225,
-            numeric_id = 225,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "عدكم فوطة؟",
-            iraqiPronunciation = "عَدکُم فوطَه؟",
-            persianTranslation = "حوله دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 226,
-            numeric_id = 226,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أكو ماي حار؟",
-            iraqiPronunciation = "اَکو مای حار؟",
-            persianTranslation = "آب گرم داره؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 227,
-            numeric_id = 227,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "عدكم واي فاي؟",
-            iraqiPronunciation = "عَدکُم وای فای؟",
-            persianTranslation = "وای‌فای دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 228,
-            numeric_id = 228,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "شنو رمز الواي فاي؟",
-            iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            persianTranslation = "رمز وای‌فای چیه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 229,
-            numeric_id = 229,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "ماكو كهرباء.",
-            iraqiPronunciation = "ماکو کَهرَباء.",
-            persianTranslation = "برق نیست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 230,
-            numeric_id = 230,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أريد شاحن.",
-            iraqiPronunciation = "اَرید شاحِن.",
-            persianTranslation = "شارژر می‌خوام.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 231,
-            numeric_id = 231,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "وين غرفتي؟",
-            iraqiPronunciation = "وِین غُرفَتی؟",
-            persianTranslation = "اتاقت کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 232,
-            numeric_id = 232,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "مفتاح الغرفة لو سمحت.",
-            iraqiPronunciation = "مِفتاح الغُرفَه لو سَمَحت.",
-            persianTranslation = "کلید اتاق لطفاً.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 233,
-            numeric_id = 233,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أريد أحاسب.",
-            iraqiPronunciation = "اَرید اُحاسِب.",
-            persianTranslation = "می‌خوام تسویه کنم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 234,
-            numeric_id = 234,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "أريد أسلّم الغرفة.",
-            iraqiPronunciation = "اَرید اَسلِّم الغُرفَه.",
-            persianTranslation = "می‌خوام اتاق رو تحویل بدم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 235,
-            numeric_id = 235,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "وصل لو سمحت.",
-            iraqiPronunciation = "وَصل لو سَمَحت.",
-            persianTranslation = "رسید لطفاً.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 236,
-            numeric_id = 236,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "شكراً على الضيافة.",
-            iraqiPronunciation = "شُکراً عَله الضِیافَه.",
-            persianTranslation = "ممنون از مهمان‌نوازیتون.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 237,
-            numeric_id = 237,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "كلشي كان زين.",
-            iraqiPronunciation = "کُلشی کان زِین.",
-            persianTranslation = "همه‌چیز عالی بود.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 238,
-            numeric_id = 238,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 239,
-            numeric_id = 239,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "الله ينطيكم العافية.",
-            iraqiPronunciation = "الله یِنطیکُم العافِیَه.",
-            persianTranslation = "خدا قوت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 240,
-            numeric_id = 240,
-            category = "اسکان و محل اقامت",
-            category_id = "accommodation",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 241,
-            numeric_id = 241,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "وين الصيدلية؟",
-            iraqiPronunciation = "وِین الصَیدَلِیَّه؟",
-            persianTranslation = "داروخانه کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 242,
-            numeric_id = 242,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "وين الدكتور؟",
-            iraqiPronunciation = "وِین الدُکتُور؟",
-            persianTranslation = "دکتر کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 243,
-            numeric_id = 243,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "وين المستوصف؟",
-            iraqiPronunciation = "وِین المُستَوصَف؟",
-            persianTranslation = "درمانگاه کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 244,
-            numeric_id = 244,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "وين المستشفى؟",
-            iraqiPronunciation = "وِین المُستَشفى؟",
-            persianTranslation = "بیمارستان کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 245,
-            numeric_id = 245,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "آني تعبان.",
-            iraqiPronunciation = "آنی تَعبان.",
-            persianTranslation = "حالم خوب نیست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 246,
-            numeric_id = 246,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عندي حرارة.",
-            iraqiPronunciation = "عِندی حَرارَه.",
-            persianTranslation = "تب دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 247,
-            numeric_id = 247,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "راسي يعورني.",
-            iraqiPronunciation = "راسی یِعوِّرنی.",
-            persianTranslation = "سردرد دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 248,
-            numeric_id = 248,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "سني يعورني.",
-            iraqiPronunciation = "سِنّی یِعوِّرنی.",
-            persianTranslation = "دندانم درد می‌کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 249,
-            numeric_id = 249,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "حلگي يعورني.",
-            iraqiPronunciation = "حَلگی یِعوِّرنی.",
-            persianTranslation = "گلویم درد می‌کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 250,
-            numeric_id = 250,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "بطني يعورني.",
-            iraqiPronunciation = "بَطنی یِعوِّرنی.",
-            persianTranslation = "شکمم درد می‌کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 251,
-            numeric_id = 251,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "رجلي تعورني.",
-            iraqiPronunciation = "رِجلی تِعوِّرنی.",
-            persianTranslation = "پایم درد می‌کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 252,
-            numeric_id = 252,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "إيدي تعورني.",
-            iraqiPronunciation = "إیدی تِعوِّرنی.",
-            persianTranslation = "دستم درد می‌کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 253,
-            numeric_id = 253,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عندي دوخة.",
-            iraqiPronunciation = "عِندی دَوخَه.",
-            persianTranslation = "سرگیجه دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 254,
-            numeric_id = 254,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عندي غثيان.",
-            iraqiPronunciation = "عِندی غَثَیان.",
-            persianTranslation = "حالت تهوع دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 255,
-            numeric_id = 255,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عندي إسهال.",
-            iraqiPronunciation = "عِندی إسهال.",
-            persianTranslation = "اسهال دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 256,
-            numeric_id = 256,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عندي حساسية.",
-            iraqiPronunciation = "عِندی حَسّاسِیَّه.",
-            persianTranslation = "حساسیت دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 257,
-            numeric_id = 257,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عدكم مسكن؟",
-            iraqiPronunciation = "عَدکُم مُسَکِّن؟",
-            persianTranslation = "داروی مسکن دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 258,
-            numeric_id = 258,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "أريد حبوب.",
-            iraqiPronunciation = "اَرید حُبُوب.",
-            persianTranslation = "قرص می‌خواهم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 259,
-            numeric_id = 259,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "أحتاج إبرة.",
-            iraqiPronunciation = "اَحتاج إبرَه.",
-            persianTranslation = "آمپول لازم دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 260,
-            numeric_id = 260,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "صار عندي جرح.",
-            iraqiPronunciation = "صار عِندی جَرح.",
-            persianTranslation = "زخم شده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 261,
-            numeric_id = 261,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عدكم شاش؟",
-            iraqiPronunciation = "عَدکُم شاش؟",
-            persianTranslation = "پانسمان دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 262,
-            numeric_id = 262,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "عدكم معقم؟",
-            iraqiPronunciation = "عَدکُم مُعَقِّم؟",
-            persianTranslation = "ضدعفونی‌کننده دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 263,
-            numeric_id = 263,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "أكو ماي صالح للشرب؟",
-            iraqiPronunciation = "اَکو مای صالِح لِلشُرب؟",
-            persianTranslation = "آب سالم برای خوردن هست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 264,
-            numeric_id = 264,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "ساعدني لو سمحت.",
-            iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            persianTranslation = "لطفاً کمکم کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 265,
-            numeric_id = 265,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "اتصل بالإسعاف.",
-            iraqiPronunciation = "اِتَّصِل بِالإسعاف.",
-            persianTranslation = "اورژانس را خبر کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 266,
-            numeric_id = 266,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "جيب إسعاف.",
-            iraqiPronunciation = "جِیب إِسعاف.",
-            persianTranslation = "آمبولانس خبر کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 267,
-            numeric_id = 267,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "هسه أحسن.",
-            iraqiPronunciation = "هَسَّه اَحسَن.",
-            persianTranslation = "حالم بهتر شده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 268,
-            numeric_id = 268,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "شكراً على مساعدتكم.",
-            iraqiPronunciation = "شُکراً عَله مُساعَدَتکُم.",
-            persianTranslation = "ممنون از کمکتان.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 269,
-            numeric_id = 269,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 270,
-            numeric_id = 270,
-            category = "درمان و دارو",
-            category_id = "medical",
-            arabicText = "الله يحفظكم.",
-            iraqiPronunciation = "الله یِحفَظکُم.",
-            persianTranslation = "خدا حفظتان کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 271,
-            numeric_id = 271,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "وين الصيرفة؟",
-            iraqiPronunciation = "وِین الصَیرَفَه؟",
-            persianTranslation = "صرافی کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 272,
-            numeric_id = 272,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "أريد أصرف فلوس.",
-            iraqiPronunciation = "اَرید اَصرِف فُلُوس.",
-            persianTranslation = "می‌خواهم پول تبدیل کنم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 273,
-            numeric_id = 273,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "بجم الدولار اليوم؟",
-            iraqiPronunciation = "بِجَم الدُولار الیَوم؟",
-            persianTranslation = "نرخ دلار چنده؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 274,
-            numeric_id = 274,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "بجم التومان؟",
-            iraqiPronunciation = "بِجَم التُومان؟",
-            persianTranslation = "نرخ تومان چنده؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 275,
-            numeric_id = 275,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "أريد دنانير.",
-            iraqiPronunciation = "اَرید دَنانِیر.",
-            persianTranslation = "دینار می‌خواهم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 276,
-            numeric_id = 276,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "عدكم فراطة؟",
-            iraqiPronunciation = "عَدکُم فَراطَه؟",
-            persianTranslation = "پول خرد دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 277,
-            numeric_id = 277,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "تبدل هاي الورقة؟",
-            iraqiPronunciation = "تِبَدِّل های الوَرَقَه؟",
-            persianTranslation = "این اسکناس را خرد می‌کنید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 278,
-            numeric_id = 278,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "تقبل كارت؟",
-            iraqiPronunciation = "تِقبَل کارت؟",
-            persianTranslation = "کارت قبول می‌کنید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 279,
-            numeric_id = 279,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "عندي كاش بس.",
-            iraqiPronunciation = "عِندی کاش بَس.",
-            persianTranslation = "فقط نقد دارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 280,
-            numeric_id = 280,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "وين الـATM؟",
-            iraqiPronunciation = "وِین ای تی ام؟",
-            persianTranslation = "دستگاه خودپرداز کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 281,
-            numeric_id = 281,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "وين البنك؟",
-            iraqiPronunciation = "وِین البَنک؟",
-            persianTranslation = "بانک کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 282,
-            numeric_id = 282,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "ما عندي فلوس كافية.",
-            iraqiPronunciation = "ما عِندی فُلُوس کافِیَه.",
-            persianTranslation = "موجودی کافی ندارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 283,
-            numeric_id = 283,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "ضيعت محفظتي.",
-            iraqiPronunciation = "ضَیَّعت مَحفَظَتی.",
-            persianTranslation = "کیف پولم گم شده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 284,
-            numeric_id = 284,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "انسرقت فلوسي.",
-            iraqiPronunciation = "اِنسَرَقَت فُلُوسی.",
-            persianTranslation = "پولم را دزدیده‌اند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 285,
-            numeric_id = 285,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "ساعدني لو سمحت.",
-            iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            persianTranslation = "لطفاً کمکم کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 286,
-            numeric_id = 286,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "وصل لو سمحت.",
-            iraqiPronunciation = "وَصل لو سَمَحت.",
-            persianTranslation = "رسید لطفاً.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 287,
-            numeric_id = 287,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "هذا آخر سعر؟",
-            iraqiPronunciation = "هذا آخِر سِعر؟",
-            persianTranslation = "این قیمت نهایی است؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 288,
-            numeric_id = 288,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "كلش غالي.",
-            iraqiPronunciation = "کُلِش غالی.",
-            persianTranslation = "خیلی گرونه.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 289,
-            numeric_id = 289,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "تنزل بالسعر؟",
-            iraqiPronunciation = "تِنزِل بِالسِعر؟",
-            persianTranslation = "تخفیف میدی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 290,
-            numeric_id = 290,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "زين، موافق.",
-            iraqiPronunciation = "زِین، مُوافِق.",
-            persianTranslation = "باشه، قبوله.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 291,
-            numeric_id = 291,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "عدها لو سمحت.",
-            iraqiPronunciation = "عُدَّها لو سَمَحت.",
-            persianTranslation = "لطفاً بشمار.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 292,
-            numeric_id = 292,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "الفلوس ناقصة.",
-            iraqiPronunciation = "الفُلُوس ناقِصَه.",
-            persianTranslation = "پول کم است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 293,
-            numeric_id = 293,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "عطيتني زيادة.",
-            iraqiPronunciation = "عَطَیتَنی زِیادَه.",
-            persianTranslation = "پول زیاد دادی.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 294,
-            numeric_id = 294,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "صحيح.",
-            iraqiPronunciation = "صَحِیح.",
-            persianTranslation = "درست است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 295,
-            numeric_id = 295,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "صار غلط.",
-            iraqiPronunciation = "صار غَلَط.",
-            persianTranslation = "اشتباه شده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 296,
-            numeric_id = 296,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "شكراً على أمانتك.",
-            iraqiPronunciation = "شُکراً عَله أمانَتَک.",
-            persianTranslation = "ممنون از امانتداری‌ات.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 297,
-            numeric_id = 297,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "الله يبارك برزقك.",
-            iraqiPronunciation = "الله یِبارِک بِرِزقَک.",
-            persianTranslation = "خدا به رزقت برکت بده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 298,
-            numeric_id = 298,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "الله يجزيك خير.",
-            iraqiPronunciation = "الله یِجزیک خیر.",
-            persianTranslation = "خدا خیرت بده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 299,
-            numeric_id = 299,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 300,
-            numeric_id = 300,
-            category = "پول، بانک و صرافی",
-            category_id = "money",
-            arabicText = "إن شاء الله أشوفك مرة ثانية.",
-            iraqiPronunciation = "اِن‌شاءالله اَشوفَک مَرَّه ثانِیَه.",
-            persianTranslation = "ان‌شاءالله دوباره می‌بینمت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 301,
-            numeric_id = 301,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم سيم كارت؟",
-            iraqiPronunciation = "عَدکُم سِیم کارت؟",
-            persianTranslation = "سیم‌کارت دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 302,
-            numeric_id = 302,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "أريد سيم كارت عراقية.",
-            iraqiPronunciation = "اَرید سِیم کارت عِراقیَّه.",
-            persianTranslation = "سیم‌کارت عراق می‌خواهم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 303,
-            numeric_id = 303,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "إيرانسل يشتغل هنانة؟",
-            iraqiPronunciation = "ایرانسِل یِشتِغِل هِنانه؟",
-            persianTranslation = "ایرانسل اینجا آنتن می‌دهد؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 304,
-            numeric_id = 304,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "همراه أول يشتغل؟",
-            iraqiPronunciation = "همراه اَوَّل یِشتِغِل؟",
-            persianTranslation = "همراه اول آنتن می‌دهد؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 305,
-            numeric_id = 305,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم إنترنت؟",
-            iraqiPronunciation = "عَدکُم اِنتِرنِت؟",
-            persianTranslation = "اینترنت دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 306,
-            numeric_id = 306,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم واي فاي؟",
-            iraqiPronunciation = "عَدکُم وای فای؟",
-            persianTranslation = "وای‌فای دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 307,
-            numeric_id = 307,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "شنو رمز الواي فاي؟",
-            iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            persianTranslation = "رمز وای‌فای چیه؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 308,
-            numeric_id = 308,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "الإنترنت ما يشتغل.",
-            iraqiPronunciation = "الاِنتِرنِت ما یِشتِغِل.",
-            persianTranslation = "اینترنت وصل نمی‌شود.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 309,
-            numeric_id = 309,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "ما عندي شبكة.",
-            iraqiPronunciation = "ما عِندی شَبَکَه.",
-            persianTranslation = "آنتن ندارم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 310,
-            numeric_id = 310,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم شاحن موبايل؟",
-            iraqiPronunciation = "عَدکُم شاحِن موبایِل؟",
-            persianTranslation = "شارژر موبایل دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 311,
-            numeric_id = 311,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم شاحن آيفون؟",
-            iraqiPronunciation = "عَدکُم شاحِن آیفون؟",
-            persianTranslation = "شارژر آیفون دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 312,
-            numeric_id = 312,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم شاحن تايب سي؟",
-            iraqiPronunciation = "عَدکُم شاحِن تایب سی؟",
-            persianTranslation = "شارژر اندروید دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 313,
-            numeric_id = 313,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم كيبل شحن؟",
-            iraqiPronunciation = "عَدکُم کِیبِل شَحن؟",
-            persianTranslation = "کابل شارژ دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 314,
-            numeric_id = 314,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "عدكم باور بانك؟",
-            iraqiPronunciation = "عَدکُم پاور بانک؟",
-            persianTranslation = "پاوربانک دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 315,
-            numeric_id = 315,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "وين الكهرباء؟",
-            iraqiPronunciation = "وِین الکَهرَباء؟",
-            persianTranslation = "برق کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 316,
-            numeric_id = 316,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "وين الفيش؟",
-            iraqiPronunciation = "وِین الفِیش؟",
-            persianTranslation = "پریز برق کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 317,
-            numeric_id = 317,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "أگدر أشحن موبايلي؟",
-            iraqiPronunciation = "أگدَر أِشحَن موبایِلی؟",
-            persianTranslation = "می‌توانم گوشی‌ام را شارژ کنم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 318,
-            numeric_id = 318,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "خلص شحنه.",
-            iraqiPronunciation = "خَلَص شَحنَه.",
-            persianTranslation = "شارژش تمام شده.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 319,
-            numeric_id = 319,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "البطارية ضعيفة.",
-            iraqiPronunciation = "البَطّارِیَّه ضَعیفَه.",
-            persianTranslation = "باتری ضعیف است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 320,
-            numeric_id = 320,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "ما يتصل.",
-            iraqiPronunciation = "ما یِتَّصِل.",
-            persianTranslation = "تماس نمی‌گیرد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 321,
-            numeric_id = 321,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "صوتك ما يوصل.",
-            iraqiPronunciation = "صَوتَک ما یِوصَل.",
-            persianTranslation = "صدایت نمی‌آید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 322,
-            numeric_id = 322,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "احچي أعلى شوي.",
-            iraqiPronunciation = "اِحچی اَعلی شِوَی.",
-            persianTranslation = "بلندتر صحبت کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 323,
-            numeric_id = 323,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "اتصل مرة ثانية.",
-            iraqiPronunciation = "اِتَّصِل مَرَّه ثانِیَه.",
-            persianTranslation = "دوباره زنگ بزن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 324,
-            numeric_id = 324,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "ابعث رسالة.",
-            iraqiPronunciation = "اِبعَث رِسالَه.",
-            persianTranslation = "پیام بفرست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 325,
-            numeric_id = 325,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "ابعث الموقع.",
-            iraqiPronunciation = "اِبعَث المَوقِع.",
-            persianTranslation = "لوکیشن بفرست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 326,
-            numeric_id = 326,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "الإنترنت بطيء.",
-            iraqiPronunciation = "الاِنتِرنِت بَطیء.",
-            persianTranslation = "اینترنت کند است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 327,
-            numeric_id = 327,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "شكراً على مساعدتك.",
-            iraqiPronunciation = "شُکراً عَله مُساعَدَتَک.",
-            persianTranslation = "ممنون از کمکت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 328,
-            numeric_id = 328,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "الله يجزيك خير.",
-            iraqiPronunciation = "الله یِجزیک خیر.",
-            persianTranslation = "خدا خیرت بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 329,
-            numeric_id = 329,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "الله يحفظك.",
-            iraqiPronunciation = "الله یِحفَظَک.",
-            persianTranslation = "خدا حفظت کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 330,
-            numeric_id = 330,
-            category = "موبایل، اینترنت و شارژ",
-            category_id = "mobile",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 331,
-            numeric_id = 331,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ساعدوني!",
-            iraqiPronunciation = "ساعِدونی!",
-            persianTranslation = "کمک!",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 332,
-            numeric_id = 332,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ساعدني لو سمحت.",
-            iraqiPronunciation = "ساعِدنی لو سَمَحت.",
-            persianTranslation = "لطفاً کمکم کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 333,
-            numeric_id = 333,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "وين الشرطة؟",
-            iraqiPronunciation = "وِین الشُّرتَه؟",
-            persianTranslation = "پلیس کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 334,
-            numeric_id = 334,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "جيب إسعاف.",
-            iraqiPronunciation = "جِیب اِسعاف.",
-            persianTranslation = "آمبولانس خبر کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 335,
-            numeric_id = 335,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "اتصل بالإطفائية.",
-            iraqiPronunciation = "اِتَّصِل بِالإطفائیَّه.",
-            persianTranslation = "آتش‌نشانی را خبر کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 336,
-            numeric_id = 336,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "آني ضايع.",
-            iraqiPronunciation = "آنی ضایِع.",
-            persianTranslation = "گم شده‌ام.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 337,
-            numeric_id = 337,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ضيعت الطريق.",
-            iraqiPronunciation = "ضَیَّعت الطَّریق.",
-            persianTranslation = "راهم را گم کرده‌ام.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 338,
-            numeric_id = 338,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ضاع صاحبي.",
-            iraqiPronunciation = "ضاع صاحِبی.",
-            persianTranslation = "همراهم گم شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 339,
-            numeric_id = 339,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ضاع طفلي.",
-            iraqiPronunciation = "ضاع طِفلی.",
-            persianTranslation = "بچه‌ام گم شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 340,
-            numeric_id = 340,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ضاعت محفظتي.",
-            iraqiPronunciation = "ضاعَت مَحفَظَتی.",
-            persianTranslation = "کیفم گم شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 341,
-            numeric_id = 341,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ضاع موبايلي.",
-            iraqiPronunciation = "ضاع موبایِلی.",
-            persianTranslation = "گوشی‌ام گم شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 342,
-            numeric_id = 342,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ضاع جواز سفري.",
-            iraqiPronunciation = "ضاع جَواز سَفَری.",
-            persianTranslation = "پاسپورتم گم شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 343,
-            numeric_id = 343,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "انسرقت محفظتي.",
-            iraqiPronunciation = "اِنسَرَقَت مَحفَظَتی.",
-            persianTranslation = "کیفم را دزدیده‌اند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 344,
-            numeric_id = 344,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "انسرقت فلوسي.",
-            iraqiPronunciation = "اِنسَرَقَت فُلوسی.",
-            persianTranslation = "پولم را دزدیده‌اند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 345,
-            numeric_id = 345,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "حالتي تعبت.",
-            iraqiPronunciation = "حالتِی تِعَبَت.",
-            persianTranslation = "حالم بد شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 346,
-            numeric_id = 346,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "ما أگدر أمشي.",
-            iraqiPronunciation = "ما أگدَر اَمشی.",
-            persianTranslation = "نمی‌توانم راه بروم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 347,
-            numeric_id = 347,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "عندي دوخة.",
-            iraqiPronunciation = "عِندی دَوخَه.",
-            persianTranslation = "سرم گیج می‌رود.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 348,
-            numeric_id = 348,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "أغمي عليه.",
-            iraqiPronunciation = "اُغمِیَ عَلَیه.",
-            persianTranslation = "بیهوش شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 349,
-            numeric_id = 349,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "صار حادث.",
-            iraqiPronunciation = "صار حادِث.",
-            persianTranslation = "تصادف شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 350,
-            numeric_id = 350,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "أكو حريق.",
-            iraqiPronunciation = "اَکو حَریق.",
-            persianTranslation = "آتش گرفته است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 351,
-            numeric_id = 351,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "استعجلوا لو سمحت.",
-            iraqiPronunciation = "اِستَعجِلوا لو سَمَحت.",
-            persianTranslation = "لطفاً عجله کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 352,
-            numeric_id = 352,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "أهلي هناك.",
-            iraqiPronunciation = "اَهلی هِناک.",
-            persianTranslation = "خانواده‌ام آنجا هستند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 353,
-            numeric_id = 353,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "آني إيراني.",
-            iraqiPronunciation = "آنی ایرانی.",
-            persianTranslation = "من ایرانی هستم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 354,
-            numeric_id = 354,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "تعرف فارسي؟",
-            iraqiPronunciation = "تَعرِف فارسی؟",
-            persianTranslation = "فارسی بلدی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 355,
-            numeric_id = 355,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "تعرف إنكليزي؟",
-            iraqiPronunciation = "تَعرِف اِنکلیزی؟",
-            persianTranslation = "انگلیسی بلدی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 356,
-            numeric_id = 356,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "لا تخاف.",
-            iraqiPronunciation = "لا تَخاف.",
-            persianTranslation = "آرام باشید (نترسید).",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 357,
-            numeric_id = 357,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "الحمد لله، صار زين.",
-            iraqiPronunciation = "الحمدلله، صار زِین.",
-            persianTranslation = "همه‌چیز خوب شد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 358,
-            numeric_id = 358,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "شكراً جزيلاً.",
-            iraqiPronunciation = "شُکراً جَزیلاً.",
-            persianTranslation = "خیلی ممنون.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 359,
-            numeric_id = 359,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "الله يجزيك خير.",
-            iraqiPronunciation = "الله یِجزیک خیر.",
-            persianTranslation = "خدا خیرت بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 360,
-            numeric_id = 360,
-            category = "شرایط اضطراری",
-            category_id = "emergency",
-            arabicText = "الله يحفظك.",
-            iraqiPronunciation = "الله یِحفَظَک.",
-            persianTranslation = "خدا حفظت کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 361,
-            numeric_id = 361,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "هاي زوجتي.",
-            iraqiPronunciation = "های زَوجَتی.",
-            persianTranslation = "این همسر من است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 362,
-            numeric_id = 362,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "هذا زوجي.",
-            iraqiPronunciation = "هذا زَوجی.",
-            persianTranslation = "این شوهر من است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 363,
-            numeric_id = 363,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "هذا ابني.",
-            iraqiPronunciation = "هذا اِبنی.",
-            persianTranslation = "این پسرم است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 364,
-            numeric_id = 364,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "هاي بنتي.",
-            iraqiPronunciation = "های بِنتی.",
-            persianTranslation = "این دخترم است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 365,
-            numeric_id = 365,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "طفلي تعبان.",
-            iraqiPronunciation = "طِفلی تَعبان.",
-            persianTranslation = "بچه‌ام خسته شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 366,
-            numeric_id = 366,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "طفلي جوعان.",
-            iraqiPronunciation = "طِفلی جَوعان.",
-            persianTranslation = "بچه‌ام گرسنه است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 367,
-            numeric_id = 367,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "طفلي عطشان.",
-            iraqiPronunciation = "طِفلی عَطشان.",
-            persianTranslation = "بچه‌ام تشنه است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 368,
-            numeric_id = 368,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "طفلي نعسان.",
-            iraqiPronunciation = "طِفلی نَعسان.",
-            persianTranslation = "بچه‌ام خوابش می‌آید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 369,
-            numeric_id = 369,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "ضاع طفلي.",
-            iraqiPronunciation = "ضاع طِفلی.",
-            persianTranslation = "بچه‌ام گم شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 370,
-            numeric_id = 370,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "شفتوا طفلي؟",
-            iraqiPronunciation = "شِفتوا طِفلی؟",
-            persianTranslation = "بچه‌ام را دیده‌اید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 371,
-            numeric_id = 371,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "عدكم عربانة أطفال؟",
-            iraqiPronunciation = "عَدکُم عَرَبانة اَطفال؟",
-            persianTranslation = "کالسکه دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 372,
-            numeric_id = 372,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "عدكم حليب أطفال؟",
-            iraqiPronunciation = "عَدکُم حَلیب اَطفال؟",
-            persianTranslation = "شیر خشک دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 373,
-            numeric_id = 373,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "عدكم حفاض؟",
-            iraqiPronunciation = "عَدکُم حِفاض؟",
-            persianTranslation = "پوشک دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 374,
-            numeric_id = 374,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "عدكم ماي حار؟",
-            iraqiPronunciation = "عَدکُم مای حار؟",
-            persianTranslation = "آب گرم دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 375,
-            numeric_id = 375,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "أگدر أبدل الحفاض هنانة؟",
-            iraqiPronunciation = "أگدَر أَبَدِّل الحِفاض هِنانه؟",
-            persianTranslation = "می‌توانم اینجا بچه را عوض کنم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 376,
-            numeric_id = 376,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "أهلي هناك.",
-            iraqiPronunciation = "اَهلی هِناک.",
-            persianTranslation = "خانواده‌ام آن طرف هستند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 377,
-            numeric_id = 377,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "دا أنتظر أهلي.",
-            iraqiPronunciation = "دا اَنتَظِر اَهلی.",
-            persianTranslation = "منتظر خانواده‌ام هستم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 378,
-            numeric_id = 378,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "أمي هنانة.",
-            iraqiPronunciation = "اُمّی هِنانه.",
-            persianTranslation = "مادرم اینجاست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 379,
-            numeric_id = 379,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "أبويه هنانة.",
-            iraqiPronunciation = "اَبویَه هِنانه.",
-            persianTranslation = "پدرم اینجاست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 380,
-            numeric_id = 380,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "أخويه هنانة.",
-            iraqiPronunciation = "اَخویَه هِنانه.",
-            persianTranslation = "برادرم اینجاست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 381,
-            numeric_id = 381,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "أختي هنانة.",
-            iraqiPronunciation = "اُختی هِنانه.",
-            persianTranslation = "خواهرم اینجاست.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 382,
-            numeric_id = 382,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "انتبه على الطفل لو سمحت.",
-            iraqiPronunciation = "اِنتَبِه عَله الطِّفل لو سَمَحت.",
-            persianTranslation = "لطفاً مواظب بچه باشید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 383,
-            numeric_id = 383,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "الطفل عنده حرارة.",
-            iraqiPronunciation = "الطِّفل عِندَه حَرارَه.",
-            persianTranslation = "بچه تب دارد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 384,
-            numeric_id = 384,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "الطفل دا يبچي.",
-            iraqiPronunciation = "الطِّفل دا یِبچی.",
-            persianTranslation = "بچه گریه می‌کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 385,
-            numeric_id = 385,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "الطفل خاف.",
-            iraqiPronunciation = "الطِّفل خاف.",
-            persianTranslation = "بچه ترسیده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 386,
-            numeric_id = 386,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "خلّوا الطفل يمر أول.",
-            iraqiPronunciation = "خَلّوا الطِّفل یِمُرّ اَوَّل.",
-            persianTranslation = "می‌شود اول بچه را رد کنید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 387,
-            numeric_id = 387,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "شكراً جزيلاً.",
-            iraqiPronunciation = "شُکراً جَزیلاً.",
-            persianTranslation = "خیلی ممنون.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 388,
-            numeric_id = 388,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 389,
-            numeric_id = 389,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "الله يحفظكم.",
-            iraqiPronunciation = "الله یِحفَظکُم.",
-            persianTranslation = "خدا حفظتان کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 390,
-            numeric_id = 390,
-            category = "خانواده و کودکان",
-            category_id = "family",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 391,
-            numeric_id = 391,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "شكد بقى لكربلاء؟",
-            iraqiPronunciation = "شگِد بَقى لِکَربَلاء؟",
-            persianTranslation = "تا کربلا چقدر مانده؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 392,
-            numeric_id = 392,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "شكد بقى للنجف؟",
-            iraqiPronunciation = "شگِد بَقى لِلنَّجَف؟",
-            persianTranslation = "تا نجف چقدر مانده؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 393,
-            numeric_id = 393,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "شكد رقم العمود؟",
-            iraqiPronunciation = "شگِد رَقَم العَمود؟",
-            persianTranslation = "شماره عمود چند است؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 394,
-            numeric_id = 394,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "وين العمود الجاي؟",
-            iraqiPronunciation = "وِین العَمود الجای؟",
-            persianTranslation = "عمود بعدی کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 395,
-            numeric_id = 395,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "هذا الطريق يودي لكربلاء؟",
-            iraqiPronunciation = "هذا الطَّریق یودّی لِکَربَلاء؟",
-            persianTranslation = "این مسیر به کربلا می‌رود؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 396,
-            numeric_id = 396,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "هذا الطريق يودي للنجف؟",
-            iraqiPronunciation = "هذا الطَّریق یودّی لِلنَّجَف؟",
-            persianTranslation = "این مسیر به نجف می‌رود؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 397,
-            numeric_id = 397,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "هذا الموكب إيراني؟",
-            iraqiPronunciation = "هذا المَوکِب ایرانی؟",
-            persianTranslation = "موکب ایرانی است؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 398,
-            numeric_id = 398,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم مكان للراحة؟",
-            iraqiPronunciation = "عَدکُم مَکان لِلرّاحَه؟",
-            persianTranslation = "جای استراحت دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 399,
-            numeric_id = 399,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم مكان للنوم؟",
-            iraqiPronunciation = "عَدکُم مَکان لِلنَّوم؟",
-            persianTranslation = "جای خواب دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 400,
-            numeric_id = 400,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم كرسي متحرك؟",
-            iraqiPronunciation = "عَدکُم کُرسی مُتَحَرِّک؟",
-            persianTranslation = "ویلچر دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 401,
-            numeric_id = 401,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم عصا؟",
-            iraqiPronunciation = "عَدکُم عَصا؟",
-            persianTranslation = "عصا دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 402,
-            numeric_id = 402,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "جوتيي انقطع.",
-            iraqiPronunciation = "جوتیّی اِنقَطَع.",
-            persianTranslation = "کفشم پاره شده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 403,
-            numeric_id = 403,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم جرابات؟",
-            iraqiPronunciation = "عَدکُم جَرابات؟",
-            persianTranslation = "جوراب دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 404,
-            numeric_id = 404,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "رجلي بيها نفطة.",
-            iraqiPronunciation = "رِجلی بیها نَفطَه.",
-            persianTranslation = "پایم تاول زده است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 405,
-            numeric_id = 405,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم مرهم؟",
-            iraqiPronunciation = "عَدکُم مَرهَم؟",
-            persianTranslation = "پماد دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 406,
-            numeric_id = 406,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم لزگ جروح؟",
-            iraqiPronunciation = "عَدکُم لَزگ جُروح؟",
-            persianTranslation = "چسب زخم دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 407,
-            numeric_id = 407,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "عدكم مساج للرجل؟",
-            iraqiPronunciation = "عَدکُم مَساژ لِلرِّجِل؟",
-            persianTranslation = "ماساژ پا دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 408,
-            numeric_id = 408,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "أريد ماي بارد.",
-            iraqiPronunciation = "اَرید مای بارِد.",
-            persianTranslation = "آب سرد می‌خواهم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 409,
-            numeric_id = 409,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "تعبت كلش.",
-            iraqiPronunciation = "تِعَبت کُلِش.",
-            persianTranslation = "خیلی خسته شدم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 410,
-            numeric_id = 410,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "أريد أرتاح شوي.",
-            iraqiPronunciation = "اَرید اَرتاح شِوَی.",
-            persianTranslation = "می‌خواهم کمی استراحت کنم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 411,
-            numeric_id = 411,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "وين المصلى؟",
-            iraqiPronunciation = "وِین المُصَلّى؟",
-            persianTranslation = "نمازخانه کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 412,
-            numeric_id = 412,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "وين محل الوضوء؟",
-            iraqiPronunciation = "وِین مَحَل الوُضوء؟",
-            persianTranslation = "وضوخانه کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 413,
-            numeric_id = 413,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "وين الحمام؟",
-            iraqiPronunciation = "وِین الحَمّام؟",
-            persianTranslation = "سرویس بهداشتی کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 414,
-            numeric_id = 414,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "دلّوني لو سمحت.",
-            iraqiPronunciation = "دِلّونی لو سَمَحت.",
-            persianTranslation = "لطفاً راهنماییم کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 415,
-            numeric_id = 415,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "الله ينطيكم العافية.",
-            iraqiPronunciation = "الله یِنطیکُم العافِیَه.",
-            persianTranslation = "خدا قوت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 416,
-            numeric_id = 416,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "الله يتقبل منكم.",
-            iraqiPronunciation = "الله یِتقَبَّل مِنکُم.",
-            persianTranslation = "خدا قبول کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 417,
-            numeric_id = 417,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "الله يجزيكم خير.",
-            iraqiPronunciation = "الله یِجزیکُم خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 418,
-            numeric_id = 418,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "الله يتقبل زيارتكم.",
-            iraqiPronunciation = "الله یِتقَبَّل زِیارَتکُم.",
-            persianTranslation = "ان‌شاءالله زیارتتان قبول باشد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 419,
-            numeric_id = 419,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "أدعيلكم.",
-            iraqiPronunciation = "اَدعیلکُم.",
-            persianTranslation = "دعاگوی شما هستم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 420,
-            numeric_id = 420,
-            category = "پیاده‌روی اربعین",
-            category_id = "arbaeen_walk",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 421,
-            numeric_id = 421,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "السلام عليكم يا أبا عبد الله.",
-            iraqiPronunciation = "اَلسَّلام عَلَیکُم یا اَبا عَبداِلله.",
-            persianTranslation = "سلام بر امام حسین (ع)",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 422,
-            numeric_id = 422,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "السلام عليك يا عباس.",
-            iraqiPronunciation = "اَلسَّلام عَلَیکَ یا عَبّاس.",
-            persianTranslation = "سلام بر حضرت عباس (ع)",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 423,
-            numeric_id = 423,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "أريد أزور الإمام.",
-            iraqiPronunciation = "اَرید اَزور الإمام.",
-            persianTranslation = "می‌خواهم زیارت کنم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 424,
-            numeric_id = 424,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "أريد أقرأ الزيارة.",
-            iraqiPronunciation = "اَرید اَقرا الزِّیارَه.",
-            persianTranslation = "می‌خواهم زیارت‌نامه بخوانم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 425,
-            numeric_id = 425,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "ادعيلي.",
-            iraqiPronunciation = "اِدعِلی.",
-            persianTranslation = "برایم دعا کن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 426,
-            numeric_id = 426,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "لا تنساني من الدعاء.",
-            iraqiPronunciation = "لا تِنسانی مِن الدُّعاء.",
-            persianTranslation = "من را از دعایت فراموش نکن.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 427,
-            numeric_id = 427,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "الله يتقبل زيارتكم.",
-            iraqiPronunciation = "الله یِتقَبَّل زِیارَتکُم.",
-            persianTranslation = "خدا زیارتتان را قبول کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 428,
-            numeric_id = 428,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "زيارة مقبولة.",
-            iraqiPronunciation = "زِیارَه مَقبولَه.",
-            persianTranslation = "زیارت قبول.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 429,
-            numeric_id = 429,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "الله يرزقكم الزيارة.",
-            iraqiPronunciation = "الله یِرزُقکُم الزِّیارَه.",
-            persianTranslation = "خدا قسمتتان کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 430,
-            numeric_id = 430,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "إن شاء الله نزور مرة ثانية.",
-            iraqiPronunciation = "اِن‌شاءالله نَزور مَرَّه ثانِیَه.",
-            persianTranslation = "ان‌شاءالله دوباره زیارت کنیم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 431,
-            numeric_id = 431,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "أين الضريح؟",
-            iraqiPronunciation = "اَینَ الضَّریح؟",
-            persianTranslation = "ضریح کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 432,
-            numeric_id = 432,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "أين الشباك؟",
-            iraqiPronunciation = "اَینَ الشُّبّاک؟",
-            persianTranslation = "ضریح (شباک) کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 433,
-            numeric_id = 433,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "أريد ألمس الضريح.",
-            iraqiPronunciation = "اَرید اَلمَس الضَّریح.",
-            persianTranslation = "می‌خواهم ضریح را لمس کنم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 434,
-            numeric_id = 434,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "الزحمة كلش هواية.",
-            iraqiPronunciation = "الزَّحمَه کُلِش هَوایِه.",
-            persianTranslation = "خیلی شلوغ است.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 435,
-            numeric_id = 435,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "شوي شوي.",
-            iraqiPronunciation = "شِوَی شِوَی.",
-            persianTranslation = "آرام‌آرام.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 436,
-            numeric_id = 436,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "انتبه.",
-            iraqiPronunciation = "اِنتَبِه.",
-            persianTranslation = "مواظب باش.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 437,
-            numeric_id = 437,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "افسح الطريق لو سمحت.",
-            iraqiPronunciation = "اِفسَح الطَّریق لو سَمَحت.",
-            persianTranslation = "لطفاً راه را باز کنید.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 438,
-            numeric_id = 438,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "أريد أصلي.",
-            iraqiPronunciation = "اَرید اَصَلّی.",
-            persianTranslation = "می‌خواهم نماز بخوانم.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 439,
-            numeric_id = 439,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "وين القبلة؟",
-            iraqiPronunciation = "وِین القِبلَه؟",
-            persianTranslation = "قبله کدام طرف است؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 440,
-            numeric_id = 440,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "وين مكان الوضوء؟",
-            iraqiPronunciation = "وِین مَکان الوُضوء؟",
-            persianTranslation = "وضوخانه کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 441,
-            numeric_id = 441,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "تاج راسي",
-            iraqiPronunciation = "تاج راسی",
-            persianTranslation = "تاج سرم هستی (برای احترام)",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 442,
-            numeric_id = 442,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "تدلل",
-            iraqiPronunciation = "تِدَلَّل",
-            persianTranslation = "شما امر بفرما / در خدمتم",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 443,
-            numeric_id = 443,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "رحم الله والديك",
-            iraqiPronunciation = "رَحِمَ الله والِدَیک",
-            persianTranslation = "خدا پدر و مادرت را بیامرزد",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 444,
-            numeric_id = 444,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "من عيوني",
-            iraqiPronunciation = "مِن عُیونی",
-            persianTranslation = "روی چشمم / با کمال میل",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 445,
-            numeric_id = 445,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "جزاكم الله خير.",
-            iraqiPronunciation = "جَزاکُم الله خیر.",
-            persianTranslation = "خدا خیرتان بدهد.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 446,
-            numeric_id = 446,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "في أمان الله.",
-            iraqiPronunciation = "فی اَمان الله.",
-            persianTranslation = "به خدا می‌سپارمت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 447,
-            numeric_id = 447,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "الله يحفظكم.",
-            iraqiPronunciation = "الله یِحفَظکُم.",
-            persianTranslation = "خدا حفظتان کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 448,
-            numeric_id = 448,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "مع السلامة.",
-            iraqiPronunciation = "مَعَ السَّلامَه.",
-            persianTranslation = "خداحافظ.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 449,
-            numeric_id = 449,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "نلتقي إن شاء الله.",
-            iraqiPronunciation = "نَلتَقی اِن‌شاءالله.",
-            persianTranslation = "ان‌شاءالله دوباره ببینمت.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 450,
-            numeric_id = 450,
-            category = "اصطلاحات مذهبی و زیارتی",
-            category_id = "religious",
-            arabicText = "تقبل الله أعمالكم.",
-            iraqiPronunciation = "تَقَبَّلَ الله اَعمالَکُم.",
-            persianTranslation = "خدا اعمالتان را قبول کند.",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 451,
-            numeric_id = 451,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "تفضل",
-            iraqiPronunciation = "تَفَضَّل",
-            persianTranslation = "بفرما",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 452,
-            numeric_id = 452,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "يلا",
-            iraqiPronunciation = "یَلّا",
-            persianTranslation = "بزن بریم",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 453,
-            numeric_id = 453,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "إي",
-            iraqiPronunciation = "ای",
-            persianTranslation = "باشه",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 454,
-            numeric_id = 454,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "لا",
-            iraqiPronunciation = "لا",
-            persianTranslation = "نه",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 455,
-            numeric_id = 455,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "ماكو مشكلة",
-            iraqiPronunciation = "ماکو مُشکِلَه",
-            persianTranslation = "اشکالی نداره",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 456,
-            numeric_id = 456,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "عادي",
-            iraqiPronunciation = "عادی",
-            persianTranslation = "هیچ مشکلی نیست",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 457,
-            numeric_id = 457,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "شبيك؟",
-            iraqiPronunciation = "شَبیک؟",
-            persianTranslation = "چی شده؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 458,
-            numeric_id = 458,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "شگلت؟",
-            iraqiPronunciation = "شِگِلِت؟",
-            persianTranslation = "چی گفتی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 459,
-            numeric_id = 459,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "شنو يعني؟",
-            iraqiPronunciation = "شِنو یَعنی؟",
-            persianTranslation = "یعنی چی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 460,
-            numeric_id = 460,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "ما فهمت",
-            iraqiPronunciation = "ما فِهَمت",
-            persianTranslation = "نفهمیدم",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 461,
-            numeric_id = 461,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "عيدها مرة ثانية",
-            iraqiPronunciation = "عیدها مَرَّه ثانِیَه",
-            persianTranslation = "دوباره بگو",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 462,
-            numeric_id = 462,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "احچي شوي شوي",
-            iraqiPronunciation = "اِحچی شِوَی شِوَی",
-            persianTranslation = "آروم‌تر صحبت کن",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 463,
-            numeric_id = 463,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "احچي بصوت أعلى",
-            iraqiPronunciation = "اِحچی بِصَوت اَعلی",
-            persianTranslation = "بلندتر صحبت کن",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 464,
-            numeric_id = 464,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "مستعجل",
-            iraqiPronunciation = "مُستَعجِل",
-            persianTranslation = "عجله دارم",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 465,
-            numeric_id = 465,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "اصبر",
-            iraqiPronunciation = "اِصبِر",
-            persianTranslation = "صبر کن",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 466,
-            numeric_id = 466,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "دقيقة",
-            iraqiPronunciation = "دَقیقَه",
-            persianTranslation = "یک دقیقه",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 467,
-            numeric_id = 467,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "هسه أجي",
-            iraqiPronunciation = "هَسَّه اَجی",
-            persianTranslation = "الان میام",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 468,
-            numeric_id = 468,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "وين رايح؟",
-            iraqiPronunciation = "وِین رایِح؟",
-            persianTranslation = "کجا میری؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 469,
-            numeric_id = 469,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "منين إجيت؟",
-            iraqiPronunciation = "مِنِین اِجَیت؟",
-            persianTranslation = "از کجا اومدی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 470,
-            numeric_id = 470,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "منين إنت؟",
-            iraqiPronunciation = "مِنِین اِنتَ؟",
-            persianTranslation = "اهل کجایی؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 471,
-            numeric_id = 471,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "آني إيراني",
-            iraqiPronunciation = "آنی ایرانی",
-            persianTranslation = "من ایرانی هستم",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 472,
-            numeric_id = 472,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "كلش زين",
-            iraqiPronunciation = "کُلِش زِین",
-            persianTranslation = "خیلی خوبه",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 473,
-            numeric_id = 473,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "ممتاز",
-            iraqiPronunciation = "مُمتاز",
-            persianTranslation = "عالیه",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 474,
-            numeric_id = 474,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "ماكو",
-            iraqiPronunciation = "ماکو",
-            persianTranslation = "مشکلی نیست",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 475,
-            numeric_id = 475,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "صحيح",
-            iraqiPronunciation = "صَحیح",
-            persianTranslation = "درسته",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 476,
-            numeric_id = 476,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "غلط",
-            iraqiPronunciation = "غَلَط",
-            persianTranslation = "اشتباهه",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 477,
-            numeric_id = 477,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "الله وياك",
-            iraqiPronunciation = "الله وِیّاک",
-            persianTranslation = "خدا نگهدارت",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 478,
-            numeric_id = 478,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "الله يجزيك خير",
-            iraqiPronunciation = "الله یِجزیک خیر",
-            persianTranslation = "خدا خیرت بده",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 479,
-            numeric_id = 479,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "الله يوفقك",
-            iraqiPronunciation = "الله یِوَفِّقَک",
-            persianTranslation = "موفق باشی",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 480,
-            numeric_id = 480,
-            category = "اصطلاحات روزمره عراقی",
-            category_id = "daily_terms",
-            arabicText = "مع السلامة",
-            iraqiPronunciation = "مَعَ السَّلامَه",
-            persianTranslation = "خداحافظ",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 481,
-            numeric_id = 481,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "السلام عليكم",
-            iraqiPronunciation = "اَلسَّلام عَلَیکُم",
-            persianTranslation = "السلام علیکم",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 482,
-            numeric_id = 482,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "الله ينطيكم العافية",
-            iraqiPronunciation = "الله یِنطیکُم العافِیَه",
-            persianTranslation = "خدا قوت",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 483,
-            numeric_id = 483,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "الله يقويكم",
-            iraqiPronunciation = "الله یِقَوّیکُم",
-            persianTranslation = "خسته نباشید",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 484,
-            numeric_id = 484,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "أگدر أدخل؟",
-            iraqiPronunciation = "أگدَر أَدخُل؟",
-            persianTranslation = "می‌توانم داخل بیایم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 485,
-            numeric_id = 485,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "عدكم مكان للراحة؟",
-            iraqiPronunciation = "عَدکُم مَکان لِلرّاحَه؟",
-            persianTranslation = "جای استراحت دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 486,
-            numeric_id = 486,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "عدكم مكان للنوم؟",
-            iraqiPronunciation = "عَدکُم مَکان لِلنَّوم؟",
-            persianTranslation = "جای خواب دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 487,
-            numeric_id = 487,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "أگدر أقعد هنانة؟",
-            iraqiPronunciation = "أگدَر أَقعُد هِنانه؟",
-            persianTranslation = "می‌توانم اینجا بنشینم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 488,
-            numeric_id = 488,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "أريد ماي لو سمحت",
-            iraqiPronunciation = "اَرید مای لو سَمَحت",
-            persianTranslation = "آب لطفاً",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 489,
-            numeric_id = 489,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "أريد جاي",
-            iraqiPronunciation = "اَرید جای",
-            persianTranslation = "چای لطفاً",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 490,
-            numeric_id = 490,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "عدكم أكل؟",
-            iraqiPronunciation = "عَدکُم اَکِل؟",
-            persianTranslation = "غذا دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 491,
-            numeric_id = 491,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "شكراً جزيلاً",
-            iraqiPronunciation = "شُکراً جَزیلاً",
-            persianTranslation = "خیلی ممنون",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 492,
-            numeric_id = 492,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "الله يجزيكم خير",
-            iraqiPronunciation = "الله یِجزیکُم خیر",
-            persianTranslation = "خدا خیرتان بدهد",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 493,
-            numeric_id = 493,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "الله يتقبل منكم",
-            iraqiPronunciation = "الله یِتقَبَّل مِنکُم",
-            persianTranslation = "خدا قبول کند",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 494,
-            numeric_id = 494,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "وين الوضوء؟",
-            iraqiPronunciation = "وِین الوُضوء؟",
-            persianTranslation = "وضوخانه کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 495,
-            numeric_id = 495,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "وين الحمام؟",
-            iraqiPronunciation = "وِین الحَمّام؟",
-            persianTranslation = "سرویس بهداشتی کجاست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 496,
-            numeric_id = 496,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "عدكم شاحن موبايل",
-            iraqiPronunciation = "عَدکُم شاحِن موبایِل",
-            persianTranslation = "شارژر موبایل دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 497,
-            numeric_id = 497,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "عدكم واي فاي",
-            iraqiPronunciation = "عَدکُم وای فای",
-            persianTranslation = "وای‌فای دارید؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 498,
-            numeric_id = 498,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "شنو رمز الواي فاي؟",
-            iraqiPronunciation = "شِنو رَمز الوای فای؟",
-            persianTranslation = "رمز وای‌فای چیست؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 499,
-            numeric_id = 499,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "أگدر أشحن موبايلي؟",
-            iraqiPronunciation = "أگدَر أِشحَن موبایِلی؟",
-            persianTranslation = "می‌توانم موبایلم را شارژ کنم؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-        list.add(PhraseEntity(
-            id = 500,
-            numeric_id = 500,
-            category = "مکالمه با خادم موکب",
-            category_id = "mowkeb_servants",
-            arabicText = "الموكب مفتوح لحد شكد؟",
-            iraqiPronunciation = "المَوکِب مَفتوح لِحَد شگِد؟",
-            persianTranslation = "موکب تا چه ساعتی باز است؟",
-            forRole = "BOTH",
-            isVip = true
-        ))
-                list.add(PhraseEntity(id = 501, numeric_id = 501, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هلا بيكم زوار ابو السجاد", iraqiPronunciation = "هَلا بِیکُم زُوّار أَبُو السَّجّاد", persianTranslation = "خوش آمدید زائران اباعبدالله/امام سجاد", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 1, numeric_id = 1, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "السلام عليكم", iraqiPronunciation = "اَلسَّلام عَلِیکُم", persianTranslation = "سلام", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 2, numeric_id = 2, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "شلونك؟", iraqiPronunciation = "شِلونَک؟", persianTranslation = "سلام، حالت چطوره؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 3, numeric_id = 3, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "شلونكم؟", iraqiPronunciation = "شِلونکُم؟", persianTranslation = "حالت چطوره؟ (جمع)", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 4, numeric_id = 4, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "آني زين، الحمد لله.", iraqiPronunciation = "آنی زِین، الحمدلله.", persianTranslation = "خوبم، ممنون.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 5, numeric_id = 5, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "إنت زين؟", iraqiPronunciation = "إنت زِین؟", persianTranslation = "شما خوبید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 6, numeric_id = 6, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله ينطيك العافية.", iraqiPronunciation = "الله یِنطیک العافیه.", persianTranslation = "خدا قوت.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 7, numeric_id = 7, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله يتقبل.", iraqiPronunciation = "الله یِتقبّل.", persianTranslation = "خدا قبول کند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 8, numeric_id = 8, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله يجزيك خير.", iraqiPronunciation = "الله یِجزیک خیر.", persianTranslation = "خدا خیرت بده.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 9, numeric_id = 9, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله يحفظك.", iraqiPronunciation = "الله یِحفَظَک.", persianTranslation = "خدا حفظت کند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 10, numeric_id = 10, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله وياك.", iraqiPronunciation = "الله ویاک.", persianTranslation = "خدا نگهدارت باشد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 11, numeric_id = 11, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "هلا بيك", iraqiPronunciation = "هَلا بِیک", persianTranslation = "خوش آمدید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 12, numeric_id = 12, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "ألف هلا بيك.", iraqiPronunciation = "اَلف هَلا بِیک.", persianTranslation = "خیلی خوش آمدید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 13, numeric_id = 13, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "تشرفنا.", iraqiPronunciation = "تِشَرَّفنا.", persianTranslation = "خوشوقتم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 14, numeric_id = 14, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "صباح الخير.", iraqiPronunciation = "صَباح الخِیر.", persianTranslation = "صبح بخیر.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 15, numeric_id = 15, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "مساء الخير.", iraqiPronunciation = "مَساء الخِیر.", persianTranslation = "عصر بخیر.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 16, numeric_id = 16, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "تصبح على خير.", iraqiPronunciation = "تِصبَح عَله خیر.", persianTranslation = "شب بخیر.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 17, numeric_id = 17, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "نهارك سعيد.", iraqiPronunciation = "نَهارَک سَعید.", persianTranslation = "روز بخیر.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 18, numeric_id = 18, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 19, numeric_id = 19, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "أشوفك بعدين.", iraqiPronunciation = "اَشوفَک بَعدِین.", persianTranslation = "فعلاً.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 20, numeric_id = 20, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "إن شاء الله نشوفك.", iraqiPronunciation = "اِن‌شاءالله نِشوفَک.", persianTranslation = "به امید دیدار.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 21, numeric_id = 21, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "شكراً جزيلاً.", iraqiPronunciation = "شُکراً جَزیلاً.", persianTranslation = "خیلی ممنون.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 22, numeric_id = 22, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "ممنون.", iraqiPronunciation = "مَمنون.", persianTranslation = "ممنون.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 23, numeric_id = 23, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "العفو.", iraqiPronunciation = "العَفو.", persianTranslation = "خواهش می‌کنم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 24, numeric_id = 24, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "ماكو داعي.", iraqiPronunciation = "ماکو داعی.", persianTranslation = "قابل ندارد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 25, numeric_id = 25, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "عفواً.", iraqiPronunciation = "عَفواً.", persianTranslation = "ببخشید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 26, numeric_id = 26, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "آسف.", iraqiPronunciation = "آسِف.", persianTranslation = "معذرت می‌خواهم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 27, numeric_id = 27, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "ماكو مشكلة.", iraqiPronunciation = "ماکو مُشکله.", persianTranslation = "اشکالی ندارد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 28, numeric_id = 28, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا به شما خیر بدهد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 29, numeric_id = 29, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "الله يطول عمرك.", iraqiPronunciation = "الله یطَوِّل عُمرَک.", persianTranslation = "خدا عمرت بدهد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 30, numeric_id = 30, category = "احوالپرسی و احترام", category_id = "greeting", arabicText = "سفرة موفقة إن شاء الله.", iraqiPronunciation = "سَفره مُوَفَّقه اِن‌شاءالله.", persianTranslation = "سفر خوبی داشته باشید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 31, numeric_id = 31, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين حرم الإمام الحسين؟", iraqiPronunciation = "وِین حَرَم الإمام الحُسین؟", persianTranslation = "حرم امام حسین (ع) کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 32, numeric_id = 32, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين حرم أبو الفضل العباس؟", iraqiPronunciation = "وِین حَرَم أبو الفَضل العَبّاس؟", persianTranslation = "حرم حضرت عباس (ع) کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 33, numeric_id = 33, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "أريد أروح للحرم.", iraqiPronunciation = "أرید أروح لِلحَرَم.", persianTranslation = "می‌خواهم به حرم بروم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 34, numeric_id = 34, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "هذا الطريق يودي للحرم؟", iraqiPronunciation = "هذا الطَریق یودّی لِلحَرَم؟", persianTranslation = "این مسیر به حرم می‌رود؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 35, numeric_id = 35, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين باب الحرم؟", iraqiPronunciation = "وِین باب الحَرَم؟", persianTranslation = "ورودی حرم کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 36, numeric_id = 36, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين محل الأحذية؟", iraqiPronunciation = "وِین مَحَلّ الأحذیه؟", persianTranslation = "کفشداری کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 37, numeric_id = 37, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين أسلّم جوتيي؟", iraqiPronunciation = "وِین أسلِّم جوتیّی؟", persianTranslation = "کفش‌هایم را کجا تحویل بدهم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 38, numeric_id = 38, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "شكد رقم الأمانات؟", iraqiPronunciation = "شگِد رَقَم الأمانات؟", persianTranslation = "شماره امانات چند است؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 39, numeric_id = 39, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين محل الوضوء؟", iraqiPronunciation = "وِین مَحَل الوُضوء؟", persianTranslation = "وضوخانه کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 40, numeric_id = 40, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين الحمّام؟", iraqiPronunciation = "وِین الحَمّام؟", persianTranslation = "سرویس بهداشتی کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 41, numeric_id = 41, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين مصلى النساء؟", iraqiPronunciation = "وِین مُصلّى النِساء؟", persianTranslation = "محل نماز بانوان کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 42, numeric_id = 42, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين مصلى الرجال؟", iraqiPronunciation = "وِین مُصلّى الرِجال؟", persianTranslation = "محل نماز آقایان کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 43, numeric_id = 43, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "يجوز أدخل؟", iraqiPronunciation = "یَجوز أَدخُل؟", persianTranslation = "اجازه ورود هست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 44, numeric_id = 44, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "يجوز أصور؟", iraqiPronunciation = "یَجوز أَصَوّر؟", persianTranslation = "اجازه عکاسی هست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 45, numeric_id = 45, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "الزحمة كلش هواية.", iraqiPronunciation = "الزَحمة کُلِش هَوایِه.", persianTranslation = "ازدحام خیلی زیاد است.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 46, numeric_id = 46, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "لو سمحت امشوا بهدوء.", iraqiPronunciation = "لو سَمَحت اِمشوا بِهُدوء.", persianTranslation = "لطفاً آرام‌تر حرکت کنید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 47, numeric_id = 47, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "آني ضايع.", iraqiPronunciation = "آنی ضایِع.", persianTranslation = "من گم شده‌ام.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 48, numeric_id = 48, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "ضيّعت صاحبي.", iraqiPronunciation = "ضَیَّعت صاحبی.", persianTranslation = "همراهم را گم کرده‌ام.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 49, numeric_id = 49, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "ساعدني لو سمحت.", iraqiPronunciation = "ساعِدنی لو سَمَحت.", persianTranslation = "لطفاً کمکم کنید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 50, numeric_id = 50, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "هاي كربلاء؟", iraqiPronunciation = "های کَربَلا؟", persianTranslation = "اینجا کربلاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 51, numeric_id = 51, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "هاي النجف؟", iraqiPronunciation = "های النَجَف؟", persianTranslation = "اینجا نجف است؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 52, numeric_id = 52, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين بين الحرمين؟", iraqiPronunciation = "وِین بَین الحَرَمَین؟", persianTranslation = "بین‌الحرمین کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 53, numeric_id = 53, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "وين باب القبلة؟", iraqiPronunciation = "وِین باب القِبله؟", persianTranslation = "باب القبله کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 54, numeric_id = 54, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "أريد أقرأ الزيارة.", iraqiPronunciation = "أرید أَقرا الزِیاره.", persianTranslation = "می‌خواهم زیارت بخوانم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 55, numeric_id = 55, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "ادعِلي.", iraqiPronunciation = "اِدعِلی.", persianTranslation = "لطفاً برایم دعا کنید.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 56, numeric_id = 56, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "الله يتقبل زيارتكم.", iraqiPronunciation = "الله یِتقبّل زیارتکُم.", persianTranslation = "ان‌شاءالله زیارتتان قبول باشد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 57, numeric_id = 57, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "الله يتقبل منكم.", iraqiPronunciation = "الله یِتقبّل مِنکُم.", persianTranslation = "خدا زیارتتان را قبول کند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 58, numeric_id = 58, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "شكراً على خدمتكم.", iraqiPronunciation = "شُکراً عَله خِدمتکُم.", persianTranslation = "خیلی ممنون از خدمتتان.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 59, numeric_id = 59, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 60, numeric_id = 60, category = "زیارت و حرم", category_id = "pilgrimage", arabicText = "الله يحفظكم.", iraqiPronunciation = "الله یِحفَظکُم.", persianTranslation = "خدا شما را حفظ کند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 61, numeric_id = 61, category = "موکب و خدمات", category_id = "mawkib", arabicText = "هاي موكب؟", iraqiPronunciation = "های موکِب؟", persianTranslation = "اینجا موکب است؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 62, numeric_id = 62, category = "موکب و خدمات", category_id = "mawkib", arabicText = "يجوز أدخل؟", iraqiPronunciation = "یَجوز أَدخُل؟", persianTranslation = "می‌توانم داخل بیایم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 63, numeric_id = 63, category = "موکب و خدمات", category_id = "mawkib", arabicText = "تفضل.", iraqiPronunciation = "تِفَضَّل.", persianTranslation = "خوش آمدید (بفرمایید).", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 64, numeric_id = 64, category = "موکب و خدمات", category_id = "mawkib", arabicText = "تفضلوا للداخل.", iraqiPronunciation = "تِفَضَّلوا لِلداخل.", persianTranslation = "بفرمایید داخل.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 65, numeric_id = 65, category = "موکب و خدمات", category_id = "mawkib", arabicText = "يجوز أقعد هنانة؟", iraqiPronunciation = "یَجوز أَقعُد هِنانه؟", persianTranslation = "می‌توانم اینجا بنشینم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 66, numeric_id = 66, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم مكان فارغ؟", iraqiPronunciation = "عَدکُم مَکان فارِغ؟", persianTranslation = "جای خالی دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 67, numeric_id = 67, category = "موکب و خدمات", category_id = "mawkib", arabicText = "أگدر أرتاح شوي؟", iraqiPronunciation = "أگدَر أرتاح شِوَی؟", persianTranslation = "می‌توانم استراحت کنم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 68, numeric_id = 68, category = "موکب و خدمات", category_id = "mawkib", arabicText = "آني تعبان كلش.", iraqiPronunciation = "آنی تَعبان کُلِش.", persianTranslation = "خیلی خسته‌ام.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 69, numeric_id = 69, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم ماي؟", iraqiPronunciation = "عَدکُم مای؟", persianTranslation = "آب دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 70, numeric_id = 70, category = "موکب و خدمات", category_id = "mawkib", arabicText = "لو سمحت، قنينة ماي.", iraqiPronunciation = "لو سَمَحت، قِنّینة مای.", persianTranslation = "لطفاً یک بطری آب.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 71, numeric_id = 71, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم ماي بارد؟", iraqiPronunciation = "عَدکُم مای بارِد؟", persianTranslation = "آب سرد دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 72, numeric_id = 72, category = "موکب و خدمات", category_id = "mawkib", arabicText = "الأكل جاهز؟", iraqiPronunciation = "الأکِل جاهِز؟", persianTranslation = "غذا آماده است؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 73, numeric_id = 73, category = "موکب و خدمات", category_id = "mawkib", arabicText = "أگدر آخذ أكل؟", iraqiPronunciation = "أگدَر آخذ أکِل؟", persianTranslation = "می‌توانم غذا بگیرم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 74, numeric_id = 74, category = "موکب و خدمات", category_id = "mawkib", arabicText = "شكراً على الضيافة.", iraqiPronunciation = "شُکراً عَله الضِیافه.", persianTranslation = "خیلی ممنون از پذیرایی.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 75, numeric_id = 75, category = "موکب و خدمات", category_id = "mawkib", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 76, numeric_id = 76, category = "موکب و خدمات", category_id = "mawkib", arabicText = "الله ينطيكم العافية.", iraqiPronunciation = "الله یِنطیکُم العافیه.", persianTranslation = "خدا به شما سلامتی بدهد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 77, numeric_id = 77, category = "موکب و خدمات", category_id = "mawkib", arabicText = "أگدر آخذ جاي؟", iraqiPronunciation = "أگدَر آخذ چای؟", persianTranslation = "می‌توانم چای بگیرم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 78, numeric_id = 78, category = "موکب و خدمات", category_id = "mawkib", arabicText = "جاي بدون سكر لو سمحت.", iraqiPronunciation = "جای بِدون سُکَّر.", persianTranslation = "لطفاً چای بدون شکر.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 79, numeric_id = 79, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم قهوة؟", iraqiPronunciation = "عَدکُم قَهوه؟", persianTranslation = "قهوه دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 80, numeric_id = 80, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم أكل نباتي؟", iraqiPronunciation = "عَدکُم أکِل نَباتی؟", persianTranslation = "غذای گیاهی دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 81, numeric_id = 81, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم مكان للنوم؟", iraqiPronunciation = "عَدکُم مَکان لِلنوم؟", persianTranslation = "جای خواب دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 82, numeric_id = 82, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم بطانية؟", iraqiPronunciation = "عَدکُم بَطّانیه؟", persianTranslation = "پتو دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 83, numeric_id = 83, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم مخدة؟", iraqiPronunciation = "عَدکُم مُخَدّه؟", persianTranslation = "بالش دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 84, numeric_id = 84, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم شاحن موبايل؟", iraqiPronunciation = "عَدکُم شاحِن موبايل؟", persianTranslation = "شارژر موبایل دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 85, numeric_id = 85, category = "موکب و خدمات", category_id = "mawkib", arabicText = "وين مكان شحن الموبايل؟", iraqiPronunciation = "وِین مَکان شَحن الموبايل؟", persianTranslation = "جای شارژ موبایل کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 86, numeric_id = 86, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم واي فاي؟", iraqiPronunciation = "عَدکُم وای فای؟", persianTranslation = "وای‌فای دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 87, numeric_id = 87, category = "موکب و خدمات", category_id = "mawkib", arabicText = "شنو رمز الواي فاي؟", iraqiPronunciation = "شِنو رَمز الوای فای؟", persianTranslation = "رمز وای‌فای چیست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 88, numeric_id = 88, category = "موکب و خدمات", category_id = "mawkib", arabicText = "عدكم حمام؟", iraqiPronunciation = "عَدکُم حَمّام؟", persianTranslation = "حمام دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 89, numeric_id = 89, category = "موکب و خدمات", category_id = "mawkib", arabicText = "وين مكان غسل الملابس؟", iraqiPronunciation = "وِین مَکان غَسل المَلابِس؟", persianTranslation = "محل شستن لباس کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 90, numeric_id = 90, category = "موکب و خدمات", category_id = "mawkib", arabicText = "الله يتقبل منكم.", iraqiPronunciation = "الله یِتقبّل مِنکُم.", persianTranslation = "خداوند قبول کند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 91, numeric_id = 91, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين هذا؟", iraqiPronunciation = "وِین هذا؟", persianTranslation = "کدوم طرفه؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 92, numeric_id = 92, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين الحرم؟", iraqiPronunciation = "وِین الحَرَم؟", persianTranslation = "حرم کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 93, numeric_id = 93, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين الموكب؟", iraqiPronunciation = "وِین الموکِب؟", persianTranslation = "موکب کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 94, numeric_id = 94, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين بين الحرمين؟", iraqiPronunciation = "وِین بَین الحَرَمَین؟", persianTranslation = "بین‌الحرمین کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 95, numeric_id = 95, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين طريق النجف؟", iraqiPronunciation = "وِین طَریق النَجَف؟", persianTranslation = "نجف کدوم طرفه؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 96, numeric_id = 96, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين طريق كربلاء؟", iraqiPronunciation = "وِین طَریق کَربَلا؟", persianTranslation = "کربلا کدوم طرفه؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 97, numeric_id = 97, category = "مسیر و آدرس", category_id = "direction", arabicText = "شكد بقى للحرم؟", iraqiPronunciation = "شگِد بَقی لِلحَرَم؟", persianTranslation = "تا حرم چقدر مونده؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 98, numeric_id = 98, category = "مسیر و آدرس", category_id = "direction", arabicText = "قريب؟", iraqiPronunciation = "قَریب؟", persianTranslation = "نزدیکه؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 99, numeric_id = 99, category = "مسیر و آدرس", category_id = "direction", arabicText = "بعيد؟", iraqiPronunciation = "بَعید؟", persianTranslation = "دوره؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 100, numeric_id = 100, category = "مسیر و آدرس", category_id = "direction", arabicText = "أگدر أروح مشي؟", iraqiPronunciation = "أگدَر أرتاح مَشی؟", persianTranslation = "پیاده میشه رفت؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 101, numeric_id = 101, category = "مسیر و آدرس", category_id = "direction", arabicText = "روح دغري.", iraqiPronunciation = "روح دِغری.", persianTranslation = "مستقیم برو.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 102, numeric_id = 102, category = "مسیر و آدرس", category_id = "direction", arabicText = "لف يمين.", iraqiPronunciation = "لِف یَمین.", persianTranslation = "راست بپیچ.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 103, numeric_id = 103, category = "مسیر و آدرس", category_id = "direction", arabicText = "لف يسار.", iraqiPronunciation = "لِف یَسار.", persianTranslation = "چپ بپیچ.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 104, numeric_id = 104, category = "مسیر و آدرس", category_id = "direction", arabicText = "كدام.", iraqiPronunciation = "گِدّام.", persianTranslation = "همین جلو.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 105, numeric_id = 105, category = "مسیر و آدرس", category_id = "direction", arabicText = "آخر الشارع.", iraqiPronunciation = "آخِر الشارِع.", persianTranslation = "آخر خیابون.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 106, numeric_id = 106, category = "مسیر و آدرس", category_id = "direction", arabicText = "ورا البناية.", iraqiPronunciation = "وَرا البِنایه.", persianTranslation = "پشت اون ساختمان.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 107, numeric_id = 107, category = "مسیر و آدرس", category_id = "direction", arabicText = "گدامك.", iraqiPronunciation = "گِدّامَک.", persianTranslation = "روبه‌رو.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 108, numeric_id = 108, category = "مسیر و آدرس", category_id = "direction", arabicText = "يم الحرم.", iraqiPronunciation = "یَم الحَرَم.", persianTranslation = "کنار حرم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 109, numeric_id = 109, category = "مسیر و آدرس", category_id = "direction", arabicText = "هناك.", iraqiPronunciation = "هِناک.", persianTranslation = "اونجا.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 110, numeric_id = 110, category = "مسیر و آدرس", category_id = "direction", arabicText = "هنانة.", iraqiPronunciation = "هِنانه.", persianTranslation = "اینجا.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 111, numeric_id = 111, category = "مسیر و آدرس", category_id = "direction", arabicText = "آني ضايع.", iraqiPronunciation = "آنی ضایِع.", persianTranslation = "گم شدم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 112, numeric_id = 112, category = "مسیر و آدرس", category_id = "direction", arabicText = "دلّيني لو سمحت.", iraqiPronunciation = "دِلّینی لو سَمَحت.", persianTranslation = "لطفاً راهنماییم کن.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 113, numeric_id = 113, category = "مسیر و آدرس", category_id = "direction", arabicText = "عدك خريطة؟", iraqiPronunciation = "عَدَک خَریطه؟", persianTranslation = "نقشه داری؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 114, numeric_id = 114, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين أقرب موكب؟", iraqiPronunciation = "وِین اَقرَب موکِب؟", persianTranslation = "نزدیک‌ترین موکب کجاست؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 115, numeric_id = 115, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين أقرب حمام؟", iraqiPronunciation = "وِین اَقرَب حَمّام؟", persianTranslation = "نزدیک‌ترین سرویس بهداشتی؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 116, numeric_id = 116, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين أقرب صيدلية؟", iraqiPronunciation = "وِین اَقرَب صَیدَلِیّه؟", persianTranslation = "نزدیک‌ترین داروخانه؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 117, numeric_id = 117, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين أقرب مستوصف؟", iraqiPronunciation = "وِین اَقرَب مُستَوصَف؟", persianTranslation = "نزدیک‌ترین درمانگاه؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 118, numeric_id = 118, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين موقف الباص؟", iraqiPronunciation = "وِین مَوقِف الباص؟", persianTranslation = "نزدیک‌ترین ایستگاه اتوبوس؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 119, numeric_id = 119, category = "مسیر و آدرس", category_id = "direction", arabicText = "وين التكسي؟", iraqiPronunciation = "وِین التِکسی؟", persianTranslation = "نزدیک‌ترین تاکسی؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 120, numeric_id = 120, category = "مسیر و آدرس", category_id = "direction", arabicText = "شكراً على المساعدة.", iraqiPronunciation = "شُکراً عَله المُساعَده.", persianTranslation = "ممنون از راهنمایی.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 121, numeric_id = 121, category = "غذا و نوشیدنی", category_id = "food", arabicText = "آني جوعان.", iraqiPronunciation = "آنی جَوعان.", persianTranslation = "گرسنه‌ام.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 122, numeric_id = 122, category = "غذا و نوشیدنی", category_id = "food", arabicText = "آني عطشان.", iraqiPronunciation = "آنی عَطشان.", persianTranslation = "تشنه‌ام.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 123, numeric_id = 123, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم أكل؟", iraqiPronunciation = "عَدکُم أکِل؟", persianTranslation = "غذا دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 124, numeric_id = 124, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم ماي؟", iraqiPronunciation = "عَدکُم مای؟", persianTranslation = "آب دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 125, numeric_id = 125, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم ماي بارد؟", iraqiPronunciation = "عَدکُم مای بارِد؟", persianTranslation = "آب سرد دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 126, numeric_id = 126, category = "غذا و نوشیدنی", category_id = "food", arabicText = "أريد قنينة ماي.", iraqiPronunciation = "أرید قِنّینة مای.", persianTranslation = "لطفاً یک بطری آب.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 127, numeric_id = 127, category = "غذا و نوشیدنی", category_id = "food", arabicText = "أريد جاي.", iraqiPronunciation = "أرید چای.", persianTranslation = "چای لطفاً.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 128, numeric_id = 128, category = "غذا و نوشیدنی", category_id = "food", arabicText = "أريد قهوة.", iraqiPronunciation = "أرید قَهوه.", persianTranslation = "قهوه لطفاً.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 129, numeric_id = 129, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم فطور؟", iraqiPronunciation = "عَدکُم فَطور؟", persianTranslation = "صبحانه دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 130, numeric_id = 130, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم غده؟", iraqiPronunciation = "عَدکُم غَده؟", persianTranslation = "ناهار دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 131, numeric_id = 131, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم عشة؟", iraqiPronunciation = "عَدکُم عَشه؟", persianTranslation = "شام دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 132, numeric_id = 132, category = "غذا و نوشیدنی", category_id = "food", arabicText = "أريد تمن.", iraqiPronunciation = "أرید تَمَّن.", persianTranslation = "برنج می‌خواهم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 133, numeric_id = 133, category = "غذا و نوشیدنی", category_id = "food", arabicText = "أريد خبز.", iraqiPronunciation = "أرید خُبُز.", persianTranslation = "نان می‌خواهم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 134, numeric_id = 134, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم شوربة؟", iraqiPronunciation = "عَدکُم شورَبه؟", persianTranslation = "سوپ دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 135, numeric_id = 135, category = "غذا و نوشیدنی", category_id = "food", arabicText = "ما آكل لحم.", iraqiPronunciation = "ما آکُل لَحِم.", persianTranslation = "گوشت نمی‌خورم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 136, numeric_id = 136, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم دجاج؟", iraqiPronunciation = "عَدکُم دَجاج؟", persianTranslation = "مرغ دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 137, numeric_id = 137, category = "غذا و نوشیدنی", category_id = "food", arabicText = "الأكل حار؟", iraqiPronunciation = "الأکِل حار؟", persianTranslation = "غذای تند است؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 138, numeric_id = 138, category = "غذا و نوشیدنی", category_id = "food", arabicText = "شويّة بهارات.", iraqiPronunciation = "شِوَیّه بَهارات.", persianTranslation = "لطفاً کم‌ادویه.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 139, numeric_id = 139, category = "غذا و نوشیدنی", category_id = "food", arabicText = "بس، شكراً.", iraqiPronunciation = "بَس، شُکراً.", persianTranslation = "کافی است، ممنون.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 140, numeric_id = 140, category = "غذا و نوشیدنی", category_id = "food", arabicText = "كلش طيب.", iraqiPronunciation = "کُلِش طَیِّب.", persianTranslation = "خیلی خوشمزه است.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 141, numeric_id = 141, category = "غذا و نوشیدنی", category_id = "food", arabicText = "تسلم إيدك.", iraqiPronunciation = "تِسلَم إیدَک.", persianTranslation = "دستت درد نکند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 142, numeric_id = 142, category = "غذا و نوشیدنی", category_id = "food", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 143, numeric_id = 143, category = "غذا و نوشیدنی", category_id = "food", arabicText = "أگدر آخذ بعد؟", iraqiPronunciation = "أگدَر آخذ بَعد؟", persianTranslation = "می‌توانم بیشتر بردارم؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 144, numeric_id = 144, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم ملعقة؟", iraqiPronunciation = "عَدکُم مِلعَقه؟", persianTranslation = "قاشق دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 145, numeric_id = 145, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم جطل.", iraqiPronunciation = "عَدکُم چَطَل.", persianTranslation = "چنگال دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 146, numeric_id = 146, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم كلاص.", iraqiPronunciation = "عَدکُم گِلاص.", persianTranslation = "لیوان دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 147, numeric_id = 147, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم كلينكس.", iraqiPronunciation = "عَدکُم کلینِکس.", persianTranslation = "دستمال دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 148, numeric_id = 148, category = "غذا و نوشیدنی", category_id = "food", arabicText = "عدكم ببسي.", iraqiPronunciation = "عَدکُم بَبسی.", persianTranslation = "نوشابه دارید؟", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 149, numeric_id = 149, category = "غذا و نوشیدنی", category_id = "food", arabicText = "شبعت.", iraqiPronunciation = "شِبِعت.", persianTranslation = "خیلی سیر شدم.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 150, numeric_id = 150, category = "غذا و نوشیدنی", category_id = "food", arabicText = "الله يتقبل.", iraqiPronunciation = "الله یِتقبّل.", persianTranslation = "خدا قبول کند.", forRole = "BOTH", isVip = false))
+        list.add(PhraseEntity(id = 151, numeric_id = 151, category = "خرید و بازار", category_id = "market", arabicText = "وين السوق؟", iraqiPronunciation = "وِین السُوق؟", persianTranslation = "بازار کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 152, numeric_id = 152, category = "خرید و بازار", category_id = "market", arabicText = "بجم هذا؟", iraqiPronunciation = "بِجَم هذا؟", persianTranslation = "این چند است؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 153, numeric_id = 153, category = "خرید و بازار", category_id = "market", arabicText = "كلش غالي.", iraqiPronunciation = "کُلِش غالی.", persianTranslation = "خیلی گرونه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 154, numeric_id = 154, category = "خرید و بازار", category_id = "market", arabicText = "ماكو أرخص؟", iraqiPronunciation = "ماکو اَرخَص؟", persianTranslation = "ارزون‌تر ندارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 155, numeric_id = 155, category = "خرید و بازار", category_id = "market", arabicText = "تنزل بالسعر؟", iraqiPronunciation = "تِنزِل بِالسِعر؟", persianTranslation = "تخفیف میدی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 156, numeric_id = 156, category = "خرید و بازار", category_id = "market", arabicText = "آخر سعر شكد؟", iraqiPronunciation = "آخِر سِعر شگِد؟", persianTranslation = "آخرین قیمت چنده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 157, numeric_id = 157, category = "خرید و بازار", category_id = "market", arabicText = "زين، آخذه.", iraqiPronunciation = "زِین، آخِذُه.", persianTranslation = "باشه، می‌خرم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 158, numeric_id = 158, category = "خرید و بازار", category_id = "market", arabicText = "لا، شكراً.", iraqiPronunciation = "لا، شُکراً.", persianTranslation = "نمی‌خوام، ممنون.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 159, numeric_id = 159, category = "خرید و بازار", category_id = "market", arabicText = "دا أتفرج بس.", iraqiPronunciation = "دا اَتَفَرَّج بَس.", persianTranslation = "فقط نگاه می‌کنم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 160, numeric_id = 160, category = "خرید و بازار", category_id = "market", arabicText = "تقبل كاش؟", iraqiPronunciation = "تِقبَل کاش؟", persianTranslation = "پول نقد قبول می‌کنید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 161, numeric_id = 161, category = "خرید و بازار", category_id = "market", arabicText = "تقبل كارت؟", iraqiPronunciation = "تِقبَل کارت؟", persianTranslation = "کارت قبول می‌کنید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 162, numeric_id = 162, category = "خرید و بازار", category_id = "market", arabicText = "وين الصيرفة؟", iraqiPronunciation = "وِین الصَیرَفَه؟", persianTranslation = "صرافی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 163, numeric_id = 163, category = "خرید و بازار", category_id = "market", arabicText = "عدك فراطة؟", iraqiPronunciation = "عَدَک فَراطَه؟", persianTranslation = "پول خرد داری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 164, numeric_id = 164, category = "خرید و بازار", category_id = "market", arabicText = "كيس لو سمحت.", iraqiPronunciation = "کِیس لو سَمَحت.", persianTranslation = "کیسه لطفاً.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 165, numeric_id = 165, category = "خرید و بازار", category_id = "market", arabicText = "أريد هذا اللون.", iraqiPronunciation = "أرید هذا اللَون.", persianTranslation = "این رنگ رو می‌خوام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 166, numeric_id = 166, category = "خرید و بازار", category_id = "market", arabicText = "عدكم قياس أكبر؟", iraqiPronunciation = "عَدکُم قِیاس اَکبَر؟", persianTranslation = "سایز بزرگ‌تر دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 167, numeric_id = 167, category = "خرید و بازار", category_id = "market", arabicText = "عدكم قياس أصغر؟", iraqiPronunciation = "عَدکُم قِیاس اَصغَر؟", persianTranslation = "سایز کوچک‌تر دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 168, numeric_id = 168, category = "خرید و بازار", category_id = "market", arabicText = "أگدر أجربه؟", iraqiPronunciation = "اَگدَر اَجَرِّبُه؟", persianTranslation = "می‌تونم امتحانش کنم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 169, numeric_id = 169, category = "خرید و بازار", category_id = "market", arabicText = "أصلي؟", iraqiPronunciation = "اَصلی؟", persianTranslation = "اصل هست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 170, numeric_id = 170, category = "خرید و بازار", category_id = "market", arabicText = "جديد؟", iraqiPronunciation = "جَدید؟", persianTranslation = "نو هست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 171, numeric_id = 171, category = "خرید و بازار", category_id = "market", arabicText = "عدكم شاحن موبايل؟", iraqiPronunciation = "عَدکُم شاحِن موبایِل؟", persianTranslation = "شارژر موبایل دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 172, numeric_id = 172, category = "خرید و بازار", category_id = "market", arabicText = "عدكم باور بانك؟", iraqiPronunciation = "عَدکُم باوَر بانک؟", persianTranslation = "پاوربانک دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 173, numeric_id = 173, category = "خرید و بازار", category_id = "market", arabicText = "عدكم سيم كارت؟", iraqiPronunciation = "عَدکُم سِیم کارت؟", persianTranslation = "سیم‌کارت دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 174, numeric_id = 174, category = "خرید و بازار", category_id = "market", arabicText = "هذا زين؟", iraqiPronunciation = "هذا زِین؟", persianTranslation = "این خوبه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 175, numeric_id = 175, category = "خرید و بازار", category_id = "market", arabicText = "عدكم أحسن من هذا؟", iraqiPronunciation = "عَدکُم اَحسَن مِن هذا؟", persianTranslation = "بهتر از این دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 176, numeric_id = 176, category = "خرید و بازار", category_id = "market", arabicText = "عطني فاتورة.", iraqiPronunciation = "عَطنی فاتُورَه.", persianTranslation = "لطفاً فاکتور بده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 177, numeric_id = 177, category = "خرید و بازار", category_id = "market", arabicText = "والباقي؟", iraqiPronunciation = "وَالباقی؟", persianTranslation = "بقیه پولم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 178, numeric_id = 178, category = "خرید و بازار", category_id = "market", arabicText = "تسلم.", iraqiPronunciation = "تِسلَم.", persianTranslation = "ممنون از لطفت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 179, numeric_id = 179, category = "خرید و بازار", category_id = "market", arabicText = "الله يبارك برزقك.", iraqiPronunciation = "الله یِبارِک بِرِزقَک.", persianTranslation = "خدا به کسبت برکت بده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 180, numeric_id = 180, category = "خرید و بازار", category_id = "market", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 181, numeric_id = 181, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "وين التكسي؟", iraqiPronunciation = "وِین التِکسی؟", persianTranslation = "تاکسی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 182, numeric_id = 182, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "عدك تكسي فاضي؟", iraqiPronunciation = "عَدَک تِکسی فاضی؟", persianTranslation = "ماشین خالی داری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 183, numeric_id = 183, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "توديني للحرم؟", iraqiPronunciation = "تُوَدّینی لِلحَرَم؟", persianTranslation = "منو تا حرم می‌بری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 184, numeric_id = 184, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "بجم للنجف؟", iraqiPronunciation = "بِجَم لِلنَجَف؟", persianTranslation = "تا نجف چند می‌گیری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 185, numeric_id = 185, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "بجم لكربلاء؟", iraqiPronunciation = "بِجَم لِکَربَلاء؟", persianTranslation = "تا کربلا چند می‌گیری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 186, numeric_id = 186, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "كلش غالي.", iraqiPronunciation = "کُلِش غالی.", persianTranslation = "گرونه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 187, numeric_id = 187, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "نزل السعر شوي.", iraqiPronunciation = "نَزِّل السِعر شِوَی.", persianTranslation = "کمتر حساب کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 188, numeric_id = 188, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "زين هيچ.", iraqiPronunciation = "زِین هیچ.", persianTranslation = "همین خوبه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 189, numeric_id = 189, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "يلا نمشي.", iraqiPronunciation = "یَلّا نِمشی.", persianTranslation = "حرکت کنیم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 190, numeric_id = 190, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "وقف هنانة.", iraqiPronunciation = "وَقِّف هِنانَه.", persianTranslation = "نگه دار اینجا.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 191, numeric_id = 191, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "أنزل هنانة.", iraqiPronunciation = "اَنزِل هِنانَه.", persianTranslation = "همین‌جا پیاده می‌شوم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 192, numeric_id = 192, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "استعجل لو سمحت.", iraqiPronunciation = "اِستَعجِل لو سَمَحت.", persianTranslation = "لطفاً عجله کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 193, numeric_id = 193, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "امشِ شوي شوي.", iraqiPronunciation = "اِمشِ شِوَی شِوَی.", persianTranslation = "آروم‌تر برو.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 194, numeric_id = 194, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "عدكم حزام؟", iraqiPronunciation = "عَدکُم حِزام؟", persianTranslation = "کمربند ایمنی دارم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 195, numeric_id = 195, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "شغل التبريد.", iraqiPronunciation = "شَغِّل التَبرِید.", persianTranslation = "کولر روشنه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 196, numeric_id = 196, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "شغل المكيف.", iraqiPronunciation = "شَغِّل المُکَیِّف.", persianTranslation = "کولر رو روشن کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 197, numeric_id = 197, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "طفي المكيف.", iraqiPronunciation = "طَفّی المُکَیِّف.", persianTranslation = "کولر رو خاموش کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 198, numeric_id = 198, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "افتح الجام.", iraqiPronunciation = "اِفتَح الجام.", persianTranslation = "شیشه را باز کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 199, numeric_id = 199, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "سد الجام.", iraqiPronunciation = "سِدّ الجام.", persianTranslation = "شیشه را ببند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 200, numeric_id = 200, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "هذا الطريق أقرب؟", iraqiPronunciation = "هذا الطَریق اَقرَب؟", persianTranslation = "این مسیر نزدیک‌تره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 201, numeric_id = 201, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "أكو زحمة؟", iraqiPronunciation = "اَکو زَحمَه؟", persianTranslation = "ترافیکه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 202, numeric_id = 202, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "شكد ياخذ وقت؟", iraqiPronunciation = "شگِد یاخِذ وَقت؟", persianTranslation = "چقدر طول می‌کشه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 203, numeric_id = 203, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "وصلنا؟", iraqiPronunciation = "وَصَلنا؟", persianTranslation = "رسیدیم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 204, numeric_id = 204, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "شكراً، هنانة زين.", iraqiPronunciation = "شُکراً، هِنانَه زِین.", persianTranslation = "ممنون، همین‌جا خوبه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 205, numeric_id = 205, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "عندي كاش.", iraqiPronunciation = "عِندی کاش.", persianTranslation = "پول نقد دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 206, numeric_id = 206, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "والباقي؟", iraqiPronunciation = "وَالباقی؟", persianTranslation = "بقیه پولم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 207, numeric_id = 207, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "تقبل كارت؟", iraqiPronunciation = "تِقبَل کارت؟", persianTranslation = "کارت قبول می‌کنی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 208, numeric_id = 208, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرت بده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 209, numeric_id = 209, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "الله ينطيكم العافية.", iraqiPronunciation = "الله یِنطیکُم العافِیَه.", persianTranslation = "خسته نباشی.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 210, numeric_id = 210, category = "تاکسی و حمل‌ونقل", category_id = "taxi", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 211, numeric_id = 211, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "وين الفندق؟", iraqiPronunciation = "وِین الفُندُق؟", persianTranslation = "هتل کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 212, numeric_id = 212, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "عدكم غرفة فارغة؟", iraqiPronunciation = "عَدکُم غُرفَه فارِغَه؟", persianTranslation = "اتاق خالی دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 213, numeric_id = 213, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أريد غرفة.", iraqiPronunciation = "اَرید غُرفَه.", persianTranslation = "یک اتاق می‌خواهم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 214, numeric_id = 214, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أبقى ليلة وحدة.", iraqiPronunciation = "اَبقى لَیلَه وَحدَه.", persianTranslation = "یک شب می‌مانم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 215, numeric_id = 215, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أبقى ليلتين.", iraqiPronunciation = "اَبقى لَیلَتَین.", persianTranslation = "دو شب می‌مانم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 216, numeric_id = 216, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "بجم الغرفة؟", iraqiPronunciation = "بِجَم الغُرفَه؟", persianTranslation = "قیمت اتاق چقدره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 217, numeric_id = 217, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "كلش غالي.", iraqiPronunciation = "کُلِش غالی.", persianTranslation = "گرونه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 218, numeric_id = 218, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "ماكو أرخص؟", iraqiPronunciation = "ماکو اَرخَص؟", persianTranslation = "ارزون‌تر ندارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 219, numeric_id = 219, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "الغرفة نظيفة؟", iraqiPronunciation = "الغُرفَه نَظیفَه؟", persianTranslation = "اتاق تمیزه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 220, numeric_id = 220, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "بيها حمام؟", iraqiPronunciation = "بیها حَمّام؟", persianTranslation = "حمام داره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 221, numeric_id = 221, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "بيها حمام عربي؟", iraqiPronunciation = "بیها حَمّام عَرَبی؟", persianTranslation = "سرویس ایرانی داره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 222, numeric_id = 222, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "بيها مكيف؟", iraqiPronunciation = "بیها مُکَیِّف؟", persianTranslation = "کولر داره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 223, numeric_id = 223, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "عدكم بطانية؟", iraqiPronunciation = "عَدکُم بَطّانِیَّه؟", persianTranslation = "پتو دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 224, numeric_id = 224, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "عدكم مخدة؟", iraqiPronunciation = "عَدکُم مُخَدَّه؟", persianTranslation = "بالش دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 225, numeric_id = 225, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "عدكم فوطة؟", iraqiPronunciation = "عَدکُم فوطَه؟", persianTranslation = "حوله دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 226, numeric_id = 226, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أكو ماي حار؟", iraqiPronunciation = "اَکو مای حار؟", persianTranslation = "آب گرم داره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 227, numeric_id = 227, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "عدكم واي فاي؟", iraqiPronunciation = "عَدکُم وای فای؟", persianTranslation = "وای‌فای دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 228, numeric_id = 228, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "شنو رمز الواي فاي؟", iraqiPronunciation = "شِنو رَمز الوای فای؟", persianTranslation = "رمز وای‌فای چیه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 229, numeric_id = 229, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "ماكو كهرباء.", iraqiPronunciation = "ماکو کَهرَباء.", persianTranslation = "برق نیست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 230, numeric_id = 230, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أريد شاحن.", iraqiPronunciation = "اَرید شاحِن.", persianTranslation = "شارژر می‌خوام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 231, numeric_id = 231, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "وين غرفتي؟", iraqiPronunciation = "وِین غُرفَتی؟", persianTranslation = "اتاقت کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 232, numeric_id = 232, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "مفتاح الغرفة لو سمحت.", iraqiPronunciation = "مِفتاح الغُرفَه لو سَمَحت.", persianTranslation = "کلید اتاق لطفاً.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 233, numeric_id = 233, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أريد أحاسب.", iraqiPronunciation = "اَرید اُحاسِب.", persianTranslation = "می‌خوام تسویه کنم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 234, numeric_id = 234, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "أريد أسلّم الغرفة.", iraqiPronunciation = "اَرید اَسلِّم الغُرفَه.", persianTranslation = "می‌خوام اتاق رو تحویل بدم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 235, numeric_id = 235, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "وصل لو سمحت.", iraqiPronunciation = "وَصل لو سَمَحت.", persianTranslation = "رسید لطفاً.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 236, numeric_id = 236, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "شكراً على الضيافة.", iraqiPronunciation = "شُکراً عَله الضِیافَه.", persianTranslation = "ممنون از مهمان‌نوازیتون.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 237, numeric_id = 237, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "كلشي كان زين.", iraqiPronunciation = "کُلشی کان زِین.", persianTranslation = "همه‌چیز عالی بود.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 238, numeric_id = 238, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 239, numeric_id = 239, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "الله ينطيكم العافية.", iraqiPronunciation = "الله یِنطیکُم العافِیَه.", persianTranslation = "خدا قوت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 240, numeric_id = 240, category = "اسکان و محل اقامت", category_id = "accommodation", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 241, numeric_id = 241, category = "درمان و دارو", category_id = "medical", arabicText = "وين الصيدلية؟", iraqiPronunciation = "وِین الصَیدَلِیَّه؟", persianTranslation = "داروخانه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 242, numeric_id = 242, category = "درمان و دارو", category_id = "medical", arabicText = "وين الدكتور؟", iraqiPronunciation = "وِین الدُکتُور؟", persianTranslation = "دکتر کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 243, numeric_id = 243, category = "درمان و دارو", category_id = "medical", arabicText = "وين المستوصف؟", iraqiPronunciation = "وِین المُستَوصَف؟", persianTranslation = "درمانگاه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 244, numeric_id = 244, category = "درمان و دارو", category_id = "medical", arabicText = "وين المستشفى؟", iraqiPronunciation = "وِین المُستَشفى؟", persianTranslation = "بیمارستان کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 245, numeric_id = 245, category = "درمان و دارو", category_id = "medical", arabicText = "آني تعبان.", iraqiPronunciation = "آنی تَعبان.", persianTranslation = "حالم خوب نیست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 246, numeric_id = 246, category = "درمان و دارو", category_id = "medical", arabicText = "عندي حرارة.", iraqiPronunciation = "عِندی حَرارَه.", persianTranslation = "تب دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 247, numeric_id = 247, category = "درمان و دارو", category_id = "medical", arabicText = "راسي يعورني.", iraqiPronunciation = "راسی یِعوِّرنی.", persianTranslation = "سردرد دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 248, numeric_id = 248, category = "درمان و دارو", category_id = "medical", arabicText = "سني يعورني.", iraqiPronunciation = "سِنّی یِعوِّرنی.", persianTranslation = "دندانم درد می‌کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 249, numeric_id = 249, category = "درمان و دارو", category_id = "medical", arabicText = "حلگي يعورني.", iraqiPronunciation = "حَلگی یِعوِّرنی.", persianTranslation = "گلویم درد می‌کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 250, numeric_id = 250, category = "درمان و دارو", category_id = "medical", arabicText = "بطني يعورني.", iraqiPronunciation = "بَطنی یِعوِّرنی.", persianTranslation = "شکمم درد می‌کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 251, numeric_id = 251, category = "درمان و دارو", category_id = "medical", arabicText = "رجلي تعورني.", iraqiPronunciation = "رِجلی تِعوِّرنی.", persianTranslation = "پایم درد می‌کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 252, numeric_id = 252, category = "درمان و دارو", category_id = "medical", arabicText = "إيدي تعورني.", iraqiPronunciation = "إیدی تِعوِّرنی.", persianTranslation = "دستم درد می‌کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 253, numeric_id = 253, category = "درمان و دارو", category_id = "medical", arabicText = "عندي دوخة.", iraqiPronunciation = "عِندی دَوخَه.", persianTranslation = "سرگیجه دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 254, numeric_id = 254, category = "درمان و دارو", category_id = "medical", arabicText = "عندي غثيان.", iraqiPronunciation = "عِندی غَثَیان.", persianTranslation = "حالت تهوع دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 255, numeric_id = 255, category = "درمان و دارو", category_id = "medical", arabicText = "عندي إسهال.", iraqiPronunciation = "عِندی إسهال.", persianTranslation = "اسهال دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 256, numeric_id = 256, category = "درمان و دارو", category_id = "medical", arabicText = "عندي حساسية.", iraqiPronunciation = "عِندی حَسّاسِیَّه.", persianTranslation = "حساسیت دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 257, numeric_id = 257, category = "درمان و دارو", category_id = "medical", arabicText = "عدكم مسكن؟", iraqiPronunciation = "عَدکُم مُسَکِّن؟", persianTranslation = "داروی مسکن دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 258, numeric_id = 258, category = "درمان و دارو", category_id = "medical", arabicText = "أريد حبوب.", iraqiPronunciation = "اَرید حُبُوب.", persianTranslation = "قرص می‌خواهم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 259, numeric_id = 259, category = "درمان و دارو", category_id = "medical", arabicText = "أحتاج إبرة.", iraqiPronunciation = "اَحتاج إبرَه.", persianTranslation = "آمپول لازم دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 260, numeric_id = 260, category = "درمان و دارو", category_id = "medical", arabicText = "صار عندي جرح.", iraqiPronunciation = "صار عِندی جَرح.", persianTranslation = "زخم شده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 261, numeric_id = 261, category = "درمان و دارو", category_id = "medical", arabicText = "عدكم شاش؟", iraqiPronunciation = "عَدکُم شاش؟", persianTranslation = "پانسمان دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 262, numeric_id = 262, category = "درمان و دارو", category_id = "medical", arabicText = "عدكم معقم؟", iraqiPronunciation = "عَدکُم مُعَقِّم؟", persianTranslation = "ضدعفونی‌کننده دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 263, numeric_id = 263, category = "درمان و دارو", category_id = "medical", arabicText = "أكو ماي صالح للشرب؟", iraqiPronunciation = "اَکو مای صالِح لِلشُرب؟", persianTranslation = "آب سالم برای خوردن هست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 264, numeric_id = 264, category = "درمان و دارو", category_id = "medical", arabicText = "ساعدني لو سمحت.", iraqiPronunciation = "ساعِدنی لو سَمَحت.", persianTranslation = "لطفاً کمکم کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 265, numeric_id = 265, category = "درمان و دارو", category_id = "medical", arabicText = "اتصل بالإسعاف.", iraqiPronunciation = "اِتَّصِل بِالإسعاف.", persianTranslation = "اورژانس را خبر کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 266, numeric_id = 266, category = "درمان و دارو", category_id = "medical", arabicText = "جيب إسعاف.", iraqiPronunciation = "جِیب إِسعاف.", persianTranslation = "آمبولانس خبر کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 267, numeric_id = 267, category = "درمان و دارو", category_id = "medical", arabicText = "هسه أحسن.", iraqiPronunciation = "هَسَّه اَحسَن.", persianTranslation = "حالم بهتر شده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 268, numeric_id = 268, category = "درمان و دارو", category_id = "medical", arabicText = "شكراً على مساعدتكم.", iraqiPronunciation = "شُکراً عَله مُساعَدَتکُم.", persianTranslation = "ممنون از کمکتان.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 269, numeric_id = 269, category = "درمان و دارو", category_id = "medical", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 270, numeric_id = 270, category = "درمان و دارو", category_id = "medical", arabicText = "الله يحفظكم.", iraqiPronunciation = "الله یِحفَظکُم.", persianTranslation = "خدا حفظتان کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 271, numeric_id = 271, category = "پول، بانک و صرافی", category_id = "money", arabicText = "وين الصيرفة؟", iraqiPronunciation = "وِین الصَیرَفَه؟", persianTranslation = "صرافی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 272, numeric_id = 272, category = "پول، بانک و صرافی", category_id = "money", arabicText = "أريد أصرف فلوس.", iraqiPronunciation = "اَرید اَصرِف فُلُوس.", persianTranslation = "می‌خواهم پول تبدیل کنم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 273, numeric_id = 273, category = "پول، بانک و صرافی", category_id = "money", arabicText = "بجم الدولار اليوم؟", iraqiPronunciation = "بِجَم الدُولار الیَوم؟", persianTranslation = "نرخ دلار چنده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 274, numeric_id = 274, category = "پول، بانک و صرافی", category_id = "money", arabicText = "بجم التومان؟", iraqiPronunciation = "بِجَم التُومان؟", persianTranslation = "نرخ تومان چنده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 275, numeric_id = 275, category = "پول، بانک و صرافی", category_id = "money", arabicText = "أريد دنانير.", iraqiPronunciation = "اَرید دَنانِیر.", persianTranslation = "دینار می‌خواهم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 276, numeric_id = 276, category = "پول، بانک و صرافی", category_id = "money", arabicText = "عدكم فراطة؟", iraqiPronunciation = "عَدکُم فَراطَه؟", persianTranslation = "پول خرد دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 277, numeric_id = 277, category = "پول، بانک و صرافی", category_id = "money", arabicText = "تبدل هاي الورقة؟", iraqiPronunciation = "تِبَدِّل های الوَرَقَه؟", persianTranslation = "این اسکناس را خرد می‌کنید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 278, numeric_id = 278, category = "پول، بانک و صرافی", category_id = "money", arabicText = "تقبل كارت؟", iraqiPronunciation = "تِقبَل کارت؟", persianTranslation = "کارت قبول می‌کنید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 279, numeric_id = 279, category = "پول، بانک و صرافی", category_id = "money", arabicText = "عندي كاش بس.", iraqiPronunciation = "عِندی کاش بَس.", persianTranslation = "فقط نقد دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 280, numeric_id = 280, category = "پول، بانک و صرافی", category_id = "money", arabicText = "وين الـATM؟", iraqiPronunciation = "وِین ای تی ام؟", persianTranslation = "دستگاه خودپرداز کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 281, numeric_id = 281, category = "پول، بانک و صرافی", category_id = "money", arabicText = "وين البنك؟", iraqiPronunciation = "وِین البَنک؟", persianTranslation = "بانک کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 282, numeric_id = 282, category = "پول، بانک و صرافی", category_id = "money", arabicText = "ما عندي فلوس كافية.", iraqiPronunciation = "ما عِندی فُلُوس کافِیَه.", persianTranslation = "موجودی کافی ندارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 283, numeric_id = 283, category = "پول، بانک و صرافی", category_id = "money", arabicText = "ضيعت محفظتي.", iraqiPronunciation = "ضَیَّعت مَحفَظَتی.", persianTranslation = "کیف پولم گم شده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 284, numeric_id = 284, category = "پول، بانک و صرافی", category_id = "money", arabicText = "انسرقت فلوسي.", iraqiPronunciation = "اِنسَرَقَت فُلُوسی.", persianTranslation = "پولم را دزدیده‌اند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 285, numeric_id = 285, category = "پول، بانک و صرافی", category_id = "money", arabicText = "ساعدني لو سمحت.", iraqiPronunciation = "ساعِدنی لو سَمَحت.", persianTranslation = "لطفاً کمکم کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 286, numeric_id = 286, category = "پول، بانک و صرافی", category_id = "money", arabicText = "وصل لو سمحت.", iraqiPronunciation = "وَصل لو سَمَحت.", persianTranslation = "رسید لطفاً.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 287, numeric_id = 287, category = "پول، بانک و صرافی", category_id = "money", arabicText = "هذا آخر سعر؟", iraqiPronunciation = "هذا آخِر سِعر؟", persianTranslation = "این قیمت نهایی است؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 288, numeric_id = 288, category = "پول، بانک و صرافی", category_id = "money", arabicText = "كلش غالي.", iraqiPronunciation = "کُلِش غالی.", persianTranslation = "خیلی گرونه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 289, numeric_id = 289, category = "پول، بانک و صرافی", category_id = "money", arabicText = "تنزل بالسعر؟", iraqiPronunciation = "تِنزِل بِالسِعر؟", persianTranslation = "تخفیف میدی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 290, numeric_id = 290, category = "پول، بانک و صرافی", category_id = "money", arabicText = "زين، موافق.", iraqiPronunciation = "زِین، مُوافِق.", persianTranslation = "باشه، قبوله.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 291, numeric_id = 291, category = "پول، بانک و صرافی", category_id = "money", arabicText = "عدها لو سمحت.", iraqiPronunciation = "عُدَّها لو سَمَحت.", persianTranslation = "لطفاً بشمار.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 292, numeric_id = 292, category = "پول، بانک و صرافی", category_id = "money", arabicText = "الفلوس ناقصة.", iraqiPronunciation = "الفُلُوس ناقِصَه.", persianTranslation = "پول کم است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 293, numeric_id = 293, category = "پول، بانک و صرافی", category_id = "money", arabicText = "عطيتني زيادة.", iraqiPronunciation = "عَطَیتَنی زِیادَه.", persianTranslation = "پول زیاد دادی.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 294, numeric_id = 294, category = "پول، بانک و صرافی", category_id = "money", arabicText = "صحيح.", iraqiPronunciation = "صَحِیح.", persianTranslation = "درست است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 295, numeric_id = 295, category = "پول، بانک و صرافی", category_id = "money", arabicText = "صار غلط.", iraqiPronunciation = "صار غَلَط.", persianTranslation = "اشتباه شده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 296, numeric_id = 296, category = "پول، بانک و صرافی", category_id = "money", arabicText = "شكراً على أمانتك.", iraqiPronunciation = "شُکراً عَله أمانَتَک.", persianTranslation = "ممنون از امانتداری‌ات.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 297, numeric_id = 297, category = "پول، بانک و صرافی", category_id = "money", arabicText = "الله يبارك برزقك.", iraqiPronunciation = "الله یِبارِک بِرِزقَک.", persianTranslation = "خدا به رزقت برکت بده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 298, numeric_id = 298, category = "پول، بانک و صرافی", category_id = "money", arabicText = "الله يجزيك خير.", iraqiPronunciation = "الله یِجزیک خیر.", persianTranslation = "خدا خیرت بده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 299, numeric_id = 299, category = "پول، بانک و صرافی", category_id = "money", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 300, numeric_id = 300, category = "پول، بانک و صرافی", category_id = "money", arabicText = "إن شاء الله أشوفك مرة ثانية.", iraqiPronunciation = "اِن‌شاءالله اَشوفَک مَرَّه ثانِیَه.", persianTranslation = "ان‌شاءالله دوباره می‌بینمت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 301, numeric_id = 301, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم سيم كارت؟", iraqiPronunciation = "عَدکُم سِیم کارت؟", persianTranslation = "سیم‌کارت دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 302, numeric_id = 302, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "أريد سيم كارت عراقية.", iraqiPronunciation = "اَرید سِیم کارت عِراقیَّه.", persianTranslation = "سیم‌کارت عراق می‌خواهم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 303, numeric_id = 303, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "إيرانسل يشتغل هنانة؟", iraqiPronunciation = "ایرانسِل یِشتِغِل هِنانه؟", persianTranslation = "ایرانسل اینجا آنتن می‌دهد؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 304, numeric_id = 304, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "همراه أول يشتغل؟", iraqiPronunciation = "همراه اَوَّل یِشتِغِل؟", persianTranslation = "همراه اول آنتن می‌دهد؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 305, numeric_id = 305, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم إنترنت؟", iraqiPronunciation = "عَدکُم اِنتِرنِت؟", persianTranslation = "اینترنت دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 306, numeric_id = 306, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم واي فاي؟", iraqiPronunciation = "عَدکُم وای فای؟", persianTranslation = "وای‌فای دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 307, numeric_id = 307, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "شنو رمز الواي فاي؟", iraqiPronunciation = "شِنو رَمز الوای فای؟", persianTranslation = "رمز وای‌فای چیه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 308, numeric_id = 308, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "الإنترنت ما يشتغل.", iraqiPronunciation = "الاِنتِرنِت ما یِشتِغِل.", persianTranslation = "اینترنت وصل نمی‌شود.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 309, numeric_id = 309, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "ما عندي شبكة.", iraqiPronunciation = "ما عِندی شَبَکَه.", persianTranslation = "آنتن ندارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 310, numeric_id = 310, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم شاحن موبايل؟", iraqiPronunciation = "عَدکُم شاحِن موبایِل؟", persianTranslation = "شارژر موبایل دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 311, numeric_id = 311, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم شاحن آيفون؟", iraqiPronunciation = "عَدکُم شاحِن آیفون؟", persianTranslation = "شارژر آیفون دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 312, numeric_id = 312, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم شاحن تايب سي؟", iraqiPronunciation = "عَدکُم شاحِن تایب سی؟", persianTranslation = "شارژر اندروید دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 313, numeric_id = 313, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم كيبل شحن؟", iraqiPronunciation = "عَدکُم کِیبِل شَحن؟", persianTranslation = "کابل شارژ دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 314, numeric_id = 314, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "عدكم باور بانك؟", iraqiPronunciation = "عَدکُم پاور بانک؟", persianTranslation = "پاوربانک دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 315, numeric_id = 315, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "وين الكهرباء؟", iraqiPronunciation = "وِین الکَهرَباء؟", persianTranslation = "برق کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 316, numeric_id = 316, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "وين الفيش؟", iraqiPronunciation = "وِین الفِیش؟", persianTranslation = "پریز برق کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 317, numeric_id = 317, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "أگدر أشحن موبايلي؟", iraqiPronunciation = "أگدَر أِشحَن موبایِلی؟", persianTranslation = "می‌توانم گوشی‌ام را شارژ کنم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 318, numeric_id = 318, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "خلص شحنه.", iraqiPronunciation = "خَلَص شَحنَه.", persianTranslation = "شارژش تمام شده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 319, numeric_id = 319, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "البطارية ضعيفة.", iraqiPronunciation = "البَطّارِیَّه ضَعیفَه.", persianTranslation = "باتری ضعیف است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 320, numeric_id = 320, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "ما يتصل.", iraqiPronunciation = "ما یِتَّصِل.", persianTranslation = "تماس نمی‌گیرد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 321, numeric_id = 321, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "صوتك ما يوصل.", iraqiPronunciation = "صَوتَک ما یِوصَل.", persianTranslation = "صدایت نمی‌آید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 322, numeric_id = 322, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "احچي أعلى شوي.", iraqiPronunciation = "اِحچی اَعلی شِوَی.", persianTranslation = "بلندتر صحبت کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 323, numeric_id = 323, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "اتصل مرة ثانية.", iraqiPronunciation = "اِتَّصِل مَرَّه ثانِیَه.", persianTranslation = "دوباره زنگ بزن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 324, numeric_id = 324, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "ابعث رسالة.", iraqiPronunciation = "اِبعَث رِسالَه.", persianTranslation = "پیام بفرست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 325, numeric_id = 325, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "ابعث الموقع.", iraqiPronunciation = "اِبعَث المَوقِع.", persianTranslation = "لوکیشن بفرست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 326, numeric_id = 326, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "الإنترنت بطيء.", iraqiPronunciation = "الاِنتِرنِت بَطیء.", persianTranslation = "اینترنت کند است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 327, numeric_id = 327, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "شكراً على مساعدتك.", iraqiPronunciation = "شُکراً عَله مُساعَدَتَک.", persianTranslation = "ممنون از کمکت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 328, numeric_id = 328, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "الله يجزيك خير.", iraqiPronunciation = "الله یِجزیک خیر.", persianTranslation = "خدا خیرت بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 329, numeric_id = 329, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "الله يحفظك.", iraqiPronunciation = "الله یِحفَظَک.", persianTranslation = "خدا حفظت کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 330, numeric_id = 330, category = "موبایل، اینترنت و شارژ", category_id = "mobile", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 331, numeric_id = 331, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ساعدوني!", iraqiPronunciation = "ساعِدونی!", persianTranslation = "کمک!", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 332, numeric_id = 332, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ساعدني لو سمحت.", iraqiPronunciation = "ساعِدنی لو سَمَحت.", persianTranslation = "لطفاً کمکم کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 333, numeric_id = 333, category = "شرایط اضطراری", category_id = "emergency", arabicText = "وين الشرطة؟", iraqiPronunciation = "وِین الشُّرتَه؟", persianTranslation = "پلیس کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 334, numeric_id = 334, category = "شرایط اضطراری", category_id = "emergency", arabicText = "جيب إسعاف.", iraqiPronunciation = "جِیب اِسعاف.", persianTranslation = "آمبولانس خبر کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 335, numeric_id = 335, category = "شرایط اضطراری", category_id = "emergency", arabicText = "اتصل بالإطفائية.", iraqiPronunciation = "اِتَّصِل بِالإطفائیَّه.", persianTranslation = "آتش‌نشانی را خبر کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 336, numeric_id = 336, category = "شرایط اضطراری", category_id = "emergency", arabicText = "آني ضايع.", iraqiPronunciation = "آنی ضایِع.", persianTranslation = "گم شده‌ام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 337, numeric_id = 337, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ضيعت الطريق.", iraqiPronunciation = "ضَیَّعت الطَّریق.", persianTranslation = "راهم را گم کرده‌ام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 338, numeric_id = 338, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ضاع صاحبي.", iraqiPronunciation = "ضاع صاحِبی.", persianTranslation = "همراهم گم شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 339, numeric_id = 339, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ضاع طفلي.", iraqiPronunciation = "ضاع طِفلی.", persianTranslation = "بچه‌ام گم شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 340, numeric_id = 340, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ضاعت محفظتي.", iraqiPronunciation = "ضاعَت مَحفَظَتی.", persianTranslation = "کیفم گم شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 341, numeric_id = 341, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ضاع موبايلي.", iraqiPronunciation = "ضاع موبایِلی.", persianTranslation = "گوشی‌ام گم شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 342, numeric_id = 342, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ضاع جواز سفري.", iraqiPronunciation = "ضاع جَواز سَفَری.", persianTranslation = "پاسپورتم گم شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 343, numeric_id = 343, category = "شرایط اضطراری", category_id = "emergency", arabicText = "انسرقت محفظتي.", iraqiPronunciation = "اِنسَرَقَت مَحفَظَتی.", persianTranslation = "کیفم را دزدیده‌اند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 344, numeric_id = 344, category = "شرایط اضطراری", category_id = "emergency", arabicText = "انسرقت فلوسي.", iraqiPronunciation = "اِنسَرَقَت فُلوسی.", persianTranslation = "پولم را دزدیده‌اند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 345, numeric_id = 345, category = "شرایط اضطراری", category_id = "emergency", arabicText = "حالتي تعبت.", iraqiPronunciation = "حالتِی تِعَبَت.", persianTranslation = "حالم بد شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 346, numeric_id = 346, category = "شرایط اضطراری", category_id = "emergency", arabicText = "ما أگدر أمشي.", iraqiPronunciation = "ما أگدَر اَمشی.", persianTranslation = "نمی‌توانم راه بروم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 347, numeric_id = 347, category = "شرایط اضطراری", category_id = "emergency", arabicText = "عندي دوخة.", iraqiPronunciation = "عِندی دَوخَه.", persianTranslation = "سرم گیج می‌رود.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 348, numeric_id = 348, category = "شرایط اضطراری", category_id = "emergency", arabicText = "أغمي عليه.", iraqiPronunciation = "اُغمِیَ عَلَیه.", persianTranslation = "بیهوش شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 349, numeric_id = 349, category = "شرایط اضطراری", category_id = "emergency", arabicText = "صار حادث.", iraqiPronunciation = "صار حادِث.", persianTranslation = "تصادف شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 350, numeric_id = 350, category = "شرایط اضطراری", category_id = "emergency", arabicText = "أكو حريق.", iraqiPronunciation = "اَکو حَریق.", persianTranslation = "آتش گرفته است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 351, numeric_id = 351, category = "شرایط اضطراری", category_id = "emergency", arabicText = "استعجلوا لو سمحت.", iraqiPronunciation = "اِستَعجِلوا لو سَمَحت.", persianTranslation = "لطفاً عجله کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 352, numeric_id = 352, category = "شرایط اضطراری", category_id = "emergency", arabicText = "أهلي هناك.", iraqiPronunciation = "اَهلی هِناک.", persianTranslation = "خانواده‌ام آنجا هستند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 353, numeric_id = 353, category = "شرایط اضطراری", category_id = "emergency", arabicText = "آني إيراني.", iraqiPronunciation = "آنی ایرانی.", persianTranslation = "من ایرانی هستم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 354, numeric_id = 354, category = "شرایط اضطراری", category_id = "emergency", arabicText = "تعرف فارسي؟", iraqiPronunciation = "تَعرِف فارسی؟", persianTranslation = "فارسی بلدی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 355, numeric_id = 355, category = "شرایط اضطراری", category_id = "emergency", arabicText = "تعرف إنكليزي؟", iraqiPronunciation = "تَعرِف اِنکلیزی؟", persianTranslation = "انگلیسی بلدی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 356, numeric_id = 356, category = "شرایط اضطراری", category_id = "emergency", arabicText = "لا تخاف.", iraqiPronunciation = "لا تَخاف.", persianTranslation = "آرام باشید (نترسید).", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 357, numeric_id = 357, category = "شرایط اضطراری", category_id = "emergency", arabicText = "الحمد لله، صار زين.", iraqiPronunciation = "الحمدلله، صار زِین.", persianTranslation = "همه‌چیز خوب شد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 358, numeric_id = 358, category = "شرایط اضطراری", category_id = "emergency", arabicText = "شكراً جزيلاً.", iraqiPronunciation = "شُکراً جَزیلاً.", persianTranslation = "خیلی ممنون.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 359, numeric_id = 359, category = "شرایط اضطراری", category_id = "emergency", arabicText = "الله يجزيك خير.", iraqiPronunciation = "الله یِجزیک خیر.", persianTranslation = "خدا خیرت بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 360, numeric_id = 360, category = "شرایط اضطراری", category_id = "emergency", arabicText = "الله يحفظك.", iraqiPronunciation = "الله یِحفَظَک.", persianTranslation = "خدا حفظت کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 361, numeric_id = 361, category = "خانواده و کودکان", category_id = "family", arabicText = "هاي زوجتي.", iraqiPronunciation = "های زَوجَتی.", persianTranslation = "این همسر من است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 362, numeric_id = 362, category = "خانواده و کودکان", category_id = "family", arabicText = "هذا زوجي.", iraqiPronunciation = "هذا زَوجی.", persianTranslation = "این شوهر من است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 363, numeric_id = 363, category = "خانواده و کودکان", category_id = "family", arabicText = "هذا ابني.", iraqiPronunciation = "هذا اِبنی.", persianTranslation = "این پسرم است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 364, numeric_id = 364, category = "خانواده و کودکان", category_id = "family", arabicText = "هاي بنتي.", iraqiPronunciation = "های بِنتی.", persianTranslation = "این دخترم است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 365, numeric_id = 365, category = "خانواده و کودکان", category_id = "family", arabicText = "طفلي تعبان.", iraqiPronunciation = "طِفلی تَعبان.", persianTranslation = "بچه‌ام خسته شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 366, numeric_id = 366, category = "خانواده و کودکان", category_id = "family", arabicText = "طفلي جوعان.", iraqiPronunciation = "طِفلی جَوعان.", persianTranslation = "بچه‌ام گرسنه است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 367, numeric_id = 367, category = "خانواده و کودکان", category_id = "family", arabicText = "طفلي عطشان.", iraqiPronunciation = "طِفلی عَطشان.", persianTranslation = "بچه‌ام تشنه است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 368, numeric_id = 368, category = "خانواده و کودکان", category_id = "family", arabicText = "طفلي نعسان.", iraqiPronunciation = "طِفلی نَعسان.", persianTranslation = "بچه‌ام خوابش می‌آید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 369, numeric_id = 369, category = "خانواده و کودکان", category_id = "family", arabicText = "ضاع طفلي.", iraqiPronunciation = "ضاع طِفلی.", persianTranslation = "بچه‌ام گم شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 370, numeric_id = 370, category = "خانواده و کودکان", category_id = "family", arabicText = "شفتوا طفلي؟", iraqiPronunciation = "شِفتوا طِفلی؟", persianTranslation = "بچه‌ام را دیده‌اید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 371, numeric_id = 371, category = "خانواده و کودکان", category_id = "family", arabicText = "عدكم عربانة أطفال؟", iraqiPronunciation = "عَدکُم عَرَبانة اَطفال؟", persianTranslation = "کالسکه دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 372, numeric_id = 372, category = "خانواده و کودکان", category_id = "family", arabicText = "عدكم حليب أطفال؟", iraqiPronunciation = "عَدکُم حَلیب اَطفال؟", persianTranslation = "شیر خشک دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 373, numeric_id = 373, category = "خانواده و کودکان", category_id = "family", arabicText = "عدكم حفاض؟", iraqiPronunciation = "عَدکُم حِفاض؟", persianTranslation = "پوشک دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 374, numeric_id = 374, category = "خانواده و کودکان", category_id = "family", arabicText = "عدكم ماي حار؟", iraqiPronunciation = "عَدکُم مای حار؟", persianTranslation = "آب گرم دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 375, numeric_id = 375, category = "خانواده و کودکان", category_id = "family", arabicText = "أگدر أبدل الحفاض هنانة؟", iraqiPronunciation = "أگدَر أَبَدِّل الحِفاض هِنانه؟", persianTranslation = "می‌توانم اینجا بچه را عوض کنم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 376, numeric_id = 376, category = "خانواده و کودکان", category_id = "family", arabicText = "أهلي هناك.", iraqiPronunciation = "اَهلی هِناک.", persianTranslation = "خانواده‌ام آن طرف هستند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 377, numeric_id = 377, category = "خانواده و کودکان", category_id = "family", arabicText = "دا أنتظر أهلي.", iraqiPronunciation = "دا اَنتَظِر اَهلی.", persianTranslation = "منتظر خانواده‌ام هستم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 378, numeric_id = 378, category = "خانواده و کودکان", category_id = "family", arabicText = "أمي هنانة.", iraqiPronunciation = "اُمّی هِنانه.", persianTranslation = "مادرم اینجاست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 379, numeric_id = 379, category = "خانواده و کودکان", category_id = "family", arabicText = "أبويه هنانة.", iraqiPronunciation = "اَبویَه هِنانه.", persianTranslation = "پدرم اینجاست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 380, numeric_id = 380, category = "خانواده و کودکان", category_id = "family", arabicText = "أخويه هنانة.", iraqiPronunciation = "اَخویَه هِنانه.", persianTranslation = "برادرم اینجاست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 381, numeric_id = 381, category = "خانواده و کودکان", category_id = "family", arabicText = "أختي هنانة.", iraqiPronunciation = "اُختی هِنانه.", persianTranslation = "خواهرم اینجاست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 382, numeric_id = 382, category = "خانواده و کودکان", category_id = "family", arabicText = "انتبه على الطفل لو سمحت.", iraqiPronunciation = "اِنتَبِه عَله الطِّفل لو سَمَحت.", persianTranslation = "لطفاً مواظب بچه باشید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 383, numeric_id = 383, category = "خانواده و کودکان", category_id = "family", arabicText = "الطفل عنده حرارة.", iraqiPronunciation = "الطِّفل عِندَه حَرارَه.", persianTranslation = "بچه تب دارد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 384, numeric_id = 384, category = "خانواده و کودکان", category_id = "family", arabicText = "الطفل دا يبچي.", iraqiPronunciation = "الطِّفل دا یِبچی.", persianTranslation = "بچه گریه می‌کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 385, numeric_id = 385, category = "خانواده و کودکان", category_id = "family", arabicText = "الطفل خاف.", iraqiPronunciation = "الطِّفل خاف.", persianTranslation = "بچه ترسیده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 386, numeric_id = 386, category = "خانواده و کودکان", category_id = "family", arabicText = "خلّوا الطفل يمر أول.", iraqiPronunciation = "خَلّوا الطِّفل یِمُرّ اَوَّل.", persianTranslation = "می‌شود اول بچه را رد کنید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 387, numeric_id = 387, category = "خانواده و کودکان", category_id = "family", arabicText = "شكراً جزيلاً.", iraqiPronunciation = "شُکراً جَزیلاً.", persianTranslation = "خیلی ممنون.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 388, numeric_id = 388, category = "خانواده و کودکان", category_id = "family", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 389, numeric_id = 389, category = "خانواده و کودکان", category_id = "family", arabicText = "الله يحفظكم.", iraqiPronunciation = "الله یِحفَظکُم.", persianTranslation = "خدا حفظتان کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 390, numeric_id = 390, category = "خانواده و کودکان", category_id = "family", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 391, numeric_id = 391, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "شكد بقى لكربلاء؟", iraqiPronunciation = "شگِد بَقى لِکَربَلاء؟", persianTranslation = "تا کربلا چقدر مانده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 392, numeric_id = 392, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "شكد بقى للنجف؟", iraqiPronunciation = "شگِد بَقى لِلنَّجَف؟", persianTranslation = "تا نجف چقدر مانده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 393, numeric_id = 393, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "شكد رقم العمود؟", iraqiPronunciation = "شگِد رَقَم العَمود؟", persianTranslation = "شماره عمود چند است؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 394, numeric_id = 394, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "وين العمود الجاي؟", iraqiPronunciation = "وِین العَمود الجای؟", persianTranslation = "عمود بعدی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 395, numeric_id = 395, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "هذا الطريق يودي لكربلاء؟", iraqiPronunciation = "هذا الطَّریق یودّی لِکَربَلاء؟", persianTranslation = "این مسیر به کربلا می‌رود؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 396, numeric_id = 396, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "هذا الطريق يودي للنجف؟", iraqiPronunciation = "هذا الطَّریق یودّی لِلنَّجَف؟", persianTranslation = "این مسیر به نجف می‌رود؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 397, numeric_id = 397, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "هذا الموكب إيراني؟", iraqiPronunciation = "هذا المَوکِب ایرانی؟", persianTranslation = "موکب ایرانی است؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 398, numeric_id = 398, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم مكان للراحة؟", iraqiPronunciation = "عَدکُم مَکان لِلرّاحَه؟", persianTranslation = "جای استراحت دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 399, numeric_id = 399, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم مكان للنوم؟", iraqiPronunciation = "عَدکُم مَکان لِلنَّوم؟", persianTranslation = "جای خواب دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 400, numeric_id = 400, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم كرسي متحرك؟", iraqiPronunciation = "عَدکُم کُرسی مُتَحَرِّک؟", persianTranslation = "ویلچر دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 401, numeric_id = 401, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم عصا؟", iraqiPronunciation = "عَدکُم عَصا؟", persianTranslation = "عصا دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 402, numeric_id = 402, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "جوتيي انقطع.", iraqiPronunciation = "جوتیّی اِنقَطَع.", persianTranslation = "کفشم پاره شده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 403, numeric_id = 403, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم جرابات؟", iraqiPronunciation = "عَدکُم جَرابات؟", persianTranslation = "جوراب دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 404, numeric_id = 404, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "رجلي بيها نفطة.", iraqiPronunciation = "رِجلی بیها نَفطَه.", persianTranslation = "پایم تاول زده است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 405, numeric_id = 405, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم مرهم؟", iraqiPronunciation = "عَدکُم مَرهَم؟", persianTranslation = "پماد دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 406, numeric_id = 406, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم لزگ جروح؟", iraqiPronunciation = "عَدکُم لَزگ جُروح؟", persianTranslation = "چسب زخم دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 407, numeric_id = 407, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "عدكم مساج للرجل؟", iraqiPronunciation = "عَدکُم مَساژ لِلرِّجِل؟", persianTranslation = "ماساژ پا دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 408, numeric_id = 408, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "أريد ماي بارد.", iraqiPronunciation = "اَرید مای بارِد.", persianTranslation = "آب سرد می‌خواهم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 409, numeric_id = 409, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "تعبت كلش.", iraqiPronunciation = "تِعَبت کُلِش.", persianTranslation = "خیلی خسته شدم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 410, numeric_id = 410, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "أريد أرتاح شوي.", iraqiPronunciation = "اَرید اَرتاح شِوَی.", persianTranslation = "می‌خواهم کمی استراحت کنم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 411, numeric_id = 411, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "وين المصلى؟", iraqiPronunciation = "وِین المُصَلّى؟", persianTranslation = "نمازخانه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 412, numeric_id = 412, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "وين محل الوضوء؟", iraqiPronunciation = "وِین مَحَل الوُضوء؟", persianTranslation = "وضوخانه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 413, numeric_id = 413, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "وين الحمام؟", iraqiPronunciation = "وِین الحَمّام؟", persianTranslation = "سرویس بهداشتی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 414, numeric_id = 414, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "دلّوني لو سمحت.", iraqiPronunciation = "دِلّونی لو سَمَحت.", persianTranslation = "لطفاً راهنماییم کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 415, numeric_id = 415, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "الله ينطيكم العافية.", iraqiPronunciation = "الله یِنطیکُم العافِیَه.", persianTranslation = "خدا قوت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 416, numeric_id = 416, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "الله يتقبل منكم.", iraqiPronunciation = "الله یِتقَبَّل مِنکُم.", persianTranslation = "خدا قبول کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 417, numeric_id = 417, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "الله يجزيكم خير.", iraqiPronunciation = "الله یِجزیکُم خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 418, numeric_id = 418, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "الله يتقبل زيارتكم.", iraqiPronunciation = "الله یِتقَبَّل زِیارَتکُم.", persianTranslation = "ان‌شاءالله زیارتتان قبول باشد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 419, numeric_id = 419, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "أدعيلكم.", iraqiPronunciation = "اَدعیلکُم.", persianTranslation = "دعاگوی شما هستم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 420, numeric_id = 420, category = "پیاده‌روی اربعین", category_id = "arbaeen_walk", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 421, numeric_id = 421, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "السلام عليكم يا أبا عبد الله.", iraqiPronunciation = "اَلسَّلام عَلَیکُم یا اَبا عَبداِلله.", persianTranslation = "سلام بر امام حسین (ع)", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 422, numeric_id = 422, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "السلام عليك يا عباس.", iraqiPronunciation = "اَلسَّلام عَلَیکَ یا عَبّاس.", persianTranslation = "سلام بر حضرت عباس (ع)", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 423, numeric_id = 423, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "أريد أزور الإمام.", iraqiPronunciation = "اَرید اَزور الإمام.", persianTranslation = "می‌خواهم زیارت کنم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 424, numeric_id = 424, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "أريد أقرأ الزيارة.", iraqiPronunciation = "اَرید اَقرا الزِّیارَه.", persianTranslation = "می‌خواهم زیارت‌نامه بخوانم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 425, numeric_id = 425, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "ادعيلي.", iraqiPronunciation = "اِدعِلی.", persianTranslation = "برایم دعا کن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 426, numeric_id = 426, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "لا تنساني من الدعاء.", iraqiPronunciation = "لا تِنسانی مِن الدُّعاء.", persianTranslation = "من را از دعایت فراموش نکن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 427, numeric_id = 427, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "الله يتقبل زيارتكم.", iraqiPronunciation = "الله یِتقَبَّل زِیارَتکُم.", persianTranslation = "خدا زیارتتان را قبول کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 428, numeric_id = 428, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "زيارة مقبولة.", iraqiPronunciation = "زِیارَه مَقبولَه.", persianTranslation = "زیارت قبول.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 429, numeric_id = 429, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "الله يرزقكم الزيارة.", iraqiPronunciation = "الله یِرزُقکُم الزِّیارَه.", persianTranslation = "خدا قسمتتان کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 430, numeric_id = 430, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "إن شاء الله نزور مرة ثانية.", iraqiPronunciation = "اِن‌شاءالله نَزور مَرَّه ثانِیَه.", persianTranslation = "ان‌شاءالله دوباره زیارت کنیم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 431, numeric_id = 431, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "أين الضريح؟", iraqiPronunciation = "اَینَ الضَّریح؟", persianTranslation = "ضریح کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 432, numeric_id = 432, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "أين الشباك؟", iraqiPronunciation = "اَینَ الشُّبّاک؟", persianTranslation = "ضریح (شباک) کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 433, numeric_id = 433, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "أريد ألمس الضريح.", iraqiPronunciation = "اَرید اَلمَس الضَّریح.", persianTranslation = "می‌خواهم ضریح را لمس کنم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 434, numeric_id = 434, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "الزحمة كلش هواية.", iraqiPronunciation = "الزَّحمَه کُلِش هَوایِه.", persianTranslation = "خیلی شلوغ است.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 435, numeric_id = 435, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "شوي شوي.", iraqiPronunciation = "شِوَی شِوَی.", persianTranslation = "آرام‌آرام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 436, numeric_id = 436, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "انتبه.", iraqiPronunciation = "اِنتَبِه.", persianTranslation = "مواظب باش.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 437, numeric_id = 437, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "افسح الطريق لو سمحت.", iraqiPronunciation = "اِفسَح الطَّریق لو سَمَحت.", persianTranslation = "لطفاً راه را باز کنید.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 438, numeric_id = 438, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "أريد أصلي.", iraqiPronunciation = "اَرید اَصَلّی.", persianTranslation = "می‌خواهم نماز بخوانم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 439, numeric_id = 439, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "وين القبلة؟", iraqiPronunciation = "وِین القِبلَه؟", persianTranslation = "قبله کدام طرف است؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 440, numeric_id = 440, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "وين مكان الوضوء؟", iraqiPronunciation = "وِین مَکان الوُضوء؟", persianTranslation = "وضوخانه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 441, numeric_id = 441, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "تاج راسي", iraqiPronunciation = "تاج راسی", persianTranslation = "تاج سرم هستی (برای احترام)", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 442, numeric_id = 442, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "تدلل", iraqiPronunciation = "تِدَلَّل", persianTranslation = "شما امر بفرما / در خدمتم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 443, numeric_id = 443, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "رحم الله والديك", iraqiPronunciation = "رَحِمَ الله والِدَیک", persianTranslation = "خدا پدر و مادرت را بیامرزد", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 444, numeric_id = 444, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "من عيوني", iraqiPronunciation = "مِن عُیونی", persianTranslation = "روی چشمم / با کمال میل", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 445, numeric_id = 445, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "جزاكم الله خير.", iraqiPronunciation = "جَزاکُم الله خیر.", persianTranslation = "خدا خیرتان بدهد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 446, numeric_id = 446, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "في أمان الله.", iraqiPronunciation = "فی اَمان الله.", persianTranslation = "به خدا می‌سپارمت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 447, numeric_id = 447, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "الله يحفظكم.", iraqiPronunciation = "الله یِحفَظکُم.", persianTranslation = "خدا حفظتان کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 448, numeric_id = 448, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "مع السلامة.", iraqiPronunciation = "مَعَ السَّلامَه.", persianTranslation = "خداحافظ.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 449, numeric_id = 449, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "نلتقي إن شاء الله.", iraqiPronunciation = "نَلتَقی اِن‌شاءالله.", persianTranslation = "ان‌شاءالله دوباره ببینمت.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 450, numeric_id = 450, category = "اصطلاحات مذهبی و زیارتی", category_id = "religious", arabicText = "تقبل الله أعمالكم.", iraqiPronunciation = "تَقَبَّلَ الله اَعمالَکُم.", persianTranslation = "خدا اعمالتان را قبول کند.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 451, numeric_id = 451, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "تفضل", iraqiPronunciation = "تَفَضَّل", persianTranslation = "بفرما", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 452, numeric_id = 452, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "يلا", iraqiPronunciation = "یَلّا", persianTranslation = "بزن بریم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 453, numeric_id = 453, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "إي", iraqiPronunciation = "ای", persianTranslation = "باشه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 454, numeric_id = 454, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "لا", iraqiPronunciation = "لا", persianTranslation = "نه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 455, numeric_id = 455, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "ماكو مشكلة", iraqiPronunciation = "ماکو مُشکِلَه", persianTranslation = "اشکالی نداره", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 456, numeric_id = 456, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "عادي", iraqiPronunciation = "عادی", persianTranslation = "هیچ مشکلی نیست", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 457, numeric_id = 457, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "شبيك؟", iraqiPronunciation = "شَبیک؟", persianTranslation = "چی شده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 458, numeric_id = 458, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "شگلت؟", iraqiPronunciation = "شِگِلِت؟", persianTranslation = "چی گفتی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 459, numeric_id = 459, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "شنو يعني؟", iraqiPronunciation = "شِنو یَعنی؟", persianTranslation = "یعنی چی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 460, numeric_id = 460, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "ما فهمت", iraqiPronunciation = "ما فِهَمت", persianTranslation = "نفهمیدم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 461, numeric_id = 461, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "عيدها مرة ثانية", iraqiPronunciation = "عیدها مَرَّه ثانِیَه", persianTranslation = "دوباره بگو", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 462, numeric_id = 462, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "احچي شوي شوي", iraqiPronunciation = "اِحچی شِوَی شِوَی", persianTranslation = "آروم‌تر صحبت کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 463, numeric_id = 463, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "احچي بصوت أعلى", iraqiPronunciation = "اِحچی بِصَوت اَعلی", persianTranslation = "بلندتر صحبت کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 464, numeric_id = 464, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "مستعجل", iraqiPronunciation = "مُستَعجِل", persianTranslation = "عجله دارم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 465, numeric_id = 465, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "اصبر", iraqiPronunciation = "اِصبِر", persianTranslation = "صبر کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 466, numeric_id = 466, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "دقيقة", iraqiPronunciation = "دَقیقَه", persianTranslation = "یک دقیقه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 467, numeric_id = 467, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "هسه أجي", iraqiPronunciation = "هَسَّه اَجی", persianTranslation = "الان میام", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 468, numeric_id = 468, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "وين رايح؟", iraqiPronunciation = "وِین رایِح؟", persianTranslation = "کجا میری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 469, numeric_id = 469, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "منين إجيت؟", iraqiPronunciation = "مِنِین اِجَیت؟", persianTranslation = "از کجا اومدی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 470, numeric_id = 470, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "منين إنت؟", iraqiPronunciation = "مِنِین اِنتَ؟", persianTranslation = "اهل کجایی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 471, numeric_id = 471, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "آني إيراني", iraqiPronunciation = "آنی ایرانی", persianTranslation = "من ایرانی هستم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 472, numeric_id = 472, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "كلش زين", iraqiPronunciation = "کُلِش زِین", persianTranslation = "خیلی خوبه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 473, numeric_id = 473, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "ممتاز", iraqiPronunciation = "مُمتاز", persianTranslation = "عالیه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 474, numeric_id = 474, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "ماكو", iraqiPronunciation = "ماکو", persianTranslation = "مشکلی نیست", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 475, numeric_id = 475, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "صحيح", iraqiPronunciation = "صَحیح", persianTranslation = "درسته", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 476, numeric_id = 476, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "غلط", iraqiPronunciation = "غَلَط", persianTranslation = "اشتباهه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 477, numeric_id = 477, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "الله وياك", iraqiPronunciation = "الله وِیّاک", persianTranslation = "خدا نگهدارت", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 478, numeric_id = 478, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "الله يجزيك خير", iraqiPronunciation = "الله یِجزیک خیر", persianTranslation = "خدا خیرت بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 479, numeric_id = 479, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "الله يوفقك", iraqiPronunciation = "الله یِوَفِّقَک", persianTranslation = "موفق باشی", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 480, numeric_id = 480, category = "اصطلاحات روزمره عراقی", category_id = "daily_terms", arabicText = "مع السلامة", iraqiPronunciation = "مَعَ السَّلامَه", persianTranslation = "خداحافظ", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 481, numeric_id = 481, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "السلام عليكم", iraqiPronunciation = "اَلسَّلام عَلَیکُم", persianTranslation = "السلام علیکم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 482, numeric_id = 482, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "الله ينطيكم العافية", iraqiPronunciation = "الله یِنطیکُم العافِیَه", persianTranslation = "خدا قوت", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 483, numeric_id = 483, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "الله يقويكم", iraqiPronunciation = "الله یِقَوّیکُم", persianTranslation = "خسته نباشید", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 484, numeric_id = 484, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "أگدر أدخل؟", iraqiPronunciation = "أگدَر أَدخُل؟", persianTranslation = "می‌توانم داخل بیایم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 485, numeric_id = 485, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "عدكم مكان للراحة؟", iraqiPronunciation = "عَدکُم مَکان لِلرّاحَه؟", persianTranslation = "جای استراحت دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 486, numeric_id = 486, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "عدكم مكان للنوم؟", iraqiPronunciation = "عَدکُم مَکان لِلنَّوم؟", persianTranslation = "جای خواب دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 487, numeric_id = 487, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "أگدر أقعد هنانة؟", iraqiPronunciation = "أگدَر أَقعُد هِنانه؟", persianTranslation = "می‌توانم اینجا بنشینم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 488, numeric_id = 488, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "أريد ماي لو سمحت", iraqiPronunciation = "اَرید مای لو سَمَحت", persianTranslation = "آب لطفاً", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 489, numeric_id = 489, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "أريد جاي", iraqiPronunciation = "اَرید جای", persianTranslation = "چای لطفاً", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 490, numeric_id = 490, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "عدكم أكل؟", iraqiPronunciation = "عَدکُم اَکِل؟", persianTranslation = "غذا دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 491, numeric_id = 491, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "شكراً جزيلاً", iraqiPronunciation = "شُکراً جَزیلاً", persianTranslation = "خیلی ممنون", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 492, numeric_id = 492, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "الله يجزيكم خير", iraqiPronunciation = "الله یِجزیکُم خیر", persianTranslation = "خدا خیرتان بدهد", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 493, numeric_id = 493, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "الله يتقبل منكم", iraqiPronunciation = "الله یِتقَبَّل مِنکُم", persianTranslation = "خدا قبول کند", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 494, numeric_id = 494, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "وين الوضوء؟", iraqiPronunciation = "وِین الوُضوء؟", persianTranslation = "وضوخانه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 495, numeric_id = 495, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "وين الحمام؟", iraqiPronunciation = "وِین الحَمّام؟", persianTranslation = "سرویس بهداشتی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 496, numeric_id = 496, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "عدكم شاحن موبايل", iraqiPronunciation = "عَدکُم شاحِن موبایِل", persianTranslation = "شارژر موبایل دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 497, numeric_id = 497, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "عدكم واي فاي", iraqiPronunciation = "عَدکُم وای فای", persianTranslation = "وای‌فای دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 498, numeric_id = 498, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "شنو رمز الواي فاي؟", iraqiPronunciation = "شِنو رَمز الوای فای؟", persianTranslation = "رمز وای‌فای چیست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 499, numeric_id = 499, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "أگدر أشحن موبايلي؟", iraqiPronunciation = "أگدَر أِشحَن موبایِلی؟", persianTranslation = "می‌توانم موبایلم را شارژ کنم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 500, numeric_id = 500, category = "مکالمه با خادم موکب", category_id = "mowkeb_servants", arabicText = "الموكب مفتوح لحد شكد؟", iraqiPronunciation = "المَوکِب مَفتوح لِحَد شگِد؟", persianTranslation = "موکب تا چه ساعتی باز است؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 501, numeric_id = 501, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "هلا بيكم زوار ابو السجاد", iraqiPronunciation = "هَلا بِیکُم زُوّار أَبُو السَّجّاد", persianTranslation = "خوش آمدید زائران اباعبدالله/امام سجاد", forRole = "MOKEB_OWNER", isVip = false))
         list.add(PhraseEntity(id = 502, numeric_id = 502, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تفضلوا للموكب، اهلا وسهلا", iraqiPronunciation = "تَفَضَّلُوا لِلْمَوْکِبِ، أَهْلاً وَ سَهْلاً", persianTranslation = "بفرمایید داخل موکب، خیلی خوش آمدید", forRole = "MOKEB_OWNER", isVip = false))
         list.add(PhraseEntity(id = 503, numeric_id = 503, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "اهلا بكم في موكب خدام الحسين", iraqiPronunciation = "أَهْلاً بِکُمْ فِی مَوْکِبِ خُدّامِ الحُسَیْن", persianTranslation = "خوش آمدید به موکب خادمان حسین", forRole = "MOKEB_OWNER", isVip = false))
         list.add(PhraseEntity(id = 504, numeric_id = 504, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "شرفتونا يا زوار، اهلا ومرحباً", iraqiPronunciation = "شَرَّفْتُونَا یَا زُوّارُ، أَهْلاً وَ مَرْحَباً", persianTranslation = "ما را سرافراز کردید ای زائران", forRole = "MOKEB_OWNER", isVip = false))
@@ -5604,6 +604,146 @@ object DatabaseInitializer {
         list.add(PhraseEntity(id = 598, numeric_id = 598, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "تسلمون و الله يعزكم", iraqiPronunciation = "تَسْلَمُون وَ الله یِعَزّکُم", persianTranslation = "سلامت باشید و خدا عزيزتان بدارد", forRole = "MOKEB_OWNER", isVip = false))
         list.add(PhraseEntity(id = 599, numeric_id = 599, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "أسألكم الدعاء لفرج المهدي", iraqiPronunciation = "أَسْأَلُکُمُ الدُّعَاء لِفَرَجِ المَهْدِی", persianTranslation = "از شما التماس دعا برای فرج مهدی دارم", forRole = "MOKEB_OWNER", isVip = false))
         list.add(PhraseEntity(id = 600, numeric_id = 600, category = "استقبال از زائر", category_id = "mokeb_welcoming", arabicText = "حاجتكم مقضية ببركة الحسين", iraqiPronunciation = "حَاجَتْکُم مَقْضِیَّة بِبَرَکَةِ الحُسَیْن", persianTranslation = "حاجتتان برآورده به برکت امام حسین", forRole = "MOKEB_OWNER", isVip = false))
+        list.add(PhraseEntity(id = 601, numeric_id = 601, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "السلام عليكم", iraqiPronunciation = "اَلسَّلام عَلَیکُم", persianTranslation = "سلام", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 602, numeric_id = 602, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "التكسي فاضي؟", iraqiPronunciation = "التَّکسِی فاضِی؟", persianTranslation = "تاکسی آزادی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 603, numeric_id = 603, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "تودي للحرم؟", iraqiPronunciation = "تِوَدّی لِلحَرَم؟", persianTranslation = "تا حرم می‌ری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 604, numeric_id = 604, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "تودي للنجف؟", iraqiPronunciation = "تِوَدّی لِلنَّجَف؟", persianTranslation = "تا نجف می‌ری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 605, numeric_id = 605, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "تودي لكربلاء؟", iraqiPronunciation = "تِوَدّی لِکَربَلاء؟", persianTranslation = "تا کربلا می‌ری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 606, numeric_id = 606, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "بجم الأجرة؟", iraqiPronunciation = "بِچَم الأُجرَه؟", persianTranslation = "کرایه چقدره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 607, numeric_id = 607, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "كلش غالي", iraqiPronunciation = "کُلِّش غالِی", persianTranslation = "گرونه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 608, numeric_id = 608, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "نزل السعر شوي", iraqiPronunciation = "نَزِّل السِّعر شِوَی", persianTranslation = "کمتر حساب کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 609, numeric_id = 609, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "يلا نمشي", iraqiPronunciation = "یَلّا نِمشی", persianTranslation = "باشه، بریم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 610, numeric_id = 610, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "مستعجل", iraqiPronunciation = "مُستَعجِل", persianTranslation = "عجله دارم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 611, numeric_id = 611, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "امش شوي شوي", iraqiPronunciation = "اِمشِ شِوَی شِوَی", persianTranslation = "آروم برو", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 612, numeric_id = 612, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "وقف هنانة", iraqiPronunciation = "وَقِّف هِنانه", persianTranslation = "اینجا نگه دار", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 613, numeric_id = 613, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "هنانة زين", iraqiPronunciation = "هِنانه زِین", persianTranslation = "همین‌جا خوبه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 614, numeric_id = 614, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "وصلنا؟", iraqiPronunciation = "وَصَلنا؟", persianTranslation = "رسیدیم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 615, numeric_id = 615, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "شكد بعد؟", iraqiPronunciation = "شگِد بَعد؟", persianTranslation = "چقدر مونده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 616, numeric_id = 616, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "شغل المكيف", iraqiPronunciation = "شَغِّل المَکَیِّف", persianTranslation = "کولر رو روشن کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 617, numeric_id = 617, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "افتح الجام", iraqiPronunciation = "اِفتَح الجام", persianTranslation = "شیشه رو باز کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 618, numeric_id = 618, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "اصبر شوي", iraqiPronunciation = "اِصبِر شِوَی", persianTranslation = "لطفاً صبر کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 619, numeric_id = 619, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "عندي كاش", iraqiPronunciation = "عِندی کاش", persianTranslation = "پول نقد دارم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 620, numeric_id = 620, category = "مکالمه با راننده تاکسی", category_id = "taxi_chat", arabicText = "الله يجزيك خير", iraqiPronunciation = "الله یِجزیک خیر", persianTranslation = "خدا خیرت بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 621, numeric_id = 621, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "السلام عليكم", iraqiPronunciation = "اَلسَّلام عَلَیکُم", persianTranslation = "سلام", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 622, numeric_id = 622, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "بجم هذا؟", iraqiPronunciation = "بِچَم هذا؟", persianTranslation = "این چنده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 623, numeric_id = 623, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "هذا كلش غالي", iraqiPronunciation = "هذا کُلِش غالی", persianTranslation = "این خیلی گرونه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 624, numeric_id = 624, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "أرخص شوي", iraqiPronunciation = "اَرخَص شِوَی", persianTranslation = "ارزون‌تر بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 625, numeric_id = 625, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "تنزل بالسعر؟", iraqiPronunciation = "تِنزِل بِالسِّعر؟", persianTranslation = "تخفیف میدی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 626, numeric_id = 626, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "عدك لون ثاني؟", iraqiPronunciation = "عَدَک لَون ثانی؟", persianTranslation = "رنگ دیگه داری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 627, numeric_id = 627, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "عدك قياس أكبر؟", iraqiPronunciation = "عَدَک قِیاس اَکبَر؟", persianTranslation = "سایز بزرگ‌تر داری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 628, numeric_id = 628, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "عدك قياس أصغر؟", iraqiPronunciation = "عَدَک قِیاس اَصغَر؟", persianTranslation = "سایز کوچک‌تر داری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 629, numeric_id = 629, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "أصلي؟", iraqiPronunciation = "اَصلی؟", persianTranslation = "اصله؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 630, numeric_id = 630, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "جديد؟", iraqiPronunciation = "جَدید؟", persianTranslation = "نوئه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 631, numeric_id = 631, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "آخذه", iraqiPronunciation = "آخُذَه", persianTranslation = "می‌خرمش", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 632, numeric_id = 632, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "ما أريده", iraqiPronunciation = "ما اَریدَه", persianTranslation = "نمی‌خوام", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 633, numeric_id = 633, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "دا أتفرج بس", iraqiPronunciation = "دا اَتَفَرَّج بَس", persianTranslation = "فقط نگاه می‌کنم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 634, numeric_id = 634, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "عدك فراطة؟", iraqiPronunciation = "عَدَک فِراطَه؟", persianTranslation = "پول خرد داری؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 635, numeric_id = 635, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "تقبل كارت؟", iraqiPronunciation = "تِقبَل کارت؟", persianTranslation = "کارت قبول می‌کنی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 636, numeric_id = 636, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "عطني وصل", iraqiPronunciation = "عَطنِی وَصِل", persianTranslation = "رسید بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 637, numeric_id = 637, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "شكرا", iraqiPronunciation = "شُکراً", persianTranslation = "ممنون", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 638, numeric_id = 638, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "الله يبارك برزقك", iraqiPronunciation = "الله یِبارِک بِرِزقَک", persianTranslation = "خدا برکت بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 639, numeric_id = 639, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "الله يجزيك خير", iraqiPronunciation = "الله یِجزیک خیر", persianTranslation = "خدا خیرت بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 640, numeric_id = 640, category = "مکالمه با فروشنده", category_id = "shopping_chat", arabicText = "مع السلامة", iraqiPronunciation = "مَعَ السَّلامَه", persianTranslation = "خداحافظ", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 641, numeric_id = 641, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "إي", iraqiPronunciation = "ای", persianTranslation = "بله", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 642, numeric_id = 642, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "لا", iraqiPronunciation = "لا", persianTranslation = "نه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 643, numeric_id = 643, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "تمام", iraqiPronunciation = "تَمام", persianTranslation = "باشه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 644, numeric_id = 644, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "يلا", iraqiPronunciation = "یَلّا", persianTranslation = "بزن بریم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 645, numeric_id = 645, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "اصبر", iraqiPronunciation = "اِصبِر", persianTranslation = "صبر کن", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 646, numeric_id = 646, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "هسه", iraqiPronunciation = "هَسَّه", persianTranslation = "الان", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 647, numeric_id = 647, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "بعدين", iraqiPronunciation = "بَعدِین", persianTranslation = "بعداً", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 648, numeric_id = 648, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "هنانة", iraqiPronunciation = "هِنانه", persianTranslation = "اینجا", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 649, numeric_id = 649, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "هناك", iraqiPronunciation = "هِناک", persianTranslation = "اونجا", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 650, numeric_id = 650, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "قريب", iraqiPronunciation = "قَریب", persianTranslation = "نزدیک", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 651, numeric_id = 651, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "بعيد", iraqiPronunciation = "بَعید", persianTranslation = "دور", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 652, numeric_id = 652, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "هواية", iraqiPronunciation = "هَوایِه", persianTranslation = "زیاد", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 653, numeric_id = 653, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "شوي", iraqiPronunciation = "شِوَy", persianTranslation = "کم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 654, numeric_id = 654, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "زين", iraqiPronunciation = "زِین", persianTranslation = "خوب", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 655, numeric_id = 655, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "كلش زين", iraqiPronunciation = "کُلِّش زِین", persianTranslation = "خیلی خوب", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 656, numeric_id = 656, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "شكرا", iraqiPronunciation = "شُکراً", persianTranslation = "ممنون", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 657, numeric_id = 657, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "العفو", iraqiPronunciation = "العَفو", persianTranslation = "خواهش می‌کنم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 658, numeric_id = 658, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "ماكو مشكلة", iraqiPronunciation = "ماکو مُشکِلَه", persianTranslation = "اشکالی نداره", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 659, numeric_id = 659, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "ما فهمت", iraqiPronunciation = "ما فِهَمت", persianTranslation = "نمی‌فهمم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 660, numeric_id = 660, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "عيدها", iraqiPronunciation = "عیدها", persianTranslation = "دوباره بگو", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 661, numeric_id = 661, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "شوي شوي", iraqiPronunciation = "شِوَی شِوَی", persianTranslation = "آروم‌تر", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 662, numeric_id = 662, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "بصوت أعلى", iraqiPronunciation = "بِصَوت اَعلی", persianTranslation = "بلندتر", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 663, numeric_id = 663, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "شنو؟", iraqiPronunciation = "شِنُو؟", persianTranslation = "چی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 664, numeric_id = 664, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "وين؟", iraqiPronunciation = "وِین؟", persianTranslation = "کجا؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 665, numeric_id = 665, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "إمتى؟", iraqiPronunciation = "اِمتَی؟", persianTranslation = "کی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 666, numeric_id = 666, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "ليش؟", iraqiPronunciation = "لِیش؟", persianTranslation = "چرا", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 667, numeric_id = 667, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "شكد؟", iraqiPronunciation = "شگِد؟", persianTranslation = "چقدر؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 668, numeric_id = 668, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "الله وياك", iraqiPronunciation = "الله وِیّاک", persianTranslation = "خدا نگهدارت", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 669, numeric_id = 669, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "الله يوفقك", iraqiPronunciation = "الله یِوَفِّقَک", persianTranslation = "موفق باشی", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 670, numeric_id = 670, category = "اصطلاحات پرکاربرد عراقی", category_id = "common_iraqi_terms", arabicText = "مع السلامة", iraqiPronunciation = "مَعَ السَّلامَه", persianTranslation = "خداحافظ", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 671, numeric_id = 671, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "شكو ماكو؟", iraqiPronunciation = "شَکُو ماکُو؟", persianTranslation = "حالت چطوره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 672, numeric_id = 672, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "ماكو شي", iraqiPronunciation = "ماکُو شَی", persianTranslation = "همه‌چیز خوبه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 673, numeric_id = 673, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "حبيبي", iraqiPronunciation = "حَبِیبِی", persianTranslation = "داداش", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 674, numeric_id = 674, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "عيني", iraqiPronunciation = "عَینِی", persianTranslation = "عزیزم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 675, numeric_id = 675, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "بعد روحي", iraqiPronunciation = "بَعد رُوحِی", persianTranslation = "فدات بشم", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 676, numeric_id = 676, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "عاشت إيدك", iraqiPronunciation = "عاشَت اِیدَک", persianTranslation = "دستت درد نکنه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 677, numeric_id = 677, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "الله يطول عمرك", iraqiPronunciation = "الله یِطَوِّل عُمرَک", persianTranslation = "خدا عمرت بده", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 678, numeric_id = 678, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "الله كريم", iraqiPronunciation = "الله کَریم", persianTranslation = "خدا بزرگه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 679, numeric_id = 679, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "الله يفرجها", iraqiPronunciation = "الله یِفرِجها", persianTranslation = "خدا خودش درستش می‌کنه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 680, numeric_id = 680, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "عادي", iraqiPronunciation = "عادی", persianTranslation = "اشکالی نداره", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 681, numeric_id = 681, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "صدگ؟", iraqiPronunciation = "صِدِگ؟", persianTranslation = "واقعاً؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 682, numeric_id = 682, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "صدگ تحچي؟", iraqiPronunciation = "صِدِگ تِحچی؟", persianTranslation = "جدی میگی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 683, numeric_id = 683, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "برافو", iraqiPronunciation = "بَرافو", persianTranslation = "آفرین", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 684, numeric_id = 684, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "يخبل", iraqiPronunciation = "یِخَبِّل", persianTranslation = "فوق‌العاده است", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 685, numeric_id = 685, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "روعه", iraqiPronunciation = "روَعَه", persianTranslation = "عالیه", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 686, numeric_id = 686, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "خوش بحالك", iraqiPronunciation = "خوش بَحالَک", persianTranslation = "خوش به حالت", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 687, numeric_id = 687, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "الله وياك", iraqiPronunciation = "الله وِیّاک", persianTranslation = "خدا نگهدارت", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 688, numeric_id = 688, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "أشوفك إن شاء الله", iraqiPronunciation = "اَشوفَک اِن‌شاءالله", persianTranslation = "ان‌شاءالله می‌بینمت", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 689, numeric_id = 689, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "مع السلامة", iraqiPronunciation = "مَعَ السَّلامَه", persianTranslation = "خداحافظ", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 690, numeric_id = 690, category = "اصطلاحات و تکیه‌کلام‌های عراقی", category_id = "iraqi_slang", arabicText = "زيارة مقبولة", iraqiPronunciation = "زِیارَه مَقبولَه", persianTranslation = "زیارت قبول", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 691, numeric_id = 691, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "شنو يوجعك؟", iraqiPronunciation = "شِنُو یِوجَعَک؟", persianTranslation = "چی درد می‌کنه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 692, numeric_id = 692, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "عندي صداع قوي.", iraqiPronunciation = "عِندی صُداع قَوی.", persianTranslation = "سردرد شدید دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 693, numeric_id = 693, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "عندي حرارة.", iraqiPronunciation = "عِندی حَراره.", persianTranslation = "تب دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 694, numeric_id = 694, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "بطني يوجعني.", iraqiPronunciation = "بَطنی یُوجَعنی.", persianTranslation = "شکمم درد می‌کنه.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 695, numeric_id = 695, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أكو دوخة ويّاي.", iraqiPronunciation = "أَکُو دُوخَه وِیّای.", persianTranslation = "سرگیجه دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 696, numeric_id = 696, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أريد أشوف دكتر.", iraqiPronunciation = "أُرِید أَشُوف دَختَر.", persianTranslation = "می‌خوام دکتر ببینم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 697, numeric_id = 697, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "وين أقرب مستوصف؟", iraqiPronunciation = "وِین أَقرَب مُستَوصَف؟", persianTranslation = "نزدیک‌ترین درمانگاه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 698, numeric_id = 698, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "عندي حساسية من هذا الدواء.", iraqiPronunciation = "عِندی حَساسِیَّه مِن هَذا الدَّوا.", persianTranslation = "به این دارو حساسیت دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 699, numeric_id = 699, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "شكد مرة باليوم آخذ الدواء؟", iraqiPronunciation = "شِکَد مَرَّه بِالیَوم آخُذ الدَّوا؟", persianTranslation = "روزی چند بار دارو بخورم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 700, numeric_id = 700, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أني مريض سكري.", iraqiPronunciation = "أَنِی مَریض سُکَّری.", persianTranslation = "من بیمار دیابتی هستم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 701, numeric_id = 701, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أني عندي ضغط.", iraqiPronunciation = "أَنِی عِندی ضَغط.", persianTranslation = "من فشار خون دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 702, numeric_id = 702, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أريد مسكن للألم.", iraqiPronunciation = "أُرِید مُسَکِّن لِلأَلَم.", persianTranslation = "یک مسکن برای درد می‌خوام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 703, numeric_id = 703, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "كسرت رجلي، أريد إسعاف.", iraqiPronunciation = "کَسَرَت رِجلی، أُرِید إسعاف.", persianTranslation = "پام شکسته، آمبولانس می‌خوام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 704, numeric_id = 704, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "هل عندكم صيدلية هنا؟", iraqiPronunciation = "هَل عِندَکُم شَفخانَه هِنا؟", persianTranslation = "اینجا داروخونه دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 705, numeric_id = 705, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أريد قطرة للعين.", iraqiPronunciation = "أُرِید قِطرَة لِلعَین.", persianTranslation = "قطره‌ی چشم می‌خوام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 706, numeric_id = 706, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "ولدي مريض، اشلون أسوي؟", iraqiPronunciation = "وَلَدی مِریض، إشلُون أَسَوّی؟", persianTranslation = "بچه‌ام مریضه، چیکار کنم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 707, numeric_id = 707, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أني متعب هواية من الماشي.", iraqiPronunciation = "أَنِی مِتعَب هَوایَه مِن الماشِی.", persianTranslation = "از پیاده‌روی خیلی خسته شدم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 708, numeric_id = 708, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أحتاج نقّالة.", iraqiPronunciation = "أَحتاج نَقّاله.", persianTranslation = "به برانکارد نیاز دارم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 709, numeric_id = 709, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "شنو اسم هذا الدواء؟", iraqiPronunciation = "شِنُو اسِم هَذا الدَّوا؟", persianTranslation = "اسم این دارو چیه؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 710, numeric_id = 710, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أكو طبيب نسائي هنا؟", iraqiPronunciation = "أَکُو طَبِیب نِسائِی هِنا؟", persianTranslation = "اینجا پزشک زنان هست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 711, numeric_id = 711, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "خذ نفس عميق.", iraqiPronunciation = "خَذ نَفَس عَمِیق.", persianTranslation = "نفس عمیق بکش.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 712, numeric_id = 712, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "لازم إبرة ولا حبة؟", iraqiPronunciation = "لازِم إبرَه وِلا حَبَّه؟", persianTranslation = "آمپول لازمه یا قرص؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 713, numeric_id = 713, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "أني حامل، خلّي حذر.", iraqiPronunciation = "أَنِی حامِل، خَلِّی حَذِر.", persianTranslation = "من باردارم، مراقب باش.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 714, numeric_id = 714, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "الألم صار أقل شوية.", iraqiPronunciation = "الأَلَم صار أَقَل شِوَیَّه.", persianTranslation = "درد یه‌کم کمتر شد.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 715, numeric_id = 715, category = "مکالمه با پزشک و پرستار", category_id = "medical_chat", arabicText = "شكراً دكتور، الله يخليك.", iraqiPronunciation = "شُکراً دَختُور، الله یِخَلِّیک.", persianTranslation = "ممنون دکتر، خدا نگهت داره.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 716, numeric_id = 716, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين قاعة الوصول؟", iraqiPronunciation = "وِین قاعَة الوُصُول؟", persianTranslation = "سالن ورودی کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 717, numeric_id = 717, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "جواز سفري بيدي.", iraqiPronunciation = "جَواز سَفَری بِیدِی.", persianTranslation = "پاسپورتم اینجاست.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 718, numeric_id = 718, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين أخذ الجنطة؟", iraqiPronunciation = "وِین أَخُذ الجَنطَه؟", persianTranslation = "چمدونم رو کجا بگیرم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 719, numeric_id = 719, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أني جاي للزيارة.", iraqiPronunciation = "أَنِی جایَه لِلزِّیارَه.", persianTranslation = "من برای زیارت اومدم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 720, numeric_id = 720, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "كم يوم راح تبقى بالعراق؟", iraqiPronunciation = "کَم یَوم رَح تَبقَه بِالعِراق؟", persianTranslation = "چند روز در عراق می‌مونی؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 721, numeric_id = 721, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين مكتب الجمرك؟", iraqiPronunciation = "وِین مَکتَب الجُمرُک؟", persianTranslation = "گمرک کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 722, numeric_id = 722, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "جنطتي مفقودة.", iraqiPronunciation = "جَنطَتِی مَفقُودَه.", persianTranslation = "چمدونم گم شده.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 723, numeric_id = 723, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين محطة التاكسي بره المطار؟", iraqiPronunciation = "وِین مَحَطَّة التَّاکسِی بَره المَطار؟", persianTranslation = "ایستگاه تاکسی بیرون فرودگاه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 724, numeric_id = 724, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أني مسافر على خط النجف.", iraqiPronunciation = "أَنِی مُسافِر عَلَی خَط النَّجَف.", persianTranslation = "من با پرواز نجف مسافرم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 725, numeric_id = 725, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "كم باقي على طيارتي؟", iraqiPronunciation = "کَم باقِی عَلَی طَیّارَتِی؟", persianTranslation = "چقدر به پروازم مونده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 726, numeric_id = 726, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "الطيارة تأخرت.", iraqiPronunciation = "الطَّیّارَه تَأَخَّرَت.", persianTranslation = "پرواز تأخیر داشته.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 727, numeric_id = 727, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين صرافة العملة هنا؟", iraqiPronunciation = "وِین صَرّافَة العُملَه هِنا؟", persianTranslation = "صرافی اینجا کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 728, numeric_id = 728, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أريد بطاقة سيم هنا بالمطار.", iraqiPronunciation = "أُرِید بِطاقَة سِیم هُنا بِالمَطار.", persianTranslation = "می‌خوام همینجا فرودگاه سیم‌کارت بگیرم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 729, numeric_id = 729, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "هل أحتاج فيزة؟", iraqiPronunciation = "هَل أَحتاج فِیزَه؟", persianTranslation = "به ویزا نیاز دارم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 730, numeric_id = 730, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أني معي زوجتي وأولادي.", iraqiPronunciation = "أَنِی مَعِی زَوجَتِی وِأَولادِی.", persianTranslation = "همسر و بچه‌هام همراهمن.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 731, numeric_id = 731, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين بوابة الخروج؟", iraqiPronunciation = "وِین بَوّابَة الخُرُوج؟", persianTranslation = "گیت خروج کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 732, numeric_id = 732, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "شنو الوقت هسه بالعراق؟", iraqiPronunciation = "شَنُو الوَقت هَسَّه بِالعِراق؟", persianTranslation = "الان توی عراق ساعت چنده؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 733, numeric_id = 733, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "عندي عفش زيادة، شنو الأجرة؟", iraqiPronunciation = "عِندِی عَفش زِیادَه، شِنُو الأُجرَه؟", persianTranslation = "بار اضافه دارم، هزینه‌اش چقدره؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 734, numeric_id = 734, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين أسجل دخولي للطيارة؟", iraqiPronunciation = "وِین أُسَجِّل دُخُولی لِلطَّیّارَه؟", persianTranslation = "کجا باید چک‌این کنم؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 735, numeric_id = 735, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أني راح أرجع بعد أسبوع.", iraqiPronunciation = "أَنِی رَح أَرجَع بَعَد أُسبُوع.", persianTranslation = "من یک هفته دیگه برمی‌گردم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 736, numeric_id = 736, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "هل عندكم عربة للجنط؟", iraqiPronunciation = "هَل عِندَکُم عَرَبَه لِلجَنَط؟", persianTranslation = "چرخ‌دستی برای چمدون دارید؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 737, numeric_id = 737, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "وين غرفة الصلاة بالمطار؟", iraqiPronunciation = "وِین غُرفَة الصَّلاة بِالمَطار؟", persianTranslation = "نمازخانه‌ی فرودگاه کجاست؟", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 738, numeric_id = 738, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أني مو متعوّد على هالمطار.", iraqiPronunciation = "أَنِی مُو مِتعَوِّد عَلَی هَالمَطار.", persianTranslation = "من با این فرودگاه آشنا نیستم.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 739, numeric_id = 739, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "أريد مساعدة بإيجاد التاكسي.", iraqiPronunciation = "أُرِید مُساعَدَه بِإیجاد التَّاکسِی.", persianTranslation = "برای پیدا کردن تاکسی کمک می‌خوام.", forRole = "BOTH", isVip = true))
+        list.add(PhraseEntity(id = 740, numeric_id = 740, category = "فرودگاه، گذرنامه و مرز", category_id = "airport_border", arabicText = "شكراً على مساعدتك بالمطار.", iraqiPronunciation = "شُکراً عَلَی مُساعَدَتَک بِالمَطار.", persianTranslation = "ممنون بابت کمکت توی فرودگاه.", forRole = "BOTH", isVip = true))
 
         return list
     }

@@ -80,7 +80,7 @@ except ImportError:
 # ---------------------------------------------------------------------------
 
 REPO_ROOT = Path(__file__).resolve().parent
-PHRASES_JSON = REPO_ROOT / "phrases_database_600_triple_format.json"
+PHRASES_JSON = REPO_ROOT / "phrases_database.json"
 ASSETS_DIR = REPO_ROOT / "app" / "src" / "main" / "assets" / "audio"
 
 VOICES = {

@@ -126,7 +126,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5000),
-        initialValue = listOf(CategoryItem("همه", 600, isFree = true))
+        initialValue = listOf(CategoryItem("همه", DatabaseInitializer.getInitialPhrases().size, isFree = true))
     )
 
     val displayedPhrases: StateFlow<List<PhraseEntity>> = combine(

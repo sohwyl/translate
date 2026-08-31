@@ -31,6 +31,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.R
+import com.example.data.DatabaseInitializer
 import com.example.data.PhraseEntity
 import com.example.data.UserPreferences
 import com.example.ui.components.*
@@ -653,7 +654,7 @@ fun HomeTab(
 
     // Learning Progress Dialog (Screen 8)
     if (showLearningProgressDialog) {
-        val learned = if (allPhrases.isNotEmpty()) allPhrases.size else 600
+        val learned = if (allPhrases.isNotEmpty()) allPhrases.size else DatabaseInitializer.getInitialPhrases().size
         val favs = allPhrases.count { it.isFavorite }
         LearningProgressDialog(
             learnedCount = learned,

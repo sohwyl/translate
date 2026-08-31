@@ -19,7 +19,7 @@ data class SyncResult(
 object AudioSyncManager {
 
     private const val TAG = "AudioSyncManager"
-    private const val TOTAL_PHRASES = 600
+    private val TOTAL_PHRASES: Int get() = com.example.data.DatabaseInitializer.getInitialPhrases().size
 
     private val _syncState = MutableStateFlow<SyncResult?>(null)
     val syncState: StateFlow<SyncResult?> = _syncState

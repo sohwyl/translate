@@ -15,7 +15,7 @@
     "numeric_id": 2,
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
-    "Arabic_Voweled": "شِلُونَک؟",
+    "Arabic_Voweled": "شِلونَک؟",
     "Arabic_Plain": "شلونك؟",
     "Persian_Translation": "سلام، حالت چطوره؟",
     "forRole": "BOTH",
@@ -26,7 +26,7 @@
     "numeric_id": 3,
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
-    "Arabic_Voweled": "شِلُونَکُم؟",
+    "Arabic_Voweled": "شِلونکُم؟",
     "Arabic_Plain": "شلونكم؟",
     "Persian_Translation": "حالت چطوره؟ (جمع)",
     "forRole": "BOTH",
@@ -37,7 +37,7 @@
     "numeric_id": 4,
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
-    "Arabic_Voweled": "آنِی زِین، الحَمدُلله.",
+    "Arabic_Voweled": "آنی زِین، الحمدلله.",
     "Arabic_Plain": "آني زين، الحمد لله.",
     "Persian_Translation": "خوبم، ممنون.",
     "forRole": "BOTH",
@@ -48,7 +48,7 @@
     "numeric_id": 5,
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
-    "Arabic_Voweled": "اِنتَ زِین؟",
+    "Arabic_Voweled": "إنت زِین؟",
     "Arabic_Plain": "إنت زين؟",
     "Persian_Translation": "شما خوبید؟",
     "forRole": "BOTH",
@@ -59,7 +59,7 @@
     "numeric_id": 6,
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
-    "Arabic_Voweled": "الله یِنطِیک العافِیَه.",
+    "Arabic_Voweled": "الله یِنطیک العافیه.",
     "Arabic_Plain": "الله ينطيك العافية.",
     "Persian_Translation": "خدا قوت.",
     "forRole": "BOTH",
@@ -225,7 +225,7 @@
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
     "Arabic_Voweled": "شُکراً جَزیلاً.",
-    "Arabic_Plain": "شكرا جزيلا.",
+    "Arabic_Plain": "شكراً جزيلاً.",
     "Persian_Translation": "خیلی ممنون.",
     "forRole": "BOTH",
     "isVip": false
@@ -269,7 +269,7 @@
     "category": "احوالپرسی و احترام",
     "category_id": "greeting",
     "Arabic_Voweled": "عَفواً.",
-    "Arabic_Plain": "عفوا.",
+    "Arabic_Plain": "عفواً.",
     "Persian_Translation": "ببخشید.",
     "forRole": "BOTH",
     "isVip": false
@@ -401,7 +401,7 @@
     "category": "زیارت و حرم",
     "category_id": "pilgrimage",
     "Arabic_Voweled": "وِین أسلِّم جوتیّی؟",
-    "Arabic_Plain": "وين أسلم جوتيي؟",
+    "Arabic_Plain": "وين أسلّم جوتيي؟",
     "Persian_Translation": "کفش‌هایم را کجا تحویل بدهم؟",
     "forRole": "BOTH",
     "isVip": false
@@ -434,7 +434,7 @@
     "category": "زیارت و حرم",
     "category_id": "pilgrimage",
     "Arabic_Voweled": "وِین الحَمّام؟",
-    "Arabic_Plain": "وين الحمام؟",
+    "Arabic_Plain": "وين الحمّام؟",
     "Persian_Translation": "سرویس بهداشتی کجاست؟",
     "forRole": "BOTH",
     "isVip": false
@@ -522,7 +522,7 @@
     "category": "زیارت و حرم",
     "category_id": "pilgrimage",
     "Arabic_Voweled": "ضَیَّعت صاحبی.",
-    "Arabic_Plain": "ضيعت صاحبي.",
+    "Arabic_Plain": "ضيّعت صاحبي.",
     "Persian_Translation": "همراهم را گم کرده‌ام.",
     "forRole": "BOTH",
     "isVip": false
@@ -599,7 +599,7 @@
     "category": "زیارت و حرم",
     "category_id": "pilgrimage",
     "Arabic_Voweled": "اِدعِلی.",
-    "Arabic_Plain": "ادعلي.",
+    "Arabic_Plain": "ادعِلي.",
     "Persian_Translation": "لطفاً برایم دعا کنید.",
     "forRole": "BOTH",
     "isVip": false
@@ -632,7 +632,7 @@
     "category": "زیارت و حرم",
     "category_id": "pilgrimage",
     "Arabic_Voweled": "شُکراً عَله خِدمتکُم.",
-    "Arabic_Plain": "شكرا على خدمتكم.",
+    "Arabic_Plain": "شكراً على خدمتكم.",
     "Persian_Translation": "خیلی ممنون از خدمتتان.",
     "forRole": "BOTH",
     "isVip": false
@@ -808,7 +808,7 @@
     "category": "موکب و خدمات",
     "category_id": "mawkib",
     "Arabic_Voweled": "شُکراً عَله الضِیافه.",
-    "Arabic_Plain": "شكرا على الضيافة.",
+    "Arabic_Plain": "شكراً على الضيافة.",
     "Persian_Translation": "خیلی ممنون از پذیرایی.",
     "forRole": "BOTH",
     "isVip": false
@@ -1226,7 +1226,7 @@
     "category": "مسیر و آدرس",
     "category_id": "direction",
     "Arabic_Voweled": "دِلّینی لو سَمَحت.",
-    "Arabic_Plain": "دليني لو سمحت.",
+    "Arabic_Plain": "دلّيني لو سمحت.",
     "Persian_Translation": "لطفاً راهنماییم کن.",
     "forRole": "BOTH",
     "isVip": false
@@ -1314,7 +1314,7 @@
     "category": "مسیر و آدرس",
     "category_id": "direction",
     "Arabic_Voweled": "شُکراً عَله المُساعَده.",
-    "Arabic_Plain": "شكرا على المساعدة.",
+    "Arabic_Plain": "شكراً على المساعدة.",
     "Persian_Translation": "ممنون از راهنمایی.",
     "forRole": "BOTH",
     "isVip": false
@@ -1512,7 +1512,7 @@
     "category": "غذا و نوشیدنی",
     "category_id": "food",
     "Arabic_Voweled": "شِوَیّه بَهارات.",
-    "Arabic_Plain": "شوية بهارات.",
+    "Arabic_Plain": "شويّة بهارات.",
     "Persian_Translation": "لطفاً کم‌ادویه.",
     "forRole": "BOTH",
     "isVip": false
@@ -1523,7 +1523,7 @@
     "category": "غذا و نوشیدنی",
     "category_id": "food",
     "Arabic_Voweled": "بَس، شُکراً.",
-    "Arabic_Plain": "بس، شكرا.",
+    "Arabic_Plain": "بس، شكراً.",
     "Persian_Translation": "کافی است، ممنون.",
     "forRole": "BOTH",
     "isVip": false
@@ -1665,7 +1665,7 @@
     "numeric_id": 152,
     "category": "خرید و بازار",
     "category_id": "market",
-    "Arabic_Voweled": "بِچَم هذا؟",
+    "Arabic_Voweled": "بِجَم هذا؟",
     "Arabic_Plain": "بجم هذا؟",
     "Persian_Translation": "این چند است؟",
     "forRole": "BOTH",
@@ -1732,7 +1732,7 @@
     "category": "خرید و بازار",
     "category_id": "market",
     "Arabic_Voweled": "لا، شُکراً.",
-    "Arabic_Plain": "لا، شكرا.",
+    "Arabic_Plain": "لا، شكراً.",
     "Persian_Translation": "نمی‌خوام، ممنون.",
     "forRole": "BOTH",
     "isVip": true
@@ -2117,7 +2117,7 @@
     "category": "تاکسی و حمل‌ونقل",
     "category_id": "taxi",
     "Arabic_Voweled": "اِمشِ شِوَی شِوَی.",
-    "Arabic_Plain": "امش شوي شوي.",
+    "Arabic_Plain": "امشِ شوي شوي.",
     "Persian_Translation": "آروم‌تر برو.",
     "forRole": "BOTH",
     "isVip": true
@@ -2238,7 +2238,7 @@
     "category": "تاکسی و حمل‌ونقل",
     "category_id": "taxi",
     "Arabic_Voweled": "شُکراً، هِنانَه زِین.",
-    "Arabic_Plain": "شكرا، هنانة زين.",
+    "Arabic_Plain": "شكراً، هنانة زين.",
     "Persian_Translation": "ممنون، همین‌جا خوبه.",
     "forRole": "BOTH",
     "isVip": true
@@ -2568,7 +2568,7 @@
     "category": "اسکان و محل اقامت",
     "category_id": "accommodation",
     "Arabic_Voweled": "اَرید اَسلِّم الغُرفَه.",
-    "Arabic_Plain": "أريد أسلم الغرفة.",
+    "Arabic_Plain": "أريد أسلّم الغرفة.",
     "Persian_Translation": "می‌خوام اتاق رو تحویل بدم.",
     "forRole": "BOTH",
     "isVip": true
@@ -2590,7 +2590,7 @@
     "category": "اسکان و محل اقامت",
     "category_id": "accommodation",
     "Arabic_Voweled": "شُکراً عَله الضِیافَه.",
-    "Arabic_Plain": "شكرا على الضيافة.",
+    "Arabic_Plain": "شكراً على الضيافة.",
     "Persian_Translation": "ممنون از مهمان‌نوازیتون.",
     "forRole": "BOTH",
     "isVip": true
@@ -2942,7 +2942,7 @@
     "category": "درمان و دارو",
     "category_id": "medical",
     "Arabic_Voweled": "شُکراً عَله مُساعَدَتکُم.",
-    "Arabic_Plain": "شكرا على مساعدتكم.",
+    "Arabic_Plain": "شكراً على مساعدتكم.",
     "Persian_Translation": "ممنون از کمکتان.",
     "forRole": "BOTH",
     "isVip": true
@@ -3250,7 +3250,7 @@
     "category": "پول، بانک و صرافی",
     "category_id": "money",
     "Arabic_Voweled": "شُکراً عَله أمانَتَک.",
-    "Arabic_Plain": "شكرا على أمانتك.",
+    "Arabic_Plain": "شكراً على أمانتك.",
     "Persian_Translation": "ممنون از امانتداری‌ات.",
     "forRole": "BOTH",
     "isVip": true
@@ -3591,7 +3591,7 @@
     "category": "موبایل، اینترنت و شارژ",
     "category_id": "mobile",
     "Arabic_Voweled": "شُکراً عَله مُساعَدَتَک.",
-    "Arabic_Plain": "شكرا على مساعدتك.",
+    "Arabic_Plain": "شكراً على مساعدتك.",
     "Persian_Translation": "ممنون از کمکت.",
     "forRole": "BOTH",
     "isVip": true
@@ -3932,7 +3932,7 @@
     "category": "شرایط اضطراری",
     "category_id": "emergency",
     "Arabic_Voweled": "شُکراً جَزیلاً.",
-    "Arabic_Plain": "شكرا جزيلا.",
+    "Arabic_Plain": "شكراً جزيلاً.",
     "Persian_Translation": "خیلی ممنون.",
     "forRole": "BOTH",
     "isVip": true
@@ -4240,7 +4240,7 @@
     "category": "خانواده و کودکان",
     "category_id": "family",
     "Arabic_Voweled": "خَلّوا الطِّفل یِمُرّ اَوَّل.",
-    "Arabic_Plain": "خلوا الطفل يمر أول.",
+    "Arabic_Plain": "خلّوا الطفل يمر أول.",
     "Persian_Translation": "می‌شود اول بچه را رد کنید؟",
     "forRole": "BOTH",
     "isVip": true
@@ -4251,7 +4251,7 @@
     "category": "خانواده و کودکان",
     "category_id": "family",
     "Arabic_Voweled": "شُکراً جَزیلاً.",
-    "Arabic_Plain": "شكرا جزيلا.",
+    "Arabic_Plain": "شكراً جزيلاً.",
     "Persian_Translation": "خیلی ممنون.",
     "forRole": "BOTH",
     "isVip": true
@@ -4548,7 +4548,7 @@
     "category": "پیاده‌روی اربعین",
     "category_id": "arbaeen_walk",
     "Arabic_Voweled": "دِلّونی لو سَمَحت.",
-    "Arabic_Plain": "دلوني لو سمحت.",
+    "Arabic_Plain": "دلّوني لو سمحت.",
     "Persian_Translation": "لطفاً راهنماییم کنید.",
     "forRole": "BOTH",
     "isVip": true
@@ -5185,7 +5185,7 @@
     "numeric_id": 472,
     "category": "اصطلاحات روزمره عراقی",
     "category_id": "daily_terms",
-    "Arabic_Voweled": "کُلِّش زِین",
+    "Arabic_Voweled": "کُلِش زِین",
     "Arabic_Plain": "كلش زين",
     "Persian_Translation": "خیلی خوبه",
     "forRole": "BOTH",
@@ -5317,7 +5317,7 @@
     "numeric_id": 484,
     "category": "مکالمه با خادم موکب",
     "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "أَگدَر أَدخُل؟",
+    "Arabic_Voweled": "أگدَر أَدخُل؟",
     "Arabic_Plain": "أگدر أدخل؟",
     "Persian_Translation": "می‌توانم داخل بیایم؟",
     "forRole": "BOTH",
@@ -5361,7 +5361,7 @@
     "numeric_id": 488,
     "category": "مکالمه با خادم موکب",
     "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "أَرِید مای لُو سَمَحت",
+    "Arabic_Voweled": "اَرید مای لو سَمَحت",
     "Arabic_Plain": "أريد ماي لو سمحت",
     "Persian_Translation": "آب لطفاً",
     "forRole": "BOTH",
@@ -5395,7 +5395,7 @@
     "category": "مکالمه با خادم موکب",
     "category_id": "mowkeb_servants",
     "Arabic_Voweled": "شُکراً جَزیلاً",
-    "Arabic_Plain": "شكرا جزيلا",
+    "Arabic_Plain": "شكراً جزيلاً",
     "Persian_Translation": "خیلی ممنون",
     "forRole": "BOTH",
     "isVip": true
@@ -5502,116 +5502,1106 @@
   {
     "id": 501,
     "numeric_id": 501,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "مِنِین آخُذ الاَکِل؟",
-    "Arabic_Plain": "منين آخذ الأكل؟",
-    "Persian_Translation": "از کجا غذا بگیرم؟",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "هَلا بِیکُم زُوّار أَبُو السَّجّاد",
+    "Arabic_Plain": "هلا بيكم زوار ابو السجاد",
+    "Persian_Translation": "خوش آمدید زائران اباعبدالله/امام سجاد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 502,
     "numeric_id": 502,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "خَلَص الاَکِل؟",
-    "Arabic_Plain": "خلص الأكل؟",
-    "Persian_Translation": "غذا تمام شده؟",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا لِلْمَوْکِبِ، أَهْلاً وَ سَهْلاً",
+    "Arabic_Plain": "تفضلوا للموكب، اهلا وسهلا",
+    "Persian_Translation": "بفرمایید داخل موکب، خیلی خوش آمدید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 503,
     "numeric_id": 503,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "عَدکُم بَطّانِیَّه",
-    "Arabic_Plain": "عدكم بطانية",
-    "Persian_Translation": "پتو دارید؟",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "أَهْلاً بِکُمْ فِی مَوْکِبِ خُدّامِ الحُسَیْن",
+    "Arabic_Plain": "اهلا بكم في موكب خدام الحسين",
+    "Persian_Translation": "خوش آمدید به موکب خادمان حسین",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 504,
     "numeric_id": 504,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "عَدکُم مَخَدَّه",
-    "Arabic_Plain": "عدكم مخدة",
-    "Persian_Translation": "بالش دارید؟",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "شَرَّفْتُونَا یَا زُوّارُ، أَهْلاً وَ مَرْحَباً",
+    "Arabic_Plain": "شرفتونا يا زوار، اهلا ومرحباً",
+    "Persian_Translation": "ما را سرافراز کردید ای زائران",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 505,
     "numeric_id": 505,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "باچِر هَم مَوجودِین؟",
-    "Arabic_Plain": "باچر هم موجودين؟",
-    "Persian_Translation": "فردا هم اینجا هستید؟",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "نَوَّرْتُوا الْمَوْکِبَ بِلِقائِکُمْ",
+    "Arabic_Plain": "نورتوا الموكب بلقائكم",
+    "Persian_Translation": "با آمدنتان موکب را نورانی کردید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 506,
     "numeric_id": 506,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "مَمنون عَله کَرَمکُم",
-    "Arabic_Plain": "ممنون على كرمكم",
-    "Persian_Translation": "از لطف شما ممنونم",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "الله یِحْفَظْکُم و یِتَقَبَّلْ زِیارَتْکُم",
+    "Arabic_Plain": "الله يحفظكم و يتقبل زيارتكم",
+    "Persian_Translation": "خدا نگهدارتان باشد و زیارتتان مقبول",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 507,
     "numeric_id": 507,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "الله یِبارِک بِرِزقِکُم",
-    "Arabic_Plain": "الله يبارك برزقكم",
-    "Persian_Translation": "خدا به مالتان برکت بدهد",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "شْلُونِ الصِّحَّة؟ عَسَاکُم بِخَیْر وَ عَافِیَة",
+    "Arabic_Plain": "شلون الصحة؟ عساكم بخير وعافية",
+    "Persian_Translation": "حالتان چطوره؟ ان‌شاءالله سلامت هستید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 508,
     "numeric_id": 508,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "الله یِتقَبَّل زِیارَتکُم",
-    "Arabic_Plain": "الله يتقبل زيارتكم",
-    "Persian_Translation": "ان‌شاءالله زیارتتان قبول باشد",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَعَبانِین مِنَ المَشِی؟ تَفَضَّلُوا ارْتَاحُوا",
+    "Arabic_Plain": "تعبانين من المشي؟ تفضلوا ارتاحوا",
+    "Persian_Translation": "از پیاده‌روی خسته‌اید؟ بفرمایید استراحت کنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 509,
     "numeric_id": 509,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "اَدعیلکُم",
-    "Arabic_Plain": "أدعيلكم",
-    "Persian_Translation": "دعاگوی شما هستم",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "أَیَّ خِدْمَة تَحْتاجُونَ، إِحْنٰا بِالْخِدْمَة",
+    "Arabic_Plain": "اي خدمة تحتاجون، إحنا بالخدمة",
+    "Persian_Translation": "هر خدمتی نیاز دارید، ما در خدمتیم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 510,
     "numeric_id": 510,
-    "category": "مکالمه با خادم موکب",
-    "category_id": "mowkeb_servants",
-    "Arabic_Voweled": "مَعَ السَّلامَه",
-    "Arabic_Plain": "مع السلامة",
-    "Persian_Translation": "خداحافظ",
-    "forRole": "BOTH",
-    "isVip": true
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "قَدَمُکُمْ عَلَى رَأْسِنَا یَا زُوّارُ",
+    "Arabic_Plain": "قدمكم على رأسنا يا زوار",
+    "Persian_Translation": "قدمتان روی چشم ماست ای زائران",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
   },
   {
     "id": 511,
     "numeric_id": 511,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "یَا هَلا بِلِّی إِجَانَا مِشَی",
+    "Arabic_Plain": "يا هلا بلي إجانا مشي",
+    "Persian_Translation": "خوش آمد به کسی که پیاده پیش ما آمد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 512,
+    "numeric_id": 512,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْمَوْکِب مَوْکِبْکُم، تَفَضَّلُوا",
+    "Arabic_Plain": "الموكب موكبكم، تفضلوا",
+    "Persian_Translation": "موکب متعلق به خودتان است، بفرمایید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 513,
+    "numeric_id": 513,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "سَاعَة المَبْرُوکَة اَلِّی شِفْنَاکُم",
+    "Arabic_Plain": "ساعة المبروكة اللي شفناكم",
+    "Persian_Translation": "ساعت مبارکی بود که شما را دیدیم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 514,
+    "numeric_id": 514,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "الله یِقَوِّیکُم و یِعْطِیکُمُ العَافِیَة",
+    "Arabic_Plain": "الله يقويكم و يعطيكم العافية",
+    "Persian_Translation": "خدا به شما توان و سلامتی بدهد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 515,
+    "numeric_id": 515,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا ادْخُلُوا، المَکَان وَاسِع",
+    "Arabic_Plain": "تفضلوا ادخلوا، المكان واسع",
+    "Persian_Translation": "بفرمایید داخل، جا زیاد است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 516,
+    "numeric_id": 516,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "أَهْلاً بِزُوّارِ أَرْبَعِینِیَّةِ الحُسَیْن",
+    "Arabic_Plain": "اهلا بزوار اربعينية الحسين",
+    "Persian_Translation": "خوش آمدید ای زائران اربعین حسینی",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 517,
+    "numeric_id": 517,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا اسْتَرِیحُوا هِنَا",
+    "Arabic_Plain": "تفضلوا استريحوا هنا",
+    "Persian_Translation": "بفرمایید اینجا استراحت کنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 518,
+    "numeric_id": 518,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "مَرْحَبَا بِکُم یَا ضُیُوفَ الحُسَیْن",
+    "Arabic_Plain": "مرحبا بكم يا ضيوف الحسين",
+    "Persian_Translation": "خوش آمدید ای مهمانان امام حسین",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 519,
+    "numeric_id": 519,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "فَرِحْنَا بِجَیَّتْکُم کَثِیر",
+    "Arabic_Plain": "فرحنا بجيتكم كثير",
+    "Persian_Translation": "از آمدنتان خیلی خوشحال شدیم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 520,
+    "numeric_id": 520,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "الله یِحْمِیکُم بِهَذَا الطَّرِیق",
+    "Arabic_Plain": "الله يحميكم بهذا الطريق",
+    "Persian_Translation": "خداوند در این مسیر پناهتان باشد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 521,
+    "numeric_id": 521,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْمَای البَارِد جَاهِز خُویَه، تَفَضَّل",
+    "Arabic_Plain": "الماي البارد جاهز خويه، تفضل",
+    "Persian_Translation": "آب خنک آماده است برادر، بفرما",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 522,
+    "numeric_id": 522,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّل شَای أَبُو عَلِی (شَای حارّ)",
+    "Arabic_Plain": "تفضل شاي ابو علي",
+    "Persian_Translation": "بفرما چای عراقی داغ",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 523,
+    "numeric_id": 523,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "قَهْوَة عَرَبِیَّة مَجّانِیَّة، تَفَضَّلُوا",
+    "Arabic_Plain": "قهوة عربية مجانية، تفضلوا",
+    "Persian_Translation": "قهوه عربی رایگان، بفرمایید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 524,
+    "numeric_id": 524,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِید شَای شِکَر زَایِد لَوْ خَفِیف؟",
+    "Arabic_Plain": "تريد شاي شكر زايد لو خفيف؟",
+    "Persian_Translation": "چای پرشیرینی می‌خواهی یا کم‌شیرین؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 525,
+    "numeric_id": 525,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عَصِیر بَارِد وَ شَرْبَت مَوجود",
+    "Arabic_Plain": "عصير بارد و شربت موجود",
+    "Persian_Translation": "آبمیوه خنک و شربت موجود است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 526,
+    "numeric_id": 526,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "لَبَن وَ مَای بَارِد فِی الثَّلاّجَة",
+    "Arabic_Plain": "لبن و ماي بارد في الثلاجة",
+    "Persian_Translation": "دوغ و آب خنک در یخچال است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 527,
+    "numeric_id": 527,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّل شَرْبَت لَیْمُون بَارِد",
+    "Arabic_Plain": "تفضل شربت ليمون بارد",
+    "Persian_Translation": "بفرما شربت آبلیمو خنک",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 528,
+    "numeric_id": 528,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِید مَای ثَلْج لَوْ مَای عادِی؟",
+    "Arabic_Plain": "تريد ماي ثلج لو ماي عادي؟",
+    "Persian_Translation": "آب تگری می‌خواهی یا آب معمولی؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 529,
+    "numeric_id": 529,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "هَذَا المَای مُفَلْتَر وَ نَظِیف",
+    "Arabic_Plain": "هذا الماي مفلتر و نظيف",
+    "Persian_Translation": "این آب تصفیه شده و تمیز است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 530,
+    "numeric_id": 530,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا کَأْس مَای بَارِد",
+    "Arabic_Plain": "تفضلوا كأس ماي بارد",
+    "Persian_Translation": "بفرمایید یک لیوان آب خنک",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 531,
+    "numeric_id": 531,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "قَهْوَة هَیْل جَاهِزَة لِلْمُوَاکِب",
+    "Arabic_Plain": "قهوة هيل جاهزة للمواكب",
+    "Persian_Translation": "قهوه با هل برای موکب آماده است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 532,
+    "numeric_id": 532,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "شَای هَیْل وَ دارَصِین حارّ",
+    "Arabic_Plain": "شاي هيل و دارصين حار",
+    "Persian_Translation": "چای هل و دارچین داغ",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 533,
+    "numeric_id": 533,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا نُوشُوا مَای بَارِد",
+    "Arabic_Plain": "تفضلوا نوشوا ماي بارد",
+    "Persian_Translation": "بفرمایید آب خنک بردارید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 534,
+    "numeric_id": 534,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا شَای إِیرَانِی وَ عَرَبِی",
+    "Arabic_Plain": "عندنا شاي إيراني و عربي",
+    "Persian_Translation": "چای ایرانی و عربی داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 535,
+    "numeric_id": 535,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِید حَلِیب حارّ بِالصَّبَاح؟",
+    "Arabic_Plain": "تريد حليب حار بالصباح؟",
+    "Persian_Translation": "شیر داغ برای صبح می‌خواهی؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 536,
+    "numeric_id": 536,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْغَدَاء جَاهِز، تَفَضَّلُوا لِلطَّعام",
+    "Arabic_Plain": "الغداء جاهز، تفضلوا للطعام",
+    "Persian_Translation": "ناهار آماده است، بفرمایید غذا",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 537,
+    "numeric_id": 537,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْعَشَاء جَاهِز، تَعَالُوا أُکْلُوا",
+    "Arabic_Plain": "العشاء جاهز، تعالوا اكلوا",
+    "Persian_Translation": "شام آماده است، بفرمایید میل کنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 538,
+    "numeric_id": 538,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلرِّیُوق (اَلْفُطُور) جَاهِز یَا زُوّار",
+    "Arabic_Plain": "الريوق جاهز يا زوار",
+    "Persian_Translation": "صبحانه آماده است ای زائران",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 539,
+    "numeric_id": 539,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا کَبَاب وَ قَیْمَر وَ خُبْز حارّ",
+    "Arabic_Plain": "عندنا كباب و قيمر و خبز حار",
+    "Persian_Translation": "کباب، سرشیر و نان داغ داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 540,
+    "numeric_id": 540,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِیدُون أُکْل سَفَرِی لَوْ هِنَا؟",
+    "Arabic_Plain": "تريدون اكل سفري لو هنا؟",
+    "Persian_Translation": "غذا بیرون‌بر می‌خواهید یا همین‌جا می‌خورید؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 541,
+    "numeric_id": 541,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "فَواکِه و فِطُور جَاهِز لِلْجَمِیع",
+    "Arabic_Plain": "فواكه و فطور جاهز للجميع",
+    "Persian_Translation": "میوه و صبحانه برای همه آماده است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 542,
+    "numeric_id": 542,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا صِینِیَّة الطَّعام",
+    "Arabic_Plain": "تفضلوا صينية الطعام",
+    "Persian_Translation": "بفرمایید سینی غذا",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 543,
+    "numeric_id": 543,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلأُکْل حَلاَل وَ نَظِیف جِدّاً",
+    "Arabic_Plain": "الأكل حلال و نظيف جداً",
+    "Persian_Translation": "غذا کاملاً حلال و بسیار بهداشتی است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 544,
+    "numeric_id": 544,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا رُزّ وَ مَرَق (قِمَة وَ قُوزِی)",
+    "Arabic_Plain": "عندنا رز و مرق",
+    "Persian_Translation": "برنج و خورشت (قیمه نجفی/قوزی) داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 545,
+    "numeric_id": 545,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِید خُبْز عَرَبِی حارّ؟",
+    "Arabic_Plain": "تريد خبز عربي حار؟",
+    "Persian_Translation": "نان داغ عربی می‌خواهی؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 546,
+    "numeric_id": 546,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "أَکْل أَبُو عَلِی بَرَکَة، أُکْلُوا",
+    "Arabic_Plain": "أكل ابو علي بركة، اكلوا",
+    "Persian_Translation": "غذای امام حسین برکت است، میل کنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 547,
+    "numeric_id": 547,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا سُفْرَة أَهْلِ البَیْت",
+    "Arabic_Plain": "تفضلوا سفرة أهل البيت",
+    "Persian_Translation": "بفرمایید سر سفره اهل بیت",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 548,
+    "numeric_id": 548,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "إِذَا نَقَصْکُم شَیْء قُولُوا لِی",
+    "Arabic_Plain": "إذا نقصكم شيء قولوا لي",
+    "Persian_Translation": "اگر چیزی کم دارید به من بگویید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 549,
+    "numeric_id": 549,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا فاکِهَة (مَوْز وَ تُفّاح)",
+    "Arabic_Plain": "تفضلوا فاكهة",
+    "Persian_Translation": "بفرمایید میوه (موز و سیب)",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 550,
+    "numeric_id": 550,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا شُورْبَة حارَّة لِلْبَرْد",
+    "Arabic_Plain": "عندنا شوربة حارة للبرد",
+    "Persian_Translation": "سوپ/آش داغ برای سرما داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 551,
+    "numeric_id": 551,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "مَکَان لِلنَّوْم مَجّانِی مَوجُود",
+    "Arabic_Plain": "مكان للنوم مجاني موجود",
+    "Persian_Translation": "محل استراحت و خواب رایگان موجود است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 552,
+    "numeric_id": 552,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "غُرْفَة لِلْعَائِلَة (لِلنِّسَاء) مَوْجُودَة",
+    "Arabic_Plain": "غرفة للعائلة موجودة",
+    "Persian_Translation": "اتاق مخصوص خانواده/بانوان موجود است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 553,
+    "numeric_id": 553,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "فِرَاش وَ بَطّانِیَّة نَظِیفَة عِنْدِنَا",
+    "Arabic_Plain": "فراش و بطانية نظيفة عندنا",
+    "Persian_Translation": "تشک و پتوی تمیز داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 554,
+    "numeric_id": 554,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْمُبَرِّدَة وَ الْمَرْوَحَة شَغّالَة",
+    "Arabic_Plain": "المبردة و المروحة شغالة",
+    "Persian_Translation": "کولر و پنکه روشن است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 555,
+    "numeric_id": 555,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِقْدَرُون تِتْمَدَّدُون وَ تِرْتَاحُون",
+    "Arabic_Plain": "تقدرون تتمددون و ترتاحون",
+    "Persian_Translation": "می‌توانید دراز بکشید و استراحت کنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 556,
+    "numeric_id": 556,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْحَمَّام وَ التَّوالِیت بِالْخَلْف",
+    "Arabic_Plain": "الحمام و التواليت بالخلف",
+    "Persian_Translation": "حمام و سرویس بهداشتی در پشت موکب است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 557,
+    "numeric_id": 557,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِیدُون نَامُوسِیَّة لِلنَّوْم؟",
+    "Arabic_Plain": "تريدون ناموسية للنوم؟",
+    "Persian_Translation": "پشه‌بند برای خواب می‌خواهید؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 558,
+    "numeric_id": 558,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْمَکَان آَمِن وَ مُکَیَّف",
+    "Arabic_Plain": "المكان آمن و مكيف",
+    "Persian_Translation": "مکان امن و دارای تهویه مطبوع است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 559,
+    "numeric_id": 559,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "سَاعَة کَم تِرِیدُون أَقْعُدْکُم؟",
+    "Arabic_Plain": "ساعة كم تريدون أقعدكم؟",
+    "Persian_Translation": "چه ساعتی می‌خواهید بیدارتان کنم؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 560,
+    "numeric_id": 560,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِقْدَرُون تِنَامُون هِنَا لِلصَّبَاح",
+    "Arabic_Plain": "تقدرون تنامون هنا للصباح",
+    "Persian_Translation": "می‌توانید تا صبح اینجا بخوابید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 561,
+    "numeric_id": 561,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْخَیْمَة مَخْصُوصَة لِلرِّجَال",
+    "Arabic_Plain": "الخيمة مخصوصة للرجال",
+    "Persian_Translation": "چادر مخصوص آقایان است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 562,
+    "numeric_id": 562,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْخَیْمَة الثّانِیَة لِلنِّسَاء وَ الأَطْفَال",
+    "Arabic_Plain": "الخيمة الثانية للنساء والأطفال",
+    "Persian_Translation": "چادر دوم برای بانوان و کودکان است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 563,
+    "numeric_id": 563,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "هِنَا مَکَان هَادِئ لِلنَّوْم",
+    "Arabic_Plain": "هنا مكان هادئ للنوم",
+    "Persian_Translation": "اینجا مکانی آرام برای خواب است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 564,
+    "numeric_id": 564,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّلُوا مَخَدَّة نَظِیفَة",
+    "Arabic_Plain": "تفضلوا مخدة نظيفة",
+    "Persian_Translation": "بفرمایید بالش تمیز",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 565,
+    "numeric_id": 565,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "إِذَا بَرْدانِین عِنْدِنَا بَطّانِیّة ثَقِیلَة",
+    "Arabic_Plain": "إذا بردانين عندنا بطانية ثقيلة",
+    "Persian_Translation": "اگر سردتان است پتوی ضخیم داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 566,
+    "numeric_id": 566,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "مَحَطَّة شَحْنِ المۆبَایِل هِنَا",
+    "Arabic_Plain": "محطة شحن الموبايل هنا",
+    "Persian_Translation": "ایستگاه شارژ موبایل اینجاست",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 567,
+    "numeric_id": 567,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "غَسِیل المَلابِس وَ المَغْسَلَة جَاهِزَة",
+    "Arabic_Plain": "غسيل الملابس و المغسلة جاهزة",
+    "Persian_Translation": "شستشوی لباس و رختشویخانه آماده است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 568,
+    "numeric_id": 568,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَدْلِیک وَ مَسَّاج لِلأَقْدَام مَوجُود",
+    "Arabic_Plain": "تدليك و مساج للأقدام موجود",
+    "Persian_Translation": "پاشویه و ماساژ پا موجود است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 569,
+    "numeric_id": 569,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "طَبِیب وَ إِصْلَاح المَلابِس بِالْخِدْمَة",
+    "Arabic_Plain": "طبيب و اصلاح الملابس بالخدمة",
+    "Persian_Translation": "پزشک و خیاطی در خدمت است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 570,
+    "numeric_id": 570,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَلْوایْفَای وَ الإِنْتَرْنِت مَجّانِی",
+    "Arabic_Plain": "الوايفاي و الإنترنت مجاني",
+    "Persian_Translation": "وای‌فای و اینترنت رایگان است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 571,
+    "numeric_id": 571,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِرِید شَاحِنَة آَیْفُون لَوْ انْدُرُویْد؟",
+    "Arabic_Plain": "تريد شاحنة أيفون لو اندرويد؟",
+    "Persian_Translation": "شارژر آیفون می‌خواهی یا اندروید؟",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 572,
+    "numeric_id": 572,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اَتْرُک مۆبَایْلَک هِنَا لِلشَّحْن",
+    "Arabic_Plain": "اترك موبايلك هنا للشحن",
+    "Persian_Translation": "گوشیت را برای شارژ اینجا بگذار",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 573,
+    "numeric_id": 573,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "مَکَان خَیَاطَة وَ تَرْمِیمِ الحَقَائِب",
+    "Arabic_Plain": "مكان خياطة و ترميم الحقائب",
+    "Persian_Translation": "محل خیاطی و تعمیر کیف و کوله",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 574,
+    "numeric_id": 574,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا دَوَاء لِلصُّدَاع وَ المَعِدَة",
+    "Arabic_Plain": "عندنا دواء للصداع و المعدة",
+    "Persian_Translation": "دارو برای سردرد و معده‌درد داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 575,
+    "numeric_id": 575,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَفَضَّل مَرْهَم لِلْتِهابِ الأَقْدَام",
+    "Arabic_Plain": "تفضل مرهم لالتهاب الأقدام",
+    "Persian_Translation": "بفرما پماد برای تاول و عرق‌سوزی پا",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 576,
+    "numeric_id": 576,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "هِنَا مَکَان غَسِیلِ الوَجْه وَ الوُضُوء",
+    "Arabic_Plain": "هنا مكان غسيل الوجه و الوضوء",
+    "Persian_Translation": "اینجا محل دست‌ورِو شستن و وضو است",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 577,
+    "numeric_id": 577,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا صَابُون وَ مَحَارِم (کِلِینِکْس)",
+    "Arabic_Plain": "عندنا صابون و محارم",
+    "Persian_Translation": "صابون و دستمال کاغذی داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 578,
+    "numeric_id": 578,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تِقْدَرُون تِغْسِلُون مَلابِسْکُم هِنَا",
+    "Arabic_Plain": "تقدرون تغسلون ملابسكم هنا",
+    "Persian_Translation": "می‌توانید لباس‌هایتان را اینجا بشویید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 579,
+    "numeric_id": 579,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "عِنْدِنَا مِجَفِّف مَلابِس سَرِیع",
+    "Arabic_Plain": "عندنا مجفف ملابس سريع",
+    "Persian_Translation": "خشک‌کن سریع لباس داریم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 580,
+    "numeric_id": 580,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "خِدْمَة تَصْلِیحِ العَرَبَات وَ العَجَلاَت",
+    "Arabic_Plain": "خدمة تصليح العربات والعجلات",
+    "Persian_Translation": "خدمات تعمیر کالسکه و چرخ کوله",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 581,
+    "numeric_id": 581,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "فِی أَمَانِ الله، زِیَارَة مَقْبُولَة",
+    "Arabic_Plain": "في امان الله، زيارة مقبولة",
+    "Persian_Translation": "در پناه خدا، زیارتتان مقبول",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 582,
+    "numeric_id": 582,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "رَحِمَ الله وَالِدِیکُمْ عَلَى الزِّیَارَة",
+    "Arabic_Plain": "رحم الله والديكُم على الزيارة",
+    "Persian_Translation": "خدا رفتگانتان را بیامرزد بابت زیارت",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 583,
+    "numeric_id": 583,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "لا تَنْسَوْنَا مِنْ صَالِحِ الدُّعَاءِ",
+    "Arabic_Plain": "لا تنسونا من صالح الدعاء",
+    "Persian_Translation": "ما را از دعای خیر فراموش نکنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 584,
+    "numeric_id": 584,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "مَعَ السَّلاَمَة، رَافَقَتْکُمُ السَّلاَمَة",
+    "Arabic_Plain": "مع السلامة، رافقتكم السلامة",
+    "Persian_Translation": "به سلامت، خدا به همراهتان",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 585,
+    "numeric_id": 585,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تُوصَلُون بِالسَّلاَمَة إنْ شَاءَ الله",
+    "Arabic_Plain": "توصلون بالسلامة إن شاء الله",
+    "Persian_Translation": "ان‌شاءالله به سلامت برسید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 586,
+    "numeric_id": 586,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "الله یِیَسِّر طَرِیقْکُم لِلْکَرْبَلاء",
+    "Arabic_Plain": "الله ييسر طريقكم للكربلاء",
+    "Persian_Translation": "خدا راهتان را به کربلا هموار کند",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 587,
+    "numeric_id": 587,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "إلَى اللِّقَاء یَا زُوّارَ الحُسَیْن",
+    "Arabic_Plain": "إلى اللقاء يا زوار الحسين",
+    "Persian_Translation": "به امید دیدار ای زائران حسین",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 588,
+    "numeric_id": 588,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "الله یِتَقَبَّل طَاعَتْکُم وَ مَشْیْکُم",
+    "Arabic_Plain": "الله يتقبل طاعتكم و مشيكم",
+    "Persian_Translation": "خدا طاعت و پیاده‌روی‌تان را بپذیرد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 589,
+    "numeric_id": 589,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "اُدْعُوا لِنَا عِنْدَ قَبْرِ الحُسَیْن",
+    "Arabic_Plain": "ادعوا لنا عند قبر الحسين",
+    "Persian_Translation": "کنار ضریح امام حسین ما را دعا کنید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 590,
+    "numeric_id": 590,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "رَبِّی یِرْجِعْکُم لِأَهْلِکُم سَالِمِین",
+    "Arabic_Plain": "ربي يرجعكم لأهلكم سالمين",
+    "Persian_Translation": "پروردگار شما را سالم به خانواده برگرداند",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 591,
+    "numeric_id": 591,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "شَارِکُونَا فِی ثَوَابِ المَوْکِب",
+    "Arabic_Plain": "شاركونا في ثواب الموكب",
+    "Persian_Translation": "در ثواب موکب با ما شریک شوید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 592,
+    "numeric_id": 592,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "کُلَّ عَام وَ أَنْتُم بِخَیْر وَ سَلاَمَة",
+    "Arabic_Plain": "كل عام و أنتم بخير و سلامة",
+    "Persian_Translation": "هر سال به خوشی و سلامتی باشید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 593,
+    "numeric_id": 593,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "أَهْلاً بِکُم فِی کُلِّ وَقْت",
+    "Arabic_Plain": "اهلا بكم في كل وقت",
+    "Persian_Translation": "در هر زمانی خوش آمدید",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 594,
+    "numeric_id": 594,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "سَلاَمِی لِأَهْلِکُم وَ عائِلَتْکُم",
+    "Arabic_Plain": "سلامي لأهلكم و عائلتكم",
+    "Persian_Translation": "سلام من به خانواده و فامیلتان",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 595,
+    "numeric_id": 595,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "الله یِکْتِبْکُم مِنَ الزُوّار کُلَّ سَنَة",
+    "Arabic_Plain": "الله يكتبكم من الزوار كل سنة",
+    "Persian_Translation": "خدا هر سال شما را از زائران بنویسد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 596,
+    "numeric_id": 596,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "شُکْراً لِزِیَارَتِکُم وَ حُضُورِکُم",
+    "Arabic_Plain": "شكراً لزيارتكم و حضوركم",
+    "Persian_Translation": "ممنون از زیارت و حضورتان",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 597,
+    "numeric_id": 597,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "فِی عَیْنِ الله وَ رِعَایَتِهِ",
+    "Arabic_Plain": "في عين الله و رعايته",
+    "Persian_Translation": "در پناه و توجه خداوند",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 598,
+    "numeric_id": 598,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "تَسْلَمُون وَ الله یِعَزّکُم",
+    "Arabic_Plain": "تسلمون و الله يعزكم",
+    "Persian_Translation": "سلامت باشید و خدا عزيزتان بدارد",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 599,
+    "numeric_id": 599,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "أَسْأَلُکُمُ الدُّعَاء لِفَرَجِ المَهْدِی",
+    "Arabic_Plain": "أسألكم الدعاء لفرج المهدي",
+    "Persian_Translation": "از شما التماس دعا برای فرج مهدی دارم",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 600,
+    "numeric_id": 600,
+    "category": "استقبال از زائر",
+    "category_id": "mokeb_welcoming",
+    "Arabic_Voweled": "حَاجَتْکُم مَقْضِیَّة بِبَرَکَةِ الحُسَیْن",
+    "Arabic_Plain": "حاجتكم مقضية ببركة الحسين",
+    "Persian_Translation": "حاجتتان برآورده به برکت امام حسین",
+    "forRole": "MOKEB_OWNER",
+    "isVip": false
+  },
+  {
+    "id": 601,
+    "numeric_id": 601,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "اَلسَّلام عَلَیکُم",
@@ -5621,8 +6611,8 @@
     "isVip": true
   },
   {
-    "id": 512,
-    "numeric_id": 512,
+    "id": 602,
+    "numeric_id": 602,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "التَّکسِی فاضِی؟",
@@ -5632,8 +6622,8 @@
     "isVip": true
   },
   {
-    "id": 513,
-    "numeric_id": 513,
+    "id": 603,
+    "numeric_id": 603,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "تِوَدّی لِلحَرَم؟",
@@ -5643,8 +6633,8 @@
     "isVip": true
   },
   {
-    "id": 514,
-    "numeric_id": 514,
+    "id": 604,
+    "numeric_id": 604,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "تِوَدّی لِلنَّجَف؟",
@@ -5654,8 +6644,8 @@
     "isVip": true
   },
   {
-    "id": 515,
-    "numeric_id": 515,
+    "id": 605,
+    "numeric_id": 605,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "تِوَدّی لِکَربَلاء؟",
@@ -5665,8 +6655,8 @@
     "isVip": true
   },
   {
-    "id": 516,
-    "numeric_id": 516,
+    "id": 606,
+    "numeric_id": 606,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "بِچَم الأُجرَه؟",
@@ -5676,8 +6666,8 @@
     "isVip": true
   },
   {
-    "id": 517,
-    "numeric_id": 517,
+    "id": 607,
+    "numeric_id": 607,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "کُلِّش غالِی",
@@ -5687,8 +6677,8 @@
     "isVip": true
   },
   {
-    "id": 518,
-    "numeric_id": 518,
+    "id": 608,
+    "numeric_id": 608,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "نَزِّل السِّعر شِوَی",
@@ -5698,8 +6688,8 @@
     "isVip": true
   },
   {
-    "id": 519,
-    "numeric_id": 519,
+    "id": 609,
+    "numeric_id": 609,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "یَلّا نِمشی",
@@ -5709,8 +6699,8 @@
     "isVip": true
   },
   {
-    "id": 520,
-    "numeric_id": 520,
+    "id": 610,
+    "numeric_id": 610,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "مُستَعجِل",
@@ -5720,8 +6710,8 @@
     "isVip": true
   },
   {
-    "id": 521,
-    "numeric_id": 521,
+    "id": 611,
+    "numeric_id": 611,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "اِمشِ شِوَی شِوَی",
@@ -5731,8 +6721,8 @@
     "isVip": true
   },
   {
-    "id": 522,
-    "numeric_id": 522,
+    "id": 612,
+    "numeric_id": 612,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "وَقِّف هِنانه",
@@ -5742,8 +6732,8 @@
     "isVip": true
   },
   {
-    "id": 523,
-    "numeric_id": 523,
+    "id": 613,
+    "numeric_id": 613,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "هِنانه زِین",
@@ -5753,8 +6743,8 @@
     "isVip": true
   },
   {
-    "id": 524,
-    "numeric_id": 524,
+    "id": 614,
+    "numeric_id": 614,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "وَصَلنا؟",
@@ -5764,8 +6754,8 @@
     "isVip": true
   },
   {
-    "id": 525,
-    "numeric_id": 525,
+    "id": 615,
+    "numeric_id": 615,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "شگِد بَعد؟",
@@ -5775,8 +6765,8 @@
     "isVip": true
   },
   {
-    "id": 526,
-    "numeric_id": 526,
+    "id": 616,
+    "numeric_id": 616,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "شَغِّل المَکَیِّف",
@@ -5786,8 +6776,8 @@
     "isVip": true
   },
   {
-    "id": 527,
-    "numeric_id": 527,
+    "id": 617,
+    "numeric_id": 617,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "اِفتَح الجام",
@@ -5797,8 +6787,8 @@
     "isVip": true
   },
   {
-    "id": 528,
-    "numeric_id": 528,
+    "id": 618,
+    "numeric_id": 618,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "اِصبِر شِوَی",
@@ -5808,8 +6798,8 @@
     "isVip": true
   },
   {
-    "id": 529,
-    "numeric_id": 529,
+    "id": 619,
+    "numeric_id": 619,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "عِندی کاش",
@@ -5819,8 +6809,8 @@
     "isVip": true
   },
   {
-    "id": 530,
-    "numeric_id": 530,
+    "id": 620,
+    "numeric_id": 620,
     "category": "مکالمه با راننده تاکسی",
     "category_id": "taxi_chat",
     "Arabic_Voweled": "الله یِجزیک خیر",
@@ -5830,8 +6820,8 @@
     "isVip": true
   },
   {
-    "id": 531,
-    "numeric_id": 531,
+    "id": 621,
+    "numeric_id": 621,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "اَلسَّلام عَلَیکُم",
@@ -5841,8 +6831,8 @@
     "isVip": true
   },
   {
-    "id": 532,
-    "numeric_id": 532,
+    "id": 622,
+    "numeric_id": 622,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "بِچَم هذا؟",
@@ -5852,8 +6842,8 @@
     "isVip": true
   },
   {
-    "id": 533,
-    "numeric_id": 533,
+    "id": 623,
+    "numeric_id": 623,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "هذا کُلِش غالی",
@@ -5863,8 +6853,8 @@
     "isVip": true
   },
   {
-    "id": 534,
-    "numeric_id": 534,
+    "id": 624,
+    "numeric_id": 624,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "اَرخَص شِوَی",
@@ -5874,8 +6864,8 @@
     "isVip": true
   },
   {
-    "id": 535,
-    "numeric_id": 535,
+    "id": 625,
+    "numeric_id": 625,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "تِنزِل بِالسِّعر؟",
@@ -5885,8 +6875,8 @@
     "isVip": true
   },
   {
-    "id": 536,
-    "numeric_id": 536,
+    "id": 626,
+    "numeric_id": 626,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "عَدَک لَون ثانی؟",
@@ -5896,8 +6886,8 @@
     "isVip": true
   },
   {
-    "id": 537,
-    "numeric_id": 537,
+    "id": 627,
+    "numeric_id": 627,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "عَدَک قِیاس اَکبَر؟",
@@ -5907,8 +6897,8 @@
     "isVip": true
   },
   {
-    "id": 538,
-    "numeric_id": 538,
+    "id": 628,
+    "numeric_id": 628,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "عَدَک قِیاس اَصغَر؟",
@@ -5918,8 +6908,8 @@
     "isVip": true
   },
   {
-    "id": 539,
-    "numeric_id": 539,
+    "id": 629,
+    "numeric_id": 629,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "اَصلی؟",
@@ -5929,8 +6919,8 @@
     "isVip": true
   },
   {
-    "id": 540,
-    "numeric_id": 540,
+    "id": 630,
+    "numeric_id": 630,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "جَدید؟",
@@ -5940,8 +6930,8 @@
     "isVip": true
   },
   {
-    "id": 541,
-    "numeric_id": 541,
+    "id": 631,
+    "numeric_id": 631,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "آخُذَه",
@@ -5951,8 +6941,8 @@
     "isVip": true
   },
   {
-    "id": 542,
-    "numeric_id": 542,
+    "id": 632,
+    "numeric_id": 632,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "ما اَریدَه",
@@ -5962,8 +6952,8 @@
     "isVip": true
   },
   {
-    "id": 543,
-    "numeric_id": 543,
+    "id": 633,
+    "numeric_id": 633,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "دا اَتَفَرَّج بَس",
@@ -5973,8 +6963,8 @@
     "isVip": true
   },
   {
-    "id": 544,
-    "numeric_id": 544,
+    "id": 634,
+    "numeric_id": 634,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "عَدَک فِراطَه؟",
@@ -5984,8 +6974,8 @@
     "isVip": true
   },
   {
-    "id": 545,
-    "numeric_id": 545,
+    "id": 635,
+    "numeric_id": 635,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "تِقبَل کارت؟",
@@ -5995,8 +6985,8 @@
     "isVip": true
   },
   {
-    "id": 546,
-    "numeric_id": 546,
+    "id": 636,
+    "numeric_id": 636,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "عَطنِی وَصِل",
@@ -6006,8 +6996,8 @@
     "isVip": true
   },
   {
-    "id": 547,
-    "numeric_id": 547,
+    "id": 637,
+    "numeric_id": 637,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "شُکراً",
@@ -6017,8 +7007,8 @@
     "isVip": true
   },
   {
-    "id": 548,
-    "numeric_id": 548,
+    "id": 638,
+    "numeric_id": 638,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "الله یِبارِک بِرِزقَک",
@@ -6028,8 +7018,8 @@
     "isVip": true
   },
   {
-    "id": 549,
-    "numeric_id": 549,
+    "id": 639,
+    "numeric_id": 639,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "الله یِجزیک خیر",
@@ -6039,8 +7029,8 @@
     "isVip": true
   },
   {
-    "id": 550,
-    "numeric_id": 550,
+    "id": 640,
+    "numeric_id": 640,
     "category": "مکالمه با فروشنده",
     "category_id": "shopping_chat",
     "Arabic_Voweled": "مَعَ السَّلامَه",
@@ -6050,8 +7040,8 @@
     "isVip": true
   },
   {
-    "id": 551,
-    "numeric_id": 551,
+    "id": 641,
+    "numeric_id": 641,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "ای",
@@ -6061,8 +7051,8 @@
     "isVip": true
   },
   {
-    "id": 552,
-    "numeric_id": 552,
+    "id": 642,
+    "numeric_id": 642,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "لا",
@@ -6072,8 +7062,8 @@
     "isVip": true
   },
   {
-    "id": 553,
-    "numeric_id": 553,
+    "id": 643,
+    "numeric_id": 643,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "تَمام",
@@ -6083,8 +7073,8 @@
     "isVip": true
   },
   {
-    "id": 554,
-    "numeric_id": 554,
+    "id": 644,
+    "numeric_id": 644,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "یَلّا",
@@ -6094,8 +7084,8 @@
     "isVip": true
   },
   {
-    "id": 555,
-    "numeric_id": 555,
+    "id": 645,
+    "numeric_id": 645,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "اِصبِر",
@@ -6105,8 +7095,8 @@
     "isVip": true
   },
   {
-    "id": 556,
-    "numeric_id": 556,
+    "id": 646,
+    "numeric_id": 646,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "هَسَّه",
@@ -6116,8 +7106,8 @@
     "isVip": true
   },
   {
-    "id": 557,
-    "numeric_id": 557,
+    "id": 647,
+    "numeric_id": 647,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "بَعدِین",
@@ -6127,8 +7117,8 @@
     "isVip": true
   },
   {
-    "id": 558,
-    "numeric_id": 558,
+    "id": 648,
+    "numeric_id": 648,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "هِنانه",
@@ -6138,8 +7128,8 @@
     "isVip": true
   },
   {
-    "id": 559,
-    "numeric_id": 559,
+    "id": 649,
+    "numeric_id": 649,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "هِناک",
@@ -6149,8 +7139,8 @@
     "isVip": true
   },
   {
-    "id": 560,
-    "numeric_id": 560,
+    "id": 650,
+    "numeric_id": 650,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "قَریب",
@@ -6160,8 +7150,8 @@
     "isVip": true
   },
   {
-    "id": 561,
-    "numeric_id": 561,
+    "id": 651,
+    "numeric_id": 651,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "بَعید",
@@ -6171,8 +7161,8 @@
     "isVip": true
   },
   {
-    "id": 562,
-    "numeric_id": 562,
+    "id": 652,
+    "numeric_id": 652,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "هَوایِه",
@@ -6182,8 +7172,8 @@
     "isVip": true
   },
   {
-    "id": 563,
-    "numeric_id": 563,
+    "id": 653,
+    "numeric_id": 653,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "شِوَy",
@@ -6193,8 +7183,8 @@
     "isVip": true
   },
   {
-    "id": 564,
-    "numeric_id": 564,
+    "id": 654,
+    "numeric_id": 654,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "زِین",
@@ -6204,8 +7194,8 @@
     "isVip": true
   },
   {
-    "id": 565,
-    "numeric_id": 565,
+    "id": 655,
+    "numeric_id": 655,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "کُلِّش زِین",
@@ -6215,8 +7205,8 @@
     "isVip": true
   },
   {
-    "id": 566,
-    "numeric_id": 566,
+    "id": 656,
+    "numeric_id": 656,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "شُکراً",
@@ -6226,8 +7216,8 @@
     "isVip": true
   },
   {
-    "id": 567,
-    "numeric_id": 567,
+    "id": 657,
+    "numeric_id": 657,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "العَفو",
@@ -6237,8 +7227,8 @@
     "isVip": true
   },
   {
-    "id": 568,
-    "numeric_id": 568,
+    "id": 658,
+    "numeric_id": 658,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "ماکو مُشکِلَه",
@@ -6248,8 +7238,8 @@
     "isVip": true
   },
   {
-    "id": 569,
-    "numeric_id": 569,
+    "id": 659,
+    "numeric_id": 659,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "ما فِهَمت",
@@ -6259,8 +7249,8 @@
     "isVip": true
   },
   {
-    "id": 570,
-    "numeric_id": 570,
+    "id": 660,
+    "numeric_id": 660,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "عیدها",
@@ -6270,8 +7260,8 @@
     "isVip": true
   },
   {
-    "id": 571,
-    "numeric_id": 571,
+    "id": 661,
+    "numeric_id": 661,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "شِوَی شِوَی",
@@ -6281,8 +7271,8 @@
     "isVip": true
   },
   {
-    "id": 572,
-    "numeric_id": 572,
+    "id": 662,
+    "numeric_id": 662,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "بِصَوت اَعلی",
@@ -6292,8 +7282,8 @@
     "isVip": true
   },
   {
-    "id": 573,
-    "numeric_id": 573,
+    "id": 663,
+    "numeric_id": 663,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "شِنُو؟",
@@ -6303,8 +7293,8 @@
     "isVip": true
   },
   {
-    "id": 574,
-    "numeric_id": 574,
+    "id": 664,
+    "numeric_id": 664,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "وِین؟",
@@ -6314,8 +7304,8 @@
     "isVip": true
   },
   {
-    "id": 575,
-    "numeric_id": 575,
+    "id": 665,
+    "numeric_id": 665,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "اِمتَی؟",
@@ -6325,8 +7315,8 @@
     "isVip": true
   },
   {
-    "id": 576,
-    "numeric_id": 576,
+    "id": 666,
+    "numeric_id": 666,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "لِیش؟",
@@ -6336,8 +7326,8 @@
     "isVip": true
   },
   {
-    "id": 577,
-    "numeric_id": 577,
+    "id": 667,
+    "numeric_id": 667,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "شگِد؟",
@@ -6347,8 +7337,8 @@
     "isVip": true
   },
   {
-    "id": 578,
-    "numeric_id": 578,
+    "id": 668,
+    "numeric_id": 668,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "الله وِیّاک",
@@ -6358,8 +7348,8 @@
     "isVip": true
   },
   {
-    "id": 579,
-    "numeric_id": 579,
+    "id": 669,
+    "numeric_id": 669,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "الله یِوَفِّقَک",
@@ -6369,8 +7359,8 @@
     "isVip": true
   },
   {
-    "id": 580,
-    "numeric_id": 580,
+    "id": 670,
+    "numeric_id": 670,
     "category": "اصطلاحات پرکاربرد عراقی",
     "category_id": "common_iraqi_terms",
     "Arabic_Voweled": "مَعَ السَّلامَه",
@@ -6380,8 +7370,8 @@
     "isVip": true
   },
   {
-    "id": 581,
-    "numeric_id": 581,
+    "id": 671,
+    "numeric_id": 671,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "شَکُو ماکُو؟",
@@ -6391,8 +7381,8 @@
     "isVip": true
   },
   {
-    "id": 582,
-    "numeric_id": 582,
+    "id": 672,
+    "numeric_id": 672,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "ماکُو شَی",
@@ -6402,8 +7392,8 @@
     "isVip": true
   },
   {
-    "id": 583,
-    "numeric_id": 583,
+    "id": 673,
+    "numeric_id": 673,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "حَبِیبِی",
@@ -6413,8 +7403,8 @@
     "isVip": true
   },
   {
-    "id": 584,
-    "numeric_id": 584,
+    "id": 674,
+    "numeric_id": 674,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "عَینِی",
@@ -6424,8 +7414,8 @@
     "isVip": true
   },
   {
-    "id": 585,
-    "numeric_id": 585,
+    "id": 675,
+    "numeric_id": 675,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "بَعد رُوحِی",
@@ -6435,8 +7425,8 @@
     "isVip": true
   },
   {
-    "id": 586,
-    "numeric_id": 586,
+    "id": 676,
+    "numeric_id": 676,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "عاشَت اِیدَک",
@@ -6446,8 +7436,8 @@
     "isVip": true
   },
   {
-    "id": 587,
-    "numeric_id": 587,
+    "id": 677,
+    "numeric_id": 677,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "الله یِطَوِّل عُمرَک",
@@ -6457,8 +7447,8 @@
     "isVip": true
   },
   {
-    "id": 588,
-    "numeric_id": 588,
+    "id": 678,
+    "numeric_id": 678,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "الله کَریم",
@@ -6468,8 +7458,8 @@
     "isVip": true
   },
   {
-    "id": 589,
-    "numeric_id": 589,
+    "id": 679,
+    "numeric_id": 679,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "الله یِفرِجها",
@@ -6479,8 +7469,8 @@
     "isVip": true
   },
   {
-    "id": 590,
-    "numeric_id": 590,
+    "id": 680,
+    "numeric_id": 680,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "عادی",
@@ -6490,8 +7480,8 @@
     "isVip": true
   },
   {
-    "id": 591,
-    "numeric_id": 591,
+    "id": 681,
+    "numeric_id": 681,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "صِدِگ؟",
@@ -6501,8 +7491,8 @@
     "isVip": true
   },
   {
-    "id": 592,
-    "numeric_id": 592,
+    "id": 682,
+    "numeric_id": 682,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "صِدِگ تِحچی؟",
@@ -6512,8 +7502,8 @@
     "isVip": true
   },
   {
-    "id": 593,
-    "numeric_id": 593,
+    "id": 683,
+    "numeric_id": 683,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "بَرافو",
@@ -6523,8 +7513,8 @@
     "isVip": true
   },
   {
-    "id": 594,
-    "numeric_id": 594,
+    "id": 684,
+    "numeric_id": 684,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "یِخَبِّل",
@@ -6534,8 +7524,8 @@
     "isVip": true
   },
   {
-    "id": 595,
-    "numeric_id": 595,
+    "id": 685,
+    "numeric_id": 685,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "روَعَه",
@@ -6545,8 +7535,8 @@
     "isVip": true
   },
   {
-    "id": 596,
-    "numeric_id": 596,
+    "id": 686,
+    "numeric_id": 686,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "خوش بَحالَک",
@@ -6556,8 +7546,8 @@
     "isVip": true
   },
   {
-    "id": 597,
-    "numeric_id": 597,
+    "id": 687,
+    "numeric_id": 687,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "الله وِیّاک",
@@ -6567,8 +7557,8 @@
     "isVip": true
   },
   {
-    "id": 598,
-    "numeric_id": 598,
+    "id": 688,
+    "numeric_id": 688,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "اَشوفَک اِن‌شاءالله",
@@ -6578,8 +7568,8 @@
     "isVip": true
   },
   {
-    "id": 599,
-    "numeric_id": 599,
+    "id": 689,
+    "numeric_id": 689,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "مَعَ السَّلامَه",
@@ -6589,13 +7579,563 @@
     "isVip": true
   },
   {
-    "id": 600,
-    "numeric_id": 600,
+    "id": 690,
+    "numeric_id": 690,
     "category": "اصطلاحات و تکیه‌کلام‌های عراقی",
     "category_id": "iraqi_slang",
     "Arabic_Voweled": "زِیارَه مَقبولَه",
     "Arabic_Plain": "زيارة مقبولة",
     "Persian_Translation": "زیارت قبول",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 691,
+    "numeric_id": 691,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "شِنُو یِوجَعَک؟",
+    "Arabic_Plain": "شنو يوجعك؟",
+    "Persian_Translation": "چی درد می‌کنه؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 692,
+    "numeric_id": 692,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "عِندی صُداع قَوی.",
+    "Arabic_Plain": "عندي صداع قوي.",
+    "Persian_Translation": "سردرد شدید دارم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 693,
+    "numeric_id": 693,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "عِندی حَراره.",
+    "Arabic_Plain": "عندي حرارة.",
+    "Persian_Translation": "تب دارم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 694,
+    "numeric_id": 694,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "بَطنی یُوجَعنی.",
+    "Arabic_Plain": "بطني يوجعني.",
+    "Persian_Translation": "شکمم درد می‌کنه.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 695,
+    "numeric_id": 695,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَکُو دُوخَه وِیّای.",
+    "Arabic_Plain": "أكو دوخة ويّاي.",
+    "Persian_Translation": "سرگیجه دارم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 696,
+    "numeric_id": 696,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أُرِید أَشُوف دَختَر.",
+    "Arabic_Plain": "أريد أشوف دكتر.",
+    "Persian_Translation": "می‌خوام دکتر ببینم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 697,
+    "numeric_id": 697,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "وِین أَقرَب مُستَوصَف؟",
+    "Arabic_Plain": "وين أقرب مستوصف؟",
+    "Persian_Translation": "نزدیک‌ترین درمانگاه کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 698,
+    "numeric_id": 698,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "عِندی حَساسِیَّه مِن هَذا الدَّوا.",
+    "Arabic_Plain": "عندي حساسية من هذا الدواء.",
+    "Persian_Translation": "به این دارو حساسیت دارم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 699,
+    "numeric_id": 699,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "شِکَد مَرَّه بِالیَوم آخُذ الدَّوا؟",
+    "Arabic_Plain": "شكد مرة باليوم آخذ الدواء؟",
+    "Persian_Translation": "روزی چند بار دارو بخورم؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 700,
+    "numeric_id": 700,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَنِی مَریض سُکَّری.",
+    "Arabic_Plain": "أني مريض سكري.",
+    "Persian_Translation": "من بیمار دیابتی هستم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 701,
+    "numeric_id": 701,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَنِی عِندی ضَغط.",
+    "Arabic_Plain": "أني عندي ضغط.",
+    "Persian_Translation": "من فشار خون دارم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 702,
+    "numeric_id": 702,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أُرِید مُسَکِّن لِلأَلَم.",
+    "Arabic_Plain": "أريد مسكن للألم.",
+    "Persian_Translation": "یک مسکن برای درد می‌خوام.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 703,
+    "numeric_id": 703,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "کَسَرَت رِجلی، أُرِید إسعاف.",
+    "Arabic_Plain": "كسرت رجلي، أريد إسعاف.",
+    "Persian_Translation": "پام شکسته، آمبولانس می‌خوام.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 704,
+    "numeric_id": 704,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "هَل عِندَکُم شَفخانَه هِنا؟",
+    "Arabic_Plain": "هل عندكم صيدلية هنا؟",
+    "Persian_Translation": "اینجا داروخونه دارید؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 705,
+    "numeric_id": 705,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أُرِید قِطرَة لِلعَین.",
+    "Arabic_Plain": "أريد قطرة للعين.",
+    "Persian_Translation": "قطره‌ی چشم می‌خوام.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 706,
+    "numeric_id": 706,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "وَلَدی مِریض، إشلُون أَسَوّی؟",
+    "Arabic_Plain": "ولدي مريض، اشلون أسوي؟",
+    "Persian_Translation": "بچه‌ام مریضه، چیکار کنم؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 707,
+    "numeric_id": 707,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَنِی مِتعَب هَوایَه مِن الماشِی.",
+    "Arabic_Plain": "أني متعب هواية من الماشي.",
+    "Persian_Translation": "از پیاده‌روی خیلی خسته شدم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 708,
+    "numeric_id": 708,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَحتاج نَقّاله.",
+    "Arabic_Plain": "أحتاج نقّالة.",
+    "Persian_Translation": "به برانکارد نیاز دارم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 709,
+    "numeric_id": 709,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "شِنُو اسِم هَذا الدَّوا؟",
+    "Arabic_Plain": "شنو اسم هذا الدواء؟",
+    "Persian_Translation": "اسم این دارو چیه؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 710,
+    "numeric_id": 710,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَکُو طَبِیب نِسائِی هِنا؟",
+    "Arabic_Plain": "أكو طبيب نسائي هنا؟",
+    "Persian_Translation": "اینجا پزشک زنان هست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 711,
+    "numeric_id": 711,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "خَذ نَفَس عَمِیق.",
+    "Arabic_Plain": "خذ نفس عميق.",
+    "Persian_Translation": "نفس عمیق بکش.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 712,
+    "numeric_id": 712,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "لازِم إبرَه وِلا حَبَّه؟",
+    "Arabic_Plain": "لازم إبرة ولا حبة؟",
+    "Persian_Translation": "آمپول لازمه یا قرص؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 713,
+    "numeric_id": 713,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "أَنِی حامِل، خَلِّی حَذِر.",
+    "Arabic_Plain": "أني حامل، خلّي حذر.",
+    "Persian_Translation": "من باردارم، مراقب باش.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 714,
+    "numeric_id": 714,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "الأَلَم صار أَقَل شِوَیَّه.",
+    "Arabic_Plain": "الألم صار أقل شوية.",
+    "Persian_Translation": "درد یه‌کم کمتر شد.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 715,
+    "numeric_id": 715,
+    "category": "مکالمه با پزشک و پرستار",
+    "category_id": "medical_chat",
+    "Arabic_Voweled": "شُکراً دَختُور، الله یِخَلِّیک.",
+    "Arabic_Plain": "شكراً دكتور، الله يخليك.",
+    "Persian_Translation": "ممنون دکتر، خدا نگهت داره.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 716,
+    "numeric_id": 716,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین قاعَة الوُصُول؟",
+    "Arabic_Plain": "وين قاعة الوصول؟",
+    "Persian_Translation": "سالن ورودی کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 717,
+    "numeric_id": 717,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "جَواز سَفَری بِیدِی.",
+    "Arabic_Plain": "جواز سفري بيدي.",
+    "Persian_Translation": "پاسپورتم اینجاست.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 718,
+    "numeric_id": 718,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین أَخُذ الجَنطَه؟",
+    "Arabic_Plain": "وين أخذ الجنطة؟",
+    "Persian_Translation": "چمدونم رو کجا بگیرم؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 719,
+    "numeric_id": 719,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أَنِی جایَه لِلزِّیارَه.",
+    "Arabic_Plain": "أني جاي للزيارة.",
+    "Persian_Translation": "من برای زیارت اومدم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 720,
+    "numeric_id": 720,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "کَم یَوم رَح تَبقَه بِالعِراق؟",
+    "Arabic_Plain": "كم يوم راح تبقى بالعراق؟",
+    "Persian_Translation": "چند روز در عراق می‌مونی؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 721,
+    "numeric_id": 721,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین مَکتَب الجُمرُک؟",
+    "Arabic_Plain": "وين مكتب الجمرك؟",
+    "Persian_Translation": "گمرک کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 722,
+    "numeric_id": 722,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "جَنطَتِی مَفقُودَه.",
+    "Arabic_Plain": "جنطتي مفقودة.",
+    "Persian_Translation": "چمدونم گم شده.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 723,
+    "numeric_id": 723,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین مَحَطَّة التَّاکسِی بَره المَطار؟",
+    "Arabic_Plain": "وين محطة التاكسي بره المطار؟",
+    "Persian_Translation": "ایستگاه تاکسی بیرون فرودگاه کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 724,
+    "numeric_id": 724,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أَنِی مُسافِر عَلَی خَط النَّجَف.",
+    "Arabic_Plain": "أني مسافر على خط النجف.",
+    "Persian_Translation": "من با پرواز نجف مسافرم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 725,
+    "numeric_id": 725,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "کَم باقِی عَلَی طَیّارَتِی؟",
+    "Arabic_Plain": "كم باقي على طيارتي؟",
+    "Persian_Translation": "چقدر به پروازم مونده؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 726,
+    "numeric_id": 726,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "الطَّیّارَه تَأَخَّرَت.",
+    "Arabic_Plain": "الطيارة تأخرت.",
+    "Persian_Translation": "پرواز تأخیر داشته.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 727,
+    "numeric_id": 727,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین صَرّافَة العُملَه هِنا؟",
+    "Arabic_Plain": "وين صرافة العملة هنا؟",
+    "Persian_Translation": "صرافی اینجا کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 728,
+    "numeric_id": 728,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أُرِید بِطاقَة سِیم هُنا بِالمَطار.",
+    "Arabic_Plain": "أريد بطاقة سيم هنا بالمطار.",
+    "Persian_Translation": "می‌خوام همینجا فرودگاه سیم‌کارت بگیرم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 729,
+    "numeric_id": 729,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "هَل أَحتاج فِیزَه؟",
+    "Arabic_Plain": "هل أحتاج فيزة؟",
+    "Persian_Translation": "به ویزا نیاز دارم؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 730,
+    "numeric_id": 730,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أَنِی مَعِی زَوجَتِی وِأَولادِی.",
+    "Arabic_Plain": "أني معي زوجتي وأولادي.",
+    "Persian_Translation": "همسر و بچه‌هام همراهمن.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 731,
+    "numeric_id": 731,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین بَوّابَة الخُرُوج؟",
+    "Arabic_Plain": "وين بوابة الخروج؟",
+    "Persian_Translation": "گیت خروج کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 732,
+    "numeric_id": 732,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "شَنُو الوَقت هَسَّه بِالعِراق؟",
+    "Arabic_Plain": "شنو الوقت هسه بالعراق؟",
+    "Persian_Translation": "الان توی عراق ساعت چنده؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 733,
+    "numeric_id": 733,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "عِندِی عَفش زِیادَه، شِنُو الأُجرَه؟",
+    "Arabic_Plain": "عندي عفش زيادة، شنو الأجرة؟",
+    "Persian_Translation": "بار اضافه دارم، هزینه‌اش چقدره؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 734,
+    "numeric_id": 734,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین أُسَجِّل دُخُولی لِلطَّیّارَه؟",
+    "Arabic_Plain": "وين أسجل دخولي للطيارة؟",
+    "Persian_Translation": "کجا باید چک‌این کنم؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 735,
+    "numeric_id": 735,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أَنِی رَح أَرجَع بَعَد أُسبُوع.",
+    "Arabic_Plain": "أني راح أرجع بعد أسبوع.",
+    "Persian_Translation": "من یک هفته دیگه برمی‌گردم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 736,
+    "numeric_id": 736,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "هَل عِندَکُم عَرَبَه لِلجَنَط؟",
+    "Arabic_Plain": "هل عندكم عربة للجنط؟",
+    "Persian_Translation": "چرخ‌دستی برای چمدون دارید؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 737,
+    "numeric_id": 737,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "وِین غُرفَة الصَّلاة بِالمَطار؟",
+    "Arabic_Plain": "وين غرفة الصلاة بالمطار؟",
+    "Persian_Translation": "نمازخانه‌ی فرودگاه کجاست؟",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 738,
+    "numeric_id": 738,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أَنِی مُو مِتعَوِّد عَلَی هَالمَطار.",
+    "Arabic_Plain": "أني مو متعوّد على هالمطار.",
+    "Persian_Translation": "من با این فرودگاه آشنا نیستم.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 739,
+    "numeric_id": 739,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "أُرِید مُساعَدَه بِإیجاد التَّاکسِی.",
+    "Arabic_Plain": "أريد مساعدة بإيجاد التاكسي.",
+    "Persian_Translation": "برای پیدا کردن تاکسی کمک می‌خوام.",
+    "forRole": "BOTH",
+    "isVip": true
+  },
+  {
+    "id": 740,
+    "numeric_id": 740,
+    "category": "فرودگاه، گذرنامه و مرز",
+    "category_id": "airport_border",
+    "Arabic_Voweled": "شُکراً عَلَی مُساعَدَتَک بِالمَطار.",
+    "Arabic_Plain": "شكراً على مساعدتك بالمطار.",
+    "Persian_Translation": "ممنون بابت کمکت توی فرودگاه.",
     "forRole": "BOTH",
     "isVip": true
   }

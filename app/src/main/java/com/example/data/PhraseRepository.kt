@@ -24,9 +24,10 @@ class PhraseRepository(private val phraseDao: PhraseDao) {
     }
 
     suspend fun ensureDatabasePopulated() {
-        if (phraseDao.getCount() != 600) {
+        val expectedPhrases = DatabaseInitializer.getInitialPhrases()
+        if (phraseDao.getCount() != expectedPhrases.size) {
             phraseDao.deleteAll()
-            phraseDao.insertAll(DatabaseInitializer.getInitialPhrases())
+            phraseDao.insertAll(expectedPhrases)
         }
     }
 }
