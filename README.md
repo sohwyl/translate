@@ -27,7 +27,8 @@ If you've already published this app and need a signed release build, you'll nee
 
 ## Generating phrase audio
 
-This app ships with 600 Iraqi-Arabic phrases, each with a male and a female
-voice-over (1200 audio files total). To (re)generate them, see
+This app ships with 1000 Iraqi-Arabic phrases (800 for pilgrims, 200
+dedicated to mokeb owners), each with a male and a female voice-over
+(2000 audio files total). To (re)generate them, see
 `generate_voice_over.py` in the project root.
 "# translate" 

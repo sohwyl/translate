@@ -25,7 +25,7 @@ object AudioSyncManager {
     val syncState: StateFlow<SyncResult?> = _syncState
 
     /**
-     * Verifies the presence and integrity of all 1200 audio files (600 male + 600 female)
+     * Verifies the presence and integrity of all audio files (one male + one female per phrase)
      * against the application's phrase manifest.
      */
     suspend fun verifyAndSyncAudioFiles(
