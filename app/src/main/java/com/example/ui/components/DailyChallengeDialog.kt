@@ -39,7 +39,7 @@ fun DailyChallengeDialog(
         listOf(
             QuizQuestion(
                 arabic = "أَيْنَ يَقَعُ الْحَرَمْ؟",
-                options = listOf("کجا است حمام؟", "کجا است حرم؟", "کجا است بازار؟"),
+                options = listOf("حمام کجاست؟", "حرم کجاست؟", "بازار کجاست؟"),
                 correctIndex = 1
             ),
             QuizQuestion(
@@ -49,7 +49,7 @@ fun DailyChallengeDialog(
             ),
             QuizQuestion(
                 arabic = "شُكْراً جَزِيلاً لَكُمْ",
-                options = listOf("خداحافظ شما", "خیلی از شما متشکرم", "خوش آمدید"),
+                options = listOf("خیلی ممنونم", "خیلی از شما متشکرم", "خوش آمدید"),
                 correctIndex = 1
             ),
             QuizQuestion(

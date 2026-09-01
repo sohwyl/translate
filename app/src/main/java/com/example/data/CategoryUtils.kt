@@ -27,7 +27,7 @@ object CategoryUtils {
         "غذا و نوشیدنی",
         // Fallbacks for backwards compatibility
         "سلام و تعارفات اولیه",
-        "آدرس و مسیر عمودها",
+        "آدرس و مسیر",
         "درمان، اورژانس و داروخانه"
     )
 

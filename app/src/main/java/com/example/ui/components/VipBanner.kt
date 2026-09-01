@@ -96,7 +96,7 @@ fun VipBanner(
                     }
                     Spacer(modifier = Modifier.height(2.dp))
                     Text(
-                        text = "دسترسی به ۶۰۰ عبارت ویژه، ترجمه صوتی با کیفیت بالا و آفلاین.",
+                        text = "دسترسی به ۱۰۰۰ عبارت ویژه، ترجمه صوتی با کیفیت بالا و آفلاین.",
                         fontSize = 11.sp,
                         color = descTextColor,
                         lineHeight = 15.sp

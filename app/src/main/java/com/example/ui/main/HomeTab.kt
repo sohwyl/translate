@@ -136,7 +136,7 @@ fun HomeTab(
                             )
                             Spacer(modifier = Modifier.height(3.dp))
                             Text(
-                                text = "۶۰۰ عبارت کاربردی با لهجه اصیل عراقی",
+                                text = "۱۰۰۰ عبارت کاربردی با لهجه اصیل عراقی",
                                 fontSize = 12.5.sp,
                                 color = if (isDarkTheme) GoldenAmber else DayEmerald
                             )
@@ -315,7 +315,7 @@ fun HomeTab(
                                 )
                                 Spacer(modifier = Modifier.height(4.dp))
                                 Text(
-                                    text = "مکالمات ضروری عمودها، حرم و موکب‌های عراقی",
+                                    text = "مکالمات ضروری مسیر، حرم و موکب‌های عراقی",
                                     fontSize = 11.5.sp,
                                     color = GoldenAmber
                                 )

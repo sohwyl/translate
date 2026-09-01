@@ -264,7 +264,7 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
 
         StaggeredEntrance(key = "step1_desc", index = 2) {
             Text(
-                text = "بیش از ۶۰۰ عبارت کاربردی در مسیر پیاده‌روی اربعین همراه شماست",
+                text = "بیش از ۱۰۰۰ عبارت کاربردی در مسیر پیاده‌روی اربعین همراه شماست",
                 fontSize = 13.5.sp,
                 color = if (isDarkTheme) GoldenAmber else DayEmerald,
                 textAlign = TextAlign.Center,

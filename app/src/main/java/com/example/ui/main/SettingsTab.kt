@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
+import com.example.data.DatabaseInitializer
 import com.example.data.UserPreferences
 import com.example.ui.theme.*
 import com.example.ui.utils.HapticUtil
@@ -740,7 +741,7 @@ fun SettingsTab(
                         contentAlignment = Alignment.Center
                     ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text("+۶۰۰", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = accentTint)
+                            Text("+۱۰۰۰", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = accentTint)
                             Text("عبارات", fontSize = 10.sp, color = itemDescColor)
                         }
                     }
@@ -754,7 +755,12 @@ fun SettingsTab(
                         contentAlignment = Alignment.Center
                     ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text("۱۵", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = accentTint)
+                            val categoryCount = remember {
+                                DatabaseInitializer.getInitialPhrases().distinctBy { it.category }.size
+                            }
+                            val persianDigits = "۰۱۲۳۴۵۶۷۸۹"
+                            val categoryCountFa = categoryCount.toString().map { persianDigits[it - '0'] }.joinToString("")
+                            Text(categoryCountFa, fontSize = 16.sp, fontWeight = FontWeight.Bold, color = accentTint)
                             Text("دسته‌ها", fontSize = 10.sp, color = itemDescColor)
                         }
                     }
@@ -915,7 +921,7 @@ private fun shareApkFile(context: Context) {
     } catch (e: Exception) {
         val intent = Intent(Intent.ACTION_SEND).apply {
             type = "text/plain"
-            putExtra(Intent.EXTRA_TEXT, "دانلود برنامه عبارت‌نامه اربعین با ۶۰۰ عبارت صوتی لهجه عراقی")
+            putExtra(Intent.EXTRA_TEXT, "دانلود برنامه عبارت‌نامه اربعین با ۱۰۰۰ عبارت صوتی لهجه عراقی، ویژه زائر و موکب‌دار")
         }
         context.startActivity(Intent.createChooser(intent, "اشتراک‌گذاری"))
     }

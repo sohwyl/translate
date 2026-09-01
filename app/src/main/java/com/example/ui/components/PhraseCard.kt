@@ -179,7 +179,7 @@ fun PhraseCard(
 
                 // 2. Secondary Subtext: Arabic_Plain (عربی ساده بدون اعراب - arabicText)
                 val highlightedPlain = if (isLocked) {
-                    AnnotatedString("عربی ساده: 🔒 برای مشاهده کامل، نسخه طلایی را فعال کنید.")
+                    AnnotatedString("متن کامل و تلفظ آن ویژه‌ی نسخه‌ی طلایی است")
                 } else {
                     highlightText(phrase.arabicText, searchQuery, highlightColor)
                 }

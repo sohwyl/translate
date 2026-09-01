@@ -106,7 +106,26 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             "اصطلاحات و تکیه‌کلام‌های عراقی"
         )
 
-        val orderedNames = freeCats + premiumCats + phase3Cats + phase4Cats
+        // 9 VIP Premium Categories (Phase 5 — added in the 1000-phrase expansion)
+        val phase5Cats = listOf(
+            "مکالمه با پزشک و پرستار",
+            "فرودگاه، گذرنامه و مرز",
+            "حمل‌ونقل بین‌شهری",
+            "رزرو و اجاره وسایل",
+            "گم‌شدن و کمک‌خواهی",
+            "زبان بدن، ادب و تعارفات عراقی",
+            "دعا و زیارت‌نامه‌های کوتاه پرکاربرد",
+            "گفتگوی دوستانه و آشناسازی",
+            "اعداد، زمان و روزهای هفته کاربردی"
+        )
+
+        // Mokeb-owner-only categories (shown when relevant to the selected role)
+        val mokebOwnerCats = listOf(
+            "استقبال از زائر",
+            "خدمات و مکالمه موکب‌دار"
+        )
+
+        val orderedNames = freeCats + premiumCats + phase3Cats + phase4Cats + phase5Cats + mokebOwnerCats
 
         for (name in orderedNames) {
             val count = map[name]?.size ?: 0
