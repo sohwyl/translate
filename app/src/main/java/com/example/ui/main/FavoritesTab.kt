@@ -444,7 +444,7 @@ private fun EmptyFavoritesView(
                 Spacer(modifier = Modifier.height(10.dp))
 
                 Text(
-                    text = "در مسیر پیاده‌روی، عبارت‌های پرکاربردی که به قلبتان نزدیک است را با دکمه قلب نشان کنید تا اینجا در دسترستان باشند.",
+                    text = "عبارت‌هایی را که در مسیر پیاده‌روی بیشتر به کارتان می‌آیند، با دکمه‌ی قلب نشان کنید تا همیشه همین‌جا در دسترستان باشند.",
                     fontSize = 13.sp,
                     color = if (isDarkTheme) TextSecondaryDark else Color(0xFF6B7280),
                     textAlign = TextAlign.Center,

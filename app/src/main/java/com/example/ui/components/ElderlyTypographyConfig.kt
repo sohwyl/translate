@@ -68,7 +68,7 @@ fun ElderlyTypographyConfig(
                         color = titleColor
                     )
                     Text(
-                        text = "تنظیم اندازه و ضخامت قلم قلم وزیرمتن و فونت عربی",
+                        text = "تنظیم اندازه و ضخامت قلم وزیرمتن و فونت عربی",
                         fontSize = 11.sp,
                         color = descColor
                     )
