@@ -10,13 +10,15 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Category
+import androidx.compose.material.icons.filled.Groups
 import androidx.compose.material.icons.filled.Nightlight
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.filled.Translate
+import androidx.compose.material.icons.filled.Tune
 import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material.icons.filled.WbSunny
 import androidx.compose.material.icons.filled.WifiOff
@@ -39,6 +41,7 @@ import com.example.ui.components.EslimiCorner
 import com.example.ui.components.EslimiCornerBreathingOrnament
 import com.example.ui.components.StaggeredEntrance
 import com.example.ui.theme.*
+import com.example.ui.utils.toPersianDigits
 
 @Composable
 fun OnboardingScreen(
@@ -107,7 +110,7 @@ fun OnboardingScreen(
                     }
                 } else {
                     Text(
-                        text = "$step از ۳",
+                        text = "${step.toPersianDigits()} از ۳",
                         fontSize = 13.sp,
                         fontWeight = FontWeight.Medium,
                         color = if (isDarkTheme) GoldenAmber else GoldenAmberDark
@@ -176,7 +179,26 @@ fun OnboardingScreen(
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.spacedBy(14.dp)
                 ) {
-                    // Next / Finish Button (Large Pill)
+                    // Circular Back Button — placed first so it lands on the right
+                    // in the app's RTL layout (previous step = closer to the start).
+                    IconButton(
+                        onClick = { step-- },
+                        modifier = Modifier
+                            .size(54.dp)
+                            .clip(CircleShape)
+                            .border(1.2.dp, if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0), CircleShape)
+                            .background(if (isDarkTheme) Color(0xFF0F2B20) else Color(0xFFFAF6EE))
+                    ) {
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = "قبلی",
+                            tint = if (isDarkTheme) GoldenAmber else GoldenAmberDark,
+                            modifier = Modifier.size(22.dp)
+                        )
+                    }
+
+                    // Next / Finish Button (Large Pill) — placed second so it lands
+                    // on the left, matching forward progress in RTL reading order.
                     Button(
                         onClick = {
                             if (step < 3) {
@@ -198,23 +220,6 @@ fun OnboardingScreen(
                             fontSize = 16.sp,
                             fontWeight = FontWeight.Bold,
                             color = DarkEmeraldBg
-                        )
-                    }
-
-                    // Circular Back Button on the right
-                    IconButton(
-                        onClick = { step-- },
-                        modifier = Modifier
-                            .size(54.dp)
-                            .clip(CircleShape)
-                            .border(1.2.dp, if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0), CircleShape)
-                            .background(if (isDarkTheme) Color(0xFF0F2B20) else Color(0xFFFAF6EE))
-                    ) {
-                        Icon(
-                            imageVector = Icons.AutoMirrored.Filled.ArrowForward,
-                            contentDescription = "قبلی",
-                            tint = if (isDarkTheme) GoldenAmber else GoldenAmberDark,
-                            modifier = Modifier.size(22.dp)
                         )
                     }
                 }
@@ -273,10 +278,10 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
             )
         }
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(28.dp))
 
-        StaggeredEntrance(key = "step1_badges", index = 3) {
-            // 3 feature cards row matching the design
+        // 6 feature cards in a 3x2 grid
+        StaggeredEntrance(key = "step1_badges_row1", index = 3) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly,
@@ -285,6 +290,20 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
                 FeatureBadge(icon = Icons.Default.Search, label = "جستجوی هوشمند", isDarkTheme = isDarkTheme)
                 FeatureBadge(icon = Icons.Default.VolumeUp, label = "تلفظ صوتی", isDarkTheme = isDarkTheme)
                 FeatureBadge(icon = Icons.Default.WifiOff, label = "کاملاً آفلاین", isDarkTheme = isDarkTheme)
+            }
+        }
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        StaggeredEntrance(key = "step1_badges_row2", index = 4) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                FeatureBadge(icon = Icons.Default.Translate, label = "عربی و فارسی", isDarkTheme = isDarkTheme)
+                FeatureBadge(icon = Icons.Default.Category, label = "۳۲ دسته‌بندی", isDarkTheme = isDarkTheme)
+                FeatureBadge(icon = Icons.Default.Groups, label = "زائر و موکب‌دار", isDarkTheme = isDarkTheme)
             }
         }
     }
@@ -299,10 +318,22 @@ private fun FeatureBadge(
     Box(
         modifier = Modifier
             .width(96.dp)
-            .height(84.dp)
-            .clip(RoundedCornerShape(16.dp))
-            .background(if (isDarkTheme) Color(0xFF0F2E22) else LightCreamSurface)
-            .border(1.dp, if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0), RoundedCornerShape(16.dp))
+            .height(92.dp)
+            .clip(RoundedCornerShape(18.dp))
+            .background(
+                Brush.verticalGradient(
+                    colors = if (isDarkTheme) {
+                        listOf(Color(0xFF123626), Color(0xFF0C271C))
+                    } else {
+                        listOf(LightCreamSurface, Color(0xFFEFE8D8))
+                    }
+                )
+            )
+            .border(
+                1.dp,
+                if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0),
+                RoundedCornerShape(18.dp)
+            )
             .padding(8.dp),
         contentAlignment = Alignment.Center
     ) {
@@ -310,19 +341,30 @@ private fun FeatureBadge(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Icon(
-                imageVector = icon,
-                contentDescription = label,
-                tint = GoldenAmber,
-                modifier = Modifier.size(24.dp)
-            )
+            Box(
+                modifier = Modifier
+                    .size(38.dp)
+                    .clip(CircleShape)
+                    .background(
+                        if (isDarkTheme) GoldenAmber.copy(alpha = 0.16f) else GoldenAmberDark.copy(alpha = 0.12f)
+                    ),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = icon,
+                    contentDescription = label,
+                    tint = if (isDarkTheme) GoldenAmber else GoldenAmberDark,
+                    modifier = Modifier.size(20.dp)
+                )
+            }
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = label,
                 fontSize = 11.sp,
                 fontWeight = FontWeight.Medium,
                 color = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight,
-                textAlign = TextAlign.Center
+                textAlign = TextAlign.Center,
+                lineHeight = 13.sp
             )
         }
     }
@@ -511,10 +553,10 @@ private fun Step3SettingsContent(
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
-                    imageVector = Icons.Default.Star,
+                    imageVector = Icons.Default.Tune,
                     contentDescription = null,
                     tint = GoldenAmber,
-                    modifier = Modifier.size(40.dp)
+                    modifier = Modifier.size(38.dp)
                 )
             }
         }
@@ -653,7 +695,7 @@ private fun Step3SettingsContent(
                             )
                             Spacer(modifier = Modifier.height(2.dp))
                             Text(
-                                text = "مخصوص افراد بالای ۵۰ سال یا استفاده در نور کم",
+                                text = "برای راحتی بیشتر چشمان شما، به‌خصوص در نور کم",
                                 fontSize = 11.sp,
                                 color = if (isDarkTheme) TextSecondaryDark else TextSecondaryLight
                             )
