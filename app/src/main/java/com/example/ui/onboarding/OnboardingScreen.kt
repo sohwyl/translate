@@ -55,21 +55,16 @@ fun OnboardingScreen(
     var isDarkTheme by remember { mutableStateOf(initialDarkTheme) }
     var isLargeText by remember { mutableStateOf(initialLargeText) }
 
-    // NOTE: temporary plain gradient placeholder. The 3 real looping video
-    // backgrounds (one per step) will replace this via OnboardingVideoBackground
-    // as soon as the video files are added to res/raw.
-    Box(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(
-                Brush.verticalGradient(
-                    colors = if (isDarkTheme) {
-                        listOf(Color(0xFF0C241B), DarkEmeraldBg, Color(0xFF04120D))
-                    } else {
-                        listOf(Color(0xFFFAF7F0), LightCreamBg, Color(0xFFEBE4D5))
-                    }
-                )
-            )
+    val videoResId = remember(step) {
+        when (step) {
+            1 -> R.raw.onboarding_bg_step1
+            2 -> R.raw.onboarding_bg_step2
+            else -> R.raw.onboarding_bg_step3
+        }
+    }
+
+    OnboardingVideoBackground(
+        videoResId = videoResId
     ) {
         Column(
             modifier = Modifier

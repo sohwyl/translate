@@ -89,9 +89,9 @@ fun OnboardingVideoBackground(
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
-                        0f to Color.Black.copy(alpha = 0.40f),
-                        0.5f to Color.Black.copy(alpha = 0.30f),
-                        1f to Color.Black.copy(alpha = 0.55f)
+                        0f to Color.Black.copy(alpha = 0.48f),
+                        0.5f to Color.Black.copy(alpha = 0.36f),
+                        1f to Color.Black.copy(alpha = 0.62f)
                     )
                 )
         )
