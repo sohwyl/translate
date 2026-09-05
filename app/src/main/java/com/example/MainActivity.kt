@@ -7,7 +7,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -17,6 +20,7 @@ import com.example.billing.BazaarBillingManager
 import com.example.security.EncryptedStorageHelper
 import com.example.ui.navigation.AppNavHost
 import com.example.ui.navigation.Screen
+import com.example.ui.splash.SplashScreen
 import com.example.ui.theme.IraqiArabicTranslatorTheme
 import com.example.ui.viewmodel.MainViewModel
 
@@ -58,6 +62,10 @@ class MainActivity : ComponentActivity() {
             val speakingPhraseId by mainViewModel.speakingPhraseId.collectAsStateWithLifecycle()
             val showFavoriteLimitDialog by mainViewModel.showFavoriteLimitDialog.collectAsStateWithLifecycle()
             val playbackSpeed by mainViewModel.playbackSpeed.collectAsStateWithLifecycle()
+
+            // Shown briefly on every launch (cold start of this Activity), regardless
+            // of onboarding/login state — a full-screen animated brand moment.
+            var showSplash by remember { mutableStateOf(true) }
 
             // Initialize Cafe Bazaar Billing Manager on Activity launch
             LaunchedEffect(Unit) {
@@ -105,6 +113,7 @@ class MainActivity : ComponentActivity() {
             val navController = rememberNavController()
             val startDestination = if (onboardingCompleted) Screen.Main.route else Screen.Onboarding.route
 
+            Box(modifier = Modifier.fillMaxSize()) {
             // RTL layout direction for Persian and Arabic
             CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
                 IraqiArabicTranslatorTheme(darkTheme = darkTheme) {
@@ -220,6 +229,11 @@ class MainActivity : ComponentActivity() {
                         onResetOnboarding = { mainViewModel.resetOnboarding() },
                         onResetSettingsOnly = { mainViewModel.resetSettingsOnly() }
                     )
+                }
+            }
+
+                if (showSplash) {
+                    SplashScreen(onFinished = { showSplash = false })
                 }
             }
         }
