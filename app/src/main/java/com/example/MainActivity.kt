@@ -7,10 +7,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.animation.Crossfade
+import androidx.compose.animation.core.tween
 import androidx.compose.runtime.*
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -113,7 +112,17 @@ class MainActivity : ComponentActivity() {
             val navController = rememberNavController()
             val startDestination = if (onboardingCompleted) Screen.Main.route else Screen.Onboarding.route
 
-            Box(modifier = Modifier.fillMaxSize()) {
+            // Crossfade so the app content is never composed (and can never
+            // flash on screen) until the splash has actually finished; the
+            // fade itself is what visually bridges the two.
+            Crossfade(
+                targetState = showSplash,
+                animationSpec = tween(durationMillis = 550),
+                label = "splash_crossfade"
+            ) { splashVisible ->
+                if (splashVisible) {
+                    SplashScreen(onFinished = { showSplash = false })
+                } else {
             // RTL layout direction for Persian and Arabic
             CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
                 IraqiArabicTranslatorTheme(darkTheme = darkTheme) {
@@ -231,9 +240,6 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
-
-                if (showSplash) {
-                    SplashScreen(onFinished = { showSplash = false })
                 }
             }
         }

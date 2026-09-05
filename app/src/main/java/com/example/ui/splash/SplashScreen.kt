@@ -1,7 +1,9 @@
 package com.example.ui.splash
 
+import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
@@ -11,6 +13,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
@@ -24,7 +27,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.material3.Text
 import com.example.R
 import com.example.ui.theme.GoldenAmber
 import com.example.ui.theme.LalezarFontFamily
@@ -33,51 +35,61 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 /**
- * Full-screen animated brand moment shown for ~3 seconds on every cold start
- * of the app, before the real content underneath (already composing) is
- * revealed. Mirrors the "splash artwork + name/tagline card" pattern used by
- * most modern, polished apps.
+ * A gentle "ease-out" reveal curve (fast start, long soft settle) — used for
+ * the zoom-out / pan-in so the shot feels like a camera arriving and settling
+ * on the scene, rather than a flat, static zoom.
+ */
+private val RevealEasing = CubicBezierEasing(0.16f, 1f, 0.3f, 1f)
+
+/**
+ * Full-screen animated brand moment shown for ~5 seconds on every cold start
+ * of the app, before the real content underneath is revealed (the caller is
+ * responsible for not composing that content until [onFinished] fires — see
+ * MainActivity's Crossfade — so there is never a frame where anything but
+ * this splash is visible).
  */
 @Composable
 fun SplashScreen(onFinished: () -> Unit) {
-    // Slow continuous "Ken Burns" zoom on the artwork for a living, cinematic feel.
-    val imageScale = remember { Animatable(1f) }
-    // Fade-in of the artwork itself.
+    // Reveal: starts zoomed in + off-center on the shrine, then zooms out and
+    // settles into the full framed shot — a proper "arrival" instead of a
+    // static image that's already fully visible from frame one.
+    val revealScale = remember { Animatable(1.42f) }
+    val revealOffsetXDp = remember { Animatable(48f) }
+    val revealOffsetYDp = remember { Animatable(-70f) }
+
+    // Quick opacity fade so the very first frame isn't a hard pop-in.
     val imageAlpha = remember { Animatable(0f) }
-    // Caption card: fades in and settles upward slightly after the artwork appears.
+
+    // Caption card: fades in and settles upward slightly once the scene has revealed itself.
     val captionAlpha = remember { Animatable(0f) }
     val captionOffsetY = remember { Animatable(18f) }
-    // Whole-screen fade-out used to cross-fade into the app content underneath.
-    val exitAlpha = remember { Animatable(1f) }
 
     LaunchedEffect(Unit) {
-        launch {
-            imageAlpha.animateTo(1f, animationSpec = tween(650, easing = FastOutSlowInEasing))
-        }
-        launch {
-            imageScale.animateTo(1.09f, animationSpec = tween(3200, easing = LinearOutSlowInEasing))
-        }
+        launch { imageAlpha.animateTo(1f, animationSpec = tween(300, easing = LinearEasing)) }
+        launch { revealScale.animateTo(1f, animationSpec = tween(3000, easing = RevealEasing)) }
+        launch { revealOffsetXDp.animateTo(0f, animationSpec = tween(3000, easing = RevealEasing)) }
+        launch { revealOffsetYDp.animateTo(0f, animationSpec = tween(3000, easing = RevealEasing)) }
 
-        delay(500)
+        delay(1200)
+        launch { captionAlpha.animateTo(1f, animationSpec = tween(600, easing = FastOutSlowInEasing)) }
+        launch { captionOffsetY.animateTo(0f, animationSpec = tween(600, easing = FastOutSlowInEasing)) }
 
-        launch {
-            captionAlpha.animateTo(1f, animationSpec = tween(550, easing = FastOutSlowInEasing))
-        }
-        launch {
-            captionOffsetY.animateTo(0f, animationSpec = tween(550, easing = FastOutSlowInEasing))
-        }
+        delay(1800) // now ~3000ms elapsed: the reveal has fully settled
 
-        // Total time the splash stays fully visible before it starts dismissing.
-        delay(2500)
+        // Ambient continued life while the caption holds — a slow, barely
+        // perceptible push-in, so the frame never feels frozen.
+        revealScale.animateTo(1.045f, animationSpec = tween(1500, easing = LinearOutSlowInEasing))
 
-        exitAlpha.animateTo(0f, animationSpec = tween(450, easing = FastOutSlowInEasing))
+        // ~4500ms elapsed; the caller's own crossfade covers the final ~0.5s.
         onFinished()
     }
 
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .graphicsLayer { alpha = exitAlpha.value }
+            // Opaque backdrop from frame zero so nothing underneath can ever
+            // show through while the artwork itself is still fading in.
+            .background(Color(0xFF201A14))
     ) {
         Image(
             painter = painterResource(R.drawable.img_splash_maseer_arbaeen),
@@ -87,18 +99,22 @@ fun SplashScreen(onFinished: () -> Unit) {
                 .fillMaxSize()
                 .graphicsLayer {
                     alpha = imageAlpha.value
-                    scaleX = imageScale.value
-                    scaleY = imageScale.value
+                    scaleX = revealScale.value
+                    scaleY = revealScale.value
+                    translationX = revealOffsetXDp.value.dp.toPx()
+                    translationY = revealOffsetYDp.value.dp.toPx()
                 }
         )
 
-        // Bottom scrim so the caption stays legible over any part of the artwork.
+        // Darkening scrim across the whole frame so the caption (and the
+        // artwork's own embedded text) stays legible, a bit heavier at the bottom.
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
-                        0.55f to Color.Transparent,
+                        0f to Color.Black.copy(alpha = 0.22f),
+                        0.55f to Color.Black.copy(alpha = 0.12f),
                         1f to Color.Black.copy(alpha = 0.72f)
                     )
                 )
