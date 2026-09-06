@@ -22,20 +22,24 @@ run {
     }
     gradle.buildFinished {
         if (this.failure != null) {
-            val lines = ciErrorBuffer.toString().lines()
+            val full = ciErrorBuffer.toString()
+            val lines = full.lines()
             val relevant = lines.filter { l ->
-                l.contains("error:") || l.trimStart().startsWith("e:") || l.contains("Unresolved reference") || l.contains("unresolved reference")
+                val lower = l.lowercase()
+                lower.contains("error:") || l.trimStart().startsWith("e:") ||
+                    lower.contains("unresolved reference") || lower.contains("failed") ||
+                    lower.contains("exception") || lower.contains("aapt") || lower.contains("caused by")
             }
             relevant.take(80).forEach { l ->
                 val clean = l.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
                 println("::error::$clean")
             }
-            if (relevant.isEmpty()) {
-                println("::error::CI-DIAG: no matched error lines; bufferSize=${ciErrorBuffer.length}; failure=${this.failure?.message?.take(500)}")
-                // Dump a chunk of the raw buffer tail so we at least see *something*.
-                val tail = ciErrorBuffer.toString().takeLast(3000)
-                    .replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
-                println("::error::CI-DIAG-TAIL: $tail")
+            // Always also dump a raw tail chunk, split into pieces, so nothing is missed
+            // even if the keyword filter above doesn't match this failure's wording.
+            val tail = full.takeLast(6000)
+            tail.chunked(900).forEachIndexed { i, chunk ->
+                val clean = chunk.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+                println("::error::CI-DIAG-TAIL-$i: $clean")
             }
         }
     }
