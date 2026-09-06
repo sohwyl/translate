@@ -73,7 +73,7 @@ private fun glassTextStyle(
     fontSize: TextUnit,
     fontWeight: FontWeight = FontWeight.Normal,
     color: Color = Color.White,
-    textAlign: TextAlign? = null,
+    textAlign: TextAlign = TextAlign.Unspecified,
     lineHeight: TextUnit = TextUnit.Unspecified
 ): TextStyle = TextStyle(
     fontSize = fontSize,
