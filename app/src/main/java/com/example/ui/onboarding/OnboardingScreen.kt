@@ -13,10 +13,14 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Category
+import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Groups
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Nightlight
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Speed
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material.icons.filled.Tune
 import androidx.compose.material.icons.filled.VolumeUp
@@ -27,12 +31,16 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.R
@@ -43,17 +51,53 @@ import com.example.ui.components.StaggeredEntrance
 import com.example.ui.theme.*
 import com.example.ui.utils.toPersianDigits
 
+/**
+ * Shared "liquid glass" styling for the 3 video-background onboarding steps.
+ * Deliberately theme-agnostic (no isDarkTheme branching) — the point is that
+ * the user shouldn't see the app's own light/dark theme yet on these steps.
+ */
+private val GlassBorder = Color.White.copy(alpha = 0.42f)
+private val GlassTextShadow = Shadow(color = Color.Black.copy(alpha = 0.6f), offset = Offset(0f, 2f), blurRadius = 12f)
+
+private fun Modifier.glassPanel(cornerRadius: Dp = 20.dp, borderAlpha: Float = 0.42f): Modifier = this
+    .clip(RoundedCornerShape(cornerRadius))
+    .background(
+        Brush.linearGradient(
+            colors = listOf(Color.White.copy(alpha = 0.22f), Color.White.copy(alpha = 0.08f))
+        )
+    )
+    .border(1.dp, Color.White.copy(alpha = borderAlpha), RoundedCornerShape(cornerRadius))
+
+private fun glassTextStyle(
+    fontSize: TextUnit,
+    fontWeight: FontWeight = FontWeight.Normal,
+    color: Color = Color.White,
+    textAlign: TextAlign? = null,
+    lineHeight: TextUnit = TextUnit.Unspecified
+): TextStyle = TextStyle(
+    fontSize = fontSize,
+    fontWeight = fontWeight,
+    color = color,
+    textAlign = textAlign,
+    lineHeight = lineHeight,
+    shadow = GlassTextShadow
+)
+
 @Composable
 fun OnboardingScreen(
     initialRole: String,
     initialDarkTheme: Boolean,
     initialLargeText: Boolean,
-    onFinishOnboarding: (role: String, darkTheme: Boolean, largeText: Boolean) -> Unit
+    onFinishOnboarding: (role: String, darkTheme: Boolean, largeText: Boolean, playbackSpeed: Float) -> Unit
 ) {
     var step by remember { mutableIntStateOf(1) }
     var selectedRole by remember { mutableStateOf(initialRole) }
     var isDarkTheme by remember { mutableStateOf(initialDarkTheme) }
     var isLargeText by remember { mutableStateOf(initialLargeText) }
+    var selectedPlaybackSpeed by remember { mutableFloatStateOf(1.0f) }
+
+    val totalSteps = 4
+    val isGlassStep = step <= 3 // steps 1-3: video bg + glass chrome, no app theme revealed yet
 
     val videoResId = remember(step) {
         when (step) {
@@ -63,9 +107,7 @@ fun OnboardingScreen(
         }
     }
 
-    OnboardingVideoBackground(
-        videoResId = videoResId
-    ) {
+    val scaffold: @Composable () -> Unit = {
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -88,16 +130,19 @@ fun OnboardingScreen(
                     horizontalArrangement = Arrangement.spacedBy(6.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    repeat(3) { index ->
+                    repeat(totalSteps) { index ->
                         val isActive = (index + 1) == step
+                        val inactiveColor = if (isGlassStep) {
+                            Color.White.copy(alpha = 0.35f)
+                        } else {
+                            if (isDarkTheme) Color(0xFF1E3A2E) else Color(0xFFD6CFC0)
+                        }
                         Box(
                             modifier = Modifier
                                 .height(5.dp)
                                 .width(if (isActive) 26.dp else 7.dp)
                                 .clip(CircleShape)
-                                .background(
-                                    if (isActive) GoldenAmber else (if (isDarkTheme) Color(0xFF1E3A2E) else Color(0xFFD6CFC0))
-                                )
+                                .background(if (isActive) GoldenAmber else inactiveColor)
                         )
                     }
                 }
@@ -105,22 +150,26 @@ fun OnboardingScreen(
                 if (step == 1) {
                     TextButton(
                         onClick = {
-                            onFinishOnboarding(selectedRole, isDarkTheme, isLargeText)
+                            onFinishOnboarding(selectedRole, isDarkTheme, isLargeText, selectedPlaybackSpeed)
                         }
                     ) {
                         Text(
                             text = "رد کردن",
-                            fontSize = 14.sp,
-                            fontWeight = FontWeight.Medium,
-                            color = if (isDarkTheme) GoldenAmber else GoldenAmberDark
+                            style = glassTextStyle(fontSize = 14.sp, fontWeight = FontWeight.Medium, color = GoldenAmber)
                         )
                     }
                 } else {
                     Text(
-                        text = "${step.toPersianDigits()} از ۳",
-                        fontSize = 13.sp,
-                        fontWeight = FontWeight.Medium,
-                        color = if (isDarkTheme) GoldenAmber else GoldenAmberDark
+                        text = "${step.toPersianDigits()} از ${totalSteps.toPersianDigits()}",
+                        style = if (isGlassStep) {
+                            glassTextStyle(fontSize = 13.sp, fontWeight = FontWeight.Medium, color = GoldenAmber)
+                        } else {
+                            TextStyle(
+                                fontSize = 13.sp,
+                                fontWeight = FontWeight.Medium,
+                                color = if (isDarkTheme) GoldenAmber else GoldenAmberDark
+                            )
+                        }
                     )
                 }
             }
@@ -141,13 +190,16 @@ fun OnboardingScreen(
                 label = "onboarding_step"
             ) { currentStep ->
                 when (currentStep) {
-                    1 -> Step1WelcomeContent(isDarkTheme)
+                    1 -> Step1WelcomeContent()
                     2 -> Step2RoleContent(
                         selectedRole = selectedRole,
-                        isDarkTheme = isDarkTheme,
                         onRoleSelect = { selectedRole = it }
                     )
-                    3 -> Step3SettingsContent(
+                    3 -> Step3AudioSpeedContent(
+                        selectedSpeed = selectedPlaybackSpeed,
+                        onSpeedSelect = { selectedPlaybackSpeed = it }
+                    )
+                    4 -> Step4SettingsContent(
                         isDarkTheme = isDarkTheme,
                         isLargeText = isLargeText,
                         onDarkThemeToggle = { isDarkTheme = it },
@@ -178,7 +230,7 @@ fun OnboardingScreen(
                     )
                 }
             } else {
-                // Step 2 & 3: Back button + Large Continue button
+                // Step 2, 3 & 4: Back button + Large Continue button
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
@@ -193,13 +245,21 @@ fun OnboardingScreen(
                         modifier = Modifier
                             .size(54.dp)
                             .clip(CircleShape)
-                            .border(1.2.dp, if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0), CircleShape)
-                            .background(if (isDarkTheme) Color(0xFF0F2B20) else Color(0xFFFAF6EE))
+                            .then(
+                                if (isGlassStep) {
+                                    Modifier
+                                        .glassPanel(cornerRadius = 27.dp)
+                                } else {
+                                    Modifier
+                                        .border(1.2.dp, if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0), CircleShape)
+                                        .background(if (isDarkTheme) Color(0xFF0F2B20) else Color(0xFFFAF6EE))
+                                }
+                            )
                     ) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                             contentDescription = "قبلی",
-                            tint = if (isDarkTheme) GoldenAmber else GoldenAmberDark,
+                            tint = if (isGlassStep) GoldenAmber else (if (isDarkTheme) GoldenAmber else GoldenAmberDark),
                             modifier = Modifier.size(22.dp)
                         )
                     }
@@ -208,10 +268,10 @@ fun OnboardingScreen(
                     // on the left, matching forward progress in RTL reading order.
                     Button(
                         onClick = {
-                            if (step < 3) {
+                            if (step < totalSteps) {
                                 step++
                             } else {
-                                onFinishOnboarding(selectedRole, isDarkTheme, isLargeText)
+                                onFinishOnboarding(selectedRole, isDarkTheme, isLargeText, selectedPlaybackSpeed)
                             }
                         },
                         modifier = Modifier
@@ -223,7 +283,7 @@ fun OnboardingScreen(
                         shape = RoundedCornerShape(27.dp)
                     ) {
                         Text(
-                            text = if (step == 3) "شروع برنامه" else "ادامه",
+                            text = if (step == totalSteps) "شروع برنامه" else "ادامه",
                             fontSize = 16.sp,
                             fontWeight = FontWeight.Bold,
                             color = DarkEmeraldBg
@@ -233,10 +293,24 @@ fun OnboardingScreen(
             }
         }
     }
+
+    if (isGlassStep) {
+        OnboardingVideoBackground(videoResId = videoResId) {
+            scaffold()
+        }
+    } else {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(if (isDarkTheme) DarkEmeraldBg else LightCreamBg)
+        ) {
+            scaffold()
+        }
+    }
 }
 
 @Composable
-private fun Step1WelcomeContent(isDarkTheme: Boolean) {
+private fun Step1WelcomeContent() {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -264,11 +338,13 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
         StaggeredEntrance(key = "step1_title", index = 1) {
             Text(
                 text = "به مترجم عربی عراقی\nخوش آمدید",
-                fontSize = 23.sp,
-                fontWeight = FontWeight.Bold,
-                color = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight,
-                textAlign = TextAlign.Center,
-                lineHeight = 32.sp
+                style = glassTextStyle(
+                    fontSize = 23.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White,
+                    textAlign = TextAlign.Center,
+                    lineHeight = 32.sp
+                )
             )
         }
 
@@ -277,26 +353,28 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
         StaggeredEntrance(key = "step1_desc", index = 2) {
             Text(
                 text = "بیش از ۱۰۰۰ عبارت کاربردی در مسیر پیاده‌روی اربعین همراه شماست",
-                fontSize = 13.5.sp,
-                color = if (isDarkTheme) GoldenAmber else DayEmerald,
-                textAlign = TextAlign.Center,
-                lineHeight = 22.sp,
+                style = glassTextStyle(
+                    fontSize = 13.5.sp,
+                    color = GoldenAmberLight,
+                    textAlign = TextAlign.Center,
+                    lineHeight = 22.sp
+                ),
                 modifier = Modifier.padding(horizontal = 16.dp)
             )
         }
 
         Spacer(modifier = Modifier.height(28.dp))
 
-        // 6 feature cards in a 3x2 grid
+        // 6 feature cards in a 3x2 grid, liquid-glass style
         StaggeredEntrance(key = "step1_badges_row1", index = 3) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceEvenly,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                FeatureBadge(icon = Icons.Default.Search, label = "جستجوی هوشمند", isDarkTheme = isDarkTheme)
-                FeatureBadge(icon = Icons.Default.VolumeUp, label = "تلفظ صوتی", isDarkTheme = isDarkTheme)
-                FeatureBadge(icon = Icons.Default.WifiOff, label = "کاملاً آفلاین", isDarkTheme = isDarkTheme)
+                FeatureBadge(icon = Icons.Default.Search, label = "جستجوی هوشمند")
+                FeatureBadge(icon = Icons.Default.VolumeUp, label = "تلفظ صوتی")
+                FeatureBadge(icon = Icons.Default.WifiOff, label = "کاملاً آفلاین")
             }
         }
 
@@ -308,9 +386,9 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
                 horizontalArrangement = Arrangement.SpaceEvenly,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                FeatureBadge(icon = Icons.Default.Translate, label = "عربی و فارسی", isDarkTheme = isDarkTheme)
-                FeatureBadge(icon = Icons.Default.Category, label = "۳۲ دسته‌بندی", isDarkTheme = isDarkTheme)
-                FeatureBadge(icon = Icons.Default.Groups, label = "زائر و موکب‌دار", isDarkTheme = isDarkTheme)
+                FeatureBadge(icon = Icons.Default.Translate, label = "عربی و فارسی")
+                FeatureBadge(icon = Icons.Default.Category, label = "۳۲ دسته‌بندی")
+                FeatureBadge(icon = Icons.Default.Groups, label = "زائر و موکب‌دار")
             }
         }
     }
@@ -319,28 +397,13 @@ private fun Step1WelcomeContent(isDarkTheme: Boolean) {
 @Composable
 private fun FeatureBadge(
     icon: androidx.compose.ui.graphics.vector.ImageVector,
-    label: String,
-    isDarkTheme: Boolean
+    label: String
 ) {
     Box(
         modifier = Modifier
             .width(96.dp)
             .height(92.dp)
-            .clip(RoundedCornerShape(18.dp))
-            .background(
-                Brush.verticalGradient(
-                    colors = if (isDarkTheme) {
-                        listOf(Color(0xFF123626), Color(0xFF0C271C))
-                    } else {
-                        listOf(LightCreamSurface, Color(0xFFEFE8D8))
-                    }
-                )
-            )
-            .border(
-                1.dp,
-                if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0),
-                RoundedCornerShape(18.dp)
-            )
+            .glassPanel(cornerRadius = 18.dp)
             .padding(8.dp),
         contentAlignment = Alignment.Center
     ) {
@@ -352,26 +415,27 @@ private fun FeatureBadge(
                 modifier = Modifier
                     .size(38.dp)
                     .clip(CircleShape)
-                    .background(
-                        if (isDarkTheme) GoldenAmber.copy(alpha = 0.16f) else GoldenAmberDark.copy(alpha = 0.12f)
-                    ),
+                    .background(Color.White.copy(alpha = 0.24f))
+                    .border(1.dp, Color.White.copy(alpha = 0.4f), CircleShape),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
                     imageVector = icon,
                     contentDescription = label,
-                    tint = if (isDarkTheme) GoldenAmber else GoldenAmberDark,
+                    tint = GoldenAmberLight,
                     modifier = Modifier.size(20.dp)
                 )
             }
             Spacer(modifier = Modifier.height(8.dp))
             Text(
                 text = label,
-                fontSize = 11.sp,
-                fontWeight = FontWeight.Medium,
-                color = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight,
-                textAlign = TextAlign.Center,
-                lineHeight = 13.sp
+                style = glassTextStyle(
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.Medium,
+                    color = Color.White,
+                    textAlign = TextAlign.Center,
+                    lineHeight = 13.sp
+                )
             )
         }
     }
@@ -380,7 +444,6 @@ private fun FeatureBadge(
 @Composable
 private fun Step2RoleContent(
     selectedRole: String,
-    isDarkTheme: Boolean,
     onRoleSelect: (String) -> Unit
 ) {
     Column(
@@ -393,10 +456,7 @@ private fun Step2RoleContent(
         StaggeredEntrance(key = "step2_title", index = 0) {
             Text(
                 text = "شما در چه وضعیتی هستید؟",
-                fontSize = 22.sp,
-                fontWeight = FontWeight.Bold,
-                color = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight,
-                textAlign = TextAlign.Center
+                style = glassTextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
             )
         }
 
@@ -405,9 +465,7 @@ private fun Step2RoleContent(
         StaggeredEntrance(key = "step2_desc", index = 1) {
             Text(
                 text = "برای تنظیم بهترین مکالمات، نقش خود را در مسیر انتخاب کنید:",
-                fontSize = 13.sp,
-                color = if (isDarkTheme) TextSecondaryDark else TextSecondaryLight,
-                textAlign = TextAlign.Center,
+                style = glassTextStyle(fontSize = 13.sp, color = GoldenAmberLight, textAlign = TextAlign.Center),
                 modifier = Modifier.padding(horizontal = 12.dp)
             )
         }
@@ -422,7 +480,6 @@ private fun Step2RoleContent(
                 description = "نیاز به صحبت با موکب‌داران، رانندگان و پزشکان عراقی دارم.",
                 imageResId = R.drawable.img_pilgrim_avatar,
                 isSelected = isPilgrim,
-                isDarkTheme = isDarkTheme,
                 onClick = { onRoleSelect(UserPreferences.ROLE_PILGRIM) }
             )
         }
@@ -437,12 +494,12 @@ private fun Step2RoleContent(
                 description = "نیاز به راهنمایی و پذیرایی از زائران عراقی و عرب‌زبان دارم.",
                 imageResId = R.drawable.img_mokeb_host_avatar,
                 isSelected = isMokeb,
-                isDarkTheme = isDarkTheme,
                 onClick = { onRoleSelect(UserPreferences.ROLE_MOKEB_OWNER) }
             )
         }
     }
 }
+
 
 @Composable
 private fun RolePhotoCard(
@@ -450,23 +507,27 @@ private fun RolePhotoCard(
     description: String,
     imageResId: Int,
     isSelected: Boolean,
-    isDarkTheme: Boolean,
     onClick: () -> Unit
 ) {
-    Card(
+    Box(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(22.dp))
+            .background(
+                Brush.linearGradient(
+                    colors = if (isSelected) {
+                        listOf(GoldenAmber.copy(alpha = 0.32f), GoldenAmber.copy(alpha = 0.14f))
+                    } else {
+                        listOf(Color.White.copy(alpha = 0.20f), Color.White.copy(alpha = 0.07f))
+                    }
+                )
+            )
             .border(
                 if (isSelected) 1.8.dp else 1.dp,
-                if (isSelected) GoldenAmber else (if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFD6CFC0)),
+                if (isSelected) GoldenAmberLight else Color.White.copy(alpha = 0.40f),
                 RoundedCornerShape(22.dp)
             )
-            .clickable { onClick() },
-        colors = CardDefaults.cardColors(
-            containerColor = if (isDarkTheme) Color(0xFF0F2E22) else LightCreamSurface
-        ),
-        shape = RoundedCornerShape(22.dp)
+            .clickable { onClick() }
     ) {
         Row(
             modifier = Modifier
@@ -481,7 +542,7 @@ private fun RolePhotoCard(
                     .size(24.dp)
                     .clip(CircleShape)
                     .background(if (isSelected) GoldenAmber else Color.Transparent)
-                    .border(1.5.dp, if (isSelected) GoldenAmber else TextMutedDark, CircleShape),
+                    .border(1.5.dp, if (isSelected) GoldenAmber else Color.White.copy(alpha = 0.6f), CircleShape),
                 contentAlignment = Alignment.Center
             ) {
                 if (isSelected) {
@@ -504,16 +565,12 @@ private fun RolePhotoCard(
             ) {
                 Text(
                     text = title,
-                    fontSize = 15.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight
+                    style = glassTextStyle(fontSize = 15.sp, fontWeight = FontWeight.Bold, color = Color.White)
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
                     text = description,
-                    fontSize = 11.5.sp,
-                    color = if (isDarkTheme) TextSecondaryDark else TextSecondaryLight,
-                    lineHeight = 17.sp
+                    style = glassTextStyle(fontSize = 11.5.sp, color = Color(0xFFEFEAE0), lineHeight = 17.sp)
                 )
             }
 
@@ -522,8 +579,8 @@ private fun RolePhotoCard(
                 modifier = Modifier
                     .size(76.dp)
                     .clip(RoundedCornerShape(18.dp))
-                    .background(if (isDarkTheme) Color(0xFF173E2F) else Color(0xFFE2DDD1))
-                    .border(1.dp, if (isSelected) GoldenAmber else Color.Transparent, RoundedCornerShape(18.dp))
+                    .background(Color.White.copy(alpha = 0.18f))
+                    .border(1.dp, if (isSelected) GoldenAmberLight else Color.White.copy(alpha = 0.35f), RoundedCornerShape(18.dp))
             ) {
                 Image(
                     painter = painterResource(id = imageResId),
@@ -536,8 +593,133 @@ private fun RolePhotoCard(
     }
 }
 
+
 @Composable
-private fun Step3SettingsContent(
+private fun Step3AudioSpeedContent(
+    selectedSpeed: Float,
+    onSpeedSelect: (Float) -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(horizontal = 6.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        StaggeredEntrance(key = "step3_emblem", index = 0) {
+            Box(
+                modifier = Modifier
+                    .size(86.dp)
+                    .clip(CircleShape)
+                    .glassPanel(cornerRadius = 43.dp),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Speed,
+                    contentDescription = null,
+                    tint = GoldenAmberLight,
+                    modifier = Modifier.size(38.dp)
+                )
+            }
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        StaggeredEntrance(key = "step3_title", index = 1) {
+            Text(
+                text = "سرعت پخش صدا را انتخاب کنید",
+                style = glassTextStyle(fontSize = 21.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
+            )
+        }
+
+        Spacer(modifier = Modifier.height(6.dp))
+
+        StaggeredEntrance(key = "step3_desc", index = 2) {
+            Text(
+                text = "تلفظ عراقی گویندگان را با سرعتی که برایتان راحت‌تر است بشنوید. این را هر زمان از تنظیمات هم می‌توانید تغییر دهید.",
+                style = glassTextStyle(fontSize = 12.5.sp, color = GoldenAmberLight, textAlign = TextAlign.Center, lineHeight = 19.sp),
+                modifier = Modifier.padding(horizontal = 10.dp)
+            )
+        }
+
+        Spacer(modifier = Modifier.height(28.dp))
+
+        val speedOptions = listOf(
+            0.75f to Triple("آهسته", "برای یادگیری دقیق‌تر", "۰.۷۵×"),
+            1.0f to Triple("عادی", "سرعت طبیعی گفتار", "۱.۰×"),
+            1.25f to Triple("تند", "برای مرور سریع‌تر", "۱.۲۵×"),
+            1.5f to Triple("خیلی تند", "برای گوش‌های حرفه‌ای", "۱.۵×")
+        )
+
+        speedOptions.forEachIndexed { i, (speedValue, labels) ->
+            val (title, subtitle, badge) = labels
+            val isSelected = kotlin.math.abs(selectedSpeed - speedValue) < 0.01f
+            StaggeredEntrance(key = "step3_speed_$i", index = 3 + i) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 12.dp)
+                        .clip(RoundedCornerShape(16.dp))
+                        .background(
+                            Brush.linearGradient(
+                                colors = if (isSelected) {
+                                    listOf(GoldenAmber.copy(alpha = 0.34f), GoldenAmber.copy(alpha = 0.14f))
+                                } else {
+                                    listOf(Color.White.copy(alpha = 0.18f), Color.White.copy(alpha = 0.06f))
+                                }
+                            )
+                        )
+                        .border(
+                            if (isSelected) 1.8.dp else 1.dp,
+                            if (isSelected) GoldenAmberLight else Color.White.copy(alpha = 0.38f),
+                            RoundedCornerShape(16.dp)
+                        )
+                        .clickable { onSpeedSelect(speedValue) }
+                        .padding(horizontal = 16.dp, vertical = 14.dp),
+                    contentAlignment = Alignment.CenterStart
+                ) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .size(24.dp)
+                                .clip(CircleShape)
+                                .background(if (isSelected) GoldenAmber else Color.Transparent)
+                                .border(1.5.dp, if (isSelected) GoldenAmber else Color.White.copy(alpha = 0.6f), CircleShape),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            if (isSelected) {
+                                Icon(
+                                    imageVector = Icons.Default.Check,
+                                    contentDescription = null,
+                                    tint = DarkEmeraldBg,
+                                    modifier = Modifier.size(15.dp)
+                                )
+                            }
+                        }
+
+                        Column(
+                            modifier = Modifier
+                                .weight(1f)
+                                .padding(horizontal = 12.dp)
+                        ) {
+                            Text(text = title, style = glassTextStyle(fontSize = 15.sp, fontWeight = FontWeight.Bold, color = Color.White))
+                            Text(text = subtitle, style = glassTextStyle(fontSize = 11.sp, color = Color(0xFFEFEAE0)))
+                        }
+
+                        Text(text = badge, style = glassTextStyle(fontSize = 14.sp, fontWeight = FontWeight.Bold, color = GoldenAmberLight))
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun Step4SettingsContent(
     isDarkTheme: Boolean,
     isLargeText: Boolean,
     onDarkThemeToggle: (Boolean) -> Unit,
@@ -550,7 +732,7 @@ private fun Step3SettingsContent(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        StaggeredEntrance(key = "step3_emblem", index = 0) {
+        StaggeredEntrance(key = "step4_emblem", index = 0) {
             Box(
                 modifier = Modifier
                     .size(86.dp)
@@ -570,7 +752,7 @@ private fun Step3SettingsContent(
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        StaggeredEntrance(key = "step3_title", index = 1) {
+        StaggeredEntrance(key = "step4_title", index = 1) {
             Text(
                 text = "برنامه را برای خود آماده کنید",
                 fontSize = 21.sp,
@@ -582,7 +764,7 @@ private fun Step3SettingsContent(
 
         Spacer(modifier = Modifier.height(6.dp))
 
-        StaggeredEntrance(key = "step3_desc", index = 2) {
+        StaggeredEntrance(key = "step4_desc", index = 2) {
             Text(
                 text = "این تنظیمات را می‌توانید هر زمان از بخش تنظیمات تغییر دهید.",
                 fontSize = 12.sp,
@@ -591,9 +773,15 @@ private fun Step3SettingsContent(
             )
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(18.dp))
 
-        StaggeredEntrance(key = "step3_card1", index = 3) {
+        StaggeredEntrance(key = "step4_preview", index = 3) {
+            AppThemeMockup(isDarkTheme = isDarkTheme, isLargeText = isLargeText)
+        }
+
+        Spacer(modifier = Modifier.height(14.dp))
+
+        StaggeredEntrance(key = "step4_card1", index = 4) {
             // Section 1: Theme Select
             Card(
                 modifier = Modifier
@@ -676,7 +864,7 @@ private fun Step3SettingsContent(
 
         Spacer(modifier = Modifier.height(14.dp))
 
-        StaggeredEntrance(key = "step3_card2", index = 4) {
+        StaggeredEntrance(key = "step4_card2", index = 5) {
             // Section 2: Large Text Toggle
             Card(
                 modifier = Modifier
@@ -719,34 +907,106 @@ private fun Step3SettingsContent(
                             )
                         )
                     }
+                }
+            }
+        }
+    }
+}
 
-                    Spacer(modifier = Modifier.height(10.dp))
+/**
+ * A tiny "phone screen" mockup that renders a stylized miniature of the app's
+ * own real UI (header, sample phrase rows, bottom nav) in the theme the user
+ * is currently choosing — so the choice is concrete, not abstract.
+ */
+@Composable
+private fun AppThemeMockup(isDarkTheme: Boolean, isLargeText: Boolean) {
+    val screenBg = if (isDarkTheme) DarkEmeraldBg else LightCreamBg
+    val cardBg = if (isDarkTheme) Color(0xFF0F2E22) else Color(0xFFFFFFFF)
+    val cardBorder = if (isDarkTheme) DarkEmeraldCardBorder else Color(0xFFE1DACB)
+    val titleColor = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight
+    val subColor = if (isDarkTheme) TextSecondaryDark else TextSecondaryLight
 
-                    // Live Preview Box
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clip(RoundedCornerShape(12.dp))
-                            .background(if (isDarkTheme) Color(0xFF091F17) else Color(0xFFEFE8D8))
-                            .border(0.5.dp, if (isDarkTheme) Color(0xFF1B4031) else Color(0xFFDECDB7), RoundedCornerShape(12.dp))
-                            .padding(10.dp),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text(
-                                text = "السَّلاَمُ عَلَيْكُمْ",
-                                fontSize = if (isLargeText) 23.sp else 18.sp,
-                                fontWeight = FontWeight.Bold,
-                                color = GoldenAmber
-                            )
-                            Spacer(modifier = Modifier.height(3.dp))
-                            Text(
-                                text = "سلام و درود بر شما",
-                                fontSize = if (isLargeText) 14.sp else 12.sp,
-                                color = if (isDarkTheme) TextPrimaryDark else TextPrimaryLight
-                            )
-                        }
+    Box(
+        modifier = Modifier
+            .width(220.dp)
+            .height(150.dp)
+            .clip(RoundedCornerShape(20.dp))
+            .background(screenBg)
+            .border(2.dp, GoldenAmber.copy(alpha = 0.55f), RoundedCornerShape(20.dp))
+            .padding(10.dp)
+    ) {
+        Column(modifier = Modifier.fillMaxSize()) {
+            // Mini header bar
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(16.dp)
+                        .clip(CircleShape)
+                        .background(GoldenAmber)
+                )
+                Spacer(modifier = Modifier.width(6.dp))
+                Text(text = "مترجم عربی عراقی", fontSize = 9.sp, fontWeight = FontWeight.Bold, color = titleColor)
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            // Two mini phrase rows
+            repeat(2) { i ->
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 6.dp)
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(cardBg)
+                        .border(0.5.dp, cardBorder, RoundedCornerShape(8.dp))
+                        .padding(horizontal = 8.dp, vertical = 6.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Column {
+                        Text(
+                            text = if (i == 0) "شُكراً" else "مِن فَضْلِك",
+                            fontSize = if (isLargeText) 12.sp else 10.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = GoldenAmber
+                        )
+                        Text(
+                            text = if (i == 0) "متشکرم" else "لطفاً",
+                            fontSize = if (isLargeText) 9.sp else 7.5.sp,
+                            color = subColor
+                        )
                     }
+                    Icon(
+                        imageVector = Icons.Default.VolumeUp,
+                        contentDescription = null,
+                        tint = GoldenAmber,
+                        modifier = Modifier.size(12.dp)
+                    )
+                }
+            }
+
+            Spacer(modifier = Modifier.weight(1f))
+
+            // Mini bottom nav
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(10.dp))
+                    .background(cardBg)
+                    .border(0.5.dp, cardBorder, RoundedCornerShape(10.dp))
+                    .padding(vertical = 5.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                listOf(Icons.Default.Home, Icons.Default.Favorite, Icons.Default.Settings).forEach { icon ->
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        tint = GoldenAmber,
+                        modifier = Modifier.size(13.dp)
+                    )
                 }
             }
         }

@@ -232,8 +232,8 @@ class MainActivity : ComponentActivity() {
                             }
                         },
                         onDismissFavoriteLimitDialog = { mainViewModel.dismissFavoriteLimitDialog() },
-                        onFinishOnboarding = { role, dark, large ->
-                            mainViewModel.completeOnboarding(role, dark, large)
+                        onFinishOnboarding = { role, dark, large, speed ->
+                            mainViewModel.completeOnboarding(role, dark, large, speed)
                         },
                         onResetOnboarding = { mainViewModel.resetOnboarding() },
                         onResetSettingsOnly = { mainViewModel.resetSettingsOnly() }

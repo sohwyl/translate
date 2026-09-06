@@ -65,7 +65,7 @@ fun AppNavHost(
     onStartBazaarPurchase: (() -> Unit)? = null,
     onRestoreBazaarPurchase: (() -> Unit)? = null,
     onDismissFavoriteLimitDialog: () -> Unit,
-    onFinishOnboarding: (role: String, darkTheme: Boolean, largeText: Boolean) -> Unit,
+    onFinishOnboarding: (role: String, darkTheme: Boolean, largeText: Boolean, playbackSpeed: Float) -> Unit,
     onResetOnboarding: () -> Unit,
     onResetSettingsOnly: () -> Unit = {}
 ) {
@@ -102,8 +102,8 @@ fun AppNavHost(
                 initialRole = currentRole,
                 initialDarkTheme = isDarkTheme,
                 initialLargeText = isLargeText,
-                onFinishOnboarding = { role, darkTheme, largeText ->
-                    onFinishOnboarding(role, darkTheme, largeText)
+                onFinishOnboarding = { role, darkTheme, largeText, playbackSpeed ->
+                    onFinishOnboarding(role, darkTheme, largeText, playbackSpeed)
                     navController.navigate(Screen.Main.route) {
                         popUpTo(Screen.Onboarding.route) { inclusive = true }
                     }

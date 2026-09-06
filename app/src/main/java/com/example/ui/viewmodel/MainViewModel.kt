@@ -337,10 +337,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         userPreferences.resetSettingsOnly()
     }
 
-    fun completeOnboarding(role: String, darkTheme: Boolean, largeText: Boolean) {
+    fun completeOnboarding(role: String, darkTheme: Boolean, largeText: Boolean, playbackSpeed: Float = 1.0f) {
         userPreferences.setUserRole(role)
         userPreferences.setDarkTheme(darkTheme)
         userPreferences.setLargeTextEnabled(largeText)
+        userPreferences.setPlaybackSpeed(playbackSpeed)
         userPreferences.setOnboardingCompleted(true)
     }
 
