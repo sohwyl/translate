@@ -13,12 +13,8 @@ plugins {
 run {
     val ciErrorBuffer = StringBuilder()
     gradle.rootProject {
-        allprojects {
-            tasks.configureEach {
-                logging.addStandardErrorListener { msg -> synchronized(ciErrorBuffer) { ciErrorBuffer.append(msg) } }
-                logging.addStandardOutputListener { msg -> synchronized(ciErrorBuffer) { ciErrorBuffer.append(msg) } }
-            }
-        }
+        logging.addStandardErrorListener { msg -> ciErrorBuffer.append(msg) }
+        logging.addStandardOutputListener { msg -> ciErrorBuffer.append(msg) }
     }
     gradle.buildFinished {
         if (this.failure != null) {
@@ -34,8 +30,6 @@ run {
                 val clean = l.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
                 println("::error::$clean")
             }
-            // Always also dump a raw tail chunk, split into pieces, so nothing is missed
-            // even if the keyword filter above doesn't match this failure's wording.
             val tail = full.takeLast(6000)
             tail.chunked(900).forEachIndexed { i, chunk ->
                 val clean = chunk.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
