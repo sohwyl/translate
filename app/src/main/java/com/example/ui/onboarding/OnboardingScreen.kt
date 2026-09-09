@@ -35,7 +35,9 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.graphics.ShaderBrush
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -57,17 +59,60 @@ import com.example.ui.utils.toPersianDigits
  * Deliberately theme-agnostic (no isDarkTheme branching) — the point is that
  * the user shouldn't see the app's own light/dark theme yet on these steps.
  */
-private val GlassBorder = Color.White.copy(alpha = 0.42f)
-private val GlassTextShadow = Shadow(color = Color.Black.copy(alpha = 0.6f), offset = Offset(0f, 2f), blurRadius = 12f)
+private val GlassTextShadow = Shadow(color = Color.Black.copy(alpha = 0.75f), offset = Offset(0f, 2f), blurRadius = 14f)
 
-private fun Modifier.glassPanel(cornerRadius: Dp = 20.dp, borderAlpha: Float = 0.42f): Modifier = this
-    .clip(RoundedCornerShape(cornerRadius))
-    .background(
-        Brush.linearGradient(
-            colors = listOf(Color.White.copy(alpha = 0.22f), Color.White.copy(alpha = 0.08f))
+/**
+ * Subtle tiled grain texture (see res/drawable-nodpi/tex_glass_noise.png) —
+ * the classic "frosted glass" grain that keeps a translucent panel from
+ * looking like a flat, dead rectangle. Cached per-Context.
+ */
+@Composable
+private fun rememberGlassNoiseBrush(): Brush {
+    val context = LocalContext.current
+    return remember {
+        val bitmap = android.graphics.BitmapFactory.decodeResource(context.resources, R.drawable.tex_glass_noise)
+        val shader = android.graphics.BitmapShader(
+            bitmap,
+            android.graphics.Shader.TileMode.REPEAT,
+            android.graphics.Shader.TileMode.REPEAT
         )
-    )
-    .border(1.dp, Color.White.copy(alpha = borderAlpha), RoundedCornerShape(cornerRadius))
+        ShaderBrush(shader)
+    }
+}
+
+/**
+ * Liquid-glass panel: a smoked (darkened) translucent base + subtle grain +
+ * a soft light border. The dark base is what keeps content legible over any
+ * busy video frame — pure bright "glass" alone wasn't enough contrast.
+ */
+@Composable
+private fun Modifier.glassPanel(cornerRadius: Dp = 20.dp, borderAlpha: Float = 0.40f): Modifier {
+    val noiseBrush = rememberGlassNoiseBrush()
+    return this
+        .clip(RoundedCornerShape(cornerRadius))
+        .background(Color.Black.copy(alpha = 0.30f))
+        .background(
+            Brush.linearGradient(
+                colors = listOf(Color.White.copy(alpha = 0.20f), Color.White.copy(alpha = 0.05f))
+            )
+        )
+        .background(brush = noiseBrush, alpha = 0.05f)
+        .border(1.dp, Color.White.copy(alpha = borderAlpha), RoundedCornerShape(cornerRadius))
+}
+
+/**
+ * A minimal dark backdrop (no border/gradient, just enough smoked-glass to
+ * guarantee contrast) for text that floats directly over the video with no
+ * card around it — e.g. headlines and descriptions.
+ */
+@Composable
+private fun Modifier.glassTextBackdrop(cornerRadius: Dp = 16.dp): Modifier {
+    val noiseBrush = rememberGlassNoiseBrush()
+    return this
+        .clip(RoundedCornerShape(cornerRadius))
+        .background(Color.Black.copy(alpha = 0.38f))
+        .background(brush = noiseBrush, alpha = 0.04f)
+}
 
 private fun glassTextStyle(
     fontSize: TextUnit,
@@ -319,49 +364,37 @@ private fun Step1WelcomeContent() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        StaggeredEntrance(key = "step1_emblem", index = 0) {
-            // Elegant Brand Emblem with glowing golden mandala
-            Box(
-                modifier = Modifier.size(160.dp),
-                contentAlignment = Alignment.Center
+        StaggeredEntrance(key = "step1_title", index = 1) {
+            Column(
+                modifier = Modifier
+                    .glassTextBackdrop()
+                    .padding(horizontal = 20.dp, vertical = 14.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
             ) {
-                Icon(
-                    painter = painterResource(R.drawable.ic_brand_emblem),
-                    contentDescription = "نشان برند مترجم عربی عراقی",
-                    tint = Color.Unspecified,
-                    modifier = Modifier.size(156.dp)
+                Text(
+                    text = "به مترجم عربی عراقی\nخوش آمدید",
+                    style = glassTextStyle(
+                        fontSize = 23.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White,
+                        textAlign = TextAlign.Center,
+                        lineHeight = 32.sp
+                    )
+                )
+
+                Spacer(modifier = Modifier.height(10.dp))
+
+                Text(
+                    text = "بیش از ۱۰۰۰ عبارت کاربردی در مسیر پیاده‌روی اربعین همراه شماست",
+                    style = glassTextStyle(
+                        fontSize = 13.5.sp,
+                        color = GoldenAmberLight,
+                        textAlign = TextAlign.Center,
+                        lineHeight = 22.sp
+                    ),
+                    modifier = Modifier.padding(horizontal = 8.dp)
                 )
             }
-        }
-
-        Spacer(modifier = Modifier.height(24.dp))
-
-        StaggeredEntrance(key = "step1_title", index = 1) {
-            Text(
-                text = "به مترجم عربی عراقی\nخوش آمدید",
-                style = glassTextStyle(
-                    fontSize = 23.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = Color.White,
-                    textAlign = TextAlign.Center,
-                    lineHeight = 32.sp
-                )
-            )
-        }
-
-        Spacer(modifier = Modifier.height(12.dp))
-
-        StaggeredEntrance(key = "step1_desc", index = 2) {
-            Text(
-                text = "بیش از ۱۰۰۰ عبارت کاربردی در مسیر پیاده‌روی اربعین همراه شماست",
-                style = glassTextStyle(
-                    fontSize = 13.5.sp,
-                    color = GoldenAmberLight,
-                    textAlign = TextAlign.Center,
-                    lineHeight = 22.sp
-                ),
-                modifier = Modifier.padding(horizontal = 16.dp)
-            )
         }
 
         Spacer(modifier = Modifier.height(28.dp))
@@ -455,20 +488,25 @@ private fun Step2RoleContent(
         verticalArrangement = Arrangement.Center
     ) {
         StaggeredEntrance(key = "step2_title", index = 0) {
-            Text(
-                text = "شما در چه وضعیتی هستید؟",
-                style = glassTextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
-            )
-        }
+            Column(
+                modifier = Modifier
+                    .glassTextBackdrop()
+                    .padding(horizontal = 20.dp, vertical = 12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "شما در چه وضعیتی هستید؟",
+                    style = glassTextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
+                )
 
-        Spacer(modifier = Modifier.height(8.dp))
+                Spacer(modifier = Modifier.height(8.dp))
 
-        StaggeredEntrance(key = "step2_desc", index = 1) {
-            Text(
-                text = "برای تنظیم بهترین مکالمات، نقش خود را در مسیر انتخاب کنید:",
-                style = glassTextStyle(fontSize = 13.sp, color = GoldenAmberLight, textAlign = TextAlign.Center),
-                modifier = Modifier.padding(horizontal = 12.dp)
-            )
+                Text(
+                    text = "برای تنظیم بهترین مکالمات، نقش خود را در مسیر انتخاب کنید:",
+                    style = glassTextStyle(fontSize = 13.sp, color = GoldenAmberLight, textAlign = TextAlign.Center),
+                    modifier = Modifier.padding(horizontal = 4.dp)
+                )
+            }
         }
 
         Spacer(modifier = Modifier.height(28.dp))
@@ -627,20 +665,25 @@ private fun Step3AudioSpeedContent(
         Spacer(modifier = Modifier.height(16.dp))
 
         StaggeredEntrance(key = "step3_title", index = 1) {
-            Text(
-                text = "سرعت پخش صدا را انتخاب کنید",
-                style = glassTextStyle(fontSize = 21.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
-            )
-        }
+            Column(
+                modifier = Modifier
+                    .glassTextBackdrop()
+                    .padding(horizontal = 18.dp, vertical = 12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "سرعت پخش صدا را انتخاب کنید",
+                    style = glassTextStyle(fontSize = 21.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
+                )
 
-        Spacer(modifier = Modifier.height(6.dp))
+                Spacer(modifier = Modifier.height(6.dp))
 
-        StaggeredEntrance(key = "step3_desc", index = 2) {
-            Text(
-                text = "تلفظ عراقی گویندگان را با سرعتی که برایتان راحت‌تر است بشنوید. این را هر زمان از تنظیمات هم می‌توانید تغییر دهید.",
-                style = glassTextStyle(fontSize = 12.5.sp, color = GoldenAmberLight, textAlign = TextAlign.Center, lineHeight = 19.sp),
-                modifier = Modifier.padding(horizontal = 10.dp)
-            )
+                Text(
+                    text = "تلفظ عراقی گویندگان را با سرعتی که برایتان راحت‌تر است بشنوید. این را هر زمان از تنظیمات هم می‌توانید تغییر دهید.",
+                    style = glassTextStyle(fontSize = 12.5.sp, color = GoldenAmberLight, textAlign = TextAlign.Center, lineHeight = 19.sp),
+                    modifier = Modifier.padding(horizontal = 4.dp)
+                )
+            }
         }
 
         Spacer(modifier = Modifier.height(28.dp))

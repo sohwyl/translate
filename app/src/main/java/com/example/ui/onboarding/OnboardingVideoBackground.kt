@@ -76,22 +76,26 @@ fun OnboardingVideoBackground(
                 PlayerView(ctx).apply {
                     player = exoPlayer
                     useController = false
-                    resizeMode = AspectRatioFrameLayout.RESIZE_MODE_ZOOM
+                    // Stretch to fill the screen exactly (no cropping) so the
+                    // full frame is always visible on every device/aspect ratio.
+                    resizeMode = AspectRatioFrameLayout.RESIZE_MODE_FILL
                 }
             },
             update = { view -> view.player = exoPlayer }
         )
 
-        // Darkening scrim (a bit heavier top+bottom, lighter through the
-        // middle) so foreground cards/text stay crisp over any footage.
+        // Darkening scrim, deliberately heavier than before across the whole
+        // frame (not just edges) so foreground text stays readable no matter
+        // how bright/busy the footage underneath is.
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
-                        0f to Color.Black.copy(alpha = 0.48f),
-                        0.5f to Color.Black.copy(alpha = 0.36f),
-                        1f to Color.Black.copy(alpha = 0.62f)
+                        0f to Color.Black.copy(alpha = 0.56f),
+                        0.45f to Color.Black.copy(alpha = 0.48f),
+                        0.7f to Color.Black.copy(alpha = 0.50f),
+                        1f to Color.Black.copy(alpha = 0.68f)
                     )
                 )
         )
