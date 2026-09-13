@@ -31,6 +31,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
@@ -40,6 +41,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
@@ -58,13 +60,19 @@ import com.example.ui.utils.toPersianDigits
  * Shared "liquid glass" styling for the 3 video-background onboarding steps.
  * Deliberately theme-agnostic (no isDarkTheme branching) — the point is that
  * the user shouldn't see the app's own light/dark theme yet on these steps.
+ *
+ * Real backdrop-blur isn't practical over a live video surface in Compose, so
+ * this fakes the "frosted glass" read the honest way top apps do it when they
+ * can't blur either: a real multi-stop gradient (never a flat single color),
+ * visible grain, a soft gradient rim-light border, and a gentle drop shadow
+ * so the panel actually looks like an object sitting above the footage.
  */
-private val GlassTextShadow = Shadow(color = Color.Black.copy(alpha = 0.75f), offset = Offset(0f, 2f), blurRadius = 14f)
+private val GlassTextShadow = Shadow(color = Color.Black.copy(alpha = 0.85f), offset = Offset(0f, 1.5f), blurRadius = 10f)
 
 /**
- * Subtle tiled grain texture (see res/drawable-nodpi/tex_glass_noise.png) —
- * the classic "frosted glass" grain that keeps a translucent panel from
- * looking like a flat, dead rectangle. Cached per-Context.
+ * Tiled grain texture (see res/drawable-nodpi/tex_glass_noise.png) — the
+ * frosted-glass grain that keeps a translucent panel from reading as a flat,
+ * dead rectangle. Cached per-Context.
  */
 @Composable
 private fun rememberGlassNoiseBrush(): Brush {
@@ -80,38 +88,68 @@ private fun rememberGlassNoiseBrush(): Brush {
     }
 }
 
+/** Soft gradient "rim light" border — a hairline that catches light unevenly, like real glass edges do. */
+private val GlassRimBorder = Brush.linearGradient(
+    colors = listOf(Color.White.copy(alpha = 0.65f), Color.White.copy(alpha = 0.15f), Color.White.copy(alpha = 0.40f))
+)
+
 /**
- * Liquid-glass panel: a smoked (darkened) translucent base + subtle grain +
- * a soft light border. The dark base is what keeps content legible over any
- * busy video frame — pure bright "glass" alone wasn't enough contrast.
+ * Liquid-glass panel: a real diagonal gradient (warm-tinted, never flat
+ * black) + visible grain + a rim-light gradient border + a soft shadow so it
+ * reads as a floating glass card, not a painted-on rectangle.
  */
 @Composable
-private fun Modifier.glassPanel(cornerRadius: Dp = 20.dp, borderAlpha: Float = 0.40f): Modifier {
+private fun Modifier.glassPanel(cornerRadius: Dp = 20.dp): Modifier {
     val noiseBrush = rememberGlassNoiseBrush()
     return this
+        .shadow(elevation = 14.dp, shape = RoundedCornerShape(cornerRadius), ambientColor = Color.Black.copy(alpha = 0.5f), spotColor = Color.Black.copy(alpha = 0.5f))
         .clip(RoundedCornerShape(cornerRadius))
-        .background(Color.Black.copy(alpha = 0.30f))
         .background(
             Brush.linearGradient(
-                colors = listOf(Color.White.copy(alpha = 0.20f), Color.White.copy(alpha = 0.05f))
+                colors = listOf(
+                    Color(0xFF1B1712).copy(alpha = 0.62f),
+                    Color(0xFF2A2118).copy(alpha = 0.40f),
+                    Color(0xFF120F0C).copy(alpha = 0.58f)
+                )
             )
         )
-        .background(brush = noiseBrush, alpha = 0.05f)
-        .border(1.dp, Color.White.copy(alpha = borderAlpha), RoundedCornerShape(cornerRadius))
+        .background(
+            Brush.radialGradient(
+                colors = listOf(GoldenAmber.copy(alpha = 0.10f), Color.Transparent),
+                radius = 300f
+            )
+        )
+        .background(brush = noiseBrush, alpha = 0.10f)
+        .border(1.1.dp, GlassRimBorder, RoundedCornerShape(cornerRadius))
 }
 
 /**
- * A minimal dark backdrop (no border/gradient, just enough smoked-glass to
- * guarantee contrast) for text that floats directly over the video with no
- * card around it — e.g. headlines and descriptions.
+ * Text backdrop for headlines/descriptions floating over the video: same
+ * gradient + grain + rim-light language as [glassPanel], just without the
+ * heavier drop shadow (it sits flush against the frame, not "on top" of UI).
  */
 @Composable
-private fun Modifier.glassTextBackdrop(cornerRadius: Dp = 16.dp): Modifier {
+private fun Modifier.glassTextBackdrop(cornerRadius: Dp = 18.dp): Modifier {
     val noiseBrush = rememberGlassNoiseBrush()
     return this
         .clip(RoundedCornerShape(cornerRadius))
-        .background(Color.Black.copy(alpha = 0.38f))
-        .background(brush = noiseBrush, alpha = 0.04f)
+        .background(
+            Brush.linearGradient(
+                colors = listOf(
+                    Color(0xFF1B1712).copy(alpha = 0.56f),
+                    Color(0xFF2A2118).copy(alpha = 0.34f),
+                    Color(0xFF120F0C).copy(alpha = 0.52f)
+                )
+            )
+        )
+        .background(
+            Brush.radialGradient(
+                colors = listOf(GoldenAmber.copy(alpha = 0.08f), Color.Transparent),
+                radius = 280f
+            )
+        )
+        .background(brush = noiseBrush, alpha = 0.09f)
+        .border(1.dp, GlassRimBorder, RoundedCornerShape(cornerRadius))
 }
 
 private fun glassTextStyle(
@@ -119,13 +157,15 @@ private fun glassTextStyle(
     fontWeight: FontWeight = FontWeight.Normal,
     color: Color = Color.White,
     textAlign: TextAlign = TextAlign.Unspecified,
-    lineHeight: TextUnit = TextUnit.Unspecified
+    lineHeight: TextUnit = TextUnit.Unspecified,
+    fontFamily: FontFamily = VazirmatnFontFamily
 ): TextStyle = TextStyle(
     fontSize = fontSize,
     fontWeight = fontWeight,
     color = color,
     textAlign = textAlign,
     lineHeight = lineHeight,
+    fontFamily = fontFamily,
     shadow = GlassTextShadow
 )
 
@@ -374,11 +414,12 @@ private fun Step1WelcomeContent() {
                 Text(
                     text = "به مترجم عربی عراقی\nخوش آمدید",
                     style = glassTextStyle(
-                        fontSize = 23.sp,
+                        fontSize = 24.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.White,
                         textAlign = TextAlign.Center,
-                        lineHeight = 32.sp
+                        lineHeight = 34.sp,
+                        fontFamily = LalezarFontFamily
                     )
                 )
 
@@ -496,7 +537,7 @@ private fun Step2RoleContent(
             ) {
                 Text(
                     text = "شما در چه وضعیتی هستید؟",
-                    style = glassTextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
+                    style = glassTextStyle(fontSize = 23.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center, fontFamily = LalezarFontFamily)
                 )
 
                 Spacer(modifier = Modifier.height(8.dp))
@@ -673,7 +714,7 @@ private fun Step3AudioSpeedContent(
             ) {
                 Text(
                     text = "سرعت پخش صدا را انتخاب کنید",
-                    style = glassTextStyle(fontSize = 21.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center)
+                    style = glassTextStyle(fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White, textAlign = TextAlign.Center, fontFamily = LalezarFontFamily)
                 )
 
                 Spacer(modifier = Modifier.height(6.dp))

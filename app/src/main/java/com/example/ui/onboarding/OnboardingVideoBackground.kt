@@ -24,8 +24,9 @@ import androidx.media3.ui.PlayerView
 
 /**
  * Full-screen, muted, seamlessly-looping video background used behind each
- * onboarding step, with a darkening scrim so the foreground text/cards on
- * top always stay clearly readable regardless of the footage underneath.
+ * onboarding step. Kept vivid/high-quality on purpose — legibility for text
+ * and cards on top is handled by their own glass panels (see glassPanel /
+ * glassTextBackdrop in OnboardingScreen.kt), not by dimming the footage.
  *
  * A fresh [ExoPlayer] is created per [videoResId] (i.e. per step) and
  * released when that step is left or the screen is disposed. Playback is
@@ -84,18 +85,20 @@ fun OnboardingVideoBackground(
             update = { view -> view.player = exoPlayer }
         )
 
-        // Darkening scrim, deliberately heavier than before across the whole
-        // frame (not just edges) so foreground text stays readable no matter
-        // how bright/busy the footage underneath is.
+        // Only a very faint vignette at the very top/bottom edges — just
+        // enough for the top status-bar row and bottom CTA to sit on
+        // something, without ever dimming the video itself. The video should
+        // read as full-quality, vivid footage; every other piece of UI
+        // carries its own glass backdrop for legibility.
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
-                        0f to Color.Black.copy(alpha = 0.56f),
-                        0.45f to Color.Black.copy(alpha = 0.48f),
-                        0.7f to Color.Black.copy(alpha = 0.50f),
-                        1f to Color.Black.copy(alpha = 0.68f)
+                        0f to Color.Black.copy(alpha = 0.22f),
+                        0.12f to Color.Transparent,
+                        0.85f to Color.Transparent,
+                        1f to Color.Black.copy(alpha = 0.30f)
                     )
                 )
         )
